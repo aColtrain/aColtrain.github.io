@@ -3,8 +3,8 @@ import React from 'react';
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { CTA, Brand, Navbar } from './components';
 import './App.css';
-import Home from './pages/Home.js'
-import About from './pages/About.js'
+import Home from './pages/HomePage';
+import About from './pages/About';
 
 const App = () => {
   return (
