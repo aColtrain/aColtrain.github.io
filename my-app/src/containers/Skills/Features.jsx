@@ -13,11 +13,15 @@ const featuresData = [
   },
   {
     title: 'Code',
-    text: 'Java, JavaFx, JavaScript, C Programming, Python'
+    text: 'Java, JavaFx, JavaScript, C Programming, Python, Processing, MATLab'
   },
   {
     title: 'Video',
     text: 'Adobe After Effects, DaVinci Resolve, iMovie'
+  },
+  {
+    title: '3D',
+    text: 'Unity, Maya, A-Frame, Solidworks'
   }
 ]
 

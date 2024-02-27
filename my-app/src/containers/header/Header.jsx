@@ -17,10 +17,10 @@ const Header = () => {
             <input type="email" placeholder="Your Email Address"></input>
             <button type="button">Get Started</button>
           </div> */}
-          <div className="gpt3__header-content__people">
+          {/* <div className="gpt3__header-content__people">
             <img src={people} alt="people" />
             <p>Gotta catch em all</p>
-          </div>
+          </div> */}
         </div>
         <div className="gpt3__header-image">
           <img src={avatar} alt="avatar" />
