@@ -4,16 +4,20 @@ import { Feature } from "../../components";
 
 const featuresData = [
   {
-    title: 'pillow',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    title: 'Design',
+    text: 'Figma, Canva, Drupal, Axure RP, Adobe XD, Adobe Illustrator, Adobe PhotoShop, '
   },
   {
-    title: 'Blanket',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    title: 'Devlopment',
+    text: 'React, HTML, CSS, Drupal, WordPress'
   },
   {
-    title: 'Comfortor',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    title: 'Code',
+    text: 'Java, JavaFx, JavaScript, C Programming, Python'
+  },
+  {
+    title: 'Video',
+    text: 'Adobe After Effects, DaVinci Resolve, iMovie'
   }
 ]
 
@@ -21,7 +25,7 @@ const Features = () => {
   return (
     <div className="gpt3__features section__padding" id="about">
       <div className="gpt3__features-heading">
-        <h1 className="gradient__text">Future is now and I am tired</h1>
+        <h1 className="gradient__text">Skills</h1>
         <p>Request a nice bed</p>
       </div>
       <div className="gpt3__features-container">
