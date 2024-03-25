@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f929ebc4.css",
+    "main.js": "/static/js/main.e3f4c660.js",
+    "static/media/people.png": "/static/media/people.80961e19be1a10a8b0c5.png",
+    "static/media/ColtrainWinterAvatar.png": "/static/media/ColtrainWinterAvatar.a2fe3c9a760cb844c288.png",
+    "static/media/car.png": "/static/media/car.f3cdd324b77892459a53.png",
+    "static/media/linkedin.png": "/static/media/linkedin.a95afc06831647f5fca2.png",
+    "index.html": "/index.html",
+    "main.f929ebc4.css.map": "/static/css/main.f929ebc4.css.map",
+    "main.e3f4c660.js.map": "/static/js/main.e3f4c660.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f929ebc4.css",
+    "static/js/main.e3f4c660.js"
+  ]
+}
