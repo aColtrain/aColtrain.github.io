@@ -16,25 +16,35 @@ import Projects from './pages/Projects';
 
 const App = () => {
   return (
-    <div className="App">
-      
-      {/* <Home />
-      <About /> */}
+    <Router>
       <Navbar />
-      <Header />
-      {/* <div className="gradient__bg">
-        <Navbar />
-        <Header />
-      </div> */}
-      <Brand />
-      <WhatGPT3 />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
-      <Footer /> 
-    </div>
-  )
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </Router>
+
+    // <div className="App">
+      
+    //   {/* <Home />
+    //   <About /> */}
+    //   <Navbar />
+    //   <Header />
+    //   {/* <div className="gradient__bg">
+    //     <Navbar />
+    //     <Header />
+    //   </div> */}
+    //   <Brand />
+    //   <WhatGPT3 />
+    //   <Features />
+    //   <Possibility />
+    //   <CTA />
+    //   <Blog />
+    //   <Footer /> 
+    // </div>
+  );
 }
 
 export default App
