@@ -17,7 +17,7 @@ import Projects from './pages/Projects';
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      <Navbar />     
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
