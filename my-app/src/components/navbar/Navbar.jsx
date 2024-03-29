@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
-import { Nav, NavLink, NavMenu } from "./NavbarElements";
+// import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import { RiMenuLine, RiCloseLine, RiMenu3Line } from 'react-icons/ri';
 import logo from '../../assets/logo.png';
 import './navbar.css';
-
-import React from 'react'
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <Link to="/"> Home </Link>
-      <Link to="/menu"> About </Link>
+      <Link to="/about"> About </Link>
       <Link to="/contact">  Contact </Link>
       <Link to="/projects"> Project </Link>
     </div>
