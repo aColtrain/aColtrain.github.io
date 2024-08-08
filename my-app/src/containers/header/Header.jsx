@@ -11,7 +11,7 @@ const Header = () => {
     <div className="portfolio__header section__padding " id="home">
         <div className="portfolio__header-content">
           <h1 className="gradient__text"> Hi, I'm Coltrain!</h1>
-          <p>UX/UI designer with a passion for inclusion and accessiblily. </p>
+          <p>UX/UI designer with an emphasis in inclusion and accessiblily. </p>
           {/* <div className="gpt3__header-content__input">
             
             <input type="email" placeholder="Your Email Address"></input>
