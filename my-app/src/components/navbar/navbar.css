@@ -4,6 +4,9 @@
     align-items: center;
 
     padding: 2rem 6rem;
+    background-color: rgba(255, 255, 255, 0.498);
+
+
 }
 
 .gpt3__navbar-links {

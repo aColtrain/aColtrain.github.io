@@ -8,8 +8,8 @@ import avatar from '../../assets/ColtrainWinterAvatar.png';
 
 const Header = () => {
   return (
-    <div className="gpt3__header section__padding" id="home">
-        <div className="gpt3__header-content">
+    <div className="portfolio__header section__padding " id="home">
+        <div className="portfolio__header-content">
           <h1 className="gradient__text"> Hi, I'm Coltrain!</h1>
           <p>UX/UI designer with a passion for inclusion and accessiblily. </p>
           {/* <div className="gpt3__header-content__input">
@@ -22,7 +22,7 @@ const Header = () => {
             <p>Gotta catch em all</p>
           </div> */}
         </div>
-        <div className="gpt3__header-image">
+        <div className="portfolio__header-image">
           <img src={avatar} alt="avatar" />
         </div>
     </div>

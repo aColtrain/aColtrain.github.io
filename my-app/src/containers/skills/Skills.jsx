@@ -1,6 +1,6 @@
 import React from 'react';
-import './features.css';
-import { Feature } from "../../components";
+import './skills.css';
+import { Feature } from "../components";
 
 const featuresData = [
   {
@@ -25,11 +25,11 @@ const featuresData = [
   }
 ]
 
-const Features = () => {
+const Skills = () => {
   return (
     <div className="gpt3__features section__padding" id="about">
       <div className="gpt3__features-heading">
-        <h1 className="gradient__text">Skills</h1>
+        <h1 className="gradient__text">Software Skills & Languages</h1>
         <p>Request a nice bed</p>
       </div>
       <div className="gpt3__features-container">
@@ -41,4 +41,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Skills

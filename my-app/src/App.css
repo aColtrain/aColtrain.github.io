@@ -9,9 +9,74 @@ body {
   background: var(--color-bg);
 }
 
+html {
+  font-size: 16px;
+}
+
 a {
   color: unset;
   text-decoration: none;
+}
+h0 {
+  font-family: var(--font-family);
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #052c54;
+
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 24px;
+  letter-spacing: -0.04rem;
+  color: #052c54;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 45px;
+  color: #052c54;
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-size: 1.17rem;
+  font-weight: 800;
+  color: #052c54;
+}
+
+h4 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #052c54;
+}
+
+h5 {
+  font-family: var(--font-family);
+  font-size: .83rem;
+  font-weight: 700;
+  color: #052c54;
+}
+
+h6 {
+  font-family: var(--font-family);
+  font-size: .67rem;
+  font-weight: 700;
+  color: #052c54;
+}
+
+p {
+  color: #052c54;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .gradient__bg {
@@ -37,12 +102,23 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.page__width {
+  width:1200px;
+  margin: 0 auto;
+  /* justify-content: center; */
+}
+
 .section__padding {
   padding: 4rem 6rem;
 }
 
 .section__margin {
   margin: 4rem 6rem;
+}
+
+.portfolio__project-layout {
+  display:inline-flex;
+  
 }
 
 .scale-up-center {

@@ -1,0 +1,30 @@
+.portfolio__footer {
+    background-color: #052c54;
+}
+.portfolio__footer ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0rem; /* Remove margins */
+}
+ul li {
+    margin-bottom: .5rem;
+}
+
+.portfolio__footer-content {
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    color:#ffffff;
+}
+
+
