@@ -30,8 +30,7 @@ const Skills = () => {
     <div className="gpt3__features section__padding" id="about">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">Software Skills & Languages</h1>
-        <p>"You get the best of both worlds" - Hannah Montana</p>
-        
+        <p>Interaction Design + Media</p>
       </div>
       <div className="gpt3__features-container">
         {featuresData.map((item, index) => (  

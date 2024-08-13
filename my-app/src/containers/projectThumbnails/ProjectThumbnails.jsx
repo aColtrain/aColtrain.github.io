@@ -1,7 +1,7 @@
 import React from 'react';
 import './projectThumbnails.css';
-import comcastThumbnail from '../assets/Comcast_MiniMart_Thumbnail1.png';
-import { Project } from '../components';
+import comcastThumbnail from '../../assets/Comcast_MiniMart_Thumbnail1.png';
+import { Project } from '../../components';
 
 
 function ProjectThumbnails() {
