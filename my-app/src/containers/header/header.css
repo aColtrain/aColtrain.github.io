@@ -146,10 +146,12 @@
         font-size: 36px;
         line-height: 48px;
     }
+    
     .portfolio__header p {
         font-size: 14px;
         line-height: 24px;
     }
+
     .portfolio__header-content__input input, 
     .portfolio__header-content__input button {
         font-size: 12px;
