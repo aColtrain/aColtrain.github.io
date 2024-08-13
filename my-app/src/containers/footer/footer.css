@@ -7,6 +7,7 @@
     list-style-type: none; /* Remove bullets */
      /* Remove padding */
      /* Remove margins */
+     text-align: left;
 }
 ul li {
     margin-bottom: .5rem;
@@ -23,24 +24,47 @@ ul li {
 
     margin: 0 1rem;
     cursor: pointer;
-    
     display: flex;
+    text-align: center;
+
+  
     
 }
 
-.portfolio__footer-credits p {
+.portfolio__footer-right {
+    float:right;
+}
+
+.portfolio__footer-credits {
     float: right;
+}
+
+
+.portfolio__footer-credits p {
     width: 33%;
     text-align: left;
-    height: 100%;
-    
-    
     color:#ffffff9f;
+    float: right;
+    
+    
+    
 }
 
 .portfolio__footer-credits a {
     color: #ffffff;
+ 
 
+}
+.portfolio__footer-logos {
+    float: right;
+    margin-right: 222px;
+    margin-top: 8px;
+}
+.portfolio__footer-logos img {
+    width: 32px;
+    margin: 8px;
+  
+    
 }
 
 .copyright {
