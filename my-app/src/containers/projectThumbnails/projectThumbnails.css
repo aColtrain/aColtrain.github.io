@@ -1,12 +1,21 @@
 .portfolio__project-layout {
-    display:inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 24px;
     
 }
 
-.portfolio__tile-left {
+.flex-item {
+    flex: 1 1 calc(25% - 8px);
+    /* align-items: center; */
+}
+
+/* .portfolio__tile-left {
     margin-right: 24px;
 }
 
 .portfolio__tile-right {
     margin-left: 24px;
-}
+} */

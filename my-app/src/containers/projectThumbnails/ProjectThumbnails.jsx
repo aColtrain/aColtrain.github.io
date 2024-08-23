@@ -1,27 +1,56 @@
 import React from 'react';
 import './projectThumbnails.css';
-import comcastThumbnail from '../../assets/Comcast_MiniMart_Thumbnail1.png';
+import comcastThumbnail from '../../assets/Comcast_MiniMart_Thumbnail.png';
+import etdThumbnail from '../../assets/ETD_Website_Thumbnail.png';
+import deltaThumbnail from "../..assets/Delta_Discrepancy_Thumbnail.png"
 import { Project } from '../../components';
 
 
 function ProjectThumbnails() {
   return (
-    <div className="portfolio__project-layout section__padding">
-        <div className="portfolio__tile-left">
-            <Project 
-            projectImg={comcastThumbnail}
-            projectName="MiniMart"
-            projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
-            projectTags="UX/UI Design | User Research" />
+    <div className="section__padding">
+        <div className="portfolio__project-layout">
+            <div className="flex-item">
+                <Project
+                projectImg={comcastThumbnail}
+                projectName="MiniMart"
+                projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
+                projectTags="UX/UI Web Design | User Research" />    
+
+            </div>
+            <div className="flex-item">
+                <Project 
+                projectImg={etdThumbnail}
+                projectName="Effective Team Dynamics"
+                projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
+                projectTags="Web Redesign | Brand Identity" />   
+
+            </div> 
         </div>
-        <div className="portfolio__tile-right">
-            <Project 
-            projectImg={comcastThumbnail}
-            projectName="MiniMart"
-            projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
-            projectTags="Design" />
+        <div className="portfolio__project-layout">
+            <div className="flex-item">
+                <Project
+                projectImg={deltaThumbnail}
+                projectName="MiniMart"
+                projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
+                projectTags="UX/UI Web Design | User Research" />    
+
+            </div>
+            <div className="flex-item">
+                <Project 
+                projectImg={etdThumbnail}
+                projectName="Effective Team Dynamics"
+                projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
+                projectTags="Web Redesign | Brand Identity" />   
+
+            </div> 
         </div>
+   
+        
     </div>
+    
+    
+    
   )
 }
 

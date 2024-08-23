@@ -6,7 +6,8 @@ const Project = ({projectImg, projectName, projectDescription, projectTags}) => 
     <div className="project-tile">
       <img src={projectImg} alt={projectName} />
       <div className="project-tile__details">
-        <h1 className="project-tile__name">{projectName}</h1>  
+        <h1 className="project-tile__name">{projectName}</h1>
+          
         <p>{projectDescription}</p>
         <div className="project-tile__tags gradient__text">
           <p>{projectTags}</p>
