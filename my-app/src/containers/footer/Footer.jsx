@@ -2,8 +2,8 @@ import React from 'react';
 import './footer.css';
 import { Link } from "react-router-dom";
 import { Brand } from "../../components";
-import inlogo from '../../assets/In-White.png';
-import gitlogo from '../../assets/Github-White.png';
+import inlogo from '../../assets/logo_linkedin_small_white.png';
+import gitlogo from '../../assets/logo_github_small_white.png';
 
 function Footer() {
   return (

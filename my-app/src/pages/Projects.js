@@ -2,7 +2,9 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div><h1>Projects</h1></div>
+    <div className="section__padding">
+      <h1>Projects</h1>
+    </div>
   )
 }
 

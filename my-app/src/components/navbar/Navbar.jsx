@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import { RiMenuLine, RiCloseLine, RiMenu3Line } from 'react-icons/ri';
-import logo from '../../assets/coltrainlogo.png';
+import logo from '../../assets/logo_coltrain_multicolored.png';
 import './navbar.css';
 import { Link } from "react-router-dom";
 
@@ -12,6 +12,7 @@ const Menu = () => (
   <Link to="/about"> About </Link>
   <Link to="/contact">  Contact </Link>
   <Link to="/projects"> Project </Link>
+  <Link to="/delta"> Delta </Link>
   </>
 )
 
@@ -28,6 +29,7 @@ const Navbar = () => {
           <Link to="/about"><p> About </p></Link>
           
           <Link to="/projects"><p> Projects </p></Link>
+          <Link to="/delta"><p> Delta </p></Link>
         </div>
       </div>
       <div className="gpt3__navbar-contact">
@@ -46,6 +48,7 @@ const Navbar = () => {
             <Link to="/about"> About </Link>
             <Link to="/contact">  Contact </Link>
             <Link to="/projects"> Project </Link>
+            <Link to="/delta"> Delta </Link>
             <div className="gpt3__navbar-menu_container-links-contact">
               <p>Contact in</p>
               <button type="button">Contact</button>
