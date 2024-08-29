@@ -1,7 +1,6 @@
 import React from 'react'
 import { delta } from "../../components/brand/imports"
 import { Employment } from '../../components';
-// import '../components/employment/employment.css';
 
 function Delta() {
   return (
