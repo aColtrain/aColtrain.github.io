@@ -5,3 +5,4 @@ export { default as Possibility } from './possibility/Possibility';
 export { default as ProjectThumbnails } from './projectThumbnails/ProjectThumbnails'
 export { default as Skills } from './skills/Skills';
 export { default as WhatGPT3 } from './whatGPT3/WhatGPT3';
+export { default as Employment } from './employment/Employment';

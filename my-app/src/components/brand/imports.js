@@ -9,5 +9,6 @@ export {
     slack,
     linkedinBlue,
     linkedinWhite,
+    delta
 
 }

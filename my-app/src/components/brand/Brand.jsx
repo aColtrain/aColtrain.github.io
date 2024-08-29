@@ -1,5 +1,5 @@
 import React from 'react';
-import { google, slack, linkedin } from './imports'
+import { google, slack, linkedinBlue } from './imports'
 import './brand.css';
 
 const Brand = () => {
@@ -12,7 +12,7 @@ const Brand = () => {
         <img src={slack} alt="slack" />
       </div>
       <div>
-        <img src={linkedin} alt="linkedin" height={25} />
+        <img src={linkedinBlue} alt="linkedin" height={25} />
       </div>
     </div>
   )
