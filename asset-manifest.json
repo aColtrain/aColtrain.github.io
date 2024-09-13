@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.38f1f8f2.css",
-    "main.js": "/static/js/main.ea01f8ce.js",
-    "static/media/Comcast_MiniMart_Thumbnail1.png": "/static/media/Comcast_MiniMart_Thumbnail1.9c484e72b08fb89f9861.png",
+    "main.css": "/static/css/main.5e0c7adf.css",
+    "main.js": "/static/js/main.f6c2faa6.js",
+    "static/media/ETD_Website_Thumbnail.png": "/static/media/ETD_Website_Thumbnail.9d7263719fd92d666f7b.png",
+    "static/media/Delta_Discrepancy_Thumbnail.png": "/static/media/Delta_Discrepancy_Thumbnail.326f5941e40597164f47.png",
+    "static/media/Comcast_MiniMart_Thumbnail.png": "/static/media/Comcast_MiniMart_Thumbnail.3528e2776d99cf4ab631.png",
     "static/media/people.png": "/static/media/people.80961e19be1a10a8b0c5.png",
     "static/media/ColtrainWinterAvatar.png": "/static/media/ColtrainWinterAvatar.c8b3b704a1084ffa60de.png",
+    "static/media/logo_comcast.png": "/static/media/logo_comcast.48a34b8822cf60d533d0.png",
     "static/media/car.png": "/static/media/car.f3cdd324b77892459a53.png",
-    "static/media/linkedin.png": "/static/media/linkedin.a95afc06831647f5fca2.png",
-    "static/media/coltrainlogo.png": "/static/media/coltrainlogo.b52a0c12504d103bd0be.png",
+    "static/media/logo_linkedin_large_blue.png": "/static/media/logo_linkedin_large_blue.a95afc06831647f5fca2.png",
+    "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.b52a0c12504d103bd0be.png",
     "index.html": "/index.html",
-    "main.38f1f8f2.css.map": "/static/css/main.38f1f8f2.css.map",
-    "main.ea01f8ce.js.map": "/static/js/main.ea01f8ce.js.map"
+    "main.5e0c7adf.css.map": "/static/css/main.5e0c7adf.css.map",
+    "main.f6c2faa6.js.map": "/static/js/main.f6c2faa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.38f1f8f2.css",
-    "static/js/main.ea01f8ce.js"
+    "static/css/main.5e0c7adf.css",
+    "static/js/main.f6c2faa6.js"
   ]
 }
