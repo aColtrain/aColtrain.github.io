@@ -5,7 +5,7 @@ import { Feature } from '../../components';
 const featuresData = [
   {
     title: 'Design',
-    text: 'Figma, Canva, Drupal, Axure RP, Adobe XD, Adobe Illustrator, Adobe PhotoShop, '
+    text: 'Figma, Canva, Drupal, Axure RP, Adobe XD, Adobe Illustrator, Adobe Photoshop, Miro'
   },
   {
     title: 'Devlopment',
@@ -13,7 +13,7 @@ const featuresData = [
   },
   {
     title: 'Code',
-    text: 'Java, JavaFx, JavaScript, C Programming, Python, Processing, MATLab'
+    text: 'Java, JavaFx, JavaScript, C Programming, Python, Processing (processing.py & p5.js), MATLab'
   },
   {
     title: 'Video',
@@ -30,7 +30,7 @@ const Skills = () => {
     <div className="gpt3__features section__padding" id="about">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">Software Skills & Languages</h1>
-        <p>Interaction Design + Media</p>
+        <p>Interaction Design + Media Software Developement</p>
       </div>
       <div className="gpt3__features-container">
         {featuresData.map((item, index) => (  

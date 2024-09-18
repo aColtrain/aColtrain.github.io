@@ -1,4 +1,78 @@
-.employment_description {
-    background-color: 052c54;
+.employment__description {
+    /* background-color: #052c54; */
+    border-radius: 16px;
+    width: 50%;
+}
+.employment__description p {
+    color: #000;
+    margin-bottom: 24px;
+    text-align: right;
+    
     
 }
+.container {
+    width: 50%;
+    /* flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; */
+}
+.employment__team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    /* gap: 32px; */
+}
+.employment__team-container {
+    /* flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 4rem;
+}
+/* .employment__team-container p {
+    
+} */
+.employment__team div {
+    width: 408.01px;
+}
+.employment__logo {
+    text-align: center;
+}
+.employment__logo img {
+    /* justify-content: center; */
+    height: 200px;
+    
+    /* align-items: center; */
+    /* display: block; */
+}
+.employment__impact  {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+.employment__impact div {
+    width: 408.01px;
+}
+.employment__impact h2, li {
+    color: #fff;
+}
+
+.employment__impact h2 {
+    margin: 16px 0;
+}
+.employment__impact ul {
+    margin-left: 20px;
+}
+

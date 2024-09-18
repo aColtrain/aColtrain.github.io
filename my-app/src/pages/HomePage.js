@@ -11,7 +11,7 @@ const HomePage = () => {
 
 
       {/* <h1>Possibility</h1> */}
-      {/* <Possibility /> */}
+      <Possibility />
       {/* <h1>Skills</h1> */}
       <Skills />
       {/* <h1>Whatgpt3</h1> */}

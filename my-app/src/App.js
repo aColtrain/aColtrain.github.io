@@ -13,6 +13,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Delta from './pages/EmploymentHistory/Delta'
+import Comcast from './pages/EmploymentHistory/Comcast'
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/delta" element={<Delta />} />
+        <Route path="/comcast" element={<Comcast />} />
       </Routes>
       </div>
       <Footer />
