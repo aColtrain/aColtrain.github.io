@@ -4,7 +4,7 @@ import { Footer, Blog, Possibility, Skills, WhatGPT3, Header, ProjectThumbnails,
 const About = () => {
   return (
     <div className="">
-      <About />
+      <Aboutme />
         {/* <h1>About</h1>
 
         <h1>Hey, I'm Coltrain <a href="https://pronouns.org/">(she/her)</a>! a __________ Designer</h1>
