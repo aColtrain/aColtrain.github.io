@@ -4,9 +4,15 @@ import winter from '../../assets/About_winter.JPG';
 
 const Aboutme = () => {
   return (
-    <div className="section__padding">
-        <div>
-          <h1>Hey, I'm Coltrain <a href="https://pronouns.org/">(she/her)</a>! a __________ Designer</h1>
+    <div className="">
+        <div className="section__padding about__landing-content">
+          <h1 className="gradient__text">Hey, I'm still Coltrain!</h1>
+          <p>UX/UI designer with an emphasis in inclusion and accessiblily. </p>
+          <div className="about__landing-button">
+            <button>Linkedin</button>
+            <button>Resume</button>
+          </div>
+          
         </div>
 
         

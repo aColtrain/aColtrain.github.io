@@ -1,0 +1,38 @@
+.about__landing-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+
+.about__landing-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.about__landing-button {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.about__landing-button button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
