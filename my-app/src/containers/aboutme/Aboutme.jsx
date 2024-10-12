@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutme.css'
-import winter from '../../assets/About_winter.JPG';
+
 import comcast from '../../assets/logos/logo_comcast_small.png';
 import delta from '../../assets/logos/logo_delta_small.png';
 import etd from '../../assets/logos/logo_etd_small.png';
@@ -45,11 +45,9 @@ const Aboutme = () => {
         
 
         
-        <p>I love a good problem to solve. When im not at my computer, I am rock climbing, doing jigsaw puzzles, or hanging out with my dog winter! Life time learner. Recently took a class to learn how to setup and clean anchors for climbing outdoors and how to play mahjong.</p>
+        {/* <p>I love a good problem to solve. When im not at my computer, I am rock climbing, doing jigsaw puzzles, or hanging out with my dog winter! Life time learner. Recently took a class to learn how to setup and clean anchors for climbing outdoors and how to play mahjong.</p>
         <p>I am currently working on improving my web development skills.  </p>
-        <div className="about__winter">
-          <img width="50%" src={winter} />
-        </div>
+        */}
        
     </div>
   )
