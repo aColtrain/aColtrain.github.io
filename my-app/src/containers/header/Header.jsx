@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import people from '../../assets/people.png';
+
 import car from '../../assets/car.png';
 import avatar from '../../assets/ColtrainWinterAvatar.png';
 

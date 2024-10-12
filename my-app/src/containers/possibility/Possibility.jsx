@@ -9,10 +9,10 @@ const Possibility = () => {
         <img src= {car} alt="car" />
       </div>
       <div className="gpt3__possibility-content">
-        <h4>Get early access</h4>
-        <h1 className="gradient__text">The Possibilities are endless</h1>
+        {/* <h4>Get early access</h4> */}
+        <h1 className="gradient__text">Beyond the work</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <h4>Get early access</h4>
+        {/* <h4>Get early access</h4> */}
       </div>
     </div>
   )

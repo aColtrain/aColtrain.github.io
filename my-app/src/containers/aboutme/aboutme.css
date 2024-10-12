@@ -36,3 +36,20 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.about__employment img {
+    object-fit: none;
+}
+
+.about__employment {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
