@@ -22,8 +22,13 @@ function Delta() {
         />
       </div>
       <div className="section__padding">
+        
+
+
+
+
         <h2>Meal Manifesting</h2>
-        <p></p>
+        <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="50%" height="350" src="https://embed.figma.com/design/LOxr0uOoS7JG1K670ZUEwg/SkyPro-UI-(Copy)?node-id=823-14803&embed-host=share" allowfullscreen></iframe>
       </div>
       
       

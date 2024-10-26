@@ -25,8 +25,8 @@ const Aboutme = () => {
           <img src={mediaarts} />
           <img src={delta} />
           <img src={comcast} />
-          <img src={gtoit} />
           <img src={etd} />
+          <img src={gtoit} />
         </div>
         <div className="section__padding about__education">
           <div>

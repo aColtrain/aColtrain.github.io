@@ -1,10 +1,11 @@
 import React from 'react';
 import './article.css';
 
-function Article() {
+const Article = ({title, description}) => {
   return (
     <div>
-        Article
+      <h1>{title}</h1>
+      <p>{description}</p>
     </div>
   )
 }

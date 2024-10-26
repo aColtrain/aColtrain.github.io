@@ -15,8 +15,9 @@ const HomePage = () => {
       {/* <h1>Skills</h1> */}
       <Skills />
       {/* <h1>Whatgpt3</h1> */}
-      {/* <WhatGPT3 /> */}
+      {/* <WhatGPT3 /> */} 
       <ProjectThumbnails />
+    
       
     </div>
   )
