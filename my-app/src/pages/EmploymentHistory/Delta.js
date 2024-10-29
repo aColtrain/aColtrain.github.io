@@ -1,7 +1,7 @@
 import React from 'react'
 import { delta } from "../../components/brand/imports"
 import { Employment } from '../../components';
-import { Article } from '../../components';
+import { ArticleR, ArticleL } from '../../components';
 
 function Delta() {
   return (
@@ -23,7 +23,7 @@ function Delta() {
         />
       </div>
       <div className="section__padding">
-
+        
 
 
 

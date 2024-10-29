@@ -9,7 +9,7 @@ const ArticleR = ({ title, description, images }) => {
             <h1>{ title }</h1>
             <p>{ description }</p>
           </div>
-          <img> { images } </img>
+          <img>{ images }</img>
         </div>
       
       

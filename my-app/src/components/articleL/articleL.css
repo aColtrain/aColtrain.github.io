@@ -1,0 +1,12 @@
+.article-left h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 1rem 0;   
+}
+
+.article-left {
+    display: flex;
+    justify-content: space-between;
+}

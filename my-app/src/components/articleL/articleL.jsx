@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import 'articleL.css';
 
 const ArticleL = ({ title, description, images }) => {
   return (
-    <div className="article-right">
+    <div className="article-left">
         <div>
         <h1>{ title }</h1>
         <p>{ description }</p>
@@ -12,4 +13,4 @@ const ArticleL = ({ title, description, images }) => {
   )
 }
 
-export default articleL
+export default ArticleL
