@@ -13,11 +13,12 @@
     line-height: 45px;
 }
 
-.article__description {
+.articleHead__description {
     width: 50%;
+    text-align: left;
 }
 
-.article-image {
+.articleHead__image {
     width: 50%;
     text-align: center;
 }

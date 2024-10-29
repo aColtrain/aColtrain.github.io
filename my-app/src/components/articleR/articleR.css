@@ -15,11 +15,11 @@
     gap: 4rem;
 }
 
-.article__image {
+.articleR__image {
     width: 50%;
     text-align: center;
 }
 
-.article__description {
+.articleR__description {
     width: 50%;
 }

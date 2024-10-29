@@ -5,11 +5,11 @@ const ArticleR = ({ title, description, images }) => {
   return (
     <div>
       <div className="article-right">
-        <div className="article__image">
+        <div className="articleR__image">
           <img src={ images } alt="example" />
         </div>
         
-        <div className="article__description">
+        <div className="articleR__description">
           <h1 className="gradient__text">{ title }</h1>
           <p>{ description }</p>
         </div>

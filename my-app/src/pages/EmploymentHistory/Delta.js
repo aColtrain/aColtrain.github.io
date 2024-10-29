@@ -3,6 +3,7 @@ import { delta } from "../../components/brand/imports"
 import { Employment } from '../../components';
 import { ArticleHead, ArticleL, ArticleR } from '../../components';
 import car from '../../assets/car.png';
+import migration from '../../assets/delta_migration.png';
 
 function Delta() {
   return (
@@ -35,14 +36,19 @@ function Delta() {
         <ArticleR
         title="Library Migration"
         description=""
-        images={ car } 
+        images={ migration } 
         />
       </div>
 
       <div className="section__padding">
         <ArticleL
-        title="Buttons,{\n} Forms Fields,
-        & Lists"
+        title={
+          <>
+            Buttons,<br />
+            Form Fields,<br />
+            & Lists
+          </>
+        }
         description=""
         images={ car } 
         />
