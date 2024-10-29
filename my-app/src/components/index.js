@@ -1,6 +1,6 @@
 export { default as ArticleR } from './articleR/ArticleR';
 export { default as ArticleL } from './articleL/ArticleL';
-export { default as ArticleHead } from '.articleHead/ArticleHead';
+export { default as ArticleHead } from './articleHead/ArticleHead';
 export { default as Brand } from './brand/Brand';
 export { default as CTA } from './cta/CTA';
 export { default as Feature } from './feature/Feature';

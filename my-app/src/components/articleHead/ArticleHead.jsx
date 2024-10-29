@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import 'articleHead.css';
 
 const ArticleHead = ({title, description, images}) => {
   return (
