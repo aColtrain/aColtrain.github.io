@@ -1,7 +1,8 @@
 import React from 'react'
 import { delta } from "../../components/brand/imports"
 import { Employment } from '../../components';
-import { ArticleR, ArticleL } from '../../components';
+import { ArticleHead, ArticleL, ArticleR } from '../../components';
+import car from '../../assets/car.png';
 
 function Delta() {
   return (
@@ -23,11 +24,33 @@ function Delta() {
         />
       </div>
       <div className="section__padding">
-        
+        <ArticleHead
+        title="SkyPro UI"
+        description=""
+        images={ car }
+        />
+      </div>
+
+      <div className="section__padding">
+        <ArticleR
+        title="Library Migration"
+        description=""
+        images={ car } 
+        />
+      </div>
+
+      <div className="section__padding">
+        <ArticleL
+        title="Buttons,{\n} Forms Fields,
+        & Lists"
+        description=""
+        images={ car } 
+        />
+      </div>
 
 
 
-
+      <div>
         <h2>Meal Manifesting</h2>
         <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="50%" height="350" src="https://embed.figma.com/design/LOxr0uOoS7JG1K670ZUEwg/SkyPro-UI-(Copy)?node-id=823-14803&embed-host=share" allowfullscreen></iframe>
       </div>

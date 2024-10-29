@@ -1,14 +1,16 @@
 import React from 'react';
-import 'articleL.css';
+import './articleL.css';
 
 const ArticleL = ({ title, description, images }) => {
   return (
     <div className="article-left">
-        <div>
-        <h1>{ title }</h1>
+      <div className="article__description">
+        <h1 className="gradient__text">{ title }</h1>
         <p>{ description }</p>
-        </div>
-        <img> { images } </img>
+      </div>
+      <div className="article__image">
+        <img src={ images } alt="example" />
+      </div>
     </div>
   )
 }

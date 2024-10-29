@@ -1,0 +1,23 @@
+.article-Head {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 4rem;
+}
+.article-Head h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.article__description {
+    width: 50%;
+}
+
+.article-image {
+    width: 50%;
+    text-align: center;
+}

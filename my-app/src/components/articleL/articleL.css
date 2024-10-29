@@ -7,6 +7,17 @@
 }
 
 .article-left {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.article__description {
+    width: 50%;
+}
+
+.article-image {
+    width: 50%;
 }
