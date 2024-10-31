@@ -9,8 +9,8 @@ const ArticleL = ({ title, description, images }) => {
         <p>{ description }</p>
       </div>
       <div className="articleL__image">
-        {/* <img src={ images } alt="example" /> */}
-        { images }
+        <img src={ images } alt="example" />
+        {/* { images } */}
       </div>
     </div>
   )

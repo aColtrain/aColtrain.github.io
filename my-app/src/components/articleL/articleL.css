@@ -6,12 +6,18 @@
     margin: 1rem 1;   
 }
 
+.article-left p {
+    margin: 1rem 0;
+    
+}
+
 .article-left {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 4rem;
+    align-items: center;
 }
 
 .articleL__description {
@@ -20,6 +26,8 @@
 }
 
 .articleL__image {
-    width: 50%;
+    width: 48%;
     text-align: center;
+    
+
 }

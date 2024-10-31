@@ -1,11 +1,11 @@
 import React from 'react';
 import './cta.css';
 
-const CTA = ({ description }) => {
+const CTA = ({title, description }) => {
   return (
     <div className="gpt3__cta">
       <div className="gpt3__cta-content">
-        <h3>Reflection</h3>
+        <h3>{title}</h3>
       </div>
       <div className="gpt3__cta-btn">
         <p>{ description }</p>

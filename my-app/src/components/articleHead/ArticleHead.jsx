@@ -1,7 +1,7 @@
 import React from 'react';
 import './articleHead.css';
 
-const ArticleHead = ({title, description, images}) => {
+const ArticleHead = ({title, description, images, imageCaption }) => {
   return (
     <div className="article-Head">
       <div className="articleHead__description">
@@ -11,6 +11,7 @@ const ArticleHead = ({title, description, images}) => {
       <div className="articleHead__image">
         {/* <img src={ images } alt="example" /> */}
         {images}
+        <p>{ imageCaption }</p>
       </div>
   </div>
   )
