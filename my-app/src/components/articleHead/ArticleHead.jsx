@@ -9,7 +9,8 @@ const ArticleHead = ({title, description, images}) => {
         <p>{ description }</p>
       </div>
       <div className="articleHead__image">
-        <img src={ images } alt="example" />
+        {/* <img src={ images } alt="example" /> */}
+        {images}
       </div>
   </div>
   )

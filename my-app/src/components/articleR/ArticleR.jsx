@@ -7,6 +7,8 @@ const ArticleR = ({ title, description, images }) => {
       <div className="article-right">
         <div className="articleR__image">
           <img src={ images } alt="example" />
+          {/* { images } */}
+
         </div>
         
         <div className="articleR__description">

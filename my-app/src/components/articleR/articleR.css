@@ -6,20 +6,26 @@
     margin: 1rem 1rem;
     
 }
+.article-right p {
+    margin: 1rem 1rem;
+}
 
 .article-right {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     gap: 4rem;
+    
 }
 
 .articleR__image {
     width: 50%;
-    text-align: center;
 }
 
 .articleR__description {
     width: 50%;
+    vertical-align: baseline;
+    
 }
