@@ -26,8 +26,10 @@
 }
 
 .articleL__image {
-    width: 48%;
+    width: 50%;
     text-align: center;
-    
+}
+.articleL__image img {
+    width: 100%;
 
 }

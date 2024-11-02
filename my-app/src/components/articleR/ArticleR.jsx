@@ -1,13 +1,14 @@
 import React from 'react';
 import './articleR.css';
 
-const ArticleR = ({ title, description, images }) => {
+const ArticleR = ({ title, description, images, imageCaption }) => {
   return (
     <div>
       <div className="article-right">
         <div className="articleR__image">
           <img src={ images } alt="example" />
           {/* { images } */}
+          <p>{ imageCaption } </p>
 
         </div>
         
