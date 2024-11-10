@@ -22,6 +22,10 @@ import demo from '../../assets/delta_demo.png';
 import demoScript from '../../assets/delta_demo_script.png';
 import demoFilming from '../../assets/delta_demo_filming.png';
 import demoEditing from '../../assets/delta_demo_editing.png';
+import banner from '../../assets/delta_banner.png';
+import bannerOriginal from '../../assets/delta_banner_original.png';
+import bannerIterations from '../../assets/delta_banner_iterations.png';
+import bannerFinal from '../../assets/delta_banner_final.png';
 import SimpleImageSlider from "react-simple-image-slider";
 
 
@@ -250,7 +254,7 @@ function Delta() {
         <div className="section__padding">
           <ArticleL
           title={"Final"}
-          description={"You can view more in my linkedIN"}
+          description={"You can view more in my LinkedIn"}
           images={ "" }
           />
         </div>
@@ -267,29 +271,29 @@ function Delta() {
           <ArticleHead
           title={"Engagement Banner"}
           description={""}
-          images={""}
+          images={ <img width="100%" src= { banner } />}
           imageCaption={""}
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"Original Version"}
-          description={""}
-          images={""}
+          description={ "" }
+          images={ bannerOriginal }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Iterations"}
           description={""}
-          images={""}
+          images={ bannerIterations }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"Final Version"}
           description={""}
-          images={""}
+          images={ bannerFinal }
           />
         </div>
       </div>
