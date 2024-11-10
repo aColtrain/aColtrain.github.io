@@ -15,7 +15,13 @@ import manifestingH from '../../assets/delta_mm_manifesting_highFidelity.png';
 import approach from '../../assets/delta_mm_approach.png';
 import draft from '../../assets/delta_mm_draft.png';
 import final from '../../assets/delta_mm_final.png';
-
+import cabinObj from '../../assets/delta_myCabin_objectives.png';
+import cabinApproach from '../../assets/delta_myCabin_approach.png';
+import cabinDraft from '../../assets/delta_myCabin_draft.png';
+import demo from '../../assets/delta_demo.png';
+import demoScript from '../../assets/delta_demo_script.png';
+import demoFilming from '../../assets/delta_demo_filming.png';
+import demoEditing from '../../assets/delta_demo_editing.png';
 import SimpleImageSlider from "react-simple-image-slider";
 
 
@@ -154,40 +160,52 @@ function Delta() {
         </div>
       </div>
       
-      <div className="myCabin">
+      <div className="MyCabin">
         <div className="section__padding">
           <ArticleHead 
           title="MyCabin Rewrite/ Cabin Discrepancy"
-          description=""
-          images={ <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/Zl4x0nkwM3gM3X8bPG5Dw5/MyCabin-Rewrite?node-id=0-1&embed-host=share" allowfullscreen></iframe> }
+          description="My Cabin is used by the Flight Attendants to report any issues with the aircraft for the pilot to review."
+          images={ <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/Zl4x0nkwM3gM3X8bPG5Dw5/MyCabin-Rewrite?node-id=7-32&embed-host=share" allowfullscreen></iframe> }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title="Objectives"
-          description=""
-          images=""
+          description={
+          <>
+          Create a more intuitive process to add decrepancies. <br/>
+          Create a heirarchy of information <br/>
+          Create designs for adding descriptions, location, and additional information to a report. <br/>
+          Create a design that includes a seatmap for decrepancies involving seats. <br/>
+
+          Adding a state where the feature is disabled. <br/>
+
+          Update UI and Iconography
+
+          </>
+          }
+          images={ cabinObj }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title="Approach"
-          description=""
-          images=""
+          description="Because the goal was to mainly update the UI I took the original screens from there designed new screens using updated components side by side. "
+          images={ cabinApproach }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title="Draft"
-          description=""
-          images=""
+          description="When drafting the designs, I created 1-3 options for feedback sessions. Often times when having multiple options, I would be able to talk to the users or POs to see what they like or dislike about the designs and take that feedback for a final version."
+          images={ cabinDraft }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title="Final"
-          description=""
-          images=""
+          description="There is no official final version of the designs due to this project becoming a lower priority, but take a look around the high fidelity designs."
+          images="insert figma file"
           />
         </div>
         <div className="section__padding">
@@ -199,6 +217,82 @@ function Delta() {
 
       </div>
       
+      <div className="Video Demos">
+        <div className="section__padding">
+          <ArticleHead
+          title={"Video Demos"}
+          description={"kjdkljf"}
+          images={""}
+          imageCaption={ <img width="100%" src={ demo } /> } 
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleR
+          title="Script"
+          description={""}
+          images={ demoScript } 
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleL
+          title={"Filming"}
+          description={""}
+          images={ demoFilming }
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleR
+          title={"Editing"}
+          description={""}
+          images={ demoEditing }
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleL
+          title={"Final"}
+          description={"You can view more in my linkedIN"}
+          images={ "" }
+          />
+        </div>
+        <div className="section__padding">
+          <CTA 
+          title= "Skills Developed"
+          description= "--------"
+          />
+        </div>
+      </div>
+
+      <div className="Engagement Banner">
+        <div className="section__padding">
+          <ArticleHead
+          title={"Engagement Banner"}
+          description={""}
+          images={""}
+          imageCaption={""}
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleR
+          title={"Original Version"}
+          description={""}
+          images={""}
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleL
+          title={"Iterations"}
+          description={""}
+          images={""}
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleR
+          title={"Final Version"}
+          description={""}
+          images={""}
+          />
+        </div>
+      </div>
 
     </div>
   )
