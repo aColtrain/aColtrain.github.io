@@ -168,8 +168,15 @@ function Delta() {
         <div className="section__padding">
           <ArticleHead 
           title="MyCabin Rewrite/ Cabin Discrepancy"
-          description="My Cabin is used by the Flight Attendants to report any issues with the aircraft for the pilot to review."
+          description={
+            <>
+            My Cabin is used by the Flight Attendants to report any issues with the aircraft for the pilot to review. <br/>
+            <br/>
+            Team Size: 2
+            </>
+          }
           images={ <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/Zl4x0nkwM3gM3X8bPG5Dw5/MyCabin-Rewrite?node-id=7-32&embed-host=share" allowfullscreen></iframe> }
+          imageCaption={"Click around the figma file!"}
           />
         </div>
         <div className="section__padding">
@@ -225,7 +232,15 @@ function Delta() {
         <div className="section__padding">
           <ArticleHead
           title={"Video Demos"}
-          description={"kjdkljf"}
+          description={
+            <>
+            Video Demos were made as a initiative to help upper management get a quick grasp on what the In-Flight Technology 
+            Team does and to have a short form video for flight attendants to know what resources they have for managing a flight
+            <br/>
+            <br/>
+            Team Size: 1
+            </>
+          }
           images={""}
           imageCaption={ <img width="100%" src={ demo } /> } 
           />
@@ -233,21 +248,21 @@ function Delta() {
         <div className="section__padding">
           <ArticleR
           title="Script"
-          description={""}
+          description={"I met with the POs of all the apps that my team supported to talk about what they wanted to highlight in each of their demos. After creating a draft of the script, I made a rough draft of my idea for the structure of the video. I used text to speech software and stock images from the internet to quickly get my point across."}
           images={ demoScript } 
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Filming"}
-          description={""}
+          description={"When filming, we used a member of the in-flight services team, Anthony, who also was a flight attendant. We planned for a full day of filming where Anthony worn his flight attendant uniform. On that day, we used the inside of one of the training planes as a set. I brought my tripod and we had gotten microphones off of amazon. We then recorded the intro and outro for all six videos. I used a teleprompter software to display the script and propped my computer on a stool and some boxes. After filming the intros and outros, we then recorded the voice overs for the features part."}
           images={ demoFilming }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"Editing"}
-          description={""}
+          description={"To edit the demos, I used the iMovie software. I started by editing one full video with our recorded material and presenting that for review. After recording everything, there ended up being a change of script where we weren't allowed to say 'I'm Anthony and I'm a Delta Flight Attendant.' This was hard to work around due to the way Anthony's inflection was when he was talking and our time restraint that prevented me from reshooting. I made it work but am not 100% happy with the way it turned out and acknowledge that I did the my best with my restraints I had. For the voice over parts, used screenshots and screen recordings of the existing apps and made a powerpoint that included the bulleted points. Those slides were then imported into iMovie and edited to be in time to the voice over."}
           images={ demoEditing }
           />
         </div>
@@ -270,7 +285,15 @@ function Delta() {
         <div className="section__padding">
           <ArticleHead
           title={"Engagement Banner"}
-          description={""}
+          description={
+            <>
+            The Engagement Banner is used when we go to conferences, set out for user testing events, and when we host skypro support event 
+            to help FA with technical problems. My team wanted to redesign the banner so that it would be more eye catching and to add a QR 
+            code to recieve feedback. <br/>
+            <br/>
+            Team Size: 1
+            </>
+          }
           images={ <img width="100%" src= { banner } />}
           imageCaption={""}
           />
@@ -278,22 +301,44 @@ function Delta() {
         <div className="section__padding">
           <ArticleR
           title={"Original Version"}
-          description={ "" }
+          description={
+            <>
+            The original version of this design has no pizazz. The majority of the sign is navy with white text and it has no imagery. 
+            The enviroment that the sign appears in is atop a table with a navy blue table cloth. 
+            </>
+          }
           images={ bannerOriginal }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Iterations"}
-          description={""}
+          description={
+            <>
+            When considering the redesign, one of my main focuses was to expand the color pallete. I focused on using the Delta brand 
+            red and using more interesting geometry to create an eye catching option. I explored options that included red backgrounds and 
+            using plane imagery.
+            </>
+          }
           images={ bannerIterations }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"Final Version"}
-          description={""}
+          description={
+            <>
+            The final version has 3 main portions, the red header, the blue QR section, and the bottom portion that mimics a phone home screen.
+            The idea was to have a sign that visually shows that we deal with phone apps and want you to interact with us via the QR code.
+            </>
+          }
           images={ bannerFinal }
+          />
+        </div>
+        <div className="section__padding">
+          <CTA 
+          title= "Skills Developed"
+          description= "--------"
           />
         </div>
       </div>
