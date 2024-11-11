@@ -38,7 +38,7 @@ const images = [
 function Delta() {
   return (
     <div>
-      <div>
+      <div className="header">
         <Employment 
         logo={ delta }
         logoDescription="Delta Air lines logo" 
