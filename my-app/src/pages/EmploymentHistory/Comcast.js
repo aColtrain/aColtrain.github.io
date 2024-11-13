@@ -7,6 +7,7 @@ import miniOriginal from "../../assets/comcast/comcast_mini_original.png";
 import miniLowFi from "../../assets/comcast/comcast_mini_lowFi.png";
 import miniUIRevisions from "../../assets/comcast/comcast_mini_UIRevisions.png";
 import logoUserTesting from "../../assets/logos/logo_usertesting.png";
+import miniReviewRevisions from "../../assets/comcast/comcast_mini_ReviewRevisions.png";
 
 
 function Comcast() {
@@ -37,7 +38,6 @@ function Comcast() {
           images={
             <>
             <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/HD2BlUNU2KsimbM0YzhJLA/My-Apps?node-id=113-5242&embed-host=share" allowfullscreen></iframe>
-            <img width="100%" src= {miniOriginal} />
             </>
           
           }
@@ -83,7 +83,7 @@ function Comcast() {
           description={<></>}
           images={
             <>
-            <img src={ "" } alt="" />
+            <img src={ miniReviewRevisions } alt="" />
             </>
           }
           />
@@ -116,7 +116,7 @@ function Comcast() {
           description={<></>}
           images={
             <>
-            <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/HD2BlUNU2KsimbM0YzhJLA/My-Apps?page-id=0%3A1&node-id=1225-5173&node-type=canvas&viewport=507%2C-3814%2C0.05&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1225%3A5173&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+            <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/HD2BlUNU2KsimbM0YzhJLA/My-Apps?page-id=0%3A1&node-id=1225-5173&node-type=canvas&viewport=507%2C-3814%2C0.05&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1225%3A5173&embed-host=share" allowfullscreen></iframe>
             </>
           }
           />
@@ -127,7 +127,7 @@ function Comcast() {
           description={<></>}
           images={
             <>
-            <img src={ "" } alt="" />
+            <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/HD2BlUNU2KsimbM0YzhJLA/My-Apps?page-id=0%3A1&node-id=1550-38292&node-type=canvas&viewport=-4996%2C-13139%2C0.42&scaling=contain&content-scaling=fixed&starting-point-node-id=1550%3A38292&embed-host=share" allowfullscreen></iframe>
             </>
           }
           />
