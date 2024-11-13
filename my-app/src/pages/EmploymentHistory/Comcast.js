@@ -3,6 +3,11 @@ import { comcast } from "../../components/brand/imports"
 import { Employment } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
 
+import miniOriginal from "../../assets/comcast/comcast_mini_original.png";
+import miniLowFi from "../../assets/comcast/comcast_mini_lowFi.png";
+import miniUIRevisions from "../../assets/comcast/comcast_mini_UIRevisions.png";
+import logoUserTesting from "../../assets/logos/logo_usertesting.png";
+
 
 function Comcast() {
   return (
@@ -14,7 +19,7 @@ function Comcast() {
         positionDescription="Redesigning a marketplace for SaaS products for small to medium sized businesses. I validated designs
         with Usertesting.com and my designs underwent multiple rounds of feedback with 3 different principal designers." 
         jobTitle="UX Product Designer"
-        teamSize="1"
+        teamSize="3"
         />
       </div>
 
@@ -22,8 +27,20 @@ function Comcast() {
         <div className="section__padding">
           <ArticleHead
           title={"MiniMart"}
-          description={"MiniMart is a eCommerce platform for small to medium sized businesses. "}
-          images={""}
+          description={
+            <>
+            MiniMart is a eCommerce platform for small to medium sized businesses. <br/>
+            <br/>
+            Team Size: 3
+            </>
+          }
+          images={
+            <>
+            <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/HD2BlUNU2KsimbM0YzhJLA/My-Apps?node-id=113-5242&embed-host=share" allowfullscreen></iframe>
+            <img width="100%" src= {miniOriginal} />
+            </>
+          
+          }
           imageCaption={""}
           />
         </div>
@@ -31,56 +48,88 @@ function Comcast() {
           <ArticleR
           title={"Evaluationg the original UI"}
           description={""}
-          images={""}
+          images={
+            <>
+            <img src={ miniOriginal } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Approach"}
           description={""}
-          images={""}
+          images={
+            <>
+            <img src={ "" } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"Low Fidelity Designs"}
           description={""}
-          images={""}
+          images={
+            <>
+            <img src={ miniLowFi } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Reviews & Revisions"}
           description={<></>}
-          images={""}
+          images={
+            <>
+            <img src={ "" } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"User Testing"}
           description={<></>}
-          images={""}
+          images={
+            <>
+            <img src={ logoUserTesting } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"UI Revisions"}
           description={<></>}
-          images={""}
+          images={
+            <>
+            <img src={ miniUIRevisions } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"Prototyping"}
           description={<></>}
-          images={""}
+          images={
+            <>
+            <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/HD2BlUNU2KsimbM0YzhJLA/My-Apps?page-id=0%3A1&node-id=1225-5173&node-type=canvas&viewport=507%2C-3814%2C0.05&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1225%3A5173&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Final Presentation"}
           description={<></>}
-          images={""}
+          images={
+            <>
+            <img src={ "" } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">

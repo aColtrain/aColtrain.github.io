@@ -73,7 +73,11 @@ function Delta() {
           description="When setting up the library, our team explored several softwares. 
           We started with adobe XD then migrated to Axure RP and migrated again to Figma. 
           The reason for the migrations were Adobe XD did not meet prototyping needs at the time and Axure RP were limited in their design capabilities. Third time was a charm and we now use Figma to support the design needs."
-          images={ migration } 
+          images={
+            <>
+            <img src={ migration } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -87,7 +91,11 @@ function Delta() {
             </>
           }
           description="My contributions to the SkyPro UI mainly revolved around the design and component management of the buttons, form fields, and lists during the migrations."
-          images={ formfields }
+          images={
+            <>
+            <img src={ formfields } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -111,7 +119,11 @@ function Delta() {
               Team Size: 1
             </>
             }
-          images={ <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/cbYlhQ45s0XUe64rTjNLRm/%5BDESIGN%5D-Meal-Manifesting-Migration?embed-host=share" allowfullscreen></iframe> }
+          images={ 
+          <>
+          <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/cbYlhQ45s0XUe64rTjNLRm/%5BDESIGN%5D-Meal-Manifesting-Migration?embed-host=share" allowfullscreen></iframe>
+          </>
+          }
           imageCaption="Click around the Figma File!"
           />
         </div>
@@ -119,7 +131,12 @@ function Delta() {
           <ArticleR
           title="Objectives"
           description="Update the UI using the SkyPro UI guidelines. Streamline UX. "
-          images={ mealManifest1 }
+          images={ 
+            <>
+            <img src={ mealManifest1 } alt=""/>
+            </>
+
+           }
           imageCaption="Original Meal Manifesting Screen"
 
           />
@@ -139,21 +156,33 @@ function Delta() {
 
             </>
           }
-          images={ approach }
+          images={
+            <>
+            <img src={ approach } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title="Draft"
           description="From the low fidelity versions of this design, I used existing components to make the high fidelity designs. I played around with recording customer orders within the customer card and the seat map. I would talk to the POs and the development team to make sure the designs aligned with their goals and that it can be developed properly."
-          images={ draft }
+          images={
+            <>
+            <img src={ draft } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title="Final"
           description="In the final iteration, I designed the whole meal inventory and meal manifesting process. The meal manifesting process includes several entry points into a customer card, senarios of weather a person has pre-selected a meal or not and using different functionaly of the iphone like haptic touch. "
-          images={ final }
+          images={
+            <>
+            <img src={ final } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -195,28 +224,44 @@ function Delta() {
 
           </>
           }
-          images={ cabinObj }
+          images={
+            <>
+            <img src={ cabinObj } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title="Approach"
           description="Because the goal was to mainly update the UI I took the original screens from there designed new screens using updated components side by side. "
-          images={ cabinApproach }
+          images={
+            <>
+            <img src={ cabinApproach } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title="Draft"
           description="When drafting the designs, I created 1-3 options for feedback sessions. Often times when having multiple options, I would be able to talk to the users or POs to see what they like or dislike about the designs and take that feedback for a final version."
-          images={ cabinDraft }
+          images={
+            <>
+            <img src={ cabinDraft } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title="Final"
           description="There is no official final version of the designs due to this project becoming a lower priority, but take a look around the high fidelity designs."
-          images="insert figma file"
+          images={
+            <>
+            <img src={ "insert the figma" } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -241,36 +286,59 @@ function Delta() {
             Team Size: 1
             </>
           }
-          images={""}
-          imageCaption={ <img width="100%" src={ demo } /> } 
+          images={
+            <>
+            <img src={ demo } alt="" />
+            </>
+          }
+          imageCaption={
+            <>
+            </>
+          } 
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title="Script"
           description={"I met with the POs of all the apps that my team supported to talk about what they wanted to highlight in each of their demos. After creating a draft of the script, I made a rough draft of my idea for the structure of the video. I used text to speech software and stock images from the internet to quickly get my point across."}
-          images={ demoScript } 
+          images={
+            <>
+            <img src={ demoScript } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Filming"}
           description={"When filming, we used a member of the in-flight services team, Anthony, who also was a flight attendant. We planned for a full day of filming where Anthony worn his flight attendant uniform. On that day, we used the inside of one of the training planes as a set. I brought my tripod and we had gotten microphones off of amazon. We then recorded the intro and outro for all six videos. I used a teleprompter software to display the script and propped my computer on a stool and some boxes. After filming the intros and outros, we then recorded the voice overs for the features part."}
-          images={ demoFilming }
+          images={
+            <>
+            <img src={ demoFilming } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleR
           title={"Editing"}
           description={"To edit the demos, I used the iMovie software. I started by editing one full video with our recorded material and presenting that for review. After recording everything, there ended up being a change of script where we weren't allowed to say 'I'm Anthony and I'm a Delta Flight Attendant.' This was hard to work around due to the way Anthony's inflection was when he was talking and our time restraint that prevented me from reshooting. I made it work but am not 100% happy with the way it turned out and acknowledge that I did the my best with my restraints I had. For the voice over parts, used screenshots and screen recordings of the existing apps and made a powerpoint that included the bulleted points. Those slides were then imported into iMovie and edited to be in time to the voice over."}
-          images={ demoEditing }
+          images={
+            <>
+            <img src={ demoEditing } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
           <ArticleL
           title={"Final"}
           description={"You can view more in my LinkedIn"}
-          images={ "" }
+          images={
+            <>
+            <img src={ "" } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -294,7 +362,11 @@ function Delta() {
             Team Size: 1
             </>
           }
-          images={ <img width="100%" src= { banner } />}
+          images={ 
+          <>
+          <img width="100%" src= { banner } />
+          </>
+          }
           imageCaption={""}
           />
         </div>
@@ -307,7 +379,11 @@ function Delta() {
             The enviroment that the sign appears in is atop a table with a navy blue table cloth. 
             </>
           }
-          images={ bannerOriginal }
+          images={
+            <>
+            <img src={ bannerOriginal } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -320,7 +396,11 @@ function Delta() {
             using plane imagery.
             </>
           }
-          images={ bannerIterations }
+          images={
+            <>
+            <img src={ bannerIterations } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -332,7 +412,11 @@ function Delta() {
             The idea was to have a sign that visually shows that we deal with phone apps and want you to interact with us via the QR code.
             </>
           }
-          images={ bannerFinal }
+          images={
+            <>
+            <img src={ bannerFinal } alt="" />
+            </>
+          }
           />
         </div>
         <div className="section__padding">

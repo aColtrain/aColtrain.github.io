@@ -26,7 +26,12 @@
 .articleHead__image {
     width: 50%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
 }
+
 .articleHead__image p {
     font-size: 12px;
     color: #7a7a7a;
