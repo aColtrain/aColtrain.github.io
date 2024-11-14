@@ -4,6 +4,7 @@ import { RiMenuLine, RiCloseLine, RiMenu3Line } from 'react-icons/ri';
 import logo from '../../assets/logo_coltrain_multicolored.png';
 import './navbar.css';
 import { Link } from "react-router-dom";
+import resumePDF from '../../assets/Coltrain_Design_Resume.pdf'
 
 //BEM --> Block Element Modifer
 const Menu = () => (
@@ -36,7 +37,10 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-contact">
         <Link to="/contact"><p> Contact </p></Link>
-        <button type="button"> Resume </button>
+        <a href={ resumePDF } target="_blank">
+          <button type="button"> Resume </button>
+        </a>
+        
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu

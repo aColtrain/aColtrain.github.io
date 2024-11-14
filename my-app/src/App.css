@@ -79,6 +79,20 @@ p {
   line-height: 25px;
 }
 
+button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #FF4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .gradient__bg {
   background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
