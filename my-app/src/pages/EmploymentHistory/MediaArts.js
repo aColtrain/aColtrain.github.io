@@ -23,7 +23,7 @@ function MediaArts() {
         <div className="MediaBridge"> 
             <div className="section__padding">
                 <ArticleHead
-                title=""
+                title="Sustainablilty Media Bridge Project"
                 description={
                     <>
                     </>
@@ -41,13 +41,15 @@ function MediaArts() {
         <div className="BirdGraphics">
             <div className="section__padding">
             <ArticleHead
-                title=""
+                title="Bird Information Cards & Poster"
                 description={
                     <>
+
                     </>
                 }
                 images={
                     <>
+                    
                     </>
                 }
                 imageCaption={""}
