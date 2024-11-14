@@ -2,6 +2,10 @@ import React from 'react'
 import { Employment } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
 import logoMA from '../../assets/logos/logo_media_arts_large.png';
+import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
+import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
+import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
+
 
 
 function MediaArts() {
@@ -49,7 +53,8 @@ function MediaArts() {
                 }
                 images={
                     <>
-                    
+                    <img src={ grackleFront } alt="" />
+                    <img src={ grackleBack } alt="" />
                     </>
                 }
                 imageCaption={""}
