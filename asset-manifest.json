@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b094082d.css",
-    "main.js": "/static/js/main.f8675b9e.js",
+    "main.js": "/static/js/main.47aa7b28.js",
+    "static/media/ma_birds.png": "/static/media/ma_birds.045b31356ca4a37873fc.png",
     "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
     "static/media/delta_mm_final.png": "/static/media/delta_mm_final.390bb5cea381c4819cd1.png",
     "static/media/delta_demo.png": "/static/media/delta_demo.383964f33fd866e94450.png",
@@ -58,10 +59,10 @@
     "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.b52a0c12504d103bd0be.png",
     "index.html": "/index.html",
     "main.b094082d.css.map": "/static/css/main.b094082d.css.map",
-    "main.f8675b9e.js.map": "/static/js/main.f8675b9e.js.map"
+    "main.47aa7b28.js.map": "/static/js/main.47aa7b28.js.map"
   },
   "entrypoints": [
     "static/css/main.b094082d.css",
-    "static/js/main.f8675b9e.js"
+    "static/js/main.47aa7b28.js"
   ]
 }
