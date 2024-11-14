@@ -1,30 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.05b2ded4.css",
-    "main.js": "/static/js/main.f47731f5.js",
+    "main.css": "/static/css/main.b094082d.css",
+    "main.js": "/static/js/main.f8675b9e.js",
+    "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
     "static/media/delta_mm_final.png": "/static/media/delta_mm_final.390bb5cea381c4819cd1.png",
     "static/media/delta_demo.png": "/static/media/delta_demo.383964f33fd866e94450.png",
-    "static/media/comcast_mini_UIRevisions.png": "/static/media/comcast_mini_UIRevisions.418834be477dc7aeff08.png",
     "static/media/About_winter.JPG": "/static/media/About_winter.224831fc269a5caf53b6.JPG",
     "static/media/delta_demo_filming.png": "/static/media/delta_demo_filming.276bd340597e753f93a2.png",
     "static/media/delta_demo_editing.png": "/static/media/delta_demo_editing.fac1ad916a9152bbcd6f.png",
     "static/media/delta_demo_script.png": "/static/media/delta_demo_script.075ae80f1ae44b221754.png",
     "static/media/delta_banner_original.png": "/static/media/delta_banner_original.c6cd7e7ded61cd73113c.png",
+    "static/media/comcast_mini_UIRevisions.png": "/static/media/comcast_mini_UIRevisions.f145b28f9debb52b869d.png",
     "static/media/delta_banner.png": "/static/media/delta_banner.715e62e7f8045a6ae1e3.png",
     "static/media/delta_mm_draft.png": "/static/media/delta_mm_draft.b3c2a0f4c27f55550a45.png",
     "static/media/comcast_mini_ReviewRevisions.png": "/static/media/comcast_mini_ReviewRevisions.a5b2238946e13b5d1908.png",
     "static/media/comcast_mini_original.png": "/static/media/comcast_mini_original.f6254771aff91719f998.png",
     "static/media/ETD_Website_Thumbnail.png": "/static/media/ETD_Website_Thumbnail.9d7263719fd92d666f7b.png",
+    "static/media/Boat_Tailed_Grackle_Front.jpg": "/static/media/Boat_Tailed_Grackle_Front.d724d12e7c64e7462a53.jpg",
     "static/media/delta_myCabin_draft.png": "/static/media/delta_myCabin_draft.be9684910f355fa632a5.png",
     "static/media/delta_mm_approach.png": "/static/media/delta_mm_approach.0d879f4cd5bbea80b87a.png",
     "static/media/delta_mm_original.png": "/static/media/delta_mm_original.7a1bb6d65b24c8c045c2.png",
     "static/media/Delta_Discrepancy_Thumbnail.png": "/static/media/Delta_Discrepancy_Thumbnail.326f5941e40597164f47.png",
     "static/media/Comcast_MiniMart_Thumbnail.png": "/static/media/Comcast_MiniMart_Thumbnail.3528e2776d99cf4ab631.png",
+    "static/media/Boat_Tailed_Grackle_Back.jpg": "/static/media/Boat_Tailed_Grackle_Back.5ff04583fdf1e0fb780b.jpg",
     "static/media/comcast_mini_lowFi.png": "/static/media/comcast_mini_lowFi.b797fe99d3fbc3877b54.png",
+    "static/media/logo_media_arts_large.png": "/static/media/logo_media_arts_large.b020f80bc8900a889a46.png",
     "static/media/delta_myCabin_approach.png": "/static/media/delta_myCabin_approach.190b4bada14b2bec50b4.png",
     "static/media/about_gallery_donkey.png": "/static/media/about_gallery_donkey.69cec5596b9862c8975d.png",
     "static/media/delta_banner_final.png": "/static/media/delta_banner_final.22f8dcd61934d947b1ff.png",
     "static/media/about_gallery_alaska.png": "/static/media/about_gallery_alaska.d49ad1e88d3a0b501dc0.png",
+    "static/media/Coltrain_Design_Resume.pdf": "/static/media/Coltrain_Design_Resume.f06f89a253d1de3daf5e.pdf",
     "static/media/about_gallery_climbing.png": "/static/media/about_gallery_climbing.29d133121a515298cfe8.png",
     "static/media/delta_lists.png": "/static/media/delta_lists.da3f350e5f746d8771de.png",
     "static/media/about_gallery_snake.png": "/static/media/about_gallery_snake.568cf2f34c1f69d7094d.png",
@@ -52,11 +57,11 @@
     "static/media/logo_etd_small.png": "/static/media/logo_etd_small.fb87ca750af75284d834.png",
     "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.b52a0c12504d103bd0be.png",
     "index.html": "/index.html",
-    "main.05b2ded4.css.map": "/static/css/main.05b2ded4.css.map",
-    "main.f47731f5.js.map": "/static/js/main.f47731f5.js.map"
+    "main.b094082d.css.map": "/static/css/main.b094082d.css.map",
+    "main.f8675b9e.js.map": "/static/js/main.f8675b9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.05b2ded4.css",
-    "static/js/main.f47731f5.js"
+    "static/css/main.b094082d.css",
+    "static/js/main.f8675b9e.js"
   ]
 }
