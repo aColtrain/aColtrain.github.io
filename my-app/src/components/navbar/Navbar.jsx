@@ -15,6 +15,7 @@ const Menu = () => (
   <Link to="/projects"> Project </Link>
   <Link to="/delta"> Delta </Link>
   <Link to="/comcast"> Comcast </Link>
+  <Link to="/media-arts">Media Arts</Link>
   </>
 )
 
@@ -33,6 +34,7 @@ const Navbar = () => {
           <Link to="/projects"><p> Projects </p></Link>
           <Link to="/delta"><p> Delta </p></Link>
           <Link to="/comcast"> <p>Comcast </p> </Link>
+          <Link to="/media-arts"><p>Media Arts</p></Link>
         </div>
       </div>
       <div className="gpt3__navbar-contact">
@@ -55,6 +57,7 @@ const Navbar = () => {
             <Link to="/contact">  Contact </Link>
             <Link to="/projects"> Project </Link>
             <Link to="/delta"> Delta </Link>
+            <Link to="/media-arts">Media Arts</Link>
             <div className="gpt3__navbar-menu_container-links-contact">
               <p>Contact in</p>
               <button type="button">Contact</button>
