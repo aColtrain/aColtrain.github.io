@@ -5,7 +5,7 @@ import logoMA from '../../assets/logos/logo_media_arts_large.png';
 import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
 import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
 import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
-
+import birds from '../../assets/mediaArts/ma_birds.png';
 
 
 function MediaArts() {
@@ -15,9 +15,13 @@ function MediaArts() {
             <Employment 
             logo={ logoMA }
             logoDescription="Media Arts logo" 
-            positionDescription="LAKSKJKOFJIOSJIDOJISDJI." 
+            positionDescription={
+                <>
+                As a university project manager, I managed the Interdisiplinary Media Arts Center its projects. I managed multiple 
+                </>
+            } 
             jobTitle="University Project Manager"
-            teamSize="8"
+            teamSize="9"
             impact1="Team Impact"
             impact1List=""
             impact2="Products Impact"
@@ -53,8 +57,8 @@ function MediaArts() {
                 }
                 images={
                     <>
-                    <img src={ grackleFront } alt="" />
-                    <img src={ grackleBack } alt="" />
+                    <img src={ birds } alt="" />
+                    <img src={ birdPoster } alt="" />
                     </>
                 }
                 imageCaption={""}
