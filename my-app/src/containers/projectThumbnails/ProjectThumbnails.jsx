@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './projectThumbnails.css';
 import comcastThumbnail from '../../assets/Comcast_MiniMart_Thumbnail.png';
 import etdThumbnail from '../../assets/ETD_Website_Thumbnail.png';
