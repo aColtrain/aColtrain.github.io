@@ -38,8 +38,8 @@ function MediaArts() {
                 description={
                     <>
                     The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
-                    this project, the goal was to work with a biology professor to create a project on sustainability on the media bridge.
-                    
+                    this project, the goal was to work with a biology professor to create a project on sustainability on the media bridge. 
+
                     </>
                 }
                 images={
