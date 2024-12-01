@@ -60,6 +60,8 @@ function MediaArts() {
                 title="Bird Information Cards & Poster"
                 description={
                     <>
+                    These info cards were designed to be table settings at a museum bird event. I was given reference images of the birds. I 
+                    removed the background and took color samples of the original image to create a background that would allow all focus  
 
                     </>
                 }
@@ -97,6 +99,12 @@ function MediaArts() {
                 title="LED Card Events"
                 description={
                     <>
+                    The center hosted multiple LED card making workshops. This event involved
+                    attendees to create simple circuits with a button and LED light and embed them into a card. Attendees were also given art
+                    supplies to decorate. 
+                    My role included designing flyers and placing them in the high traffic areas, purchasing circuit and art supplies, purchasing 
+                    snacks, and running the event and troubleshooting any issues with the circuits. Attendance ranged from 25-35 people.
+
                     </>
                 }
                 images={
