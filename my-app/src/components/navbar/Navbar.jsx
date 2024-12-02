@@ -12,7 +12,7 @@ const Menu = () => (
   <Link to="/"> Home </Link>
   <Link to="/about"> About </Link>
   <Link to="/contact">  Contact </Link>
-  <Link to="/projects"> Project </Link>
+  {/* <Link to="/projects"> Project </Link> */}
   <Link to="/delta"> Delta </Link>
   <Link to="/comcast"> Comcast </Link>
   <Link to="/media-arts">Media Arts</Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <Link to="/"><p> Home </p></Link>
           <Link to="/about"><p> About </p></Link>
           
-          <Link to="/projects"><p> Projects </p></Link>
+          {/* <Link to="/projects"><p> Projects </p></Link> */}
           <Link to="/delta"><p> Delta </p></Link>
           <Link to="/comcast"> <p>Comcast </p> </Link>
           <Link to="/media-arts"><p>Media Arts</p></Link>

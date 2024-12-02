@@ -1,4 +1,35 @@
-.about__landing-content h1{
+.about__header {
+    display: flex;
+}
+.about__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    
+}
+
+.about__header-image {
+    flex: 1;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5rem; */
+    /* text-align: right; */
+    
+    
+}
+
+.about__header-image img {
+    max-width: 80%;
+    height: auto;
+    
+    
+}
+
+.about__header-content h1{
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
@@ -6,7 +37,7 @@
     letter-spacing: -0.04rem;
 }
 
-.about__landing-content p {
+.about__header-content p {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: normal;

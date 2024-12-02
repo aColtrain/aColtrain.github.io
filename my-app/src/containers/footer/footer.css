@@ -57,12 +57,13 @@ ul li {
 }
 .portfolio__footer-logos {
     float: right;
-    margin-right: 222px;
+    margin-right: 174px;
     margin-top: 8px;
 }
 .portfolio__footer-logos img {
     width: 32px;
     margin: 8px;
+    
   
     
 }

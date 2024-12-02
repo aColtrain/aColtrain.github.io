@@ -20,7 +20,7 @@ function MediaArts() {
             positionDescription={
                 <>
                 As a university project manager, I managed the Interdisiplinary Media Arts, IMA, Center its projects. I managed multiple
-                regional and national grant applications, website content, interior decoration, graphics and event coordination.
+                regional and national grant applications, website content, interior decoration, graphic design, and event coordination.
                 </>
             } 
             jobTitle="University Project Manager"
@@ -38,7 +38,7 @@ function MediaArts() {
                 description={
                     <>
                     The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
-                    this project, the goal was to work with a biology professor to create a project on sustainability on the media bridge. 
+                    this project, the goal was to work with a biology professor to create a project on sustainability displayed on the media bridge. 
 
                     </>
                 }
@@ -52,6 +52,12 @@ function MediaArts() {
                 />
 
             </div>
+            <div className="section__padding">
+                <CTA 
+                title= "Skills Developed"
+                description= "Collaboration, Design Solutions, Interactive Design, Grant Writing"
+                />
+            </div>
         </div>
 
         <div className="BirdGraphics">
@@ -61,7 +67,7 @@ function MediaArts() {
                 description={
                     <>
                     These info cards were designed to be table settings at a museum bird event. I was given reference images of the birds. I 
-                    removed the background and took color samples of the original image to create a background that would allow all focus  
+                    removed the background and took color samples of the original image to create a background that would induce the viewer to focus on the bird and the text.
 
                     </>
                 }
@@ -80,7 +86,7 @@ function MediaArts() {
                 title="Poster"
                 description={
                     <>
-                    
+                    I designed a poster to accompany the info cards. For this poster, I needed to communicate the instructions of the project for participants while maintaining a consistent design aesthetic. I incorporated all of the bird imagery from the info cards and a gradient background meant to simulate the birds perched in trees or flying in the sky. I also used the gradient to keep the design in line with the style of the info cards' color backgrounds. The goal of this design was to keep its elements simple enough that they wouldn't distract from the instructions, but also to keep them in harmony with the look and feel of the info cards.
                     </>
                 }
                 images={
@@ -88,6 +94,12 @@ function MediaArts() {
                     <img src={ birdPoster } alt="" />
                     </>
                 }
+                />
+            </div>
+            <div className="section__padding">
+                <CTA 
+                title= "Skills Developed"
+                description= "Graphic Design, Printing"
                 />
             </div>
 
@@ -99,11 +111,11 @@ function MediaArts() {
                 title="LED Card Events"
                 description={
                     <>
-                    The center hosted multiple LED card making workshops. This event involved
-                    attendees to create simple circuits with a button and LED light and embed them into a card. Attendees were also given art
-                    supplies to decorate. 
+                    The center hosted multiple LED card making workshops. These events taught
+                    attendees how to create simple circuits with a button and LED light embeded into a holiday greeting card. Attendees were also given art
+                    supplies to decorate their cards to their choosing. 
                     My role included designing flyers and placing them in the high traffic areas, purchasing circuit and art supplies, purchasing 
-                    snacks, and running the event and troubleshooting any issues with the circuits. Attendance ranged from 25-35 people.
+                    snacks, running the event, and troubleshooting any issues with the circuits. Attendance ranged from 25-35 people.
 
                     </>
                 }
@@ -112,6 +124,12 @@ function MediaArts() {
                     <img src={ eventPoster } alt="" />
                     </>
                 }
+                />
+            </div>
+            <div className="section__padding">
+                <CTA 
+                title= "Skills Developed"
+                description= "Event Planning, Project Management, Graphic Design, Teaching, Communication"
                 />
             </div>
 

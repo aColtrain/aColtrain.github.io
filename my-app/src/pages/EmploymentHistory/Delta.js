@@ -147,9 +147,8 @@ function Delta() {
           }
           description={
             <>
-              Designing a system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal inventory in flight.  
-              {/* And design user flow with different entry points to accomplish this goal. 
-              And integrate into Customer Card. Using up to date design UI. This project broken up into 2 parts Meal Inventory and Meal Manifesting */}
+              A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
+              inventory in flight.  
               <br /><br />
               Team Size: 1
             </>
@@ -167,8 +166,9 @@ function Delta() {
           title="Objectives"
           description={
             <>
-            Integrate the system into the customer card and design multiple points of entry to the customer card where the flight attendant will complete meal 
-            manifesting. Update the UI using the SkyPro UI guidelines.
+            The objective was to integrate the system into a customer card, a screen with customer information, and to design multiple 
+            points of entry to the customer card, where the flight attendant will complete meal inventory and manifesting. 
+            Secondarily, to update the UI using the SkyPro UI guidelines.
             </>
           }
           images={ 
@@ -186,20 +186,11 @@ function Delta() {
           title="Approach"
           description={
             <>
-            Approaching this project, I first understand and map the current user experience and making notes of pain points. I meet with the 
-            product owners to get feedback on my initial assessment and ask any questions, then I create a low fidelity design of the revised process of recording meal 
-            inventory and meal manifesting to get more feedback on. Once I get approval on the low-fidelity designs, I flush out the high fidelity
-            designs with different points of entry for manifesting the meal with detailed descriptions about changes and intended functionality 
-            of the new designs. I also pull together screens for a minimal viable product.
-
-              {/* 1. Understanding and mapping the current user experience and creating a new map of Meal Inventory<br/><br/>
-              2. Get feedback from PO<br/><br/>
-              3. Create a low fidelity draft of Meal Inventory and Meal Manifesting <br/><br/>
-              4. Get feedback from PO<br/><br/>
-              5. Create high fidellity draft with options of different points of entry for manifesting the meal with detailed descriptions about changes and functionality <br /><br/>
-              6. Get feedback from PO<br /><br/>
-              7. Create MVP <br /> */}
-
+            Approaching this project, I started by mapping the current user experience and making notes of pain points. I met with the 
+            product owners to get feedback on my initial assessment and to ask any questions, then I created a low fidelity design of the
+            revised process. Once I got approval on the low-fidelity designs, I fleshed out the high fidelity designs and added
+            detailed descriptions about changes and intended functionality of the new designs. 
+            Lastly, I reduced the design to a minimal viable product.
             </>
           }
           images={
@@ -214,16 +205,20 @@ function Delta() {
           title="Draft"
           description={
             <>
-            When redeesigning the meal inventory screens, I incorporated the inventory data being imported automatically. The original designs showed 
-            input fields for everyline item. The new designs reflect an edit state with a numerical keyboard for each line item and a confirmation button
-            for all line items. This is shown in the first 2 screens in the bottom row if the Approach images.<br/><br/>
-            I experiemented with recording customer orders within the customer card and the seat map. The first 2 screens show the FA being 
-            able to view all the entree options in a drop down. I would talk to the POs and the development team to make sure the designs aligned with their goals 
-            and that it can be developed properly. From this, I learned that the development team has plans on integrating haptic touch features and I integrated 
-            that press and hold feature within the designs. I implemented that feature in my designs by having The flight attendants be able to view more information about an entree and select it by 
-            pressing and holding that line item as shown in screen 3. Since there weren't many entree options, they were displayed in an accordian list. However
-            displaying the drinks in the same manner would not be as efficient to select. Because of this, the list of drinks is accompany by a search bar filter.
-            The draft designs include descriptions under the frames that describe the intended interactions.
+            I incorporated functionality to support the fact that the inventory data would now be imported automatically as opposed to 
+            manually by the flight attendant, as it was before. The original designs showed input fields for every line item. The new 
+            designs reflected an edit state with a numerical keyboard for each line item and a confirmation button for all line items. 
+            This is shown in the first 2 screens in the bottom row of the Approach images above.<br/><br/>
+
+            I experiemented with recording customer orders within the customer card and the seat map. The first 2 screens in the images in 
+            this section show the flight attendants being able to view all the entree options in a drop down menu. Throughtout the process,
+            I would talk to the product owners and the development team to ensure the designs aligned with their goals and that they could be
+            developed properly. From these meetings, I learned that the development team had plans to integrate haptic touch features. I 
+            implemented that feature in my designs by having The flight attendants be able to view more information about an entree and 
+            select it by pressing and holding that line item as shown in screen 3. Since there weren't many entree options, they were 
+            displayed in an accordian list. However, displaying and selecting the drinks in the same manner would not be as efficient. 
+            Therefore, the list of drinks is accompanied by a search bar filter as shown in the bottom row of the images in this section.
+            The draft designs include descriptions under the frames that describe their intended interactions.
             </>
           }
           images={
@@ -238,9 +233,9 @@ function Delta() {
           title="Final"
           description={
             <>
-            In the final iteration, I designed the whole meal inventory and meal manifesting process. The meal manifesting process includes 
-            several entry points into a customer card, senarios of weather a person has pre-selected a meal or not and using different 
-            functionally of the iphone like haptic touch. I also created designs for the minimal viable product, MVP.
+            In the final iteration, I designed the whole meal inventory and meal manifesting process. The meal manifesting process included 
+            several entry points into a customer card, senarios of whether a person has pre-selected a meal, and different 
+            functionally of the iPhone like haptic touch. I also created designs for the minimal viable product, MVP.
             </>
           }
           images={
@@ -253,7 +248,7 @@ function Delta() {
         <div className="section__padding">
           <CTA 
           title= "Skills Developed"
-          description= "Working within an established design aesthetic and working with people with out a design background"
+          description= "Working within an established design aesthetic and working with people without a design background"
           />
         </div>
       </div>
@@ -264,7 +259,7 @@ function Delta() {
           title="MyCabin Rewrite/ Cabin Discrepancy"
           description={
             <>
-            My Cabin is used by the Flight Attendants to report any issues or discrepancies with the aircraft for the pilot to review. <br/>
+            MyCabin is used by the flight attendants to report any issues or discrepancies with the aircraft for the pilot to review. <br/>
             <br/>
             Team Size: 1
             </>
@@ -278,19 +273,11 @@ function Delta() {
           title="Objectives"
           description={
           <>
-          Main objectives include updating the UI and iconography, creating a more intuitive process to report discrepancies, establish an 
-          information heirarchy, design a method of 
-          adding descriptions, location, and additional information to a report, integrate a seatmap for reports involving seats, and include a 
-          disable state for the feature. 
-          {/* Create a more intuitive process to add decrepancies. <br/>
-          Create a heirarchy of information <br/>
-          Create designs for adding descriptions, location, and additional information to a report. <br/>
-          Create a design that includes a seatmap for decrepancies involving seats. <br/>
-
-          Adding a state where the feature is disabled. <br/>
-
-          Update UI and Iconography */}
-
+          The main objectives for this project included updating the UI and iconography, creating a more intuitive process to report 
+          discrepancies, establishing an 
+          information heirarchy, designing a method of 
+          adding descriptions, location, and additional information to a report, integrating a seatmap for reports involving seats, and including a 
+          disabled state for the feature. 
           </>
           }
           images={
@@ -305,8 +292,9 @@ function Delta() {
           title="Approach"
           description={
             <>
-            Because the goal was to mainly update the UI, I took the original screens and designed new screens using updated components side
-            by side.
+            Because the product owner was mostly interested in updating the UI, I foucsed on designing new screens using updated components
+            from the SkyPro UI design library. When addressing the other objectives, I put myself in the users position and went through the
+            process of submiting a report, making note of what would make this process more streamlined. 
             </>
           }
           images={
@@ -321,8 +309,12 @@ function Delta() {
           title="Draft"
           description={
             <>
-            When drafting the designs, I created 1-3 options for feedback sessions. Often times when having multiple options, I would be 
-            able to talk to the users or POs to see what they like or dislike about the designs and take that feedback for a final version.
+            When drafting the designs, I created 1-3 options for each feedback session. Oftentimes when presenting multiple options, I 
+            would be able to talk to the product owners to get feedback about the designs and implement it into a final version. For the
+            updated iconography, I opted to replace the paper airplane and pilot hat icons, indicating the that the report was sent to the
+            pilot and recieved by the pilot, with the words sent and recieved. I considered using double check marks but ultimately went with
+            the words for clarity. Lastly, date section headers were added to improve information heirarchy as shown in the third screen in
+            the images in this section.
             </>
           }
           images={
@@ -337,8 +329,8 @@ function Delta() {
           title="Final"
           description={
             <>
-            There is no official final version of the designs due to this project becoming a lower priority, but take a look around the high
-            fidelity designs.
+            There is no official final version of the designs due to this project becoming a lower priority, but take a look around the Figma file
+            for the high fidelity designs.
             </>
           }
           images={
@@ -367,7 +359,7 @@ function Delta() {
           title={"Video Demos"}
           description={
             <>
-            Video Demos were made as a initiative to have short form video content for flight attendants to know what resources they 
+            Video Demos were made as an initiative to have short form video content for flight attendants to know what resources they 
             have in their devices for managing a flight and to help upper management get a quick grasp on the role the In-Flight Technology 
             Team plays.
             <br/>
@@ -391,14 +383,29 @@ function Delta() {
           title="Script"
           description={
             <>
-            I met with the POs of all the apps that my team supported to talk about what they wanted to highlight in each of their demos. 
-            After creating a draft of the script, I made a rough draft of my idea for the structure of the video. I used text to speech 
-            software and stock images from the internet to quickly get my point across.
+            I met with the product owners of all the apps that my team supported to talk about what they wanted to highlight in each of 
+            the video demos. 
+            After creating a draft of each script, I made a rough draft of my idea for the structure of the videos. I used text to speech 
+            software, a stock image, and screenshots to create a first draft of the videos. This video puts the rough in rough draft, but 
+            it gets the job done. 
+            I learned that the scenes with the screenshots would be better as a voice over. Having a voice over would allow realestate for 
+            bullet points to better highlight the features of the apps in a visual way. 
+
             </>
           }
           images={
             <>
-            <img src={ demoScript } alt="" />
+            <iframe
+            width="100%" 
+            height="300"
+            src={ demoScript }
+            frameborder='0'
+            allow='encrypted-media'
+            allowfullscreen
+            title='First Draft'
+            />
+
+            {/* <img src={ demoScript } alt="" /> */}
             </>
           }
           />
@@ -408,11 +415,13 @@ function Delta() {
           title={"Filming"}
           description={
             <>
-            When filming, we used a member of the in-flight services team, Anthony, who also was a flight attendant. We planned for a full 
-            day of filming where Anthony worn his flight attendant uniform. On that day, we used the inside of one of the training planes as 
-            a set. I brought my tripod and we had gotten microphones off of amazon. We then recorded the intro and outro for all six videos. 
-            I used a teleprompter software to display the script and propped my computer on a stool and some boxes. After filming the intros 
-            and outros, we then recorded the voice overs for the features part.
+            When filming, we used a member of the In-Flight Services team, Anthony, who also was a flight attendant as the actor. We scheduled a full 
+            day of filming where Anthony wore his flight attendant uniform. On that day, we used the inside of one of the training planes as 
+            a set. I brought my tripod and set up a wearable microphone. We then recorded the intro and outro for all six videos. 
+            Due to having only one day in Anthony's schedule to film and limited time for him to memorise the script, I used teleprompter
+            software to display the script. We had set the laptop with thesoftware on a seat and filmed. However, it was obvious that he was reading
+            something. To mitigate this, I propped my computer on a stool and some boxes I had found around the room. After filming the intros 
+            and outros, we then recorded the voice overs for the features demo.
             </>
           }
           images={
@@ -428,12 +437,11 @@ function Delta() {
           description={
             <>
             To edit the demos, I used the iMovie software. I started by editing one full video with our recorded material and presenting 
-            that for review. After recording everything, there ended up being a change of script where we weren't allowed to say 'I'm 
+            that for review. After recording and editing everything, there ended up being a change of script where we weren't allowed to say 'I'm 
             Anthony and I'm a Delta Flight Attendant.' This was hard to work around due to the way Anthony's inflection was when he was 
-            talking and our time restraint that prevented me from reshooting. I made it work but am not 100% happy with the way it turned 
-            out and acknowledge that I did the my best with my restraints I had. For the voice over parts, used screenshots and screen 
+            talking and our time constraints. For the voiceover parts, I used screenshots and screen 
             recordings of the existing apps and made a powerpoint that included the bulleted points. Those slides were then imported into 
-            iMovie and edited to be in time to the voice over.
+            iMovie and edited to be in time to the voiceover. 
             </>
           }
           images={
@@ -446,10 +454,23 @@ function Delta() {
         <div className="section__padding">
           <ArticleL
           title={"Final"}
-          description={"You can view more in my LinkedIn"}
+          description={
+            <>
+            I produced 6 videos 1-2 minutes long. Given the quick turnaround and last minute changes to the script, I am not as happy 
+            as I could be with the results, however I am proud of myself for being able to adapt to the circustances.
+            </>
+          }
           images={
             <>
-            <img src={ "" } alt="" />
+            <iframe
+            width="100%" 
+            height="300"
+            src={ "" }
+            frameborder='0'
+            allow='encrypted-media'
+            allowfullscreen
+            title='Flight Family Final Draft'
+            />
             </>
           }
           />
@@ -468,8 +489,8 @@ function Delta() {
           title={"Engagement Banner"}
           description={
             <>
-            The Engagement Banner is used when we go to conferences, set out for user testing events, and when we host skypro support event 
-            to help FA with technical problems. My team wanted to redesign the banner so that it would be more eye catching and to add a QR 
+            The Engagement Banner is used when the In-Flight Services team goes to conferences, to base visits for user testing events, and 
+            to SkyPro support events. My team wanted to redesign the banner so that it would be more eye catching and to add a QR 
             code to recieve feedback. <br/>
             <br/>
             Team Size: 1

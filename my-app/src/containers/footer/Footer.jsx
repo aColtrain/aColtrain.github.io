@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import { Brand } from "../../components";
 import inlogo from '../../assets/logo_linkedin_small_white.png';
 import gitlogo from '../../assets/logo_github_small_white.png';
+import emaillogo from '../../assets/icon_email.png';
+const today = new Date();
+const year = today.getFullYear();
 
 function Footer() {
   return (
@@ -22,16 +25,19 @@ function Footer() {
                 <p> Designed in <a>Figma</a> and coded in <a>Visual Studio Code 2</a> by <a>Coltrain</a>. Built with <a>React.js</a> and <a>CSS</a>, deployed with <a>Github</a>. </p>
               </div>
               <div className="portfolio__footer-logos">
-                <a href="https://www.linkedin.com/in/coltrain/">
+                <a href="https://www.linkedin.com/in/coltrain/" target="_blank">
                   <img src= { inlogo } alt="LinkedIn logo"></img>
                 </a>
-                <a href="https://github.com/aColtrain">
+                <a href="https://github.com/aColtrain" target="_blank">
                   <img src= { gitlogo } alt="Github logo" />
+                </a>
+                <a href="mailto:atlascoltrain@gmail.com">
+                  <img src= { emaillogo } alt="email" />
                 </a>
               </div>
             </div>
           </nav>
-          <p className="copyright">© Coltrain 2024</p>
+          <p className="copyright">© Coltrain {year}</p>
         </div>
 
         

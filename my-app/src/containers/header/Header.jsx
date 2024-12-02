@@ -3,6 +3,7 @@ import './header.css';
 
 import car from '../../assets/car.png';
 import avatar from '../../assets/ColtrainWinterAvatar.png';
+import profile from '../../assets/Coltrain_profile.png';
 
 
 
@@ -11,7 +12,7 @@ const Header = () => {
     <div className="portfolio__header section__padding " id="home">
         <div className="portfolio__header-content">
           <h1 className="gradient__text"> Hi, I'm Coltrain!</h1>
-          <p>UX/UI designer with an emphasis in inclusion and accessiblily. </p>
+          <p>Product designer and developer passionate about  </p>
           {/* <div className="gpt3__header-content__input">
             
             <input type="email" placeholder="Your Email Address"></input>
@@ -23,7 +24,7 @@ const Header = () => {
           </div> */}
         </div>
         <div className="portfolio__header-image">
-          <img src={avatar} alt="avatar" />
+          <img src={ profile } alt="avatar" />
         </div>
     </div>
   )
