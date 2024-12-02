@@ -398,7 +398,7 @@ function Delta() {
             <iframe
             width="100%" 
             height="300"
-            // src="https://youtu.be/_I8Rd_ks-so"
+            src='https://www.youtube.com/embed/_I8Rd_ks-so'
             frameborder='0'
             allow='encrypted-media'
             allowfullscreen
@@ -465,7 +465,7 @@ function Delta() {
             <iframe
             width="100%" 
             height="300"
-            src={ "" }
+            src='https://www.youtube.com/embed/oqoDtynXY_w'
             frameborder='0'
             allow='encrypted-media'
             allowfullscreen
