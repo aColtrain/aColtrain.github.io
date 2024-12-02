@@ -457,7 +457,8 @@ function Delta() {
           description={
             <>
             I produced 6 videos 1-2 minutes long. Given the quick turnaround and last minute changes to the script, I am not as happy 
-            as I could be with the results, however I am proud of myself for being able to adapt to the circustances.
+            as I could be with the results, however I am proud of myself for being able to adapt to the circumstances. <br/><br/>
+            View the playlist of all the demos on <a href='https://www.youtube.com/playlist?list=PL8e45rsI4i0u__uX-P0y0dwmMXweE8gq0' className="underline">YouTube</a>.
             </>
           }
           images={
