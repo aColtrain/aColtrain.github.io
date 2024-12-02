@@ -3,8 +3,7 @@ import { Footer, Blog, Possibility, Skills, WhatGPT3, Header, ProjectThumbnails,
 
 const Contact = () => {
   return (
-    <div className="section__padding">
-      <h1 className="gradient__text" styles="text-size:64px;">Let's Connect!</h1>
+    <div>
       <Contactme />
     </div>
   )
