@@ -13,6 +13,19 @@ import miniReviewRevisions from "../../assets/comcast/comcast_mini_ReviewRevisio
 function Comcast() {
   return (
     <div>
+      <div className="sidenav">
+        <div>
+          <a href="#MiniMart"><p>MiniMart</p></a>
+          <a href="#Approach"><p>Approach</p></a>
+          <a href="#Evaluate"><p>Evaluating Original UI</p></a>
+          <a href="#Low"><p>Low-Fidelity Designs</p></a>
+          <a href="#Reviews"><p>Reviews & Revisions</p></a>
+          <a href="#Prototyping"><p>Prototyping</p></a>
+          <a href="#User"><p>User Testing</p></a>
+          <a href="#UI"><p>UI Revisions</p></a>
+          <a href="#Final"><p>Final Presentation</p></a>
+        </div>
+      </div>
       <div className="header">
         <Employment 
         logo={ comcast }
@@ -20,7 +33,12 @@ function Comcast() {
         positionDescription="Redesigning a marketplace for SaaS products for small to medium sized businesses. I validated designs
         with Usertesting.com and my designs underwent multiple rounds of feedback with 3 different principal designers." 
         jobTitle="UX Product Designer"
-        teamSize="3"
+        teamSize={
+          <>
+          3
+          <a id="MiniMart" />
+          </>
+        }
         />
       </div>
 
@@ -41,7 +59,11 @@ function Comcast() {
             </>
           
           }
-          imageCaption={""}
+          imageCaption={
+          <>
+          <a id="Approach"/>
+          </>
+          }
           />
         </div>
         <div className="section__padding">
@@ -58,7 +80,7 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniApproach } alt="" />
+            <img src={ miniApproach } id="Evaluate" alt="" />
             </>
           }
           />
@@ -82,7 +104,7 @@ function Comcast() {
           />
         </div>
         
-        <div className="section__padding">
+        <div className="section__padding" id="Low">
           <ArticleR
           title={"Low Fidelity Designs"}
           description={

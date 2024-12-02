@@ -40,6 +40,15 @@ const images = [
 function Delta() {
   return (
     <div>
+      <div className="sidenav">
+        <div>
+          <a href="#SkyPro"><p>SkyPro UI</p></a>
+          <a href="#Meal"><p>Meal Inventory & Manifesting</p></a>
+          <a href="#MyCabin"><p>MyCabin Rewrite</p></a>
+          <a href="#Video"><p>Video Demos</p></a>
+          <a href="#Banner"><p>Engagement Banner</p></a>
+        </div>
+      </div>
       <div className="header">
         <Employment 
         logo={ delta }
@@ -48,12 +57,18 @@ function Delta() {
         I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
         for 6+ mobile apps with an audience of 28,000+ flight attendants." 
         jobTitle="UX/UI Designer"
-        teamSize="1-4"
+        teamSize={
+          <>
+          1-4
+          <a id="SkyPro"/>
+          </>
+        }
         impact1="Team Impact"
         impact1List=""
         impact2="Products Impact"
         impact2List=""
         />
+        
       </div>
 
       <div className="SkyProUI">
@@ -129,7 +144,7 @@ function Delta() {
           }
           />
         </div>
-        <div className="section__padding">
+        <div className="section__padding" id="Meal">
           <CTA 
           title= "Skills Developed"
           description= "Adobe XD, Axure RP, Figma"
@@ -245,7 +260,7 @@ function Delta() {
           }
           />
         </div>
-        <div className="section__padding">
+        <div className="section__padding" id="MyCabin">
           <CTA 
           title= "Skills Developed"
           description= "Working within an established design aesthetic and working with people without a design background"
@@ -254,6 +269,7 @@ function Delta() {
       </div>
       
       <div className="MyCabin">
+        
         <div className="section__padding">
           <ArticleHead 
           title="MyCabin Rewrite/ Cabin Discrepancy"
@@ -340,7 +356,7 @@ function Delta() {
           }
           />
         </div>
-        <div className="section__padding">
+        <div className="section__padding" id="Video">
           <CTA
           title= "Skills Developed"
           description={
@@ -476,7 +492,7 @@ function Delta() {
           }
           />
         </div>
-        <div className="section__padding">
+        <div className="section__padding" id="Banner">
           <CTA 
           title= "Skills Developed"
           description= "Production management, Problem solving, Filming, Video Editing"
