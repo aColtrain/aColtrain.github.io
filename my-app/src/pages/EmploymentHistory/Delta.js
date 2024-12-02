@@ -21,7 +21,7 @@ import cabinApproach from '../../assets/delta_myCabin_approach.png';
 import cabinDraft from '../../assets/delta_myCabin_draft.png';
 import cabinFinal from '../../assets/delta_myCabin_final.png';
 import demo from '../../assets/delta_demo.png';
-import demoScript from '../../assets/delta_demo_script.png';
+// import demoScript from '../../assets/delta_demo_script.png';
 import demoFilming from '../../assets/delta_demo_filming.png';
 import demoEditing from '../../assets/delta_demo_editing.png';
 import banner from '../../assets/delta_banner.png';
@@ -398,7 +398,7 @@ function Delta() {
             <iframe
             width="100%" 
             height="300"
-            src={ demoScript }
+            // src={ demoScript }
             frameborder='0'
             allow='encrypted-media'
             allowfullscreen
