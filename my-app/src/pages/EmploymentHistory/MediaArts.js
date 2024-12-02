@@ -13,6 +13,13 @@ import eventPoster from '../../assets/mediaArts/ma_eventPoster.png';
 function MediaArts() {
   return (
     <div>
+         <div className="sidenav">
+            <div>
+            <a href="#MediaBridge"><p>Media Bridge</p></a>
+            <a href="#Bird"><p>Bird Cards</p></a>
+            <a href="#LED"><p>LED Card Events</p></a>
+            </div>
+        </div>
         <div className="header">
             <Employment 
             logo={ logoMA }
@@ -24,11 +31,12 @@ function MediaArts() {
                 </>
             } 
             jobTitle="University Project Manager"
-            teamSize="9"
-            impact1="Team Impact"
-            impact1List=""
-            impact2="Products Impact"
-            impact2List=""
+            teamSize={
+                <>
+                9
+                <a id="MediaBridge" />
+                </>
+            }
             />
         </div>
         <div className="MediaBridge"> 
@@ -39,7 +47,6 @@ function MediaArts() {
                     <>
                     The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
                     this project, the goal was to work with a biology professor to create a project on sustainability displayed on the media bridge. 
-
                     </>
                 }
                 images={
@@ -52,7 +59,7 @@ function MediaArts() {
                 />
 
             </div>
-            <div className="section__padding">
+            <div className="section__padding" id="Bird">
                 <CTA 
                 title= "Skills Developed"
                 description= "Collaboration, Design Solutions, Interactive Design, Grant Writing"
@@ -96,7 +103,7 @@ function MediaArts() {
                 }
                 />
             </div>
-            <div className="section__padding">
+            <div className="section__padding" id="LED">
                 <CTA 
                 title= "Skills Developed"
                 description= "Graphic Design, Printing"
