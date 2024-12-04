@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc8cd6d7.css",
-    "main.js": "/static/js/main.6f1c6d52.js",
+    "main.css": "/static/css/main.e5f40468.css",
+    "main.js": "/static/js/main.6da602d4.js",
     "static/media/ma_birds.png": "/static/media/ma_birds.045b31356ca4a37873fc.png",
     "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
     "static/media/delta_mm_final.png": "/static/media/delta_mm_final.390bb5cea381c4819cd1.png",
@@ -13,7 +13,9 @@
     "static/media/delta_myCabin_final.png": "/static/media/delta_myCabin_final.ba27870459a12d81142f.png",
     "static/media/delta_banner_original.png": "/static/media/delta_banner_original.c6cd7e7ded61cd73113c.png",
     "static/media/comcast_mini_UIRevisions.png": "/static/media/comcast_mini_UIRevisions.f145b28f9debb52b869d.png",
+    "static/media/IMA_Birds_Thumbnail.png": "/static/media/IMA_Birds_Thumbnail.32cdb2db9f3dc7533247.png",
     "static/media/delta_banner.png": "/static/media/delta_banner.715e62e7f8045a6ae1e3.png",
+    "static/media/Delta_Demo_Thumbnail.png": "/static/media/Delta_Demo_Thumbnail.26a766a649536b5c1651.png",
     "static/media/delta_mm_draft.png": "/static/media/delta_mm_draft.b3c2a0f4c27f55550a45.png",
     "static/media/ma_eventPoster.png": "/static/media/ma_eventPoster.e403f73e01e311ea38e1.png",
     "static/media/comcast_mini_ReviewRevisions.png": "/static/media/comcast_mini_ReviewRevisions.a5b2238946e13b5d1908.png",
@@ -24,8 +26,11 @@
     "static/media/delta_myCabin_draft.png": "/static/media/delta_myCabin_draft.be9684910f355fa632a5.png",
     "static/media/delta_mm_approach.png": "/static/media/delta_mm_approach.0d879f4cd5bbea80b87a.png",
     "static/media/delta_mm_original.png": "/static/media/delta_mm_original.7a1bb6d65b24c8c045c2.png",
+    "static/media/IMA_Media_Thumbnail.png": "/static/media/IMA_Media_Thumbnail.d3acdb55446b1f6a25bd.png",
+    "static/media/Delta_Meal_Thumbnail.png": "/static/media/Delta_Meal_Thumbnail.68e5e71019f82d562f99.png",
     "static/media/Media_Bridge_Project.png": "/static/media/Media_Bridge_Project.b821af31b8ba60652bfc.png",
     "static/media/Delta_Discrepancy_Thumbnail.png": "/static/media/Delta_Discrepancy_Thumbnail.326f5941e40597164f47.png",
+    "static/media/Delta_SkyPro_Thumbnail.png": "/static/media/Delta_SkyPro_Thumbnail.adf13646c7eaa2949abd.png",
     "static/media/Comcast_MiniMart_Thumbnail.png": "/static/media/Comcast_MiniMart_Thumbnail.3528e2776d99cf4ab631.png",
     "static/media/Coltrain_profile.png": "/static/media/Coltrain_profile.bb1e32dc5d63bfc05d44.png",
     "static/media/Boat_Tailed_Grackle_Back.jpg": "/static/media/Boat_Tailed_Grackle_Back.5ff04583fdf1e0fb780b.jpg",
@@ -64,11 +69,11 @@
     "static/media/logo_etd_small.png": "/static/media/logo_etd_small.fb87ca750af75284d834.png",
     "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.b52a0c12504d103bd0be.png",
     "index.html": "/index.html",
-    "main.fc8cd6d7.css.map": "/static/css/main.fc8cd6d7.css.map",
-    "main.6f1c6d52.js.map": "/static/js/main.6f1c6d52.js.map"
+    "main.e5f40468.css.map": "/static/css/main.e5f40468.css.map",
+    "main.6da602d4.js.map": "/static/js/main.6da602d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc8cd6d7.css",
-    "static/js/main.6f1c6d52.js"
+    "static/css/main.e5f40468.css",
+    "static/js/main.6da602d4.js"
   ]
 }
