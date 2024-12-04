@@ -39,7 +39,8 @@ function Footer() {
               </div>
             </div>
           </nav>
-          {/* <p className="copyright">© Coltrain {year}</p> */}
+          <p className="copyright">© Coltrain {year}</p>
+          
         </div>
 
         

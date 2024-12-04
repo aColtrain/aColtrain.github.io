@@ -2,7 +2,7 @@
     background-color: #052c54;
     overflow-x: hidden;
     overflow-x: clip !important;
-    
+    width: 100%;
 }
 .portfolio__footer ul {
     list-style-type: none; /* Remove bullets */
@@ -24,13 +24,10 @@ ul li {
     line-height: 25px;
     /* text-transform: capitalize; */
     text-align: center;
-    margin: 0 1rem;
+    
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
-
-  
-    
+    justify-content: space-between;    
 }
 
 .portfolio__footer-right {
