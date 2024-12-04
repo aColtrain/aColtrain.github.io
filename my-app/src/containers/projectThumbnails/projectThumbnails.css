@@ -12,10 +12,13 @@
     /* align-items: center; */
 }
 
-/* .portfolio__tile-left {
-    margin-right: 24px;
+@media screen and (max-width: 1200px) {
 }
-
-.portfolio__tile-right {
-    margin-left: 24px;
-} */
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+    .portfolio__project-layout {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px) {}

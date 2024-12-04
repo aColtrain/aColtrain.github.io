@@ -124,7 +124,7 @@ button {
 .page__width html {
   width:1200px;
   margin: 0 auto;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .section__padding {
@@ -198,7 +198,7 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-  .page__width {
+  .page__width html {
     width:768px;
     margin: 0 auto;
   }
@@ -212,7 +212,7 @@ button {
 }
 
 @media screen and (max-width: 480px) {
-  .page__width {
+  .page__width html {
     width:480px;
     margin: 0 auto;
   }

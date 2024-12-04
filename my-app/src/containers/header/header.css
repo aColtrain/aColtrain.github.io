@@ -119,29 +119,36 @@
     align-items: center;
     justify-content: space-between;
 }
-.about__employment div {
+/* .about__employment div {
     display:block;
-}
+} */
 .about__employment div:hover {
    box-shadow: 0 8px var(--color-subtext);
 }
 
 @media screen and (max-width: 1200px) {
+    .portfolio__header-content {
+        margin: 4rem 0 0rem;   
+    }
+    /* .portfolio__header-image img {
+        max-width: 25%;
+    } */
+}
+
+@media screen and (max-width: 1024px) {
+    .about__employment {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:2rem;
+    }
+    .portfolio__header-image img {
+        max-width: 37%;
+    }
     .portfolio__header {
         flex-direction: column-reverse;
         
     }
-    .portfolio__header-content {
-        margin: 4rem 0 0rem;   
-    }
-    .portfolio__header-image img {
-        max-width: 50%;
-    }
 }
-
-/* @media  and (max-width: 1024px) {
-    
-} */
 
 @media screen and (max-width: 768px) {
     .portfolio__header h1 {
@@ -163,12 +170,9 @@
         font-size: 16px;
         line-height: 24px;
     }
-    .about__employment {
-        flex-direction: column;
-        gap:2rem;
-       
+    .portfolio__header-image img {
+        max-width: 50%;
     }
-    
     
 }
 
@@ -188,6 +192,7 @@
         font-size: 12px;
         line-height: 16px;
     }
+    
    
     
 }

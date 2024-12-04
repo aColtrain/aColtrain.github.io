@@ -22,7 +22,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="port__navbar page__width">
+    <div className="port__navbar section__padding">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           <img src={logo} alt="logo" />
