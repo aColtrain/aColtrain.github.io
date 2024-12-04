@@ -159,10 +159,10 @@ button {
   /* text-align: center;  */
 }
 
-/* .sidenav div {
-  position: sticky;
-  bottom: 0;
-} */
+.sidenav p:hover {
+  font-weight: 600;
+  color: var(--color-subtext);
+}
 
 .sidenav a {
   padding: 6px 8px 6px 16px;

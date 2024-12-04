@@ -46,9 +46,9 @@ const Header = () => {
         
       </div>
       <div className="section__padding about__employment">
-        <Link to="/media-arts"><img src={mediaarts} /></Link>
-        <Link to="/delta"><img src={delta} /></Link>
-        <Link to="/comcast"><img src={comcast} /></Link>
+        <div><Link to="/media-arts"><img src={mediaarts} /></Link></div>
+        <div><Link to="/delta"><img src={delta} /></Link></div>
+        <div><Link to="/comcast"><img src={comcast} /></Link></div>
         <img src={etd} />
         <img src={gtoit} />
     </div>

@@ -116,10 +116,16 @@
 .about__employment {
     display: flex;
     flex-direction: row;
-    
     align-items: center;
     justify-content: space-between;
 }
+.about__employment div {
+    display:block;
+}
+.about__employment div:hover {
+   box-shadow: 0 8px var(--color-subtext);
+}
+
 @media screen and (max-width: 1050px) {
     .portfolio__header {
         flex-direction: column;
