@@ -80,7 +80,7 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniApproach } id="Evaluate" alt="" />
+            <img src={ miniApproach } alt="" />
             </>
           }
           />
@@ -98,7 +98,7 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniOriginal } alt="" />
+            <img src={ miniOriginal } id="Evaluate" alt="" />
             </>
           }
           />
@@ -138,7 +138,8 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniReviewRevisions } alt="" />
+            <img src={ miniReviewRevisions } id="Reviews" alt="" />
+            <a id="Prototyping"/>
             </>
           }
           />
@@ -154,6 +155,7 @@ function Comcast() {
           images={
             <>
             <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/HD2BlUNU2KsimbM0YzhJLA/My-Apps?page-id=0%3A1&node-id=1225-5173&node-type=canvas&viewport=214%2C-1314%2C0.04&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1225%3A5173&embed-host=share" allowfullscreen></iframe>
+            <a id="User"/>
             </>
           }
           />
@@ -168,7 +170,7 @@ function Comcast() {
             audience, small to medium business owners. We set a cap of 6 people for the first round. We set up an asynchronous test with 7
             questions using the first prototype. We chose asynchronous so we could see a user interact with the designs without any context or help.
             After those test results came back, I watched the recording and made edits to the prototype based on the feedback. I then changed the 
-            questions to be more targeted about features we wanted feedback for. The second round consisted of 7 more users in the test. 
+            questions to be more targeted about features we wanted feedback for. The second round consisted of 7 more users in the test.
             </>
           }
           images={
@@ -197,7 +199,8 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniUIRevisions } alt="" />
+            <img src={ miniUIRevisions } id="UI" alt="" />
+            <a id="Final" />
             </>
           }
           />
