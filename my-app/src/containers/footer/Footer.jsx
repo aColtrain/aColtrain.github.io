@@ -12,7 +12,7 @@ const year = today.getFullYear();
 function Footer() {
   return (
     <div>
-        <div className="portfolio__footer section__padding">
+        <div className="portfolio__footer">
           <nav className="portfolio__footer-content page__width section__padding"> 
             <ul>
               <li><Link to="/"> Home </Link></li>
@@ -39,7 +39,7 @@ function Footer() {
               </div>
             </div>
           </nav>
-          <p className="copyright">© Coltrain {year}</p>
+          {/* <p className="copyright">© Coltrain {year}</p> */}
         </div>
 
         
