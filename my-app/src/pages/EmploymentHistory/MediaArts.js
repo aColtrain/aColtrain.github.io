@@ -49,7 +49,11 @@ function MediaArts() {
                     <>
                     The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
                     this project, the goal was to work with a biology professor to create an interactive project on sustainability displayed 
-                    on the media bridge. 
+                    on the media bridge. We designed this to create a baseline of the audience. <br/> <br/>
+
+                    The image of the design may look funny on the webpage but it is designed to be read from above and approached by all 
+                    angles. You can see the  text is oriented inward. The bold colors and thick lines of comic styles is perfect to draw in a
+                    constant moving audience.
                     </>
                 }
                 images={
@@ -77,7 +81,9 @@ function MediaArts() {
                 description={
                     <>
                     These info cards were designed to be table settings at a museum bird event. I was given reference images of the birds. I 
-                    removed the background and took color samples of the original image to create a background that would induce the viewer to focus on the bird and the text.
+                    removed the background and took color samples of the original image to create a background that would make the bird the 
+                    focal point of the card. For the back of the cards, I kept it simple to keep the discriptions legible. I tied the front of the
+                    card to the back by adding the feather of the bird as a detail above the text.
 
                     </>
                 }

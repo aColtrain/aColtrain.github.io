@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { delta } from "../../components/brand/imports"
 import { Employment } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
@@ -40,6 +41,7 @@ const images = [
 function Delta() {
   return (
     <div>
+      <ScrollToHashElement/>
       <div className="sidenav">
         <div>
           <a href="#SkyPro"><p>SkyPro UI</p></a>

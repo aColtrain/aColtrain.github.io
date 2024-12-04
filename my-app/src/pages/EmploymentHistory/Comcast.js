@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { comcast } from "../../components/brand/imports"
 import { Employment } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
@@ -13,6 +14,7 @@ import miniReviewRevisions from "../../assets/comcast/comcast_mini_ReviewRevisio
 function Comcast() {
   return (
     <div>
+      <ScrollToHashElement/>
       <div className="sidenav">
         <div>
           <a href="#MiniMart"><p>MiniMart</p></a>
