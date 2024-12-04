@@ -22,7 +22,7 @@ function ProjectThumbnails() {
                     projectImg={comcastThumbnail}
                     projectName="MiniMart"
                     projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
-                    projectTags="Case Study | UX/UI Web Design | User Research" />    
+                    projectTags="UX/UI Web Design | User Research | Prototyping | Figma" />    
                 </Link>
             </div>
             <div className="flex-item">
@@ -30,8 +30,8 @@ function ProjectThumbnails() {
                     <Project
                     projectImg={deltaSkyPro}
                     projectName="SkyPro UI"
-                    projectDescription="Redesign of a air line reporting platform"
-                    projectTags="UX/UI App Design" />    
+                    projectDescription="SkyPro UI is an extensive design library containing guidelines and reusable components. "
+                    projectTags=" Design Library | Software Migration | Figma " />    
                 </Link>
             </div> 
         </div>
@@ -41,8 +41,13 @@ function ProjectThumbnails() {
                     <Project
                     projectImg={deltaMeal}
                     projectName="Meal Inventory & Manifesting"
-                    projectDescription="Redesign of a air line reporting platform"
-                    projectTags="UX/UI App Design" />    
+                    projectDescription={
+                        <>
+                        A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
+                        inventory in flight.
+                        </>
+                    }
+                    projectTags="UX/UI App Design | Figma" />    
                 </Link>
             </div>
             <div className="flex-item">
@@ -50,8 +55,12 @@ function ProjectThumbnails() {
                     <Project
                     projectImg={imaBirds}
                     projectName="Bird Information Cards"
-                    projectDescription="Redesign of a air line reporting platform"
-                    projectTags="UX/UI App Design" />    
+                    projectDescription={
+                        <>
+                        Info cards that were designed to be table settings at a museum bird event.
+                        </>
+                    }
+                    projectTags="Graphic Design | Printing | Figma" />    
                 </Link>
             </div> 
         </div>
@@ -61,8 +70,13 @@ function ProjectThumbnails() {
                     <Project
                     projectImg={deltaDemo}
                     projectName="Video Demos"
-                    projectDescription="Redesign of a air line reporting platform"
-                    projectTags="UX/UI App Design" />    
+                    projectDescription={
+                        <>
+                        An initiative to have short form video content for flight attendants to know what resources they 
+                        have in their devices for managing a flight
+                        </>
+                    }
+                    projectTags="Video Production | Video Editing | iMovie" />    
                 </Link>
             </div>
             <div className="flex-item">
@@ -70,8 +84,13 @@ function ProjectThumbnails() {
                     <Project
                     projectImg={imaMedia}
                     projectName="Media Bridge"
-                    projectDescription="Redesign of a air line reporting platform"
-                    projectTags="UX/UI App Design" />    
+                    projectDescription={
+                        <>
+                        Interdisciplinary project between the Media Arts Center and a Georgia Tech Biology Professor to make an interactive
+                        project on a large-scale digital screen.
+                        </>
+                    }
+                    projectTags="Graphic Design | Interaction Design | Figma | p5.js" />    
                 </Link>
             </div> 
         </div>

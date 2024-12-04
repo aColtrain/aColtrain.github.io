@@ -271,7 +271,6 @@ function Delta() {
       </div>
       
       <div className="MyCabin">
-        
         <div className="section__padding">
           <ArticleHead 
           title="MyCabin Rewrite/ Cabin Discrepancy"

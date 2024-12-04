@@ -28,7 +28,7 @@ function MediaArts() {
             logoDescription="Media Arts logo" 
             positionDescription={
                 <>
-                As a university project manager, I managed the Interdisiplinary Media Arts, IMA, Center its projects. I managed multiple
+                As a university project manager, I managed the Interdisciplinary Media Arts, IMA, Center its projects. I managed multiple
                 regional and national grant applications, website content, interior decoration, graphic design, and event coordination.
                 </>
             } 
