@@ -30,9 +30,9 @@ const Aboutme = () => {
       <div className="about__header section__padding">
         <div className="about__header-content">
           <h1 className="gradient__text">Hey, <br/> I'm still Coltrain!</h1>
-          <p>Experience with web, app, and even a 
-            <Link to="/media-arts#MediaBridge" className="underline">screen on the bottom of a bridge</Link>.
-            
+          <p>
+            A majority of my experience is in designing interfaces for web, app, and even a <Link to="/media-arts#MediaBridge" className="underline">screen on the bottom of a bridge</Link>.
+            However, I love developing projects as well. I designed this portfolio in Figma and excuted them using React.js. <br/>
           </p>
           <div className="about__landing-button">
             <a href="https://www.linkedin.com/in/coltrain/" target="_blank">

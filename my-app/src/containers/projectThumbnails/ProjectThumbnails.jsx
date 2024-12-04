@@ -21,7 +21,7 @@ function ProjectThumbnails() {
                     <Project
                     projectImg={comcastThumbnail}
                     projectName="MiniMart"
-                    projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses"
+                    projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses."
                     projectTags="UX/UI Web Design | User Research | Prototyping | Figma" />    
                 </Link>
             </div>
@@ -30,7 +30,7 @@ function ProjectThumbnails() {
                     <Project
                     projectImg={deltaSkyPro}
                     projectName="SkyPro UI"
-                    projectDescription="SkyPro UI is an extensive design library containing guidelines and reusable components. "
+                    projectDescription="SkyPro UI is an extensive design library containing guidelines and reusable components."
                     projectTags=" Design Library | Software Migration | Figma " />    
                 </Link>
             </div> 
@@ -73,7 +73,7 @@ function ProjectThumbnails() {
                     projectDescription={
                         <>
                         An initiative to have short form video content for flight attendants to know what resources they 
-                        have in their devices for managing a flight
+                        have in their devices for managing a flight.
                         </>
                     }
                     projectTags="Video Production | Video Editing | iMovie" />    

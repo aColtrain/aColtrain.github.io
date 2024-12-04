@@ -35,14 +35,18 @@ const Navbar = () => {
           {/* <Link to="/delta"><p> Delta </p></Link>
           <Link to="/comcast"> <p>Comcast </p> </Link>
           <Link to="/media-arts"><p>Media Arts</p></Link> */}
-          <Link to="/contact"><p> Contact </p></Link>
+          {/* <Link to="/contact"><p> Contact </p></Link> */}
+          <a href={ resumePDF } target="_blank"><p> Resume </p></a>
         </div>
       </div>
       <div className="gpt3__navbar-contact">
         
-        <a href={ resumePDF } target="_blank">
+        {/* <a href={ resumePDF } target="_blank">
           <button type="button"> Resume </button>
-        </a>
+        </a> */}
+       
+        <Link to="/contact"><button type="button"> Contact </button></Link>
+      
         
       </div>
       <div className="gpt3__navbar-menu">

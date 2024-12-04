@@ -5,6 +5,7 @@ import { Brand } from "../../components";
 import inlogo from '../../assets/logo_linkedin_small_white.png';
 import gitlogo from '../../assets/logo_github_small_white.png';
 import emaillogo from '../../assets/icon_email.png';
+import resumePDF from '../../assets/Coltrain_Design_Resume.pdf'
 const today = new Date();
 const year = today.getFullYear();
 
@@ -16,8 +17,9 @@ function Footer() {
             <ul>
               <li><Link to="/"> Home </Link></li>
               <li><Link to="/about"> About </Link></li>
+              <li><a href={ resumePDF } target="_blank">  Resume </a></li>
               <li><Link to="/contact">  Contact </Link></li>
-              <li><Link to="/projects"> Project </Link></li>
+              {/* <li><Link to="/projects"> Project </Link></li> */}
             </ul>
             
             <div className="portfolio__footer-right"> 
