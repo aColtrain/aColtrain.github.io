@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { Employment } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
 import logoMA from '../../assets/logos/logo_media_arts_large.png';
@@ -13,11 +14,12 @@ import eventPoster from '../../assets/mediaArts/ma_eventPoster.png';
 function MediaArts() {
   return (
     <div>
-         <div className="sidenav">
+        <ScrollToHashElement/>
+        <div className="sidenav">
             <div>
-            <a href="#MediaBridge"><p>Media Bridge</p></a>
-            <a href="#Bird"><p>Bird Cards</p></a>
-            <a href="#LED"><p>LED Card Events</p></a>
+                <a href="#MediaBridge"><p>Media Bridge</p></a>
+                <a href="#Bird"><p>Bird Cards</p></a>
+                <a href="#LED"><p>LED Card Events</p></a>
             </div>
         </div>
         <div className="header">
@@ -46,7 +48,8 @@ function MediaArts() {
                 description={
                     <>
                     The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
-                    this project, the goal was to work with a biology professor to create a project on sustainability displayed on the media bridge. 
+                    this project, the goal was to work with a biology professor to create an interactive project on sustainability displayed 
+                    on the media bridge. 
                     </>
                 }
                 images={

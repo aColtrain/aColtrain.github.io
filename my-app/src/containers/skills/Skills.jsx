@@ -5,7 +5,7 @@ import { Feature } from '../../components';
 const featuresData = [
   {
     title: 'Design',
-    text: 'Figma, Canva, Drupal, Axure RP, Adobe XD, Adobe Illustrator, Adobe Photoshop, Miro, User Experience Design, User Interface Design, User Research'
+    text: 'Figma, Canva, Drupal, Axure RP, Adobe XD, Adobe Illustrator, Adobe Photoshop, Miro, User Experience Design, User Interface Design, User Research, Web Design, App Design, 2D Animation'
   },
   {
     title: 'Devlopment',
@@ -17,11 +17,11 @@ const featuresData = [
   },
   {
     title: 'Video',
-    text: 'Adobe After Effects, DaVinci Resolve, iMovie'
+    text: 'Adobe After Effects, DaVinci Resolve, iMovie, Procreate'
   },
   {
     title: '3D',
-    text: 'Unity, Maya, A-Frame, Solidworks'
+    text: 'Unity, Maya, A-Frame, Solidworks, 3D Animation'
   },
   {
     title: 'Soft Skills',

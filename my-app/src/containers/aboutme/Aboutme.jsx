@@ -1,7 +1,6 @@
 import React from 'react'
 import './aboutme.css'
 import { Link } from "react-router-dom";
-
 import comcast from '../../assets/logos/logo_comcast_small.png';
 import delta from '../../assets/logos/logo_delta_small.png';
 import etd from '../../assets/logos/logo_etd_small.png';
@@ -27,10 +26,11 @@ const Menu = () => (
 const Aboutme = () => {
   return (
     <div className="">
+      
       <div className="about__header section__padding">
         <div className="about__header-content">
           <h1 className="gradient__text">Hey, <br/> I'm still Coltrain!</h1>
-          <p>UX/UI designer with an emphasis in inclusion and accessiblily. </p>
+          <p>Experience with web, app, and even a <Link to="/media-arts#MediaBridge" className="underline">screen on the bottom of a bridge.</Link>  </p>
           <div className="about__landing-button">
             <a href="https://www.linkedin.com/in/coltrain/" target="_blank">
               <button>Linkedin</button>
@@ -44,13 +44,13 @@ const Aboutme = () => {
           <img src={ avatar } alt="avatar" />
         </div>
       </div>
-      <div className="section__padding about__employment">
+      {/* <div className="section__padding about__employment">
         <Link to="/media-arts"><img src={mediaarts} /></Link>
         <Link to="/delta"><img src={delta} /></Link>
         <Link to="/comcast"><img src={comcast} /></Link>
         <img src={etd} />
         <img src={gtoit} />
-      </div>
+      </div> */}
       {/* Beyond the work */}
       <Possibility /> 
       <div className="section__padding about__education">
