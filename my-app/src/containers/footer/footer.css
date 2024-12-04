@@ -2,7 +2,7 @@
     background-color: #052c54;
     overflow-x: hidden;
     overflow-x: clip !important;
-    width: 100%;
+    /* width: 100%; */
 }
 .portfolio__footer ul {
     list-style-type: none; /* Remove bullets */
@@ -31,40 +31,35 @@ ul li {
 }
 
 .portfolio__footer-right {
-    float:right;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    
 }
-
+/* 
 .portfolio__footer-credits {
     float: right;
-}
+    display: flex;
+    flex-direction: column;
+} */
 
 
 .portfolio__footer-credits p {
-    width: 33%;
     text-align: left;
     color:#ffffff9f;
-    float: right;
-    
-    
-    
+    float: right;   
 }
 
 .portfolio__footer-credits a {
     color: #ffffff;
- 
-
 }
 .portfolio__footer-logos {
-    float: right;
-    margin-right: 174px;
-    margin-top: 8px;
+    /* float: right; */
+    margin: 8px 178px 8px 0;
 }
 .portfolio__footer-logos img {
     width: 32px;
-    margin: 8px;
-    
-  
-    
+    /* margin: 8px 16px 8px 0; */
 }
 
 .copyright {

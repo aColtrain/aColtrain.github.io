@@ -121,7 +121,7 @@ button {
   -webkit-text-fill-color: transparent;
 }
 
-.page__width {
+.page__width html {
   width:1200px;
   margin: 0 auto;
   /* justify-content: center; */
