@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8733ec16.css",
+    "main.css": "/static/css/main.da6c3306.css",
     "main.js": "/static/js/main.d38e9bbb.js",
     "static/media/ma_birds.png": "/static/media/ma_birds.045b31356ca4a37873fc.png",
     "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
@@ -69,11 +69,11 @@
     "static/media/logo_etd_small.png": "/static/media/logo_etd_small.fb87ca750af75284d834.png",
     "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.b52a0c12504d103bd0be.png",
     "index.html": "/index.html",
-    "main.8733ec16.css.map": "/static/css/main.8733ec16.css.map",
+    "main.da6c3306.css.map": "/static/css/main.da6c3306.css.map",
     "main.d38e9bbb.js.map": "/static/js/main.d38e9bbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8733ec16.css",
+    "static/css/main.da6c3306.css",
     "static/js/main.d38e9bbb.js"
   ]
 }
