@@ -2,7 +2,7 @@
     background-color: #052c54;
     overflow-x: hidden;
     overflow-x: clip !important;
-    /* width: 100%; */
+    max-width: 100% !important;
 }
 .portfolio__footer ul {
     list-style-type: none; /* Remove bullets */
@@ -77,9 +77,9 @@ ul li {
 @media screen and (max-width: 1024px) {
 }
 @media screen and (max-width: 768px) {
-    /* .portfolio__footer-content {
+    .portfolio__footer-content {
         flex-direction: column;
-    } */
+    }
     /* .portfolio__footer-content ul {
         text-align: center;
     } */

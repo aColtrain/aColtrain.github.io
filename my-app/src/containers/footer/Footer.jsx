@@ -13,14 +13,17 @@ function Footer() {
   return (
     <div>
         <div className="portfolio__footer">
-          <nav className="portfolio__footer-content page__width section__padding"> 
-            <ul>
-              <li><Link to="/"> Home </Link></li>
-              <li><Link to="/about"> About </Link></li>
-              <li><a href={ resumePDF } target="_blank">  Resume </a></li>
-              <li><Link to="/contact">  Contact </Link></li>
-              {/* <li><Link to="/projects"> Project </Link></li> */}
-            </ul>
+          <nav className="portfolio__footer-content section__padding"> 
+            <div>
+              <ul>
+                <li><Link to="/"> Home </Link></li>
+                <li><Link to="/about"> About </Link></li>
+                <li><a href={ resumePDF } target="_blank">  Resume </a></li>
+                <li><Link to="/contact">  Contact </Link></li>
+                {/* <li><Link to="/projects"> Project </Link></li> */}
+              </ul>
+            </div>
+
             
             <div className="portfolio__footer-right"> 
               <div className="portfolio__footer-credits">
