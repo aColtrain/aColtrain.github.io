@@ -11,8 +11,9 @@ const year = today.getFullYear();
 
 function Footer() {
   return (
-    <div>
-        <div className="portfolio__footer">
+    <div className="background">
+        <div className="portfolio__footer page__width">
+        
           <nav className="portfolio__footer-content section__padding"> 
             <div>
               <ul>
@@ -23,7 +24,6 @@ function Footer() {
                 {/* <li><Link to="/projects"> Project </Link></li> */}
               </ul>
             </div>
-
             
             <div className="portfolio__footer-right"> 
               <div className="portfolio__footer-credits">
@@ -43,7 +43,6 @@ function Footer() {
             </div>
           </nav>
           <p className="copyright">© Coltrain {year}</p>
-          
         </div>
 
         

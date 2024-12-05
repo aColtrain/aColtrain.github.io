@@ -39,15 +39,11 @@ const Navbar = () => {
           <a href={ resumePDF } target="_blank"><p> Resume </p></a>
         </div>
       </div>
-      <div className="gpt3__navbar-contact">
-        
+      <div className="gpt3__navbar-contact">        
         {/* <a href={ resumePDF } target="_blank">
           <button type="button"> Resume </button>
-        </a> */}
-       
-        <Link to="/contact"><button type="button"> Contact </button></Link>
-      
-        
+        </a> */}    
+        <Link to="/contact"><button type="button"> Contact </button></Link>    
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu

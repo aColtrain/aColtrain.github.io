@@ -1,8 +1,14 @@
+.background {
+    background-color: #052c54;
+}
 .portfolio__footer {
     background-color: #052c54;
-    overflow-x: hidden;
-    overflow-x: clip !important;
-    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* overflow-x: hidden;
+    overflow-x: clip !important; */
+
 }
 .portfolio__footer ul {
     list-style-type: none; /* Remove bullets */
@@ -27,14 +33,15 @@ ul li {
     
     cursor: pointer;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;    
+
 }
 
 .portfolio__footer-right {
     width: 320px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     
 }
 /* 
@@ -48,7 +55,7 @@ ul li {
 .portfolio__footer-credits p {
     text-align: left;
     color:#ffffff9f;
-    float: right;   
+ 
 }
 
 .portfolio__footer-credits a {
@@ -73,13 +80,14 @@ ul li {
 }
 
 @media screen and (max-width: 1200px) {
+
 }
 @media screen and (max-width: 1024px) {
 }
 @media screen and (max-width: 768px) {
-    .portfolio__footer-content {
+    /* .portfolio__footer-content {
         flex-direction: column;
-    }
+    } */
     /* .portfolio__footer-content ul {
         text-align: center;
     } */
