@@ -104,6 +104,9 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .about__education {
+        flex-direction: column;
+    }
 
 }
 @media screen and (max-width: 480px) {
