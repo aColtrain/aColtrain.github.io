@@ -8,6 +8,7 @@
     justify-content: space-between;
     /* overflow-x: hidden;
     overflow-x: clip !important; */
+    z-index: 1020;
 
 }
 .portfolio__footer ul {
