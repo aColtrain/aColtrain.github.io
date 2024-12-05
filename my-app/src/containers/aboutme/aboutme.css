@@ -84,3 +84,32 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+    .about__header {
+        flex-direction: column-reverse;
+    }
+    .about__header-image img {
+        width:37%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about__header-image img {
+        width:50%;
+    }
+    .about__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .about__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+}

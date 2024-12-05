@@ -57,5 +57,26 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column-reverse;
+    }
+    .contact__content h1 {
+        order: -1;
+
+    }
+    .contact__content {
+        width: 100%;
+        gap: 1rem;
+    }
+    .contact__logo {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px) {}
 
 

@@ -12,7 +12,6 @@ function Contact() {
         <img src={ contactImage } alt="" />
       </div>
       <div className="contact__content">
-        
         <p>
         "Networking is not just about connecting people. It's about connecting people with people, people with ideas, and people with opportunities." 
         </p>

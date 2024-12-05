@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    /* padding: 2rem 6rem; */
     background-color: #f9fdff;
     position: -webkit-sticky;
     position: sticky;
@@ -86,7 +86,7 @@
     
     text-align: end;
     background: var(--color-footer);
-    padding: 2rem;
+    /* padding: 2rem; */
     position: absolute;
     right: 0;
     top: 40px;
@@ -115,15 +115,15 @@
 }
 
 @media screen and (max-width: 700px) {
-    .gpt3__navbar {
+    /* .gpt3__navbar {
         padding: 2rem 4rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__navbar {
+    /* .gpt3__navbar {
         padding: 2rem;
-    }
+    } */
 
     .gpt3__navbar-contact {
         display: none;
