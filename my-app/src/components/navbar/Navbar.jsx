@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className="port__navbar section__padding">
       <div className="gpt3__navbar-links ">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <Link to="/"><img src={logo} alt="logo" /></Link>
         </div>
         <div className="gpt3__navbar-links_container">
           <Link to="/"><p> Home </p></Link>

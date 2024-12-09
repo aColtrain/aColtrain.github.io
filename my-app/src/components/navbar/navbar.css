@@ -39,7 +39,18 @@
 }
 
 .gpt3__navbar-links_container p,
-.gpt3__navbar-contact p,
+.gpt3__navbar-contact p
+{
+    color: #000000;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
 .gpt3__navbar-menu_container p {
     color: #ffffff;
     font-family: var(--font-family);
