@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.88c049c4.css",
-    "main.js": "/static/js/main.826358d0.js",
+    "main.js": "/static/js/main.e17ef6ed.js",
     "static/media/ma_birds.png": "/static/media/ma_birds.045b31356ca4a37873fc.png",
     "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
     "static/media/delta_mm_final.png": "/static/media/delta_mm_final.390bb5cea381c4819cd1.png",
@@ -67,13 +67,13 @@
     "static/media/delta_migration.png": "/static/media/delta_migration.096ff682175f7a0a7e6f.png",
     "static/media/logo_media_arts_small.png": "/static/media/logo_media_arts_small.f6e416c84f69e415c264.png",
     "static/media/logo_etd_small.png": "/static/media/logo_etd_small.fb87ca750af75284d834.png",
-    "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.b52a0c12504d103bd0be.png",
+    "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.c46062cc5fd56b03515f.png",
     "index.html": "/index.html",
     "main.88c049c4.css.map": "/static/css/main.88c049c4.css.map",
-    "main.826358d0.js.map": "/static/js/main.826358d0.js.map"
+    "main.e17ef6ed.js.map": "/static/js/main.e17ef6ed.js.map"
   },
   "entrypoints": [
     "static/css/main.88c049c4.css",
-    "static/js/main.826358d0.js"
+    "static/js/main.e17ef6ed.js"
   ]
 }
