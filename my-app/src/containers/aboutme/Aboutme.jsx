@@ -35,14 +35,14 @@ const Aboutme = () => {
             However, I love developing projects. In my positions with the Media Arts Center, Effective Team Dynamics, and Georgia Tech 
             Office of Information Technology, I used Drupal and WordPress to create, update, and manage websites.
           </p>
-          <div className="about__landing-button">
+          {/* <div className="about__landing-button">
             <a href="https://www.linkedin.com/in/coltrain/" target="_blank">
               <button>Linkedin</button>
             </a>
             <a href={ resumePDF } target="_blank">
               <button type="button"> Resume </button>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="about__header-image">
           <img src={ avatar } alt="avatar" />
