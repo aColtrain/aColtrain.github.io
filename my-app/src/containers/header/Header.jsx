@@ -22,12 +22,10 @@ const Header = () => {
         <div className="portfolio__header-content">
           <h1 className="gradient__text"> Hi, I'm Coltrain!</h1>
           <p>
-            Product designer and developer passionate about creating and building brands. I work within brand identities to create
-            unified pixel perfect digital experiences for the users. When there is no brand identity, I shine by creating a system that will
-            be a strong foundation for growth for you. 
+            Atlanta based software product designer and developer passionate about creating intuitive and impactful digital experiences.
           </p>
           <div className="portfolio__header-roles">
-            <p className="gradient__text">Product Designer | Project Manager</p>
+            <p className="gradient__text">Product Designer | UX/UI Designer</p>
           </div>
           
             {/* <div className="gpt3__header-content__input">

@@ -30,11 +30,11 @@ const Aboutme = () => {
       <div className="about__header section__padding">
         <div className="about__header-content">
           <h1 className="gradient__text">Hey, <br/> I'm still Coltrain!</h1>
-          <p>
+          {/* <p>
             A majority of my experience is in designing interfaces for web, app, and even a <Link to="/media-arts#MediaBridge" className="underline">screen on the bottom of a bridge</Link>.
             However, I love developing projects. In my positions with the Media Arts Center, Effective Team Dynamics, and Georgia Tech 
             Office of Information Technology, I used Drupal and WordPress to create, update, and manage websites.
-          </p>
+          </p> */}
           {/* <div className="about__landing-button">
             <a href="https://www.linkedin.com/in/coltrain/" target="_blank">
               <button>Linkedin </button>
