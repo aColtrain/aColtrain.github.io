@@ -1,30 +1,31 @@
-import React from 'react'
+import React from 'react';
+import './scope.css';
 
-const Scope = ({ title, text}) => {
+const Scope = ({ goalText, userText, problemText}) => {
   return (
     <div classname="section__padding scope">
         <div>
-            <div>
+            
                 <h2>Goals</h2>
-            </div>
-            <div>
-                <p></p>
-            </div>
+            
+            
+                <p>{ goalText } kdjklsd</p>
+   
         </div>
         <div>
-            <div>
+   
                 <h2>User</h2>
-            </div>
-            <div>
-                <p></p>
-            </div>
+
+
+                <p>kdjklsd{ userText }</p>
+
         </div>
         <div>
             <div>
                 <h2>Problems</h2>
             </div>
             <div>
-                <p></p>
+                <p>{ problemText }kdjklsd</p>
             </div>
         </div>
     </div>

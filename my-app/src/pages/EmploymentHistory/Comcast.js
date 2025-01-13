@@ -2,7 +2,7 @@ import React from 'react'
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { comcast } from "../../components/brand/imports"
 import { Employment } from '../../components';
-import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
+import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
 
 import miniOriginal from "../../assets/comcast/comcast_mini_original.png";
 import miniLowFi from "../../assets/comcast/comcast_mini_lowFi.png";
@@ -77,6 +77,10 @@ function Comcast() {
           }
           />
         </div> */}
+        <div className="section__padding">
+          <Scope
+          />          
+        </div>
         <div className="section__padding">
           <ArticleR
           title={"Evaluating the Original Design"}

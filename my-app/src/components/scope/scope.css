@@ -1,10 +1,14 @@
 .scope {
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
     justify-content: space-between;
+    flex-direction: row;
+    gap: 4rem;
 }
 .scope div {
-    flex:1;
+    width: 30%;
+    /* flex:1;
     height: 90%;
-    text-align: center;
+    text-align: center; */
 }
