@@ -15,7 +15,7 @@ function Comcast() {
   return (
     <div>
       <ScrollToHashElement/>
-      <div className="sidenav">
+      {/* <div className="sidenav">
         <div>
           <a href="#MiniMart"><p>MiniMart</p></a>
           <a href="#Approach"><p>Approach</p></a>
@@ -27,15 +27,19 @@ function Comcast() {
           <a href="#UI"><p>UI Revisions</p></a>
           <a href="#Final"><p>Final Presentation</p></a>
         </div>
-      </div>
+      </div> */}
       <div className="header">
         <Employment 
-        name= {"MiniMart"}
+        name= {"MiniMart My Apps"}
         logo={ comcast }
         logoDescription="Comcast logo" 
-        positionDescription="I worked on a team of 4 to redesign a marketplace for SaaS products for small to medium sized businesses. 
-        We began by identifying user pain points and conducting a competitive analysis. We created a prototype and went through interations of user testing
-        and rounds of feedback to create the optimal user experience."
+        positionDescription={
+        <>
+        I worked on a team of 4 to redesign a marketplace for SaaS products for small to medium sized businesses. 
+        We began by identifying user pain points and conducting a competitive analysis. We created a prototype and went through multiple sessions of user testing
+        and several rounds of feedback to create the optimal user experience.
+        </>
+        }
         employer="Comcast Business"
         jobTitle="Product UX Designer"
         deliverables="SaaS Marketplace"
@@ -50,7 +54,7 @@ function Comcast() {
       </div>
 
       <div className="MiniMart">
-        <div className="section__padding">
+        {/* <div className="section__padding">
           <ArticleHead
           title={"MiniMart"}
           description={
@@ -72,6 +76,24 @@ function Comcast() {
           </>
           }
           />
+        </div> */}
+        <div className="section__padding">
+          <ArticleR
+          title={"Evaluating the Original Design"}
+          description={
+            <>
+            The original UX was indirect and repetitve; there was no heirarchy of information. There were 7
+            navigational links and some of them lead to the same page and others were non functional. <br/>
+            <br/>
+            Furthermore, the original UI was not consistent with the Comcast design aesthetic. 
+            </>
+          }
+          images={
+            <>
+            <img src={ miniOriginal } id="Evaluate" alt="" />
+            </>
+          }
+          />
         </div>
         <div className="section__padding">
           <ArticleR
@@ -88,24 +110,6 @@ function Comcast() {
           images={
             <>
             <img src={ miniApproach } alt="" />
-            </>
-          }
-          />
-        </div>
-        <div className="section__padding">
-          <ArticleL
-          title={"Evaluating the Original Design"}
-          description={
-            <>
-            The original UX was indirect and repetitve; there was no heirarchy of information. There were 7
-            navigational links and some of them lead to the same page and others were non functional. <br/>
-            <br/>
-            Furthermore, the original UI was not consistent with the Comcast design aesthetic. 
-            </>
-          }
-          images={
-            <>
-            <img src={ miniOriginal } id="Evaluate" alt="" />
             </>
           }
           />

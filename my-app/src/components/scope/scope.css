@@ -1,0 +1,10 @@
+.scope {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.scope div {
+    flex:1;
+    height: 90%;
+    text-align: center;
+}

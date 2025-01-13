@@ -7,3 +7,4 @@ export { default as Feature } from './feature/Feature';
 export { default as Navbar } from './navbar/Navbar';
 export { default as Project } from './project/Project';
 export { default as Employment } from './employment/Employment';
+export { default as Scope } from './scope/Scope';
