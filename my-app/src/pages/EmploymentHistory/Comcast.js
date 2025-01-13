@@ -30,17 +30,22 @@ function Comcast() {
       </div>
       <div className="header">
         <Employment 
+        name= {"MiniMart"}
         logo={ comcast }
         logoDescription="Comcast logo" 
-        positionDescription="Redesigning a marketplace for SaaS products for small to medium sized businesses. I validated designs
-        with Usertesting.com and my designs underwent multiple rounds of feedback with 3 different principal designers." 
-        jobTitle="UX Product Designer"
-        teamSize={
-          <>
-          3
-          <a id="MiniMart" />
-          </>
-        }
+        positionDescription="I worked on a team of 4 to redesign a marketplace for SaaS products for small to medium sized businesses. 
+        We began by identifying user pain points and conducting a competitive analysis. We created a prototype and went through interations of user testing
+        and rounds of feedback to create the optimal user experience."
+        employer="Comcast Business"
+        jobTitle="Product UX Designer"
+        deliverables="SaaS Marketplace"
+        tools="Figma, UserTesting.com"
+        // teamSize={
+        //   <>
+        //   3
+        //   <a id="MiniMart" />
+        //   </>
+        //}
         />
       </div>
 

@@ -112,6 +112,7 @@
 
 .portfolio__header-roles p {
     font-weight: 600;
+    font-size: 17px;
 }
 .about__employment {
     display: flex;

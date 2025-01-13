@@ -25,7 +25,7 @@ const Header = () => {
             Atlanta based software product designer and developer passionate about creating intuitive and impactful digital experiences.
           </p>
           <div className="portfolio__header-roles">
-            <p className="gradient__text">Product Designer | UX/UI Designer</p>
+            <p className="gradient__text">UX/UI Designer | Product Designer | Frontend Developer</p>
           </div>
           
             {/* <div className="gpt3__header-content__input">

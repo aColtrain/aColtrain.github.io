@@ -1,100 +1,46 @@
-.employment__description {
-    /* background-color: #052c54; */
-    border-radius: 16px;
-    width: 50%;
-}
-.employment__description p {
-    color: #000;
-    margin-bottom: 24px;
-    text-align: right;
-    
-    
-}
-.container {
-    width: 50%;
-    /* flex: 1.5;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column; */
-}
-.employment__team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    /* gap: 32px; */
-}
-.employment__team-container {
-    /* flex: 1.5;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row; */
+.employment {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     flex-direction: row;
     gap: 4rem;
 }
-/* .employment__team-container p {
+.employment__name h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+.employment__description {
+    margin: 1rem 0 0;
+}
+
+
+.employment__name {
+    width: 50%;
+    text-align: left;
+}
+.employment__name h1{
+    vertical-align: top;
+}
+
+.employment__team-container {
+    width: 50%;
+    vertical-align: middle;
     
-} */
-.employment__team div {
-    width: 408.01px;
 }
-.employment__logo {
-    text-align: center;
-}
-.employment__logo img {
-    /* justify-content: center; */
-    height: 200px;
-    
-    /* align-items: center; */
-    /* display: block; */
-}
-.employment__impact  {
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: flex-start;
-    flex-direction: row;
-
-}
-.employment__impact div {
-    width: 408.01px;
-}
-.employment__impact h2, li {
-    color: #fff;
-}
-
-.employment__impact h2 {
-    margin: 16px 0;
-}
-.employment__impact ul {
-    margin-left: 20px;
-}
-
 @media screen and (max-width: 1200px) {
-    .employment__team-container {
+    .employment {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
     }
-    .employment__team-container p {
-        text-align: center;
-    }
+
 }
 @media screen and (max-width: 1024px) {
+
 }
-@media screen and (max-width: 768px) {
-    .employment__logo img {
-        height: 150px;
-    }
-}
-@media screen and (max-width: 480px) {
-    .employment__logo img {
-        height: 125px;
-    }
-}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 480px) {}

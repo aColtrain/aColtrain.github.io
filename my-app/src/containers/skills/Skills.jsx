@@ -5,16 +5,20 @@ import { Feature } from '../../components';
 const featuresData = [
   {
     title: 'Design',
-    text: 'Figma, Canva, Axure RP, Adobe XD, Adobe Illustrator, Adobe Photoshop, User Experience Design, User Interface Design, User Research, Web Design, App Design'
+    text: 'Figma, Axure RP, Adobe XD, Adobe Illustrator, Adobe Photoshop, Web Design, App Design, User Research'
   },
   {
     title: 'Devlopment',
-    text: 'React, HTML, CSS, Drupal, WordPress'
+    text: 'React, HTML, CSS, CMS, Drupal, WordPress'
   },
   {
-    title: 'Code',
-    text: 'Java, JavaFx, JavaScript, C Programming, Python, Processing (processing.py & p5.js), MATLab'
+    title: 'SEO',
+    text: 'Google Analytics'
   },
+  // {
+  //   title: 'Code',
+  //   text: 'Java, Python, Processing (processing.py & p5.js), MATLab, JavaFx, JavaScript'
+  // },
   // {
   //   title: 'Video',
   //   text: 'Adobe After Effects, DaVinci Resolve, iMovie, Procreate'
@@ -25,7 +29,7 @@ const featuresData = [
   // },
   {
     title: 'Soft Skills',
-    text: 'Communication, Empathy, Problem Solving, Adaptability, Attention to Detail, Critical Thinking'
+    text: 'Communication,  Problem Solving, Adaptability, Critical Thinking, Empathy'
   }
 ]
 
