@@ -79,6 +79,15 @@ function Comcast() {
         </div> */}
         <div className="section__padding">
           <Scope
+          goalText={
+            <>
+            <ul>
+              <li>Develop the My Apps and Manage Apps functionality </li>
+              <li></li>
+            </ul>
+            
+            </>
+          }
           />          
         </div>
         <div className="section__padding">

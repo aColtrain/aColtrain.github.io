@@ -1,14 +1,17 @@
 .scope {
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     width: 100%;
     justify-content: space-between;
     flex-direction: row;
-    gap: 4rem;
+    
 }
 .scope div {
     width: 30%;
     /* flex:1;
-    height: 90%;
-    text-align: center; */
+    height: 90%;*/
+    /* text-align: center; */
+}
+.scope__text {
+    width: 100%;
 }

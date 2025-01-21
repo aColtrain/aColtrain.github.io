@@ -3,30 +3,22 @@ import './scope.css';
 
 const Scope = ({ goalText, userText, problemText}) => {
   return (
-    <div classname="section__padding scope">
+    <div className="scope">
         <div>
-            
-                <h2>Goals</h2>
-            
-            
-                <p>{ goalText } kdjklsd</p>
-   
-        </div>
-        <div>
-   
-                <h2>User</h2>
+            <h2>Goals</h2>
 
-
-                <p>kdjklsd{ userText }</p>
+            <p>{ goalText }</p>
 
         </div>
         <div>
-            <div>
-                <h2>Problems</h2>
-            </div>
-            <div>
-                <p>{ problemText }kdjklsd</p>
-            </div>
+            <h2>User</h2>
+
+            <p>{ userText }</p>
+
+        </div>
+        <div>
+            <h2>Problems</h2>
+            <p>{ problemText }</p>
         </div>
     </div>
   )
