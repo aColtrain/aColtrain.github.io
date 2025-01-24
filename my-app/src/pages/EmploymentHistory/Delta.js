@@ -108,7 +108,7 @@ function Delta() {
         </div>
 
       <div className="SkyProUI">
-        <div className="section__padding">
+        {/* <div className="section__padding">
           <ArticleHead
           title="SkyPro UI"
           description={
@@ -121,7 +121,7 @@ function Delta() {
           images={ <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/LOxr0uOoS7JG1K670ZUEwg/SkyPro-UI-(Copy)?node-id=823-14803&embed-host=share" allowfullscreen></iframe> }
           imageCaption="Click around the figma file!"
           />
-        </div>
+        </div> */}
         <div className="section__padding">
           <ArticleR
           title="Library Migration"

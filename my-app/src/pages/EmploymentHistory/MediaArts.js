@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { Employment } from '../../components';
-import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
+import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
 import logoMA from '../../assets/logos/logo_media_arts_large.png';
 import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
 import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
@@ -14,25 +14,31 @@ import eventPoster from '../../assets/mediaArts/ma_eventPoster.png';
 function MediaArts() {
   return (
     <div>
-        <ScrollToHashElement/>
+        {/* <ScrollToHashElement/>
         <div className="sidenav">
             <div>
                 <a href="#MediaBridge"><p>Media Bridge</p></a>
                 <a href="#Bird"><p>Bird Cards</p></a>
                 <a href="#LED"><p>LED Card Events</p></a>
             </div>
-        </div>
+        </div> */}
         <div className="header">
             <Employment 
+            name={"Media Bridge"}
             logo={ logoMA }
             logoDescription="Media Arts logo" 
             positionDescription={
                 <>
-                As a university project manager, I managed the Interdisciplinary Media Arts, IMA, Center its projects. I managed multiple
-                regional and national grant applications, website content, interior decoration, graphic design, and event coordination.
+                The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
+                this project, the goal was to work with a biology professor to create an interactive project on sustainability displayed 
+                on the media bridge. We designed this to create a baseline of the audience. This project received 2 grants from 
+                Sustainability Next and iPat resulting in $45,000 in funding.
                 </>
             } 
+            employer={"Interdisciplinary Media Arts Center"}
             jobTitle="University Project Manager"
+            deliverables="Interactive Sustainibility Design, Grant Proposals"
+            tools="p5.js, Figma"
             teamSize={
                 <>
                 9
@@ -41,16 +47,42 @@ function MediaArts() {
             }
             />
         </div>
+        <div className="section__padding">
+          <Scope
+          goalText={
+            <>
+            <ul>
+              <li>Collaborate with people in different fields</li>
+              <li>Interactive design</li>
+
+            </ul>
+            
+            </>
+          }
+          userText={
+            <>
+            <ul>
+              <li>University students walking to class</li>
+              <li>Age: 18-24</li>
+            </ul>
+            </>
+          }
+          problemText={
+            <>
+            <ul>
+              <li>Make it omnidirectional</li>
+             
+            </ul>
+            </>
+          }
+          />          
+        </div>
         <div className="MediaBridge"> 
             <div className="section__padding">
-                <ArticleHead
+                <ArticleR
                 title="Sustainability Media Bridge Project"
                 description={
                     <>
-                    The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
-                    this project, the goal was to work with a biology professor to create an interactive project on sustainability displayed 
-                    on the media bridge. We designed this to create a baseline of the audience. <br/> <br/>
-
                     The image of the design may look funny on the webpage but it is designed to be read from above and approached by all 
                     angles. You can see the  text is oriented inward. The bold colors and thick lines of comic styles is perfect to draw in a
                     constant moving audience.
@@ -66,6 +98,11 @@ function MediaArts() {
                 />
 
             </div>
+            {/* <div className="section__padding">
+                <ArticleL
+                title={"Initial Approach"}
+                />
+            </div> */}
             <div className="section__padding" id="Bird">
                 <CTA 
                 title= "Skills Developed"
@@ -74,7 +111,7 @@ function MediaArts() {
             </div>
         </div>
 
-        <div className="BirdGraphics">
+        {/* <div className="BirdGraphics">
             <div className="section__padding">
                 <ArticleHead
                 title="Bird Information Cards & Poster"
@@ -90,7 +127,7 @@ function MediaArts() {
                 images={
                     <>
                     <img src={ birds } alt="" />
-                    {/* <img src={ birdPoster } alt="" /> */}
+                    
                     </>
                 }
                 imageCaption={""}
@@ -119,9 +156,9 @@ function MediaArts() {
                 />
             </div>
 
-        </div>
+        </div> */}
 
-        <div className="Events">
+        {/* <div className="Events">
             <div className="section__padding">
                 <ArticleHead
                 title="LED Card Events"
@@ -150,7 +187,7 @@ function MediaArts() {
             </div>
 
             
-        </div>
+        </div> */}
     </div>
   )
 }
