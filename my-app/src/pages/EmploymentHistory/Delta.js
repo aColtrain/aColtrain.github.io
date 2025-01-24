@@ -2,7 +2,7 @@ import React from 'react'
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { delta } from "../../components/brand/imports"
 import { Employment } from '../../components';
-import { ArticleHead, ArticleL, ArticleR, CTA } from '../../components';
+import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
 import car from '../../assets/car.png';
 import migration from '../../assets/delta_migration.png';
 import buttons from '../../assets/delta_buttons.png';
@@ -41,7 +41,7 @@ const images = [
 function Delta() {
   return (
     <div>
-      <ScrollToHashElement/>
+      {/* <ScrollToHashElement/>
       <div className="sidenav">
         <div>
           <a href="#SkyPro"><p>SkyPro UI</p></a>
@@ -50,15 +50,19 @@ function Delta() {
           <a href="#Video"><p>Video Demos</p></a>
           <a href="#Banner"><p>Engagement Banner</p></a>
         </div>
-      </div>
+      </div> */}
       <div className="header">
         <Employment 
+        name= { "SkyPro UI"}
         logo={ delta }
         logoDescription="Delta Air lines logo" 
         positionDescription="As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
         I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
         for 6+ mobile apps with an audience of 28,000+ flight attendants." 
+        employer="Delta Air Lines"
         jobTitle="UX/UI Designer"
+        deliverables="Design Library"
+        tools="Adobe XD, Axure RP, Figma"
         teamSize={
           <>
           1-4
@@ -72,6 +76,36 @@ function Delta() {
         />
         
       </div>
+      <div className="section__padding">
+          <Scope
+          goalText={
+            <>
+            <ul>
+              <li>Develop a library that outlines design standards and has reusable components </li>
+              <li>Find a platform that will fulfill the design and prototyping needs of the team</li>
+            </ul>
+            
+            </>
+          }
+          userText={
+            <>
+            <ul>
+              <li>Designers and development teams</li>
+              <li>Product owners for the In-Flight team</li>
+            </ul>
+            </>
+          }
+          problemText={
+            <>
+            <ul>
+              <li>Drawn out design process</li>
+              <li>Time-comsuming changes</li>
+              <li>Unorganized file structure</li>
+            </ul>
+            </>
+          }
+          />          
+        </div>
 
       <div className="SkyProUI">
         <div className="section__padding">
@@ -153,7 +187,7 @@ function Delta() {
           />
         </div>
       </div>
-  
+{/*   
       <div className="Meal Inventory and Meal Manifesting">
         <div className="section__padding">
           <ArticleHead
@@ -268,9 +302,9 @@ function Delta() {
           description= "Working within an established design aesthetic and working with people without a design background"
           />
         </div>
-      </div>
+      </div> */}
       
-      <div className="MyCabin">
+      {/* <div className="MyCabin">
         <div className="section__padding">
           <ArticleHead 
           title="MyCabin Rewrite/ Cabin Discrepancy"
@@ -368,9 +402,9 @@ function Delta() {
           />
         </div>
 
-      </div>
+      </div> */}
       
-      <div className="Video Demos">
+      {/* <div className="Video Demos">
         <div className="section__padding">
           <ArticleHead
           title={"Video Demos"}
@@ -422,7 +456,7 @@ function Delta() {
             title='First Draft'
             />
 
-            {/* <img src={ demoScript } alt="" /> */}
+            <img src={ demoScript } alt="" /> 
             </>
           }
           />
@@ -499,9 +533,9 @@ function Delta() {
           description= "Production management, Problem solving, Filming, Video Editing"
           />
         </div>
-      </div>
+      </div> */}
 
-      <div className="Engagement Banner">
+      {/* <div className="Engagement Banner">
         <div className="section__padding">
           <ArticleHead
           title={"Engagement Banner"}
@@ -577,7 +611,7 @@ function Delta() {
           description= "Printing, Graphic Design"
           />
         </div>
-      </div>
+      </div> */}
 
     </div>
   )
