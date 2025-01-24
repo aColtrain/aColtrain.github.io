@@ -82,10 +82,27 @@ function Comcast() {
           goalText={
             <>
             <ul>
-              <li>Develop the My Apps and Manage Apps functionality </li>
-              <li>Ex</li>
+              <li>Develop the application dashboard and management functionality </li>
+              <li>Integrate the Comcast design aesthetic</li>
             </ul>
             
+            </>
+          }
+          userText={
+            <>
+            <ul>
+              <li>Small to medium size business owners or management</li>
+              <li>Has multiple software applications and needs to manage users</li>
+            </ul>
+            </>
+          }
+          problemText={
+            <>
+            <ul>
+              <li>Unnecessary redunancy</li>
+              <li>Complicated processes</li>
+              <li>Unstructured visuals</li>
+            </ul>
             </>
           }
           />          
@@ -109,13 +126,13 @@ function Comcast() {
           />
         </div>
         <div className="section__padding">
-          <ArticleR
+          <ArticleL
           title={"Approach"}
           description={
             <>
-            When starting this project, I focused on understanding the current designs and its functionality. Then I
+            When starting this project, I focused on understanding the current designs and its functionality. Then, I
             did a comparative analysis with other marketplaces. For this project, I looked at Microsoft
-            365 designs and Adobe Creative Cloud. Throughout this process, I made notes on how to apply what I found and sketched design 
+            365 and Adobe Creative Cloud designs and functionality. Throughout this process, I made notes on how to apply what I found and sketched design 
             ideas on paper. Then, I looked at the design library and started designing screen by screen, seeking feedback along the way. Once I have
             I finished an intial draft, I created a prototype and got feedback on the functionally. Finally, I focused on refining the UI.
             </>

@@ -56,7 +56,7 @@ const Aboutme = () => {
         <img src={gtoit} />
       </div> */}
       {/* Beyond the work */}
-      <Possibility /> 
+      
       <div className="section__padding about__education">
         <div>
           <h1 className="gradient__text">Education</h1>
@@ -68,7 +68,7 @@ const Aboutme = () => {
       </div>
         {/* What is compuational media */}
       <WhatGPT3 /> 
-        
+      <Possibility /> 
         
       {/* <p>I love a good problem to solve. When im not at my computer, I am rock climbing, doing jigsaw puzzles, or hanging out with my dog winter! Life time learner. Recently took a class to learn how to setup and clean anchors for climbing outdoors and how to play mahjong.</p>
       <p>I am currently working on improving my web development skills.  </p>
