@@ -51,7 +51,7 @@ function ProjectThumbnails() {
                 </Link>
             </div>
             <div className="flex-item">
-                <Link to="/media-arts#Bird">
+                <Link to="/graphics">
                     <Project
                     projectImg={imaBirds}
                     projectName="Bird Information Cards"

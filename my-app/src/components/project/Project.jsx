@@ -4,7 +4,9 @@ import './project.css';
 const Project = ({projectImg, projectName, projectDescription, projectTags}) => {
   return (
     <div className="project-tile">
+      {/* <h1 className="img__name"> { projectName }</h1> */}
       <img src={projectImg} alt={projectName} />
+      
       {/* <div className="project-tile__details">
         <h2 className="project-tile__name">{projectName}</h2>
           

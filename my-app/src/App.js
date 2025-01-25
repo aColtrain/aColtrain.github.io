@@ -16,6 +16,7 @@ import Projects from './pages/Projects';
 import SkyProUI from './pages/EmploymentHistory/SkyproUI';
 import MiniMart from './pages/EmploymentHistory/MiniMart';
 import MediaArts from './pages/EmploymentHistory/MediaArts';
+import Graphics from './pages/EmploymentHistory/Graphics';
 
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/skyproui" element={<SkyProUI />} />
         <Route path="/minimart" element={<MiniMart />} />
         <Route path="/media-arts" element={<MediaArts />} />
+        <Route path="/graphics" element={<Graphics />} />
       </Routes>
       </div>
       <Footer />
