@@ -17,7 +17,7 @@ function ProjectThumbnails() {
     <div className="section__padding">
         <div className="portfolio__project-layout">
             <div className="flex-item">
-                <Link to="/comcast#MiniMart">
+                <Link to="/minimart">
                     <Project
                     projectImg={comcastThumbnail}
                     projectName="MiniMart"
@@ -26,7 +26,7 @@ function ProjectThumbnails() {
                 </Link>
             </div>
             <div className="flex-item">
-            <   Link to="/delta#SkyPro">
+                <Link to="/skyproui">
                     <Project
                     projectImg={deltaSkyPro}
                     projectName="SkyPro UI"

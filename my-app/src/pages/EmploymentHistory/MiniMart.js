@@ -120,7 +120,7 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniOriginal } id="Evaluate" alt="" />
+            <img src={ miniOriginal } alt="" />
             </>
           }
           />
@@ -145,7 +145,7 @@ function Comcast() {
           />
         </div>
         
-        <div className="section__padding" id="Low">
+        <div className="section__padding">
           <ArticleR
           title={"Low Fidelity Designs"}
           description={
@@ -179,8 +179,8 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniReviewRevisions } id="Reviews" alt="" />
-            <a id="Prototyping"/>
+            <img src={ miniReviewRevisions } alt="" />
+
             </>
           }
           />
@@ -196,7 +196,7 @@ function Comcast() {
           images={
             <>
             <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/HD2BlUNU2KsimbM0YzhJLA/My-Apps?page-id=0%3A1&node-id=1225-5173&node-type=canvas&viewport=214%2C-1314%2C0.04&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1225%3A5173&embed-host=share" allowfullscreen></iframe>
-            <a id="User"/>
+           
             </>
           }
           />
@@ -240,8 +240,8 @@ function Comcast() {
           }
           images={
             <>
-            <img src={ miniUIRevisions } id="UI" alt="" />
-            <a id="Final" />
+            <img src={ miniUIRevisions } alt="" />
+       
             </>
           }
           />

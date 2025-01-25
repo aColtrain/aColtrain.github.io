@@ -38,7 +38,7 @@ const images = [
   { lists },
 ];
 
-function Delta() {
+function SkyProUI() {
   return (
     <div>
       {/* <ScrollToHashElement/>
@@ -180,7 +180,7 @@ function Delta() {
           }
           />
         </div>
-        <div className="section__padding" id="Meal">
+        <div className="section__padding">
           <CTA 
           title= "Skills Developed"
           description= "Adobe XD, Axure RP, Figma"
@@ -617,4 +617,4 @@ function Delta() {
   )
 }
 
-export default Delta
+export default SkyProUI
