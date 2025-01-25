@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ad943f8.css",
-    "main.js": "/static/js/main.699df33e.js",
+    "main.css": "/static/css/main.5d427e8a.css",
+    "main.js": "/static/js/main.0e25900a.js",
     "static/media/ma_birds.png": "/static/media/ma_birds.045b31356ca4a37873fc.png",
     "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
     "static/media/delta_mm_final.png": "/static/media/delta_mm_final.390bb5cea381c4819cd1.png",
@@ -69,11 +69,11 @@
     "static/media/logo_etd_small.png": "/static/media/logo_etd_small.fb87ca750af75284d834.png",
     "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.c46062cc5fd56b03515f.png",
     "index.html": "/index.html",
-    "main.8ad943f8.css.map": "/static/css/main.8ad943f8.css.map",
-    "main.699df33e.js.map": "/static/js/main.699df33e.js.map"
+    "main.5d427e8a.css.map": "/static/css/main.5d427e8a.css.map",
+    "main.0e25900a.js.map": "/static/js/main.0e25900a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ad943f8.css",
-    "static/js/main.699df33e.js"
+    "static/css/main.5d427e8a.css",
+    "static/js/main.0e25900a.js"
   ]
 }
