@@ -10,6 +10,7 @@ import birds from '../../assets/mediaArts/ma_birds.png';
 import bridge from '../../assets/mediaArts/Media_Bridge_Project.png';
 import bridgeLocation from '../../assets/mediaArts/ma_bridgeLocation.png'
 import eventPoster from '../../assets/mediaArts/ma_eventPoster.png';
+import { ScrollRestoration } from "react-router-dom";
 
 function MediaArts() {
   return (
@@ -22,6 +23,7 @@ function MediaArts() {
                 <a href="#LED"><p>LED Card Events</p></a>
             </div>
         </div> */}
+  
         <div className="header">
             <Employment 
             name={"Media Bridge"}
