@@ -4,11 +4,11 @@ import { Feature } from '..';
 
 const ArticleInfo = ({title, description, category, deliverables}) => {
   return (
-    <div className="article-info">
-        <div>
+    <div className="section__padding article-info">
+        <div className="articleI__title">
             <h1>{ title }</h1>
         </div>
-        <div>
+        <div className="articleI__description">
             <div>
                 <p>{ description }</p>
             </div>

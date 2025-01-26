@@ -13,15 +13,20 @@ function Graphics() {
         
             <h1 className="gradient__text">Graphics</h1>
         </div>
-     <div className="BirdGraphics">
-        <div className="section__padding">
-            <ArticleInfo
-            title={"Bird Cards and Poster"}
-            description={"Graphic were created for a Savannah Museum Bird Event"}
-            category={""}
-            deliverables={""}
-            />
-        </div>
+        <div className="BirdGraphics">
+            <div className="header">
+                <ArticleInfo
+                title={"Bird Cards and Poster"}
+                description={
+                    <>
+                    Table settings and an event poster was created for the Savannah Museum bird event. The work utilizes circles to
+                    highlight the subject and create a focal point in the graphic.  
+                    </>
+                }
+                category={"Graphic Design, Poster Design"}
+                deliverables={"Information Cards, Poster"}
+                />
+            </div>
             <div className="section__padding">
                 <ArticleHead
                 title="Bird Information Cards & Poster"
