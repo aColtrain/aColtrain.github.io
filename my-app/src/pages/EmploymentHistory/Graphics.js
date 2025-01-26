@@ -3,7 +3,7 @@ import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
 import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
 import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
 import birds from '../../assets/mediaArts/ma_birds.png';
-import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment } from '../../components';
+import { ArticleHead, ArticleL, ArticleR, ArticleInfo, CTA, Scope, Employment } from '../../components';
 import '../../components/employment/employment.css';
 
 function Graphics() {
@@ -14,6 +14,14 @@ function Graphics() {
             <h1 className="gradient__text">Graphics</h1>
         </div>
      <div className="BirdGraphics">
+        <div className="section__padding">
+            <ArticleInfo
+            title={"Bird Cards and Poster"}
+            description={"Graphic were created for a Savannah Museum Bird Event"}
+            category={""}
+            deliverables={""}
+            />
+        </div>
             <div className="section__padding">
                 <ArticleHead
                 title="Bird Information Cards & Poster"
@@ -51,7 +59,7 @@ function Graphics() {
                 }
                 />
             </div>
-            <div className="section__padding" id="LED">
+            <div className="section__padding">
                 <CTA 
                 title= "Skills Developed"
                 description= "Graphic Design, Printing"

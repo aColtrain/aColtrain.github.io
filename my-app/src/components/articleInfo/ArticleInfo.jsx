@@ -2,7 +2,7 @@ import React from 'react';
 import './articleInfo.css';
 import { Feature } from '..';
 
-const ArticleInfo = ({title, description}) => {
+const ArticleInfo = ({title, description, category, deliverables}) => {
   return (
     <div className="article-info">
         <div>
