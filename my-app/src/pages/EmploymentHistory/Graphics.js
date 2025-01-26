@@ -3,6 +3,7 @@ import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
 import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
 import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
 import birds from '../../assets/mediaArts/ma_birds.png';
+import bannerFinal from '../../assets/delta_banner_final.png';
 import { ArticleHead, ArticleL, ArticleR, ArticleInfo, CTA, Scope, Employment } from '../../components';
 import '../../components/employment/employment.css';
 
@@ -13,7 +14,7 @@ function Graphics() {
             <h1 className="gradient__text">Graphics</h1>
         </div>
         <div className="">
-            <div className="header">
+            <div className="bird cards">
                 <ArticleInfo
                 title={"Bird Cards and Poster"}
                 description={
@@ -30,10 +31,61 @@ function Graphics() {
                     <div><img src={birdPoster}/></div>
                     </>
                 }
-                />
-                
+                />    
             </div>
-            <div className="section__padding">
+            <div className="Delta Banner">
+                <ArticleInfo
+                title={"Engagement Banner"}
+                description={
+                    <>
+                    Tabletop poster for engagement events
+                    </>
+                }
+                category={"Graphic Design, Poster Design"}
+                deliverables={"Interactive Poster"}
+                imgs={
+                    <>
+                    <div><img src={bannerFinal}/></div>
+                    
+                    </>
+                }
+                />    
+            </div>
+            <div className="University Mascot">
+                <ArticleInfo
+                title={"University Mascot"}
+                description={
+                    <>
+                    lorem ipsum
+                    </>
+                }
+                category={"Graphic Design, Poster Design"}
+                deliverables={"Poster"}
+                imgs={
+                    <>
+                    <div><img src={""}/></div>
+                    </>
+                }
+                />    
+            </div>
+            <div className="AOE Animations">
+                <ArticleInfo
+                title={"Recruitment Animation"}
+                description={
+                    <>
+                    lorem ipsum
+                    </>
+                }
+                category={"2D Animation"}
+                deliverables={"Gifs for social media"}
+                imgs={
+                    <>
+                    <div><img src={""}/></div>
+                    </>
+                }
+                />    
+            </div>
+            {/* <div className="section__padding">
                 <ArticleL
                 title="Bird Information Cards & Poster"
                 description={
@@ -69,16 +121,16 @@ function Graphics() {
                     </>
                 }
                 />
-            </div>
-            <div className="section__padding">
+            </div> */}
+            {/* <div className="section__padding">
                 <CTA 
                 title= "Skills Developed"
                 description= "Graphic Design, Printing"
                 />
-            </div>
+            </div> */}
 
         </div> 
-        </div>
+    </div>
   )
 }
 
