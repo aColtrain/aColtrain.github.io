@@ -10,10 +10,9 @@ function Graphics() {
   return (
     <div>
         <div className="header employment__name section__padding">
-        
             <h1 className="gradient__text">Graphics</h1>
         </div>
-        <div className="BirdGraphics">
+        <div className="">
             <div className="header">
                 <ArticleInfo
                 title={"Bird Cards and Poster"}
@@ -25,10 +24,17 @@ function Graphics() {
                 }
                 category={"Graphic Design, Poster Design"}
                 deliverables={"Information Cards, Poster"}
+                imgs={
+                    <>
+                    <div><img src={birds}/></div>
+                    <div><img src={birdPoster}/></div>
+                    </>
+                }
                 />
+                
             </div>
             <div className="section__padding">
-                <ArticleHead
+                <ArticleL
                 title="Bird Information Cards & Poster"
                 description={
                     <>
