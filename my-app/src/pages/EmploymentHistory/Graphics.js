@@ -10,6 +10,7 @@ function Graphics() {
   return (
     <div>
         <div className="header employment__name section__padding">
+        
             <h1 className="gradient__text">Graphics</h1>
         </div>
      <div className="BirdGraphics">

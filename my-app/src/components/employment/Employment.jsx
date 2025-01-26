@@ -1,6 +1,6 @@
 import React from 'react'
 import './employment.css';
-import { Feature } from '../../components';
+import { Feature } from '..';
 
 
 const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, deliverables, tools, teamSize, impact1,impact2 }) => {
