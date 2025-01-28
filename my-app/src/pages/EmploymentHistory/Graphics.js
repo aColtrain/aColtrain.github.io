@@ -4,6 +4,7 @@ import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
 import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
 import birds from '../../assets/mediaArts/ma_birds.png';
 import bannerFinal from '../../assets/delta_banner_final.png';
+import eventPoster from '../../assets/mediaArts/ma_eventPoster.png';
 import { ArticleHead, ArticleL, ArticleR, ArticleInfo, CTA, Scope, Employment } from '../../components';
 import '../../components/employment/employment.css';
 
@@ -56,7 +57,8 @@ function Graphics() {
                 title={"University Mascot"}
                 description={
                     <>
-                    lorem ipsum
+                    A commissioned piece for a client who wanted the University of Georgia mascot in a Tennessee
+                    University jersey.
                     </>
                 }
                 category={"Graphic Design, Poster Design"}
@@ -68,12 +70,16 @@ function Graphics() {
                 }
                 />    
             </div>
+            
             <div className="AOE Animations">
                 <ArticleInfo
                 title={"Recruitment Animation"}
                 description={
                     <>
-                    lorem ipsum
+                    A 2D animation created frame by frame for the Alpha Omega Epsilon recruitment. To incorporate
+                    the monopoly theme, I animated the monopoly man's arms to be raised over his head and moved to 
+                    in front of his body with his hands forming the Alpha Omega Epsilon symbol. The second animation 
+                    is animating a dice roll. This was made for Instagram with the post dimensions in mind. 
                     </>
                 }
                 category={"2D Animation"}
@@ -85,6 +91,25 @@ function Graphics() {
                 }
                 />    
             </div>
+            <div className="IMA Event Posters">
+                <ArticleInfo
+                title={"Event Posters"}
+                description={
+                    <>
+                    Event posters for the Interdisciplinary Media Arts Center. Features bright colors to stand out 
+                    against other posters. Utilizes QR codes for RSVPing.
+                    </>
+                }
+                category={"Graphic Design, Poster Design"}
+                deliverables={"Event Poster"}
+                imgs={
+                    <>
+                    <div><img src={ eventPoster }/></div>
+                    </>
+                }
+                />    
+            </div>
+            
             {/* <div className="section__padding">
                 <ArticleL
                 title="Bird Information Cards & Poster"
