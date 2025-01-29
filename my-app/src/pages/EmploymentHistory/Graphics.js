@@ -4,6 +4,8 @@ import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
 import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
 import birds from '../../assets/mediaArts/ma_birds.png';
 import bannerFinal from '../../assets/delta_banner_final.png';
+import banner from '../../assets/delta_banner.png';
+import bannerOriginal from '../../assets/delta_banner_original.png';
 import eventPoster from '../../assets/mediaArts/ma_eventPoster.png';
 import { ArticleHead, ArticleL, ArticleR, ArticleInfo, CTA, Scope, Employment } from '../../components';
 import '../../components/employment/employment.css';
@@ -39,14 +41,16 @@ function Graphics() {
                 title={"Engagement Banner"}
                 description={
                     <>
-                    Tabletop poster for engagement events
+                    A redesign of a tabletop poster for engagement events.
                     </>
                 }
                 category={"Graphic Design, Poster Design"}
                 deliverables={"Interactive Poster"}
                 imgs={
                     <>
+                    <div><img src={bannerOriginal}/></div>
                     <div><img src={bannerFinal}/></div>
+                    <div><img src={banner}/></div>
                     
                     </>
                 }
@@ -57,8 +61,8 @@ function Graphics() {
                 title={"University Mascot"}
                 description={
                     <>
-                    A commissioned piece for a client who wanted the University of Georgia mascot in a Tennessee
-                    University jersey.
+                    A commissioned piece for a client who wanted the University of Georgia mascot in a
+                    University of Tennessee jersey.
                     </>
                 }
                 category={"Graphic Design, Poster Design"}
@@ -66,6 +70,25 @@ function Graphics() {
                 imgs={
                     <>
                     <div><img src={""}/></div>
+                    </>
+                }
+                />    
+            </div>
+            
+            <div className="IMA Event Posters">
+                <ArticleInfo
+                title={"Event Posters"}
+                description={
+                    <>
+                    Event posters for the Interdisciplinary Media Arts Center. Features bright colors to stand out 
+                    against other posters. Utilizes QR codes for RSVPing.
+                    </>
+                }
+                category={"Graphic Design, Poster Design"}
+                deliverables={"Event Poster"}
+                imgs={
+                    <>
+                    <div><img src={ eventPoster }/></div>
                     </>
                 }
                 />    
@@ -91,25 +114,6 @@ function Graphics() {
                 }
                 />    
             </div>
-            <div className="IMA Event Posters">
-                <ArticleInfo
-                title={"Event Posters"}
-                description={
-                    <>
-                    Event posters for the Interdisciplinary Media Arts Center. Features bright colors to stand out 
-                    against other posters. Utilizes QR codes for RSVPing.
-                    </>
-                }
-                category={"Graphic Design, Poster Design"}
-                deliverables={"Event Poster"}
-                imgs={
-                    <>
-                    <div><img src={ eventPoster }/></div>
-                    </>
-                }
-                />    
-            </div>
-            
             {/* <div className="section__padding">
                 <ArticleL
                 title="Bird Information Cards & Poster"

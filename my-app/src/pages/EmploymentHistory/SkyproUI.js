@@ -187,7 +187,7 @@ function SkyProUI() {
           />
         </div>
       </div>
-{/*   
+  
       <div className="Meal Inventory and Meal Manifesting">
         <div className="section__padding">
           <ArticleHead
@@ -302,9 +302,9 @@ function SkyProUI() {
           description= "Working within an established design aesthetic and working with people without a design background"
           />
         </div>
-      </div> */}
+      </div>
       
-      {/* <div className="MyCabin">
+      <div className="MyCabin">
         <div className="section__padding">
           <ArticleHead 
           title="MyCabin Rewrite/ Cabin Discrepancy"
@@ -402,9 +402,9 @@ function SkyProUI() {
           />
         </div>
 
-      </div> */}
+      </div>
       
-      {/* <div className="Video Demos">
+      <div className="Video Demos">
         <div className="section__padding">
           <ArticleHead
           title={"Video Demos"}
@@ -456,7 +456,7 @@ function SkyProUI() {
             title='First Draft'
             />
 
-            <img src={ demoScript } alt="" /> 
+            {/* <img src={ demoScript } alt="" />  */}
             </>
           }
           />
@@ -533,7 +533,7 @@ function SkyProUI() {
           description= "Production management, Problem solving, Filming, Video Editing"
           />
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="Engagement Banner">
         <div className="section__padding">
