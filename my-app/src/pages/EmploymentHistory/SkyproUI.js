@@ -9,11 +9,12 @@ import buttons from '../../assets/delta_buttons.png';
 import formfields from '../../assets/delta_formfields.png';
 import lists from '../../assets/delta_lists.png';
 import cover from '../../assets/delta_skyproui_cover.png';
-import mealManifest1 from '../../assets/delta_mm_original.png';
+
 import inventoryL from '../../assets/delta_mm_inventory_lowFidelity.png';
 import inventoryH from '../../assets/delta_mm_inventory_highFidelity.png';
 import manifestingL from '../../assets/delta_mm_manifesting_lowFidelity.png';
 import manifestingH from '../../assets/delta_mm_manifesting_highFidelity.png';
+import mealManifest1 from '../../assets/delta_mm_original.png';
 import approach from '../../assets/delta_mm_approach.png';
 import draft from '../../assets/delta_mm_draft.png';
 import final from '../../assets/delta_mm_final.png';

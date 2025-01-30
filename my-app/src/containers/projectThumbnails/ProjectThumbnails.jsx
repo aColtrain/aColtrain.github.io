@@ -26,7 +26,7 @@ function ProjectThumbnails() {
                 </Link>
             </div>
             <div className="flex-item">
-                <Link to="/skyproui">
+                <Link to="/skypro-ui">
                     <Project
                     projectImg={deltaSkyPro}
                     projectName="SkyPro UI"
@@ -37,7 +37,7 @@ function ProjectThumbnails() {
         </div>
         <div className="portfolio__project-layout">
             <div className="flex-item">
-                <Link to="/delta#Meal">
+                <Link to="/meal-manifesting">
                     <Project
                     projectImg={deltaMeal}
                     projectName="Meal Inventory & Manifesting"
