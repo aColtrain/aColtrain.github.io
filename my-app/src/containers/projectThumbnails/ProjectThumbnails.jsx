@@ -66,7 +66,7 @@ function ProjectThumbnails() {
         </div>
         <div className="portfolio__project-layout">
             <div className="flex-item">
-                <Link to="/delta#Video">
+                <Link to="/video-demo">
                     <Project
                     projectImg={deltaDemo}
                     projectName="Video Demos"

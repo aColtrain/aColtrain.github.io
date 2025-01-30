@@ -1,8 +1,33 @@
 import React from 'react'
-
+import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment } from '../../components';
+import demo from '../../assets/delta_demo.png';
+import demoFilming from '../../assets/delta_demo_filming.png';
+import demoEditing from '../../assets/delta_demo_editing.png';
 function VideoDemo() {
   return (
     <div className="Video Demos">
+        <Employment 
+        name= { "SkyPro UI"}
+        logo={ delta }
+        logoDescription="Delta Air lines logo" 
+        positionDescription="As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
+        I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
+        for 6+ mobile apps with an audience of 28,000+ flight attendants." 
+        employer="Delta Air Lines"
+        jobTitle="UX/UI Designer"
+        deliverables="Design Library"
+        tools="Adobe XD, Axure RP, Figma"
+        teamSize={
+            <>
+            1-4
+            <a id="SkyPro"/>
+            </>
+        }
+        impact1="Team Impact"
+        impact1List=""
+        impact2="Products Impact"
+        impact2List=""
+        />
         <div className="section__padding">
             <ArticleHead
             title={"Video Demos"}
