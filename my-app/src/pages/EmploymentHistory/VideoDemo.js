@@ -7,16 +7,20 @@ function VideoDemo() {
   return (
     <div className="Video Demos">
         <Employment 
-        name= { "SkyPro UI"}
-        logo={ delta }
+        name= { "Video Demos"}
+        logo={ <></> }
         logoDescription="Delta Air lines logo" 
-        positionDescription="As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
-        I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
-        for 6+ mobile apps with an audience of 28,000+ flight attendants." 
+        positionDescription={
+            <>
+            6 video demos were made as an initiative to have short form video content for 28,000+ flight attendants to
+            become familiar with what resources they have in their devices for managing a flight. The demos were 
+            also used for upper management communications.
+            </>
+            }
         employer="Delta Air Lines"
         jobTitle="UX/UI Designer"
-        deliverables="Design Library"
-        tools="Adobe XD, Axure RP, Figma"
+        deliverables="Videos"
+        tools="Microsoft Word, teleprompter-online.com, iPhone, mini microphones, voice record, iMovie"
         teamSize={
             <>
             1-4
@@ -28,7 +32,7 @@ function VideoDemo() {
         impact2="Products Impact"
         impact2List=""
         />
-        <div className="section__padding">
+        {/* <div className="section__padding">
             <ArticleHead
             title={"Video Demos"}
             description={
@@ -51,7 +55,7 @@ function VideoDemo() {
                 </>
             } 
             />
-        </div>
+        </div> */}
         <div className="section__padding">
         <ArticleR
             title="Script"
