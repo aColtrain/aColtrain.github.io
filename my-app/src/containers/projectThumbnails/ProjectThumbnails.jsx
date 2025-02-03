@@ -80,7 +80,7 @@ function ProjectThumbnails() {
                 </Link>
             </div>
             <div className="flex-item">
-                <Link to="/media-arts#MediaBridge">
+                <Link to="/media-arts">
                     <Project
                     projectImg={imaMedia}
                     projectName="Media Bridge"
