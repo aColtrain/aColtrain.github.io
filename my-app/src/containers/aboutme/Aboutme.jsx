@@ -62,12 +62,12 @@ const Aboutme = () => {
           <h1 className="gradient__text">Education</h1>
         </div>
         <div>
-          <Feature title='Georgia Institute of Technology' text='B.S. Computational Media Interaction Design & Media' />
+          <Feature title='Georgia Institute of Technology' text='B.S. Computational Media' />
           <Feature title='University of Limerick' text='Creative Media and Interaction Design' />
         </div>
       </div>
         {/* What is compuational media */}
-      <WhatGPT3 /> 
+      
       <Possibility /> 
         
       {/* <p>I love a good problem to solve. When im not at my computer, I am rock climbing, doing jigsaw puzzles, or hanging out with my dog winter! Life time learner. Recently took a class to learn how to setup and clean anchors for climbing outdoors and how to play mahjong.</p>

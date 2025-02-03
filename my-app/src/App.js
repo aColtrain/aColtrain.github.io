@@ -25,6 +25,7 @@ const App = () => {
   return (
     
     <Router>
+      <ScrollToTop/>
       <Navbar />    
       <div className="page__width"> 
       <Routes>
