@@ -9,4 +9,4 @@ export { default as Navbar } from './navbar/Navbar';
 export { default as Project } from './project/Project';
 export { default as Employment } from './employment/Employment';
 export { default as Scope } from './scope/Scope';
-export { default as ScrollToTop } from './ScrollToTop';
+// export { default as ScrollToTop } from './ScrollToTop';

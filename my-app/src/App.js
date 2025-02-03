@@ -19,13 +19,14 @@ import MediaArts from './pages/EmploymentHistory/MediaArts';
 import Graphics from './pages/EmploymentHistory/Graphics';
 import MealManifesting from './pages/EmploymentHistory/MealManifesting';
 import VideoDemo from './pages/EmploymentHistory/VideoDemo';
+import ScrollToTop from "./components/ScrollToTop";
 
 
 const App = () => {
   return (
     
     <Router>
-      <ScrollToTop/>
+      <ScrollToTop />
       <Navbar />    
       <div className="page__width"> 
       <Routes>
