@@ -1,4 +1,5 @@
 import React from 'react'
+import deltaEngagmentOrignal from '../../assets/graphics/Delta_EngagmentBannerOriginal.png'
 import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
 import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
 import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
