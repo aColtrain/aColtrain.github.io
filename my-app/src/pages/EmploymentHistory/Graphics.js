@@ -1,5 +1,18 @@
 import React from 'react'
-import deltaEngagmentOrignal from '../../assets/graphics/Delta_EngagmentBannerOriginal.png'
+import deltaEngagmentOrignal from '../../assets/graphics/Delta__EngagmentBannerOriginal.png'
+import deltaEngagmentRedesign from '../../assets/graphics/Delta__EngagmentBannerRedesign.png'
+import imaBirdPoster from '../../assets/graphics/IMA__BirdPoster.png'
+import imaBirdCardDisplay from '../../assets/graphics/IMA__BirdCardDisplay.png'
+import imaBirdCard1 from '../../assets/graphics/IMA__BirdCardDetail1.png'
+import imaBirdCard2 from '../../assets/graphics/IMA__BirdCardDetail2.png'
+import imaBirdCard3 from '../../assets/graphics/IMA__BirdCardDetail3.png'
+import imaEventPosters from '../../assets/graphics/IMA__EventPosters.png'
+import imaEventPostersDisplay from '../../assets/graphics/IMA__EventPostersDisplay.png'
+import mascotPoster from '../../assets/graphics/University_Mascot_Poster.png'
+import mascot1 from '../../assets/graphics/University__Mascot1.png'
+import mascot2 from '../../assets/graphics/University__Mascot2.png'
+import mascot3 from '../../assets/graphics/University__Mascot3.png'
+
 import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
 import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
 import grackleBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.jpg';
@@ -31,8 +44,15 @@ function Graphics() {
                 deliverables={"Information Cards, Poster"}
                 imgs={
                     <>
-                    <div><img src={birds}/></div>
-                    <div><img src={birdPoster}/></div>
+                    <div className="twoColH">
+                        <img src={imaBirdPoster}/>
+                        <img src={imaBirdCardDisplay}/>
+                    </div>
+                    <div className="threeCol">
+                        <img src={imaBirdCard1}/>
+                        <img src={imaBirdCard2}/>
+                        <img src={imaBirdCard3}/>
+                    </div>
                     </>
                 }
                 />    
@@ -49,10 +69,8 @@ function Graphics() {
                 deliverables={"Interactive Poster"}
                 imgs={
                     <>
-                    <div><img src={bannerOriginal}/></div>
-                    <div><img src={bannerFinal}/></div>
-                    <div><img src={banner}/></div>
-                    
+                    <div><img src={deltaEngagmentOrignal}/></div>
+                    <div><img src={deltaEngagmentRedesign}/></div>
                     </>
                 }
                 />    
@@ -89,7 +107,8 @@ function Graphics() {
                 deliverables={"Event Poster"}
                 imgs={
                     <>
-                    <div><img src={ eventPoster }/></div>
+                    <div><img src={ imaEventPosters }/></div>
+                    <div><img src={ imaEventPostersDisplay }/></div>
                     </>
                 }
                 />    

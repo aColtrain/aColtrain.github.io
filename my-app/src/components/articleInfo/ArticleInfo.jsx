@@ -1,3 +1,4 @@
+// Used in Graphic Page
 import React from 'react';
 import './articleInfo.css';
 import { Feature } from '..';
@@ -17,7 +18,7 @@ const ArticleInfo = ({title, description, category, deliverables, imgs}) => {
                     <Feature title="Category" text={ category }/>
                     <Feature title="Deliverables" text={ deliverables }/>
             </div>
-            </div>
+          </div>
         </div>
         <div className="articleI__imgs">
             {imgs}
