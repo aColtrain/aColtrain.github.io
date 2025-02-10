@@ -14,48 +14,19 @@
     width: 50%;
 }
 
-.twoColH img {
-    height: 560px;
-}
-
-.threeCol img {
-    width: 30%;
-}
-
 .articleI__imgs {
     width: 100%;
     display:flex;
     flex-direction: column;
     gap: 4rem;
-
-    /* width:100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* gap: 4rem; */
-    /* margin: 2rem 0 0; */
+    margin: 4rem 0 0 0;
 }
 .articleI__imgs div {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* gap: 4rem; */
     flex-direction: row;
-    /* height: 500px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row; */
-    /* /* width: 1////00%; */
-    /* display: flex;
-    justify-content: space-between;
-    gap: 4rem; */
-
-   /* flex-direction: row; */
 }
-/* .articleI__imgs img {
-    width: 100%
-} */
 
 .employment {
     width: 100%;

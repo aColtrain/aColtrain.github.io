@@ -44,11 +44,11 @@ function Graphics() {
                 deliverables={"Information Cards, Poster"}
                 imgs={
                     <>
-                    <div className="twoColH">
+                    <div>
                         <img src={imaBirdPoster}/>
                         <img src={imaBirdCardDisplay}/>
                     </div>
-                    <div className="threeCol">
+                    <div>
                         <img src={imaBirdCard1}/>
                         <img src={imaBirdCard2}/>
                         <img src={imaBirdCard3}/>
@@ -69,8 +69,10 @@ function Graphics() {
                 deliverables={"Interactive Poster"}
                 imgs={
                     <>
-                    <div><img src={deltaEngagmentOrignal}/></div>
-                    <div><img src={deltaEngagmentRedesign}/></div>
+                    <div>
+                        <img src={deltaEngagmentOrignal}/>
+                        <img src={deltaEngagmentRedesign}/>
+                    </div>
                     </>
                 }
                 />    
@@ -88,7 +90,9 @@ function Graphics() {
                 deliverables={"Poster"}
                 imgs={
                     <>
-                    <div><img src={""}/></div>
+                    <div>
+                        <img src={""}/>
+                    </div>
                     </>
                 }
                 />    
@@ -107,8 +111,10 @@ function Graphics() {
                 deliverables={"Event Poster"}
                 imgs={
                     <>
-                    <div><img src={ imaEventPosters }/></div>
-                    <div><img src={ imaEventPostersDisplay }/></div>
+                    <div>
+                        <img src={ imaEventPosters }/>
+                        <img src={ imaEventPostersDisplay }/>
+                    </div>
                     </>
                 }
                 />    
@@ -129,7 +135,9 @@ function Graphics() {
                 deliverables={"Gifs for social media"}
                 imgs={
                     <>
-                    <div><img src={""}/></div>
+                    <div>
+                        <img src={""}/>
+                    </div>
                     </>
                 }
                 />    
