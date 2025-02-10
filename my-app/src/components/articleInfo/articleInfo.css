@@ -14,6 +14,14 @@
     width: 50%;
 }
 
+/* .twoColH img {
+    height: 560px;
+}
+
+.threeCol img {
+    width: 30%;
+} */
+
 .articleI__imgs {
     width: 100%;
     display:flex;
@@ -25,8 +33,22 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
 }
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.gif img {
+    width: 472px;
+}
+.flexCol img {
+    width: 100%;
+    height: 100%;
+
+}
+
 
 .employment {
     width: 100%;

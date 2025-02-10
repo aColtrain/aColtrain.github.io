@@ -9,9 +9,12 @@ import imaBirdCard3 from '../../assets/graphics/IMA__BirdCardDetail3.png'
 import imaEventPosters from '../../assets/graphics/IMA__EventPosters.png'
 import imaEventPostersDisplay from '../../assets/graphics/IMA__EventPostersDisplay.png'
 import mascotPoster from '../../assets/graphics/University_Mascot_Poster.png'
+import mascotDetail from '../../assets/graphics/University__Mascot__Detail.png'
 import mascot1 from '../../assets/graphics/University__Mascot1.png'
 import mascot2 from '../../assets/graphics/University__Mascot2.png'
 import mascot3 from '../../assets/graphics/University__Mascot3.png'
+import aoeAnim1 from '../../assets/graphics/AOE__Animation1.gif'
+import aoeAnim2 from '../../assets/graphics/AOE__Animation2.gif'
 
 import birdPoster from '../../assets/mediaArts/Bird_Poster.png';
 import grackleFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.jpg';
@@ -91,8 +94,24 @@ function Graphics() {
                 imgs={
                     <>
                     <div>
-                        <img src={""}/>
+                        <img src={mascotPoster}/>
+                    
+                        <img src={mascotDetail} />
+                        {/* <div>
+                            <img src={mascot1}/>
+                        </div>
+                        <div>
+                            <img src={mascot2}/>
+                        </div>
+                        <div>
+                            <img src={mascot3}/>
+                        </div> */}
                     </div>
+                    
+                        
+                    
+                    
+
                     </>
                 }
                 />    
@@ -135,8 +154,9 @@ function Graphics() {
                 deliverables={"Gifs for social media"}
                 imgs={
                     <>
-                    <div>
-                        <img src={""}/>
+                    <div className="gif">
+                        <img src={aoeAnim1}/>
+                        <img src={aoeAnim2}/>
                     </div>
                     </>
                 }
