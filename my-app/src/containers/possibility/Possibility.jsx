@@ -37,7 +37,7 @@ const Possibility = () => {
       <div className="gpt3__possibility-content">
         {/* <h4>Get early access</h4> */}
         <h1 className="gradient__text">Beyond the work</h1>
-        <p>Away from the screen, you will find me climbing on things, existing on both sides of the camera, eating, and tending to my indoor forest and Winter (the most perfect <a>dog</a> baby). </p>
+        <p>Away from the screen, you will find me climbing on things, existing on both sides of the camera, eating, and tending to my indoor forest and Winter (my perfect dog). </p>
         {/* <h4>Get early access</h4> */}
       </div>
     </div>
