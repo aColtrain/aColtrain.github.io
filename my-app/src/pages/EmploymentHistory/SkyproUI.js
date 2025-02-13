@@ -99,7 +99,7 @@ function SkyProUI() {
           problemText={
             <>
             <ul>
-              <li>Drawn out design process</li>
+              <li>Drawn-out design process</li>
               <li>Time-comsuming changes</li>
               <li>Unorganized file structure</li>
             </ul>
@@ -130,7 +130,7 @@ function SkyProUI() {
             <>
             When setting up the library, our team explored several different softwares. We started with Adobe XD, then migrated to Axure RP. Then, we migrated again to Figma. 
             The reason for the migrations were that Adobe XD did not meet our prototyping needs at the time and that Axure RP was limited in its design capabilities. 
-            Third time was a charm and Figma was able to support our design needs.
+            Third time was a charm, and Figma was able to support our design needs.
             </>
           }
           images={

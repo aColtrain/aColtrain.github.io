@@ -39,8 +39,8 @@ function Graphics() {
                 title={"Bird Cards and Poster"}
                 description={
                     <>
-                    Table settings and an event poster was created for the Savannah Museum bird event. The work utilizes circles to
-                    highlight the subject and create a focal point in the graphic.  
+                    Table settings and an event poster were created for the Savannah Museum bird event. The work utilizes circles to
+                    highlight the subjects and create a focal point in the graphic.  
                     </>
                 }
                 category={"Graphic Design, Poster Design"}
@@ -144,7 +144,7 @@ function Graphics() {
                 title={"Recruitment Animation"}
                 description={
                     <>
-                    A 2D animation created frame by frame for the Alpha Omega Epsilon recruitment. To incorporate
+                    A 2D animation created frame by frame for Alpha Omega Epsilon recruitment. To incorporate
                     the monopoly theme, I animated the monopoly man's arms to be raised over his head and moved to 
                     in front of his body with his hands forming the Alpha Omega Epsilon symbol. The second animation 
                     is animating a dice roll. This was made for Instagram with the post dimensions in mind. 

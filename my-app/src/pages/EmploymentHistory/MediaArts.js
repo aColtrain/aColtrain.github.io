@@ -32,9 +32,9 @@ function MediaArts() {
             positionDescription={
                 <>
                 The media bridge is a screen located on the underside of a bridge connecting 2 of the Georgia Tech Libraries. For 
-                this project, the goal was to work with a biology professor to create an interactive project on sustainability displayed 
-                on the media bridge. We designed this to create a baseline of the audience. This project received 2 grants from 
-                Sustainability Next and iPat resulting in $45,000 in funding.
+                this project, the goal was to work with a biology professor to create an interactive project on sustainability to be displayed 
+                on the media bridge. The final iteration of the project was designed to understand the demographic of its viewers. This project 
+                received 2 grants from Sustainability Next and iPat resulting in $45,000 in funding.
                 </>
             } 
             employer={"Interdisciplinary Media Arts Center"}

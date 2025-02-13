@@ -61,12 +61,12 @@ function VideoDemo() {
             title="Script"
             description={
                 <>
-                I met with the product owners of all the apps that my team supported to talk about what they wanted to highlight in each of 
+                I met with the product owners of each of the apps that my team supported to talk about what they wanted to highlight in each of 
                 the video demos. 
                 After creating a draft of each script, I made a rough draft of my idea for the structure of the videos. I used text to speech 
                 software, a stock image, and screenshots to create a first draft of the videos. This video puts the rough in rough draft, but 
                 it gets the job done. 
-                I learned that the scenes with the screenshots would be better as a voice over. Having a voice over would allow realestate for 
+                I learned that the scenes with the screenshots would be better as a voice over. Having a voice over would allow real estate for 
                 bullet points to better highlight the features of the apps in a visual way. 
 
                 </>
@@ -97,7 +97,7 @@ function VideoDemo() {
                 day of filming where Anthony wore his flight attendant uniform. On that day, we used the inside of one of the training planes as 
                 a set. I brought my tripod and set up a wearable microphone. We then recorded the intro and outro for all six videos. 
                 Due to having only one day in Anthony's schedule to film and limited time for him to memorise the script, I used teleprompter
-                software to display the script. We had set the laptop with thesoftware on a seat and filmed. However, it was obvious that he was reading
+                software to display the script. We had set the laptop with the software on a seat and filmed. However, it was obvious that he was reading
                 something. To mitigate this, I propped my computer on a stool and some boxes I had found around the room. After filming the intros 
                 and outros, we then recorded the voice overs for the features demo.
                 </>
@@ -134,7 +134,7 @@ function VideoDemo() {
             title={"Final"}
             description={
                 <>
-                I produced 6 videos 1-2 minutes long. Given the quick turnaround and last minute changes to the script, I am not as happy 
+                I produced 6 videos, each of which were 1-2 minutes long. Given the quick turnaround and last minute changes to the script, I am not as happy 
                 as I could be with the results, however I am proud of myself for being able to adapt to the circumstances. <br/><br/>
                 View the playlist of all the demos on <a href='https://www.youtube.com/playlist?list=PL8e45rsI4i0u__uX-P0y0dwmMXweE8gq0' className="underline">YouTube</a>.
                 </>
