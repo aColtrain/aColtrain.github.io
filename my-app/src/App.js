@@ -25,7 +25,7 @@ import ScrollToTop from "./components/ScrollToTop";
 const App = () => {
   return (
     
-    <Router basename="/">
+    <Router>
       <ScrollToTop />
       <Navbar />    
       <div className="page__width"> 
