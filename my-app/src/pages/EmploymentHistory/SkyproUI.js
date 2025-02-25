@@ -57,9 +57,14 @@ function SkyProUI() {
         name= { "SkyPro UI"}
         logo={ delta }
         logoDescription="Delta Air lines logo" 
-        positionDescription="As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
-        I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
-        for 6+ mobile apps with an audience of 28,000+ flight attendants." 
+        positionDescription={
+          <>
+          {/* Creating a brand library for UX/UI designers that  */}
+          As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
+          I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
+          for 6+ mobile apps with an audience of 28,000+ flight attendants.
+          </>
+        }
         employer="Delta Air Lines"
         jobTitle="UX/UI Designer"
         deliverables="Design Library"
