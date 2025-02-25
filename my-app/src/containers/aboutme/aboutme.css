@@ -80,10 +80,17 @@
 }
 
 .about__education {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 6rem;
+
 }
+.about__education-header {
+    width: 50%;
+}
+
 
 
 @media screen and (max-width: 1200px) {

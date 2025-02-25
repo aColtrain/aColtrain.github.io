@@ -1,8 +1,8 @@
 .portfolio__project-layout {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    gap: 36px;
+    gap: 2rem;
     margin-bottom: 32px;
     
 }

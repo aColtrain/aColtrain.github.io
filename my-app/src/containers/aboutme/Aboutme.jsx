@@ -58,10 +58,10 @@ const Aboutme = () => {
       {/* Beyond the work */}
       
       <div className="section__padding about__education">
-        <div>
+        <div className="about__education-header">
           <h1 className="gradient__text">Education</h1>
         </div>
-        <div>
+        <div className="about__education-text">
           <Feature title='Georgia Institute of Technology' text='B.S. Computational Media' />
           <Feature title='University of Limerick' text='Creative Media and Interaction Design' />
         </div>

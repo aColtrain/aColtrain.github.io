@@ -29,10 +29,10 @@ function ProjectThumbnails() {
                 <Link to="/graphics">
                     <Project
                     projectImg={imaBirds}
-                    projectName="Bird Information Cards"
+                    projectName="Graphic Design"
                     projectDescription={
                         <>
-                        Info cards that were designed to be table settings at a museum bird event.
+                        Collection of designs.
                         </>
                     }
                     projectTags="Graphic Design | Printing | Figma" />    
@@ -61,7 +61,7 @@ function ProjectThumbnails() {
                     projectImg={comcastThumbnail}
                     projectName="MiniMart"
                     projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses."
-                    projectTags="UX/UI Web Design | User Research | Prototyping | Figma" />    
+                    projectTags="UX/UI Web Design | User Research | Prototyping" />    
                 </Link>
             </div>
         </div>
