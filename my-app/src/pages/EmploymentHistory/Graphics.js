@@ -65,7 +65,8 @@ function Graphics() {
                 title={"Engagement Banner"}
                 description={
                     <>
-                    A redesign of a tabletop poster for engagement events.
+                    A redesign of a tabletop poster for engagement events. The original design on the left
+                    and the redesign is on the right. Engagment increased 70%.
                     </>
                 }
                 category={"Graphic Design, Poster Design"}

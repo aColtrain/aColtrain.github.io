@@ -95,6 +95,25 @@ function ProjectThumbnails() {
                 </Link>
             </div>
         </div>
+        <div className="portfolio__project-layout">
+            <div className="flex-item meals">
+                <Link to="/zogran-media">
+                    <Project
+                    projectImg={deltaMeal}
+                    projectName="Meal Inventory & Manifesting"
+                    projectDescription={
+                        <>
+                        A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
+                        inventory in flight.
+                        </>
+                    }
+                    projectTags="UX/UI App Design | Figma" />    
+                </Link>
+            </div>
+            <div className="flex-item video">
+                
+            </div>
+        </div>
     </div>
     /* <Project 
     projectImg={etdThumbnail}

@@ -31,11 +31,10 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           <Link to="/"><p> Home </p></Link>
           <Link to="/about"><p> About </p></Link>
-          
+          <p>UX UI Design</p>
+          <p>Marketing</p>
           <Link to="/Graphics"><p> Graphic Design </p></Link>
-          {/* <Link to="/delta"><p> Delta </p></Link>
-          <Link to="/comcast"> <p>Comcast </p> </Link>
-          <Link to="/media-arts"><p>Media Arts</p></Link> */}
+          
           {/* <Link to="/contact"><p> Contact </p></Link> */}
           {/* <a href={ resumePDF } target="_blank"><p> Resume </p></a> */}
         </div>

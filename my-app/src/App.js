@@ -19,6 +19,7 @@ import MediaArts from './pages/EmploymentHistory/MediaArts';
 import Graphics from './pages/EmploymentHistory/Graphics';
 import MealManifesting from './pages/EmploymentHistory/MealManifesting';
 import VideoDemo from './pages/EmploymentHistory/VideoDemo';
+import ZogranMedia from './pages/EmploymentHistory/ZogranMedia';
 import ScrollToTop from "./components/ScrollToTop";
 
 
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/graphics" element={<Graphics />} />
         <Route path="/meal-manifesting" element={<MealManifesting />} />
         <Route path="/video-demo" element={<VideoDemo />} />
+        <Route path="/zogran-media" element={<ZogranMedia />} />
       </Routes>
       </div>
       <Footer />

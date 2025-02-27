@@ -84,29 +84,44 @@ function SkyProUI() {
       </div>
       <div className="section__padding">
           <Scope
-          goalText={
+          title1={
+          <>
+          Situation
+          </>}
+          text1={
             <>
             <ul>
-              <li>Develop a library that outlines design standards and has reusable components </li>
-              <li>Find a platform that will fulfill the design and prototyping needs of the team</li>
+              <li>The design team was using Adobe XD to design for the Flight Attendant Apps.
+                We were design from scratch everytime which led to long design times as well as 
+                inconsistent designs. </li>
             </ul>
             
             </>
           }
-          userText={
+          title2={
+            <>
+            Painpoints
+            </>}
+          text2={
             <>
             <ul>
-              <li>Designers and development teams</li>
-              <li>Product owners for the In-Flight team</li>
+              <li>Design process was too long</li>
+              <li>Changes to designs were time-consuming</li>
+              <li>No standardization</li>
+              <li>Prototyping not supported</li>
             </ul>
             </>
           }
-          problemText={
+          title3={
+            <>
+            Tasks
+            </>}
+          text3={
             <>
             <ul>
-              <li>Drawn-out design process</li>
-              <li>Time-comsuming changes</li>
-              <li>Unorganized file structure</li>
+              <li>Find software that supports design and prototype needs</li>
+              <li>Create a style guide</li>
+              <li>Create a master library of components</li>
             </ul>
             </>
           }
@@ -135,7 +150,7 @@ function SkyProUI() {
             <>
             When setting up the library, our team explored several different softwares. We started with Adobe XD, then migrated to Axure RP. Then, we migrated again to Figma. 
             The reason for the migrations were that Adobe XD did not meet our prototyping needs at the time and that Axure RP was limited in its design capabilities. 
-            Third time was a charm, and Figma was able to support our design needs.
+            The third software, Figma, was able to support both our design and prototyping needs.
             </>
           }
           images={
@@ -158,7 +173,11 @@ function SkyProUI() {
           description={
             <>
             My contributions to the SkyPro UI design library revolved around the design and component management of the buttons, 
-            form fields, and lists during the migrations.
+            form fields, and lists during the migrations. Starting with Adobe XD, we were able to create master components but 
+            has limited prototyping abilities. It wasnt able to handle complex interactions. When we first moved to Axure RP, we 
+            were limited in the way we can style our components. The prototyping was great but designs weren't what we were looking 
+            for. When settling on Figma, we were about to have a master library. This made the designs standardized, the design 
+            process 80% faster, and designs changes instantanious. 
             </>
           }
           images={
@@ -176,7 +195,7 @@ function SkyProUI() {
             Lastly, I created these covers to use as a thumbnail in all the files. The covers include project name, file owner, progress tags, 
             and app association. Originally, files were named by their task locator numbers. In some window views, it was the only thing that
             was visible which made it difficult to identify files by just looking at the design screens. With the cover, it is easy to 
-            identify project files and their progress without having to click into the file. 
+            identify project files and their progress without having to click into the file increasing effiency by 28%. 
             </>
           }
           images={
@@ -188,8 +207,12 @@ function SkyProUI() {
         </div>
         <div className="section__padding">
           <CTA 
-          title= "Skills Developed"
-          description= "Adobe XD, Axure RP, Figma"
+          title= "Results"
+          description= {<>
+          Our team now has an extensive style guide which includes grid, colors, typography, and components. Guidelines are written up for all 
+          the aspects of the style guide. The designs process is 80% faster, and our team is able to better serve the 6 mobile apps with 28,000+
+          flight attendants as users. 
+          </>}
           />
         </div>
       </div>

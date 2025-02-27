@@ -1,24 +1,24 @@
 import React from 'react';
 import './scope.css';
 
-const Scope = ({ goalText, userText, problemText}) => {
+const Scope = ({ title1, text1, title2, text2, title3, text3,}) => {
   return (
     <div className="scope">
         <div>
-            <h2>Goals</h2>
+            <h2>{ title1 }</h2>
 
-            <p>{ goalText }</p>
-
-        </div>
-        <div>
-            <h2>User</h2>
-
-            <p>{ userText }</p>
+            <p>{ text1 }</p>
 
         </div>
         <div>
-            <h2>Problems</h2>
-            <p>{ problemText }</p>
+            <h2>{ title2 }</h2>
+
+            <p>{ text2 }</p>
+
+        </div>
+        <div>
+            <h2>{ title3 }</h2>
+            <p>{ text3 }</p>
         </div>
     </div>
   )

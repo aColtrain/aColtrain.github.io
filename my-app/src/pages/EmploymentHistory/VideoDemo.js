@@ -18,13 +18,13 @@ function VideoDemo() {
             </>
             }
         employer="Delta Air Lines"
-        jobTitle="UX/UI Designer"
+        jobTitle="Video Producer"
         deliverables="Videos"
         tools="Microsoft Word, teleprompter-online.com, iPhone, mini microphones, voice record, iMovie"
         teamSize={
             <>
             1-4
-            <a id="SkyPro"/>
+            
             </>
         }
         impact1="Team Impact"
