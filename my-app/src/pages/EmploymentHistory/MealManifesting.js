@@ -30,6 +30,49 @@ function MealManifesting() {
             }
             />
         </div>
+        <div className="section__padding">
+                  <Scope
+                  title1={
+                  <>
+                  Situation
+                  </>}
+                  text1={
+                    <>
+                    <ul>
+                      <li>There are new capabilities redesign of the MyFlight App </li>
+                    </ul>
+                    
+                    </>
+                  }
+                  title2={
+                    <>
+                    Painpoints
+                    </>}
+                  text2={
+                    <>
+                    <ul>
+                      <li>Design process was too long</li>
+                      <li>Changes to designs were time-consuming</li>
+                      <li>No standardization</li>
+                      <li>Prototyping not supported</li>
+                    </ul>
+                    </>
+                  }
+                  title3={
+                    <>
+                    Tasks
+                    </>}
+                  text3={
+                    <>
+                    <ul>
+                      <li>Find software that supports design and prototype needs</li>
+                      <li>Create a style guide</li>
+                      <li>Create a master library of components</li>
+                    </ul>
+                    </>
+                  }
+                  />          
+                </div>
         {/* <div className="section__padding">
           <ArticleHead
           title={
