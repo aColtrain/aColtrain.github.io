@@ -11,6 +11,7 @@ import {
 import './App.css';
 import Home from './pages/HomePage';
 import About from './pages/About';
+import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import SkyProUI from './pages/EmploymentHistory/SkyproUI';
@@ -20,6 +21,8 @@ import Graphics from './pages/EmploymentHistory/Graphics';
 import MealManifesting from './pages/EmploymentHistory/MealManifesting';
 import VideoDemo from './pages/EmploymentHistory/VideoDemo';
 import ZogranMedia from './pages/EmploymentHistory/ZogranMedia';
+
+
 import ScrollToTop from "./components/ScrollToTop";
 
 
@@ -33,6 +36,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skypro-ui" element={<SkyProUI />} />

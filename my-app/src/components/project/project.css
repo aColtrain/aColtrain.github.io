@@ -38,7 +38,7 @@
 }
 
 .project-tile__name {
-    margin: 8px 0;
+    margin: 0px 0;
 }
 
 .project-tile h2:hover  {
@@ -47,5 +47,5 @@
 
 .project-tile__tags p {
     font-weight: 800;
-    margin: 16px 0 0 0;
+    margin: 0px 0 0 0;
 }

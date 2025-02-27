@@ -10,7 +10,7 @@ const Project = ({projectImg, projectName, projectDescription, projectTags}) => 
       <div className="project-tile__details">
         <h2 className="project-tile__name">{projectName}</h2>
           
-        <p>{projectDescription}</p>
+        {/* <p>{projectDescription}</p> */}
         <div className="project-tile__tags gradient__text">
           <p>{projectTags}</p>
         </div>
