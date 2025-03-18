@@ -1,5 +1,6 @@
 .background {
     background-color: #052c54;
+    margin-top: 4rem;
 }
 .portfolio__footer {
     background-color: #052c54;
@@ -9,7 +10,7 @@
     /* overflow-x: hidden;
     overflow-x: clip !important; */
     z-index: 1020;
-
+    /* margin-top: 4rem; */
 }
 .portfolio__footer ul {
     list-style-type: none; /* Remove bullets */

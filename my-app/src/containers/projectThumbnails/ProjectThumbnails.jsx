@@ -95,7 +95,7 @@ function ProjectThumbnails() {
                 </Link>
             </div>
         </div>
-        <div className="portfolio__project-layout">
+        {/* <div className="portfolio__project-layout">
             <div className="flex-item meals">
                 <Link to="/zogran-media">
                     <Project
@@ -113,7 +113,7 @@ function ProjectThumbnails() {
             <div className="flex-item video">
                 
             </div>
-        </div>
+        </div> */}
     </div>
     /* <Project 
     projectImg={etdThumbnail}

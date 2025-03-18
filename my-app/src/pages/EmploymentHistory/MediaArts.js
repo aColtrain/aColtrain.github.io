@@ -51,7 +51,11 @@ function MediaArts() {
         </div>
         <div className="section__padding">
           <Scope
-          goalText={
+          title1={
+          <>
+          </>
+          }
+          text1={
             <>
             <ul>
               <li>Collaborate with people in different fields</li>
@@ -61,7 +65,11 @@ function MediaArts() {
             
             </>
           }
-          userText={
+          title2={
+            <>
+            </>
+            }
+          text2={
             <>
             <ul>
               <li>University students walking to class</li>
@@ -69,7 +77,11 @@ function MediaArts() {
             </ul>
             </>
           }
-          problemText={
+          title3={
+            <>
+            </>
+            }
+            text3={
             <>
             <ul>
               <li>Make it omnidirectional</li>
