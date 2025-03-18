@@ -5,7 +5,7 @@ import { Brand } from "../../components";
 import inlogo from '../../assets/logo_linkedin_small_white.png';
 import gitlogo from '../../assets/logo_github_small_white.png';
 import emaillogo from '../../assets/icon_email.png';
-import resumePDF from '../../assets/Coltrain_Design_Resume.pdf'
+import resumePDF from '../../assets/AtlasColtrain_Design_Figma_WebandMobile_4yrs_Resume.pdf'
 const today = new Date();
 const year = today.getFullYear();
 
