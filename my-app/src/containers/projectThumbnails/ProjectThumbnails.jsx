@@ -29,7 +29,7 @@ function ProjectThumbnails() {
                 <Link to="/graphics">
                     <Project
                     projectImg={imaBirds}
-                    projectName="Graphic Design"
+                    projectName="Graphic Design & Motion Design"
                     projectDescription={
                         <>
                         Collection of designs.

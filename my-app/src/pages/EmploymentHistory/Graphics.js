@@ -31,7 +31,7 @@ function Graphics() {
   return (
     <div>
         <div className="header employment__name section__padding">
-            <h1 className="gradient__text">Graphic Design</h1>
+            <h1 className="gradient__text">Graphic Design & Motion Design</h1>
         </div>
         <div className="">
             <div className="bird cards">
