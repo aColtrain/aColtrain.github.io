@@ -56,11 +56,10 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container-links">
             <Link to="/"> Home </Link>
             <Link to="/about"> About </Link>
-            
-            <Link to="/media-arts">Media Arts</Link>
+            <Link to="/work"> Work</Link>
+      
             {/* <Link to="/projects"> Project </Link> */}
-            <Link to="/delta"> Delta </Link>
-            <Link to="/comcast">  Comcast </Link>
+            
             <div className="gpt3__navbar-menu_container-links-contact">
               
               <Link to="/contact"><button type="button"> Contact </button></Link>    
