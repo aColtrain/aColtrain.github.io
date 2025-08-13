@@ -12,7 +12,7 @@ import delta from '../../assets/logos/logo_delta_small.png';
 import etd from '../../assets/logos/logo_etd_small.png';
 import gtoit from '../../assets/logos/logo_gtoit_small.png';
 import mediaarts from '../../assets/logos/logo_media_arts_small.png';
-
+import getclimbing from '../../assets/logos/logo_GetClimbingOutside_small.png';
 
 
 const Header = () => {
@@ -44,6 +44,7 @@ const Header = () => {
         
       </div>
       <div className="section__padding about__employment">
+        <img src={getclimbing} />
         <img src={mediaarts} />
         <img src={delta} />
         <img src={comcast} />
