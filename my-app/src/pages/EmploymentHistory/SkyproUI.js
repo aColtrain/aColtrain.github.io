@@ -30,7 +30,7 @@ import banner from '../../assets/delta_banner.png';
 import bannerOriginal from '../../assets/delta_banner_original.png';
 import bannerIterations from '../../assets/delta_banner_iterations.png';
 import bannerFinal from '../../assets/delta_banner_final.png';
-import SimpleImageSlider from "react-simple-image-slider";
+
 
 
 const images = [
