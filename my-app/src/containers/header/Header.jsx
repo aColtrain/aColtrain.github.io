@@ -13,6 +13,8 @@ import etd from '../../assets/logos/logo_etd_small.png';
 import gtoit from '../../assets/logos/logo_gtoit_small.png';
 import mediaarts from '../../assets/logos/logo_media_arts_small.png';
 import getclimbing from '../../assets/logos/logo_GetClimbingOutside_small.png';
+import zogranmedia from '../../assets/logos/logo_zogranmedia_small.png';
+import blusafe from '../../assets/logos/logo_blusafe_small.png';
 
 
 const Header = () => {
@@ -22,7 +24,7 @@ const Header = () => {
         <div className="portfolio__header-content">
           <h1 className="gradient__text"> Hi, I'm Coltrain!</h1>
           <p>
-            Atlanta-based software product designer and developer passionate about creating intuitive and impactful digital experiences.
+            Atlanta-based software web designer and developer passionate about creating intuitive and impactful digital experiences.
           </p>
           <div className="portfolio__header-roles">
             <p className="gradient__text">UX/UI Designer | Product Designer | Frontend Developer</p>
@@ -46,6 +48,8 @@ const Header = () => {
       <div className="logo">
         <div className="logo__slider">
           <img src={getclimbing} />
+          <img src={blusafe} />
+          <img src={zogranmedia} />
           <img src={mediaarts} />
           <img src={delta} />
           <img src={comcast} />
@@ -54,6 +58,8 @@ const Header = () => {
         </div>
         <div className="logo__slider">
           <img src={getclimbing} />
+          <img src={blusafe} />
+          <img src={zogranmedia} />
           <img src={mediaarts} />
           <img src={delta} />
           <img src={comcast} />
