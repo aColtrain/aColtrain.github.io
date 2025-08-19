@@ -114,17 +114,72 @@
     font-weight: 600;
     font-size: 17px;
 }
-.about__employment {
+/* .about__employment {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
+} */
 /* .about__employment div {
     display:block;
 } */
-.about__employment div:hover {
+/* .about__employment div:hover {
    box-shadow: 0 8px var(--color-subtext);
+} */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logo {
+    overflow: hidden;
+    padding: 64px 0;
+    white-space: nowrap;
+    position: relative;
+
+}
+
+.logo::before, .logo::after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logo::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255, 0), var(--color-bg));
+}
+
+.logo::after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255, 0), var(--color-bg));
+}
+
+.logo:hover .logo__slider {
+    animation-play-state: paused;
+}
+.logo__slider {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+    
+   
+}
+
+.logo__slider img {
+    display: flexbox;
+    align-items: center;
+    margin: 0 40px;
+    
+    
+    
+    
 }
 
 @media screen and (max-width: 1200px) {

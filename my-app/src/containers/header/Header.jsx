@@ -43,14 +43,26 @@ const Header = () => {
         </div>
         
       </div>
-      <div className="section__padding about__employment">
-        <img src={getclimbing} />
-        <img src={mediaarts} />
-        <img src={delta} />
-        <img src={comcast} />
-        <img src={etd} />
-        <img src={gtoit} />
-    </div>
+      <div className="logo">
+        <div className="logo__slider">
+          <img src={getclimbing} />
+          <img src={mediaarts} />
+          <img src={delta} />
+          <img src={comcast} />
+          <img src={etd} />
+          <img src={gtoit} />
+        </div>
+        <div className="logo__slider">
+          <img src={getclimbing} />
+          <img src={mediaarts} />
+          <img src={delta} />
+          <img src={comcast} />
+          <img src={etd} />
+          <img src={gtoit} />
+        </div>
+        
+        
+      </div>
   </div>
   )
 }
