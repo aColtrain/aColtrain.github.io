@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cef4828.css",
-    "main.js": "/static/js/main.73164ca2.js",
+    "main.css": "/static/css/main.35c5f345.css",
+    "main.js": "/static/js/main.4f9e0580.js",
     "static/media/ma_birds.png": "/static/media/ma_birds.045b31356ca4a37873fc.png",
     "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
     "static/media/delta_mm_final.png": "/static/media/delta_mm_final.390bb5cea381c4819cd1.png",
@@ -74,23 +74,25 @@
     "static/media/University__Mascot1.png": "/static/media/University__Mascot1.b968cc0d3a95b2c3fccf.png",
     "static/media/car.png": "/static/media/car.f3cdd324b77892459a53.png",
     "static/media/University__Mascot3.png": "/static/media/University__Mascot3.f0ddf7a1502d2615b604.png",
+    "static/media/logo_GetClimbingOutside_small.png": "/static/media/logo_GetClimbingOutside_small.029c7b93567aac71a3b6.png",
     "static/media/delta_mm_manifesting_lowFidelity.png": "/static/media/delta_mm_manifesting_lowFidelity.30f0c4aab846158f521e.png",
     "static/media/logo_linkedin_large_blue.png": "/static/media/logo_linkedin_large_blue.a95afc06831647f5fca2.png",
     "static/media/University__Mascot2.png": "/static/media/University__Mascot2.fd29585b86410118f4a3.png",
     "static/media/delta_mm_inventory_lowFidelity.png": "/static/media/delta_mm_inventory_lowFidelity.c34a3bbbcdc1e6cdf37f.png",
     "static/media/delta_mm_inventory_highFidelity.png": "/static/media/delta_mm_inventory_highFidelity.1e9b9aaeeabc37828228.png",
     "static/media/delta_mm_manifesting_highFidelity.png": "/static/media/delta_mm_manifesting_highFidelity.4eb72bcac396b30c6f27.png",
+    "static/media/logo_zogranmedia_small.png": "/static/media/logo_zogranmedia_small.8137f5cf983cb0fcd718.png",
     "static/media/IMA__BirdCardDetail2.png": "/static/media/IMA__BirdCardDetail2.2c2264f7dd1050cabae4.png",
     "static/media/delta_migration.png": "/static/media/delta_migration.096ff682175f7a0a7e6f.png",
-    "static/media/logo_media_arts_small.png": "/static/media/logo_media_arts_small.f6e416c84f69e415c264.png",
-    "static/media/logo_etd_small.png": "/static/media/logo_etd_small.fb87ca750af75284d834.png",
+    "static/media/logo_media_arts_small.png": "/static/media/logo_media_arts_small.aca0de42a1289b32faba.png",
+    "static/media/logo_etd_small.png": "/static/media/logo_etd_small.049e8183da5791af3607.png",
     "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.c46062cc5fd56b03515f.png",
     "index.html": "/index.html",
-    "main.1cef4828.css.map": "/static/css/main.1cef4828.css.map",
-    "main.73164ca2.js.map": "/static/js/main.73164ca2.js.map"
+    "main.35c5f345.css.map": "/static/css/main.35c5f345.css.map",
+    "main.4f9e0580.js.map": "/static/js/main.4f9e0580.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cef4828.css",
-    "static/js/main.73164ca2.js"
+    "static/css/main.35c5f345.css",
+    "static/js/main.4f9e0580.js"
   ]
 }
