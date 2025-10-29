@@ -6,7 +6,7 @@ function ZogranMedia() {
     <div>
         <div className="header">
         <Employment 
-        name= { "Marketing Website"}
+        name= { "Zogran Media"}
         logo={ "" }
         logoDescription="Delta Air lines logo" 
         positionDescription={
@@ -31,33 +31,48 @@ function ZogranMedia() {
         />
       </div>
       <div className="section__padding">
-          <Scope
-          goalText={
-            <>
-            <ul>
-              <li>Creative and professional</li>
-              <li>Highlight portfolio</li>
-            </ul>
-            
-            </>
-          }
-          userText={
-            <>
-            <ul>
-              <li>Clients that seek media services</li>
-           
-            </ul>
-            </>
-          }
-          problemText={
-            <>
-            <ul>
-              <li></li>
-            </ul>
-            </>
-          }
-          />          
-        </div>
+        <Scope
+        title1={
+        <>
+        Situation
+        </>}
+        text1={
+          <>
+          <ul>
+            <li>  </li>
+          </ul>
+          
+          </>
+        }
+        title2={
+          <>
+          Painpoints
+          </>}
+        text2={
+          <>
+          <ul>
+            <li>Design process was too long</li>
+            <li>Changes to designs were time-consuming</li>
+            <li>No standardization</li>
+            <li>Prototyping not supported</li>
+          </ul>
+          </>
+        }
+        title3={
+          <>
+          Tasks
+          </>}
+        text3={
+          <>
+          <ul>
+            <li>Find software that supports design and prototype needs</li>
+            <li>Create a style guide</li>
+            <li>Create a master library of components</li>
+          </ul>
+          </>
+        }
+        />          
+      </div>
     </div>
   )
 }

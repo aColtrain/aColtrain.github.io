@@ -80,7 +80,6 @@ function SkyProUI() {
         impact2="Products Impact"
         impact2List=""
         />
-        
       </div>
       <div className="section__padding">
           <Scope

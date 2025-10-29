@@ -9,12 +9,37 @@ import deltaSkyPro from '../../assets/Delta_SkyPro_Thumbnail.png';
 import deltaDemo from '../../assets/Delta_Demo_Thumbnail.png';
 import imaBirds from '../../assets/IMA_Birds_Thumbnail.png';
 import imaMedia from '../../assets/IMA_Media_Thumbnail.png';
+import zogranmedia from '../../assets/logos/logo_zogranmedia_small.png';
 import { Project } from '../../components';
 
 
 function ProjectThumbnails() {
   return (
     <div className="section__padding">
+        <div className="portfolio__project-layout">
+            <div className="flex-item zogranmedia">
+                <Link to="/zogran-media">
+                    <Project
+                    projectImg={zogranmedia}
+                    projectName="Marketing Website Redesign"
+                    projectDescription="Marketing Website Redesign"
+                    projectTags="UX/UI Web Design | Squarespace | Branding"/>    
+                </Link>
+            </div> 
+            <div className="flex-item graphics">
+                <Link to="/graphics">
+                    <Project
+                    projectImg={imaBirds}
+                    projectName="Graphic Design & Motion Design"
+                    projectDescription={
+                        <>
+                        Collection of designs.
+                        </>
+                    }
+                    projectTags="Graphic Design | Printing | Figma" />    
+                </Link>
+            </div> 
+        </div>
         <div className="portfolio__project-layout">
             <div className="flex-item skyproui">
                 <Link to="/skypro-ui">
