@@ -9,6 +9,10 @@ import deltaSkyPro from '../../assets/Delta_SkyPro_Thumbnail.png';
 import deltaDemo from '../../assets/Delta_Demo_Thumbnail.png';
 import imaBirds from '../../assets/IMA_Birds_Thumbnail.png';
 import imaMedia from '../../assets/IMA_Media_Thumbnail.png';
+import gcoThumb from '../../assets/GCO_Thumbnail.png';
+import tntsThumb from '../../assets/TNTS_Thumbnail.png';
+import bluSafeThumb from '../../assets/BluSafe_Thumbnail.png';
+
 import zogranmedia from '../../assets/logos/logo_zogranmedia_small.png';
 import { Project } from '../../components';
 
@@ -17,26 +21,43 @@ function ProjectThumbnails() {
   return (
     <div className="section__padding">
         <div className="portfolio__project-layout">
+            <div className="flex-item getclimbingoutside">
+                <Link to="/get-climbing-outside">
+                    <Project
+                    projectImg={gcoThumb}
+                    projectName="Get Climbing Outside"
+                    projectDescription="Marketing Website Redesign"
+                    projectTags="UX/UI Web Design | Hubspot | Branding"/>    
+                </Link>
+            </div> 
+            <div className="flex-item truenorththerapy">
+                <Link to="/true-north-therapy">
+                    <Project
+                    projectImg={tntsThumb}
+                    projectName="True North Therapy"
+                    projectDescription="Marketing Website Redesign"
+                    projectTags="UX/UI Web Design | Godaddy | Branding | Logo Design"/>    
+                </Link>
+            </div>
+
+        </div>
+        <div className="portfolio__project-layout">
             <div className="flex-item zogranmedia">
                 <Link to="/zogran-media">
                     <Project
-                    projectImg={zogranmedia}
-                    projectName="Marketing Website Redesign"
+                    projectImg={imaBirds}
+                    projectName="Zogran Media"
                     projectDescription="Marketing Website Redesign"
                     projectTags="UX/UI Web Design | Squarespace | Branding"/>    
                 </Link>
             </div> 
-            <div className="flex-item graphics">
-                <Link to="/graphics">
+            <div className="flex-item blusafe">
+                <Link to="/blusafe">
                     <Project
-                    projectImg={imaBirds}
-                    projectName="Graphic Design & Motion Design"
-                    projectDescription={
-                        <>
-                        Collection of designs.
-                        </>
-                    }
-                    projectTags="Graphic Design | Printing | Figma" />    
+                    projectImg={bluSafeThumb}
+                    projectName="BluSafe"
+                    projectDescription="Marketing Website Redesign"
+                    projectTags="UX/UI Web Design | Squarespace | Branding"/>    
                 </Link>
             </div> 
         </div>

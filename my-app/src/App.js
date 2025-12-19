@@ -20,7 +20,11 @@ import MediaArts from './pages/EmploymentHistory/MediaArts';
 import Graphics from './pages/EmploymentHistory/Graphics';
 import MealManifesting from './pages/EmploymentHistory/MealManifesting';
 import VideoDemo from './pages/EmploymentHistory/VideoDemo';
+import BluSafe from './pages/EmploymentHistory/BluSafe';
 import ZogranMedia from './pages/EmploymentHistory/ZogranMedia';
+import GetClimbingOutside from './pages/EmploymentHistory/GetClimbingOutside';
+import TrueNorthTherapy from './pages/EmploymentHistory/TrueNorthTherapy';
+
 
 
 import ScrollToTop from "./components/ScrollToTop";
@@ -45,7 +49,10 @@ const App = () => {
         <Route path="/graphics" element={<Graphics />} />
         <Route path="/meal-manifesting" element={<MealManifesting />} />
         <Route path="/video-demo" element={<VideoDemo />} />
+        <Route path="/blusafe" element={<BluSafe />} />
         <Route path="/zogran-media" element={<ZogranMedia />} />
+        <Route path="/get-climbing-outside" element={<GetClimbingOutside />} />
+        <Route path="/true-north-therapy" element={<TrueNorthTherapy />} />
       </Routes>
       </div>
       <Footer />
