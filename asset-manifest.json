@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.35c5f345.css",
-    "main.js": "/static/js/main.4e72ce9d.js",
+    "main.js": "/static/js/main.3b575dbe.js",
     "static/media/ma_birds.png": "/static/media/ma_birds.045b31356ca4a37873fc.png",
     "static/media/Bird_Poster.png": "/static/media/Bird_Poster.889c74245f6116c8f908.png",
     "static/media/delta_mm_final.png": "/static/media/delta_mm_final.390bb5cea381c4819cd1.png",
@@ -9,13 +9,15 @@
     "static/media/AOE__Animation1.gif": "/static/media/AOE__Animation1.655d9e4d84faed6d730c.gif",
     "static/media/ma_bridgeLocation.png": "/static/media/ma_bridgeLocation.f4880c25e55e6aaef198.png",
     "static/media/AOE__Animation2.gif": "/static/media/AOE__Animation2.f74b34899a0bc63be164.gif",
+    "static/media/GCO_Thumbnail.png": "/static/media/GCO_Thumbnail.c1e5ec2319dd36ea5a4c.png",
     "static/media/About_winter.JPG": "/static/media/About_winter.224831fc269a5caf53b6.JPG",
     "static/media/delta_demo_filming.png": "/static/media/delta_demo_filming.276bd340597e753f93a2.png",
+    "static/media/BluSafe_Thumbnail.png": "/static/media/BluSafe_Thumbnail.5a47b0f1636125bead41.png",
     "static/media/delta_demo_editing.png": "/static/media/delta_demo_editing.fac1ad916a9152bbcd6f.png",
     "static/media/delta_myCabin_final.png": "/static/media/delta_myCabin_final.ba27870459a12d81142f.png",
     "static/media/delta_banner_original.png": "/static/media/delta_banner_original.c6cd7e7ded61cd73113c.png",
     "static/media/comcast_mini_UIRevisions.png": "/static/media/comcast_mini_UIRevisions.f145b28f9debb52b869d.png",
-    "static/media/IMA_Birds_Thumbnail.png": "/static/media/IMA_Birds_Thumbnail.32cdb2db9f3dc7533247.png",
+    "static/media/IMA_Birds_Thumbnail.png": "/static/media/IMA_Birds_Thumbnail.99e05ffff2bd579d4af6.png",
     "static/media/delta_banner.png": "/static/media/delta_banner.715e62e7f8045a6ae1e3.png",
     "static/media/Delta_Demo_Thumbnail.png": "/static/media/Delta_Demo_Thumbnail.26a766a649536b5c1651.png",
     "static/media/delta_mm_draft.png": "/static/media/delta_mm_draft.b3c2a0f4c27f55550a45.png",
@@ -53,6 +55,7 @@
     "static/media/about_gallery_climbing.png": "/static/media/about_gallery_climbing.29d133121a515298cfe8.png",
     "static/media/delta_lists.png": "/static/media/delta_lists.da3f350e5f746d8771de.png",
     "static/media/about_gallery_snake.png": "/static/media/about_gallery_snake.568cf2f34c1f69d7094d.png",
+    "static/media/TNTS_Thumbnail.png": "/static/media/TNTS_Thumbnail.7a9f08a33b13435fc308.png",
     "static/media/delta_formfields.png": "/static/media/delta_formfields.a5ea2c628c7219f7f375.png",
     "static/media/University_Mascot_Poster.png": "/static/media/University_Mascot_Poster.33b275b8e9b93e371a58.png",
     "static/media/AtlasColtrain_Design_Figma_WebandMobile_4yrs_Resume.pdf": "/static/media/AtlasColtrain_Design_Figma_WebandMobile_4yrs_Resume.93b339bef0d76dc9e093.pdf",
@@ -89,10 +92,10 @@
     "static/media/logo_coltrain_multicolored.png": "/static/media/logo_coltrain_multicolored.c46062cc5fd56b03515f.png",
     "index.html": "/index.html",
     "main.35c5f345.css.map": "/static/css/main.35c5f345.css.map",
-    "main.4e72ce9d.js.map": "/static/js/main.4e72ce9d.js.map"
+    "main.3b575dbe.js.map": "/static/js/main.3b575dbe.js.map"
   },
   "entrypoints": [
     "static/css/main.35c5f345.css",
-    "static/js/main.4e72ce9d.js"
+    "static/js/main.3b575dbe.js"
   ]
 }
