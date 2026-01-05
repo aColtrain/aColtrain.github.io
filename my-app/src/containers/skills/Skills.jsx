@@ -9,7 +9,7 @@ const featuresData = [
   },
   {
     title: 'Devlopment',
-    text: 'React, HTML, CSS, CMS, Drupal, WordPress, Squarespace'
+    text: 'React, HTML, CSS, CMS, Drupal, WordPress, Squarespace, Hubspot, Godaddy'
   },
   {
     title: 'SEO',

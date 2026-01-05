@@ -15,6 +15,7 @@ import mediaarts from '../../assets/logos/logo_media_arts_small.png';
 import getclimbing from '../../assets/logos/logo_GetClimbingOutside_small.png';
 import zogranmedia from '../../assets/logos/logo_zogranmedia_small.png';
 import blusafe from '../../assets/logos/logo_blusafe_small.png';
+import tnts from '../../assets/logos/logo_tnts_small.png';
 
 
 const Header = () => {
@@ -48,6 +49,7 @@ const Header = () => {
       <div className="logo">
         <div className="logo__slider">
           <img src={getclimbing} />
+          <img src={tnts} />
           <img src={blusafe} />
           <img src={zogranmedia} />
           <img src={mediaarts} />
@@ -58,6 +60,7 @@ const Header = () => {
         </div>
         <div className="logo__slider">
           <img src={getclimbing} />
+          <img src={tnts} />
           <img src={blusafe} />
           <img src={zogranmedia} />
           <img src={mediaarts} />
