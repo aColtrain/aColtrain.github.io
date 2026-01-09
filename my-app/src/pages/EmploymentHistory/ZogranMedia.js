@@ -1,5 +1,8 @@
 import React from 'react'
 import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
+import screens from '../../assets/zogranMedia_screens.png';
+
+
 
 function ZogranMedia() {
   return (
@@ -39,7 +42,7 @@ function ZogranMedia() {
         text1={
           <>
           <ul>
-            <li>  </li>
+            <li>Client is transitioning from improv to marketing and needs a website that reflects that  </li>
           </ul>
           
           </>
@@ -51,10 +54,7 @@ function ZogranMedia() {
         text2={
           <>
           <ul>
-            <li>Design process was too long</li>
-            <li>Changes to designs were time-consuming</li>
-            <li>No standardization</li>
-            <li>Prototyping not supported</li>
+            <li>Lack of information heirarchy</li>
           </ul>
           </>
         }
@@ -66,12 +66,13 @@ function ZogranMedia() {
           <>
           <ul>
             <li>Find software that supports design and prototype needs</li>
-            <li>Create a style guide</li>
-            <li>Create a master library of components</li>
           </ul>
           </>
         }
         />          
+      </div>
+      <div className="section__padding">
+        <img src={ screens } alt="" />
       </div>
     </div>
   )

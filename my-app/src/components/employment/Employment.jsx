@@ -16,7 +16,7 @@ const Employment = ({ name, logo, logoDescription, positionDescription, employer
         <div className="employment__team-container">
           
           <div className="container">
-            <Feature title="Employer" text={ employer } />
+            <Feature title="Client" text={ employer } />
             <Feature title="Role" text={ jobTitle } />
             <Feature title="Deliverables" text={ deliverables } />
             <Feature title="Tools" text={ tools } />

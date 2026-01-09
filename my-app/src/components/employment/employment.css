@@ -5,7 +5,8 @@
     /* align-items: center; */
     flex-direction: row;
     gap: 4rem;
-}
+} 
+
 .employment__name h1 {
     font-family: var(--font-family);
     font-weight: 800;
@@ -44,3 +45,4 @@
 }
 @media screen and (max-width: 768px) {}
 @media screen and (max-width: 480px) {}
+
