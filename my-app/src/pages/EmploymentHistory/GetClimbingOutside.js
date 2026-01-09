@@ -1,5 +1,6 @@
 import React from 'react'
 import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
+import screens from '../../assets/GCO_screens.png';
  
  function GetClimbingOutside() {
    return (
@@ -26,43 +27,46 @@ import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../c
             />
         </div>
         <div className="section__padding">
-                <Scope
-                title1={
+            <Scope
+            title1={
+            <>
+            Situation
+            </>}
+            text1={
                 <>
-                Situation
+                <ul>
+                <li>  </li>
+                </ul>
+                
+                </>
+            }
+            title2={
+                <>
+                Painpoints
                 </>}
-                text1={
-                  <>
-                  <ul>
-                    <li>  </li>
-                  </ul>
-                  
-                  </>
-                }
-                title2={
-                  <>
-                  Painpoints
-                  </>}
-                text2={
-                  <>
-                  <ul>
-                    <li>Design process was too long</li>
-                  </ul>
-                  </>
-                }
-                title3={
-                  <>
-                  Tasks
-                  </>}
-                text3={
-                  <>
-                  <ul>
-                    <li>Find software that supports design and prototype needs</li>
-                  </ul>
-                  </>
-                }
-                />          
-              </div>
+            text2={
+                <>
+                <ul>
+                <li>Design process was too long</li>
+                </ul>
+                </>
+            }
+            title3={
+                <>
+                Tasks
+                </>}
+            text3={
+                <>
+                <ul>
+                <li>Find software that supports design and prototype needs</li>
+                </ul>
+                </>
+            }
+            />          
+        </div>
+        <div className="section__padding">
+            <img src={ screens } alt="" />
+        </div>
     </div>
     
    )

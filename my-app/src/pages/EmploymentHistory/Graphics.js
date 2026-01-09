@@ -24,6 +24,8 @@ import bannerFinal from '../../assets/delta_banner_final.png';
 import banner from '../../assets/delta_banner.png';
 import bannerOriginal from '../../assets/delta_banner_original.png';
 import eventPoster from '../../assets/mediaArts/ma_eventPoster.png';
+import GCOPoster1 from '../../assets/GCO_MarketingPoster.png';
+import GCOPoster2 from '../../assets/GCO_MarketingPoster2.png';
 import { ArticleHead, ArticleL, ArticleR, ArticleInfo, CTA, Scope, Employment } from '../../components';
 import '../../components/employment/employment.css';
 
@@ -33,7 +35,28 @@ function Graphics() {
         <div className="header employment__name section__padding">
             <h1 className="gradient__text">Graphic Design & Motion Design</h1>
         </div>
+        
         <div className="">
+            <div className="GCO Poster">
+                <ArticleInfo
+                title={"Climbing Marketing Poster"}
+                description={
+                    <>
+                    Designing a poster to stand out on a bulletin of posters. The mix of   
+                    </>
+                }
+                category={"Marketing, Poster Design"}
+                deliverables={"Interactive Poster"}
+                imgs={
+                    <>
+                    <div className="">
+                        <img src={GCOPoster1}/>
+                        <img src={GCOPoster2}/>
+                    </div>
+                    </>
+                }
+                />    
+            </div>
             <div className="bird cards">
                 <ArticleInfo
                 title={"Bird Cards and Poster"}

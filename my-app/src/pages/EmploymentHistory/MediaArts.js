@@ -15,15 +15,6 @@ import { ScrollRestoration } from "react-router-dom";
 function MediaArts() {
   return (
     <div>
-        {/* <ScrollToHashElement/>
-        <div className="sidenav">
-            <div>
-                <a href="#MediaBridge"><p>Media Bridge</p></a>
-                <a href="#Bird"><p>Bird Cards</p></a>
-                <a href="#LED"><p>LED Card Events</p></a>
-            </div>
-        </div> */}
-  
         <div className="header">
             <Employment 
             name={"Media Bridge"}

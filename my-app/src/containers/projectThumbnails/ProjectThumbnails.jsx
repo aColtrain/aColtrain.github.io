@@ -12,6 +12,7 @@ import imaMedia from '../../assets/IMA_Media_Thumbnail.png';
 import gcoThumb from '../../assets/GCO_Thumbnail.png';
 import tntsThumb from '../../assets/TNTS_Thumbnail.png';
 import bluSafeThumb from '../../assets/BluSafe_Thumbnail.png';
+import zogranMediaThumb from '../../assets/ZogranMedia_Thumbnail.png';
 
 import zogranmedia from '../../assets/logos/logo_zogranmedia_small.png';
 import { Project } from '../../components';
@@ -45,7 +46,7 @@ function ProjectThumbnails() {
             <div className="flex-item zogranmedia">
                 <Link to="/zogran-media">
                     <Project
-                    projectImg={imaBirds}
+                    projectImg={zogranMediaThumb}
                     projectName="Zogran Media"
                     projectDescription="Marketing Website Redesign"
                     projectTags="UX/UI Web Design | Squarespace | Branding"/>    
