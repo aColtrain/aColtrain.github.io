@@ -42,7 +42,8 @@ function Graphics() {
                 title={"Climbing Marketing Poster"}
                 description={
                     <>
-                    Designing a poster to stand out on a bulletin of posters. The mix of   
+                    Designing a poster to stand out on a bulletin of posters. The mix of color blocking and phography gives it an eye catching look. The 
+                    poster is also pair with stickers to draw viewers in. 
                     </>
                 }
                 category={"Marketing, Poster Design"}

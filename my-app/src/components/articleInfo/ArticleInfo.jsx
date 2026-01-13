@@ -16,7 +16,7 @@ const ArticleInfo = ({title, description, category, deliverables, imgs}) => {
                 </div>
             <div>
                     <Feature title="Category" text={ category }/>
-                    <Feature title="Deliverables" text={ deliverables }/>
+                    {/* <Feature title="Deliverables" text={ deliverables }/> */}
             </div>
           </div>
         </div>

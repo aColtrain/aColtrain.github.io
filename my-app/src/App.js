@@ -24,6 +24,7 @@ import BluSafe from './pages/EmploymentHistory/BluSafe';
 import ZogranMedia from './pages/EmploymentHistory/ZogranMedia';
 import GetClimbingOutside from './pages/EmploymentHistory/GetClimbingOutside';
 import TrueNorthTherapy from './pages/EmploymentHistory/TrueNorthTherapy';
+import Delta from './pages/EmploymentHistory/Delta';
 
 
 
@@ -53,6 +54,7 @@ const App = () => {
         <Route path="/zogran-media" element={<ZogranMedia />} />
         <Route path="/get-climbing-outside" element={<GetClimbingOutside />} />
         <Route path="/true-north-therapy" element={<TrueNorthTherapy />} />
+        <Route path="/delta" element={<Delta />} />
       </Routes>
       </div>
       <Footer />
