@@ -11,7 +11,7 @@ import screens from '../../assets/bluSafe_screens.png';
             logo={ <></> }
             positionDescription={
                 <>
-            
+                slide deign and graphic design, mention persona, adjvetives
                 </>
             } 
             employer={"BluSafe"}

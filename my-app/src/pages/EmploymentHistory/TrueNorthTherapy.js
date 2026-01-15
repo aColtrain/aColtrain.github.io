@@ -11,6 +11,7 @@ function TrueNorthTherapy() {
             logo={ <></> }
             positionDescription={
                 <>
+                Mention logo design, photography, research, 
             
                 </>
             } 

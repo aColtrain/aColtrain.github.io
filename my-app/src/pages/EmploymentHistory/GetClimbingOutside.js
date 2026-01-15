@@ -11,7 +11,7 @@ import screens from '../../assets/GCO_screens.png';
             logo={ <></> }
             positionDescription={
                 <>
-            
+                Social Media, Phography, Web design
                 </>
             } 
             employer={"Get Climbing Outside"}

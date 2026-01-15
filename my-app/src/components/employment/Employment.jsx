@@ -11,6 +11,7 @@ const Employment = ({ name, logo, logoDescription, positionDescription, employer
           <div className="employment__description">
             <p>{positionDescription}</p> 
           </div>
+          {/* { logo } */}
         </div>
         
         <div className="employment__team-container">

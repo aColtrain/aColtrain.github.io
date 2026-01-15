@@ -1,13 +1,13 @@
 import React from 'react'
 import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope, ArticleInfo } from '../../components';
-
+import deltaLogo from '../../assets/logos/logo_delta_large.png';
 function Delta() {
   return (
     <div>
         <div>
             <Employment 
             name={"Delta Air Lines"}
-            logo={ <></> }
+            logo={ <img src={ deltaLogo } alt="" /> }
             positionDescription={
                 <>
             
