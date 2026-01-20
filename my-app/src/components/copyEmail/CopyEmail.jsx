@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import './copyEmail.css';
+
 function CopyEmail() {
   const email = "atlascoltrain@gmail.com";
   const [copied, setCopied] = useState(false);
