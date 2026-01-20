@@ -13,7 +13,7 @@ function CopyEmail() {
   };
 
   return (
-    <button onClick={copyToClipboard}>
+    <button className="copy-email" onClick={copyToClipboard}>
       {copied ? "Email Copied!" : email}
     </button>
   );
