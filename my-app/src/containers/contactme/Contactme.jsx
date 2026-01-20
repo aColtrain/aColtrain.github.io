@@ -1,5 +1,6 @@
 import React from 'react';
 import './contactme.css';
+import { CopyEmail } from "../../components";
 import linkedin from '../../assets/logo_linkedin_small_blue.png';
 import email from '../../assets/icon_email_blue.png';
 
@@ -21,14 +22,16 @@ function Contact() {
             <img src={ linkedin } alt="linkedin logo" /> 
             <p>linkedin.com/in/coltrain</p>
           </a>
-          <a href="mailto:atlascoltrain@gmail.com">
+          <a>
             <img src={ email } alt="email icon" />
-            <p>atlascoltrain@gmail.com</p>
+            <CopyEmail />
+            {/* <p>atlascoltrain@gmail.com</p> */}
           </a>
           
         </div>
         
       </div>
+      
     </div>
   )
 }

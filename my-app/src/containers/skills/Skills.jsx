@@ -35,18 +35,31 @@ const featuresData = [
 
 const Skills = () => {
   return (
-    <div className="gpt3__features section__padding" id="about">
-      <div className="gpt3__features-heading">
-        <h1 className="gradient__text">Skills & Languages</h1>
-        <p>Interaction Design + Media Software Developement</p>
+    <div>
+      <div className="gpt3__features section__padding" id="about">
+        <div className="gpt3__features-heading">
+          <h1 className="gradient__text">Education</h1>
+        </div>
+        
+        <div className="gpt3__features-container">
+          <Feature title='Georgia Institute of Technology' text='B.S. Computational Media' />
+          <Feature title='University of Limerick' text='Creative Media and Interaction Design' />
+        </div>
       </div>
-      
-      <div className="gpt3__features-container">
-        {featuresData.map((item, index) => (  
-          <Feature title={item.title} text={item.text} key={ item.title + index} />
-        ))}
+      <div className="gpt3__features section__padding" id="about">
+        <div className="gpt3__features-heading">
+          <h1 className="gradient__text">Skills & Languages</h1>
+          <p>Interaction Design + Media Software Developement</p>
+        </div>
+        
+        <div className="gpt3__features-container">
+          {featuresData.map((item, index) => (  
+            <Feature title={item.title} text={item.text} key={ item.title + index} />
+          ))}
+        </div>
       </div>
     </div>
+    
   )
 }
 

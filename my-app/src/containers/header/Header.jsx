@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-
+import { Feature } from '../../components';
 
 import car from '../../assets/car.png';
 import avatar from '../../assets/ColtrainWinterAvatar.png';
@@ -18,6 +18,7 @@ import blusafe from '../../assets/logos/logo_blusafe_small.png';
 import tnts from '../../assets/logos/logo_tnts_small.png';
 
 
+
 const Header = () => {
   return (
     <div>
@@ -25,7 +26,7 @@ const Header = () => {
         <div className="portfolio__header-content">
           <h1 className="gradient__text"> Hi, I'm Coltrain!</h1>
           <p>
-            Atlanta-based UX/UI designer and web developer passionate about creating intuitive and impactful digital experiences.
+          Atlanta-based UX/UI designer and web developer passionate about creating intuitive and impactful digital experiences.
           </p>
           <div className="portfolio__header-roles">
             <p className="gradient__text">UX/UI Designer | Product Designer | Frontend Developer</p>
