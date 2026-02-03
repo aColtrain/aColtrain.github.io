@@ -27,10 +27,10 @@ const featuresData = [
   //   title: '3D',
   //   text: 'Unity, Maya, A-Frame, Solidworks, 3D Animation'
   // },
-  {
-    title: 'Soft Skills',
-    text: 'Communication,  Problem Solving, Adaptability, Critical Thinking, Empathy'
-  }
+  // {
+  //   title: 'Soft Skills',
+  //   text: 'Communication,  Problem Solving, Adaptability, Critical Thinking, Empathy'
+  // }
 ]
 
 const Skills = () => {
