@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link to="/about"><p> About </p></Link>
           <Link to="/work"><p> UX/UI Design </p></Link>
           <Link to="/graphics"><p> Graphic Design </p></Link>
-           <Link to="/delta"><p> Sandbox </p></Link>
+           {/* <Link to="/delta"><p> Sandbox </p></Link> */}
           {/* <p>UX UI Design</p>
           <p>Marketing</p>
           <Link to="/Graphics"><p> Graphic Design </p></Link> */}

@@ -11,7 +11,9 @@ function TrueNorthTherapy() {
             logo={ <></> }
             positionDescription={
                 <>
-                Mention logo design, photography, research, 
+                Creating an inclusive, affirming brand for an LGBTQIA+ therapy service through logo design, visual identity, 
+                and accessible web styling that communicates trust, warmth, and emotional safety.
+               {/* Web development, comparative research, brand identity, logo design, photography  */}
             
                 </>
             } 
@@ -27,7 +29,12 @@ function TrueNorthTherapy() {
             }
             />
         </div>
-        <div className="section__padding">
+        {/* <div className="section__padding">
+            <h2>Overview</h2>
+            <p>Creating an inclusive, affirming brand for an LGBTQIA+ therapy service through logo design, visual identity, 
+                and accessible web styling that communicates trust, warmth, and emotional safety.</p>
+        </div> */}
+        {/* <div className="section__padding">
             <Scope
             title1={
             <>
@@ -64,7 +71,7 @@ function TrueNorthTherapy() {
                 </>
             }
             />          
-        </div>
+        </div> */}
         <div className="section__padding">
             <img src={ screens } alt="" />
         </div>

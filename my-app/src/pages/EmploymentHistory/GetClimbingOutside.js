@@ -11,7 +11,10 @@ import screens from '../../assets/GCO_screens.png';
             logo={ <></> }
             positionDescription={
                 <>
-                Social Media, Phography, Web design
+                Created a professional, trustworthy, and inclusive online presence that reflects the brand’s adventurous spirit. 
+                Built a client-manageable website allowing easy updates, where users can explore services, meet the team, view class offerings, 
+                and book directly. I also produced supporting photography and social content to strengthen the brand’s digital identity.
+                {/* Social Media, Phography, Web design */}
                 </>
             } 
             employer={"Get Climbing Outside"}
@@ -26,16 +29,25 @@ import screens from '../../assets/GCO_screens.png';
             }
             />
         </div>
-        <div className="section__padding">
+        {/* <div className="section__padding">
+            <h2>Overview</h2>
+            <p>Created a professional, trustworthy, and inclusive online presence that reflects the brand’s adventurous spirit. 
+                Built a client-manageable website allowing easy updates, where users can explore services, meet the team, view class offerings, 
+                and book directly. I also produced supporting photography and social content to strengthen the brand’s digital identity.
+</p>
+        </div> */}
+        {/* <div className="section__padding">
             <Scope
             title1={
             <>
-            Situation
+            Overview
             </>}
             text1={
                 <>
+                
                 <ul>
-                <li>  </li>
+                <li>No prior digital communications</li>
+                <li>Wants to emphasize climbing is fun for everyone</li>
                 </ul>
                 
                 </>
@@ -47,23 +59,24 @@ import screens from '../../assets/GCO_screens.png';
             text2={
                 <>
                 <ul>
-                <li>Design process was too long</li>
+                <li>No booking system</li>
+                <li>Not client manageable</li>
                 </ul>
                 </>
             }
             title3={
                 <>
-                Tasks
+                
                 </>}
             text3={
                 <>
                 <ul>
-                <li>Find software that supports design and prototype needs</li>
+                
                 </ul>
                 </>
             }
             />          
-        </div>
+        </div> */}
         <div className="section__padding">
             <img src={ screens } alt="" />
         </div>

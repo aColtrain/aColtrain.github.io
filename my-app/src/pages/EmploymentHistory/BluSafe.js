@@ -11,7 +11,8 @@ import screens from '../../assets/bluSafe_screens.png';
             logo={ <></> }
             positionDescription={
                 <>
-                slide deign and graphic design, mention persona, adjvetives
+                Developed a privacy-focused website with strong security practices, designed to build trust while delivering a seamless and safe user experience.
+                {/* slide deign and graphic design, mention persona, adjvetives */}
                 </>
             } 
             employer={"BluSafe"}
@@ -26,7 +27,13 @@ import screens from '../../assets/bluSafe_screens.png';
             }
             />
         </div>
-        <div className="section__padding">
+        {/* <div className="section__padding">
+            <h2>Overview</h2>
+            <p>
+                Developed a privacy-focused website with strong security practices, designed to build trust while delivering a seamless and safe user experience.
+            </p>
+        </div> */}
+        {/* <div className="section__padding">
             <Scope
             title1={
             <>
@@ -63,7 +70,7 @@ import screens from '../../assets/bluSafe_screens.png';
                 </>
             }
             />          
-        </div>
+        </div> */}
         <div className="section__padding">
             <img src={ screens } alt="" />
         </div>

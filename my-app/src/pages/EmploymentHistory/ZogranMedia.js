@@ -14,7 +14,8 @@ function ZogranMedia() {
         logoDescription="Delta Air lines logo" 
         positionDescription={
           <>
-          Creating a marketing website that highlights the companies brand identity work experience. 
+          Developed a marketing website that repositioned a brand for a new industry, balancing clarity, trust, and speed within a compressed timeline.
+          {/* Creating a marketing website that highlights the companies brand identity work experience.  */}
 
           </>
         }
@@ -33,7 +34,7 @@ function ZogranMedia() {
         impact2List=""
         />
       </div>
-      <div className="section__padding">
+      {/* <div className="section__padding">
         <Scope
         title1={
         <>
@@ -70,7 +71,7 @@ function ZogranMedia() {
           </>
         }
         />          
-      </div>
+      </div> */}
       <div className="section__padding">
         <img src={ screens } alt="" />
       </div>
