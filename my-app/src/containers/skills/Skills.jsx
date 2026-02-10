@@ -49,7 +49,7 @@ const Skills = () => {
       <div className="gpt3__features section__padding" id="about">
         <div className="gpt3__features-heading">
           <h1 className="gradient__text">Skills & Languages</h1>
-          <p>Interaction Design + Media Software Developement</p>
+          <p>Interaction Design + Media Software Development</p>
         </div>
         
         <div className="gpt3__features-container">
