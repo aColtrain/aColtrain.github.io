@@ -7,7 +7,7 @@
     gap: 4rem;
 } 
 
-.employment__name h1 {
+.title h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 54px;

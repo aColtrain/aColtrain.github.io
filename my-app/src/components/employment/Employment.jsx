@@ -5,9 +5,15 @@ import { Feature } from '..';
 
 const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, deliverables, tools, teamSize, impact1,impact2 }) => {
   return (
-    <div className="section__padding employment">
+    <div className="section__padding">
+      <div className="title">
+        <h1 className="gradient__text"> {name} </h1>
+      
+      </div>
+      
+      <div className="employment">
         <div className="employment__name">
-          <h1 className="gradient__text"> {name} </h1>
+          {/* <h1 className="gradient__text"> {name} </h1> */}
           <div className="employment__description">
             <p>{positionDescription}</p> 
           </div>
@@ -41,6 +47,7 @@ const Employment = ({ name, logo, logoDescription, positionDescription, employer
           </div>
         </div>      */}
     </div>
+  </div>
   )
 }
 

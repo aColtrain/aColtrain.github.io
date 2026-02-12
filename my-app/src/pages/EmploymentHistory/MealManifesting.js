@@ -10,7 +10,7 @@ function MealManifesting() {
     <div className="Meal Inventory and Meal Manifesting">
         <div className="header">
             <Employment 
-            name={"Meal Manifesting"}
+            name={"SkyPro: Streamlining In-Flight Meal Selection"}
             logo={ <></> }
             positionDescription={
                 <>
@@ -20,7 +20,7 @@ function MealManifesting() {
             } 
             employer={"Delta Air Lines"}
             jobTitle="UX/UI Designer"
-            deliverables="App designs"
+            deliverables="Mobile (IOS) designs"
             tools="Figma"
             teamSize={
                 <>
@@ -51,10 +51,9 @@ function MealManifesting() {
                   text2={
                     <>
                     <ul>
-                      <li>Design process was too long</li>
-                      <li>Changes to designs were time-consuming</li>
-                      <li>No standardization</li>
-                      <li>Prototyping not supported</li>
+                      <li>Manual tallying</li>
+                      <li>Fragmented seat maps</li>
+                      <li>High error rate</li>
                     </ul>
                     </>
                   }
@@ -65,9 +64,9 @@ function MealManifesting() {
                   text3={
                     <>
                     <ul>
-                      <li>Find software that supports design and prototype needs</li>
-                      <li>Create a style guide</li>
-                      <li>Create a master library of components</li>
+                      <li>Design for fast paced- mobile enviroment</li>
+                      <li>Create a glancable seatmap</li>
+                      <li>Redesign workflow for taking meal inventory and recording customer orders taking account for edge cases.</li>
                     </ul>
                     </>
                   }
@@ -182,7 +181,7 @@ function MealManifesting() {
         <div className="section__padding" id="MyCabin">
           <CTA 
           title= "Skills Developed"
-          description= "Working within an established design aesthetic and working with people without a design background"
+          description= "Working within an established design system and working with people without a design background"
           />
         </div>
       </div>

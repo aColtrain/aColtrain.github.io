@@ -5,6 +5,8 @@ import { Employment } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
 import car from '../../assets/car.png';
 import migration from '../../assets/delta_migration.png';
+import legacyDesigns from '../../assets/delta_legacydesigns.png';
+import standardDesigns from '../../assets/delta_standarddesigns.png';
 import buttons from '../../assets/delta_buttons.png';
 import formfields from '../../assets/delta_formfields.png';
 import lists from '../../assets/delta_lists.png';
@@ -143,13 +145,47 @@ function SkyProUI() {
           />
         </div> */}
         <div className="section__padding">
+          <ArticleL
+          title="Legacy Designs"
+          description={
+            <>
+            {/* These legacy designs show the inconsistency in spacing, buttons, and colors across different apps. Designs had to be from scratch for every task resulting in high-effort designs and long design cycles.  */}
+            I inherited a fragmented landscape where 6+ mobile apps felt like they were made by different companies. Buttons, form fields, and lists had no source of truth, forcing designers to reinvent the wheel for every sprint.
+            </>
+          }
+          images={
+            <>
+            <img src={ legacyDesigns } alt="" />
+            <p><ul><li>Non-standardized navigation bars across different apps created user confusion</li></ul></p>
+            </>
+          }
+          />
+        </div>
+        <div className="section__padding">
+          <ArticleR
+          title="Standard Designs"
+          description={
+            <>
+            By migrating to Figma, I helped establish a master library that acted as the "single source of truth". We didn't just move assets; we audited every component to ensure they met the needs of 28,000+ flight attendants.
+            <br/><br/>
+            The Result: This shift transformed our workflow from a manual, error-prone process into a streamlined engine, resulting in a 180% increase in design efficiency and near-instantaneous updates across the entire app suite.
+            </>
+          }
+          images={
+            <>
+            <img src={ standardDesigns } alt="" />
+            </>
+          }
+          />
+        </div>
+        <div className="section__padding">
           <ArticleR
           title="Library Migration"
           description={
             <>
             When setting up the library, our team explored several different softwares. We started with Adobe XD, then migrated to Axure RP. Then, we migrated again to Figma. 
             The reason for the migrations were that Adobe XD did not meet our prototyping needs at the time and that Axure RP was limited in its design capabilities. 
-            The third software, Figma, was able to support both our design and prototyping needs.
+            The third software, Figma, was able to support both our design and prototyping needs. 
             </>
           }
           images={
@@ -194,7 +230,7 @@ function SkyProUI() {
             Lastly, I created these covers to use as a thumbnail in all the files. The covers include project name, file owner, progress tags, 
             and app association. Originally, files were named by their task locator numbers. In some window views, it was the only thing that
             was visible which made it difficult to identify files by just looking at the design screens. With the cover, it is easy to 
-            identify project files and their progress without having to click into the file increasing effiency by 28%. 
+            identify project files and their progress without having to click into the file increasing effiency by reducing developer search time. 
             </>
           }
           images={
@@ -209,7 +245,7 @@ function SkyProUI() {
           title= "Results"
           description= {<>
           Our team now has an extensive style guide which includes grid, colors, typography, and components. Guidelines are written up for all 
-          the aspects of the style guide. The designs process is 80% faster, and our team is able to better serve the 6 mobile apps with 28,000+
+          the aspects of the style guide. The standardized library reduced developer handoff time and CSS bloat by ensuring consistent component use across all 6 apps. The designs process is <b>80% faster</b>and our team is able to better serve the 6 mobile apps with 28,000+
           flight attendants as users. 
           </>}
           />

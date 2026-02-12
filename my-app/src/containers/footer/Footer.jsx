@@ -27,7 +27,7 @@ function Footer() {
             
             <div className="portfolio__footer-right"> 
               <div className="portfolio__footer-credits">
-                <p> Designed in <a>Figma</a> and coded in <a>Visual Studio Code 2</a> by <a>Coltrain</a>. Built with <a>React.js</a> and <a>CSS</a>, deployed with <a>Github</a>. </p>
+                <p> Designed in <a>Figma</a> and coded in <a>Visual Studio Code</a> by <a>Coltrain</a>. Built with <a>React.js</a> and <a>CSS</a>, deployed with <a>Github</a>. </p>
               </div>
               <div className="portfolio__footer-logos">
                 <a href="https://www.linkedin.com/in/coltrain/" target="_blank">

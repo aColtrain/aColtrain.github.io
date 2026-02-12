@@ -32,6 +32,9 @@
     align-items: center;
     margin-left: 2rem;
 }
+.gpt3__cta-btn p {
+    color: #0e0e0e;
+}
 
 .gpt3__cta-btn button {
     background: #000;
