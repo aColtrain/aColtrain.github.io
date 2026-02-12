@@ -3,14 +3,14 @@ import './employment.css';
 import { Feature } from '..';
 
 
-const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, deliverables, tools, teamSize, impact1,impact2 }) => {
+const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, deliverables, tools, responsibilities, overview, teamSize, impact1,impact2 }) => {
   return (
+    <div>
     <div className="section__padding">
       <div className="title">
         <h1 className="gradient__text"> {name} </h1>
       
-      </div>
-      
+      </div> 
       <div className="employment">
         <div className="employment__name">
           {/* <h1 className="gradient__text"> {name} </h1> */}
@@ -30,22 +30,24 @@ const Employment = ({ name, logo, logoDescription, positionDescription, employer
             {/* <Feature title="Team Size" text={ teamSize } /> */}
           </div>
         </div>
-        
-        
-
         {/* <div className="section__padding employment__description">
           <div className="employment__team">
             <div>
               <p>{positionDescription}</p> 
             </div> 
             <div>
-              
-
-
-
             </div>
           </div>
         </div>      */}
+      </div>
+    </div>
+    <div className="section__padding">
+      <h2>Responsibities</h2>
+      <p>{ responsibilities }</p>
+    </div>
+    <div className="section__padding">
+      <h2>Overview</h2>
+      <p>{ overview }</p>
     </div>
   </div>
   )

@@ -117,7 +117,7 @@ function ProjectThumbnails() {
                 <Link to="/meal-manifesting">
                     <Project
                     projectImg={deltaMeal}
-                    projectName="Meal Inventory & Manifesting"
+                    projectName="Streamlining In-Flight Meal Selection"
                     projectDescription={
                         <>
                         A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 

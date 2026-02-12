@@ -62,9 +62,8 @@ function SkyProUI() {
         positionDescription={
           <>
           {/* Creating a brand library for UX/UI designers that  */}
-          As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
-          I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
-          for 6+ mobile apps with an audience of 28,000+ flight attendants.
+          A design system built to use as a guildline for Delta’s 6 in-flight service apps.
+
           </>
         }
         employer="Delta Air Lines"
@@ -81,6 +80,25 @@ function SkyProUI() {
         impact1List=""
         impact2="Products Impact"
         impact2List=""
+        responsibilities={
+              <>
+              <ul>
+                <li>Led the creation of a scalable design system used across 6 mobile apps</li>
+                <li>Standardized UI patterns to improve consistency and reduce design debt</li>
+                <li>Drove the tool migration strategy to support advanced prototyping and collaboration</li>
+                <li>Built and documented core components to accelerate design and development workflows</li>
+                <li>Collaborated cross-functionally to ensure usability, accessibility, and implementation quality</li>
+              </ul>
+              </>
+            }
+            overview={
+              <>
+              As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
+              I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
+              for 6+ mobile apps with an audience of 28,000+ flight attendants. <br/>
+              {/* SkyPro UI is a design system built for Delta’s in-flight service apps, serving over 28,000 flight attendants. I led the creation and migration of the system to improve consistency, efficiency, and scalability across 6 mobile products. */}
+              </>
+            }
         />
       </div>
       <div className="section__padding">

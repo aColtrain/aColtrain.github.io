@@ -14,13 +14,14 @@ function MealManifesting() {
             logo={ <></> }
             positionDescription={
                 <>
-                A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
-                inventory in flight.  
+                {/* A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
+                inventory in flight.   */}
+                System for managing in-flight meal inventory and customer orders
                 </>
             } 
             employer={"Delta Air Lines"}
             jobTitle="UX/UI Designer"
-            deliverables="Mobile (IOS) designs"
+            deliverables="Mobile (iOS) Designs"
             tools="Figma"
             teamSize={
                 <>
@@ -28,50 +29,63 @@ function MealManifesting() {
                 <a id="MediaBridge" />
                 </>
             }
+            responsibilities={
+              <>
+              <ul>
+                <li>Led end-to-end UX flow and interaction design</li>
+                <li>Collaborated with product owners and flight attendants</li>
+                <li>Owned the MVP experience and edge-case handling</li>      
+              </ul>
+              </>
+            }
+            overview={
+              <>
+              Meal Manifesting is a mobile system that enables flight attendants to manage meal inventory, capture customer orders, and reduce service errors during flights. I designed the end-to-end experience for fast-paced, offline-first environments using the SkyPro UI design system.
+              </>
+            }
             />
         </div>
         <div className="section__padding">
-                  <Scope
-                  title1={
-                  <>
-                  Situation
-                  </>}
-                  text1={
-                    <>
-                    <ul>
-                      <li>There are new capabilities redesign of the MyFlight App </li>
-                    </ul>
-                    
-                    </>
-                  }
-                  title2={
-                    <>
-                    Painpoints
-                    </>}
-                  text2={
-                    <>
-                    <ul>
-                      <li>Manual tallying</li>
-                      <li>Fragmented seat maps</li>
-                      <li>High error rate</li>
-                    </ul>
-                    </>
-                  }
-                  title3={
-                    <>
-                    Tasks
-                    </>}
-                  text3={
-                    <>
-                    <ul>
-                      <li>Design for fast paced- mobile enviroment</li>
-                      <li>Create a glancable seatmap</li>
-                      <li>Redesign workflow for taking meal inventory and recording customer orders taking account for edge cases.</li>
-                    </ul>
-                    </>
-                  }
-                  />          
-                </div>
+            <Scope
+            title1={
+            <>
+            Situation
+            </>}
+            text1={
+              <>
+              <ul>
+                <li>There are new capabilities redesign of the MyFlight App </li>
+              </ul>
+              </>
+            }
+            title2={
+              <>
+              Painpoints
+              </>}
+            text2={
+              <>
+              <ul>
+                <li>Manual tallying</li>
+                <li>Fragmented seat maps</li>
+                <li>High error rate</li>
+              </ul>
+              </>
+            }
+            title3={
+              <>
+              Tasks
+              </>}
+            text3={
+              <>
+              <ul>
+                <li>Design for fast paced- mobile enviroment</li>
+                <li>Create a glancable seatmap</li>
+                <li>Redesign workflow for taking meal inventory and recording customer orders taking account for edge cases.</li>
+              </ul>
+              </>
+            }
+            />          
+          </div>
         {/* <div className="section__padding">
           <ArticleHead
           title={

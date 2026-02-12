@@ -32,7 +32,7 @@ import '../../components/employment/employment.css';
 function Graphics() {
   return (
     <div>
-        <div className="header employment__name section__padding">
+        <div className="header title section__padding">
             <h1 className="gradient__text">Graphic Design & Motion Design</h1>
         </div>
         
