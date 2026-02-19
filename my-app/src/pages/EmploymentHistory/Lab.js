@@ -1,12 +1,12 @@
 import React from 'react'
 import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope, ArticleInfo } from '../../components';
-import deltaVideoLanding from '../../assets/delta_videodemo_landing.png';
+// import deltaVideoLanding from '../../assets/delta_videodemo_landing.png';
 function Lab() {
   return (
     <div className="section__padding">
         <div>
             <h1>Lab</h1>
-            <img src={ deltaVideoLanding }></img>
+            {/* <img src={ deltaVideoLanding }></img> */}
             <div className="column2">
                 <div className="column2_div">
                     <h2>Delta Air Lines | Rapid Stakeholder Visualization</h2>
