@@ -83,11 +83,22 @@ function SkyProUI() {
         responsibilities={
               <>
               <ul>
-                <li>Led the creation of a scalable design system used across 6 mobile apps</li>
+                <li>Created a scalable design system</li>
                 <li>Standardized UI patterns to improve consistency and reduce design debt</li>
                 <li>Drove the tool migration strategy to support advanced prototyping and collaboration</li>
                 <li>Built and documented core components to accelerate design and development workflows</li>
                 <li>Collaborated cross-functionally to ensure usability, accessibility, and implementation quality</li>
+              </ul>
+              </>
+            }
+            results={
+              <>
+              <ul styles="list-style-type: none; margin: 0; padding: 0;">
+                <li>Faster design workflows</li>
+                <li>Consistent UI and UX across 6 apps</li>
+                <li>Faster handoff & reduced dev friction</li>
+                <li>Better experience for 28,000+ flight attendants</li>
+                
               </ul>
               </>
             }

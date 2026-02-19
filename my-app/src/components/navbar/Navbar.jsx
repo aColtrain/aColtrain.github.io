@@ -32,8 +32,7 @@ const Navbar = () => {
           <Link to="/"><p> Home </p></Link>
           <Link to="/about"><p> About </p></Link>
           <Link to="/work"><p> UX/UI Design </p></Link>
-          <Link to="/graphics"><p> Graphic Design </p></Link>
-           <Link to="/delta"><p> Sandbox </p></Link>
+          <Link to="/lab"><p> Lab </p></Link>
           {/* <p>UX UI Design</p>
           <p>Marketing</p>
           <Link to="/Graphics"><p> Graphic Design </p></Link> */}
@@ -59,13 +58,9 @@ const Navbar = () => {
             <Link to="/"> Home </Link>
             <Link to="/about"> About </Link>
             <Link to="/work"> UX/UI Design </Link>
-            <Link to="/graphics"> Graphic Design </Link>
-            
-      
+            <Link to="/lab"> Lab </Link>
             {/* <Link to="/projects"> Project </Link> */}
-            
-            <div className="gpt3__navbar-menu_container-links-contact">
-              
+            <div className="gpt3__navbar-menu_container-links-contact">  
               <Link to="/contact"><button type="button"> Contact </button></Link>    
             </div>
           </div>

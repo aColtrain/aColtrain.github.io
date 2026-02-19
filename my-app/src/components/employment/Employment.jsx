@@ -3,7 +3,7 @@ import './employment.css';
 import { Feature } from '..';
 
 
-const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, deliverables, tools, responsibilities, overview, teamSize, impact1,impact2 }) => {
+const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, deliverables, tools, responsibilities, results, overview, teamSize, impact1,impact2 }) => {
   return (
     <div>
     <div className="section__padding">
@@ -41,9 +41,16 @@ const Employment = ({ name, logo, logoDescription, positionDescription, employer
         </div>      */}
       </div>
     </div>
-    <div className="section__padding">
-      <h2>Responsibities</h2>
-      <p>{ responsibilities }</p>
+    <div className="section__padding employment responsibility_results">
+      <div className="width50">
+        <h2>📋 Responsibities</h2>
+        <p>{ responsibilities }</p>
+      </div>
+      <div className="width50">
+        <h2>🏆 Results</h2>
+        <p>{ results }</p>
+      </div>
+      
     </div>
     <div className="section__padding">
       <h2>Overview</h2>

@@ -26,7 +26,9 @@ const Header = () => {
         <div className="portfolio__header-content">
           <h1 className="gradient__text"> Hi, I'm Coltrain!</h1>
           <p>
-          Atlanta-based product designer (UX/UI) who can code and is passionate about creating intuitive and impactful digital experiences.
+          Atlanta-based product designer (UX/UI) who can code. I specialize in high-impact UX that serves as a <b>direct business solution</b>. 
+          I’m dedicated to building seamless interfaces that solve complex problems, ensuring that every design decision drives <b>measurable retention 
+          and bottom-line value</b>.
           </p>
           <div className="portfolio__header-roles">
             <p className="gradient__text">UX/UI Designer | Product Designer | Frontend Developer</p>

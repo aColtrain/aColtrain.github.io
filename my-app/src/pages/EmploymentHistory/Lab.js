@@ -1,7 +1,7 @@
 import React from 'react'
 import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope, ArticleInfo } from '../../components';
 import deltaLogo from '../../assets/logos/logo_delta_large.png';
-function Delta() {
+function Lab() {
   return (
     <div>
         <div>
@@ -90,4 +90,4 @@ function Delta() {
   )
 }
 
-export default Delta
+export default Lab

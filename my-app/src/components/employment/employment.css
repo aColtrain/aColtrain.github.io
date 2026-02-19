@@ -32,6 +32,11 @@
     vertical-align: middle;
     
 }
+
+.width50 {
+    width: 50%;
+
+}
 @media screen and (max-width: 1200px) {
     .employment {
         flex-direction: column;

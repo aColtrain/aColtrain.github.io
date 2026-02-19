@@ -22,6 +22,45 @@ function ProjectThumbnails() {
   return (
     <div className="section__padding">
         <div className="portfolio__project-layout">
+            <div className="flex-item skyproui">
+                <Link to="/skypro-ui">
+                    <Project
+                    projectImg={deltaSkyPro}
+                    projectName="SkyPro UI"
+                    projectDescription="SkyPro UI is an extensive design library containing guidelines and reusable components."
+                    projectTags=" Design Library | Software Migration | Mobile" />    
+                </Link>
+            </div>
+            <div className="flex-item meals">
+                <Link to="/meal-manifesting">
+                    <Project
+                    projectImg={deltaMeal}
+                    projectName="Streamlining In-Flight Meal Selection"
+                    projectDescription={
+                        <>
+                        A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
+                        inventory in flight.
+                        </>
+                    }
+                    projectTags="UX/UI App Design | Mobile" />    
+                </Link>
+            </div>
+        </div>
+        <div className="portfolio__project-layout">
+            <div className="flex-item minimart">
+                <Link to="/minimart">
+                    <Project
+                    projectImg={comcastThumbnail}
+                    projectName="MiniMart"
+                    projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses."
+                    projectTags="UX/UI Web Design | User Research | Prototyping"/>    
+                </Link>
+            </div>
+            <div className="flex-item">
+                
+            </div>
+        </div>
+        <div className="portfolio__project-layout">
             <div className="flex-item getclimbingoutside">
                 <Link to="/get-climbing-outside">
                     <Project
@@ -63,15 +102,20 @@ function ProjectThumbnails() {
             </div> 
         </div>
         <div className="portfolio__project-layout">
-            <div className="flex-item skyproui">
-                <Link to="/skypro-ui">
+            <div className="flex-item video">
+                <Link to="/video-demo">
                     <Project
-                    projectImg={deltaSkyPro}
-                    projectName="SkyPro UI"
-                    projectDescription="SkyPro UI is an extensive design library containing guidelines and reusable components."
-                    projectTags=" Design Library | Software Migration | Figma " />    
+                    projectImg={deltaDemo}
+                    projectName="Video Demos"
+                    projectDescription={
+                        <>
+                        An initiative to have short form video content for flight attendants to know what resources they 
+                        have in their devices for managing a flight.
+                        </>
+                    }
+                    projectTags="Video Production | Video Editing | iMovie" />    
                 </Link>
-            </div> 
+            </div>
             <div className="flex-item graphics">
                 <Link to="/graphics">
                     <Project
@@ -101,18 +145,17 @@ function ProjectThumbnails() {
                     projectTags="Graphic Design | Interaction Design | Figma | p5.js" />    
                 </Link>
             </div> 
-            
             <div className="flex-item minimart">
-                <Link to="/minimart">
+                {/* <Link to="/minimart">
                     <Project
                     projectImg={comcastThumbnail}
                     projectName="MiniMart"
                     projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses."
-                    projectTags="UX/UI Web Design | User Research | Prototyping" />    
-                </Link>
+                    projectTags="UX/UI Web Design | User Research | Prototyping"/>    
+                </Link> */}
             </div>
         </div>
-        <div className="portfolio__project-layout">
+        {/* <div className="portfolio__project-layout">
             <div className="flex-item meals">
                 <Link to="/meal-manifesting">
                     <Project
@@ -141,7 +184,7 @@ function ProjectThumbnails() {
                     projectTags="Video Production | Video Editing | iMovie" />    
                 </Link>
             </div>
-        </div>
+        </div> */}
         {/* <div className="portfolio__project-layout">
             <div className="flex-item meals">
                 <Link to="/zogran-media">

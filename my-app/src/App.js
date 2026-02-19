@@ -54,7 +54,7 @@ const App = () => {
         <Route path="/zogran-media" element={<ZogranMedia />} />
         <Route path="/get-climbing-outside" element={<GetClimbingOutside />} />
         <Route path="/true-north-therapy" element={<TrueNorthTherapy />} />
-        <Route path="/delta" element={<Delta />} />
+        <Route path="/lab" element={<Lab />} />
       </Routes>
       </div>
       <Footer />
