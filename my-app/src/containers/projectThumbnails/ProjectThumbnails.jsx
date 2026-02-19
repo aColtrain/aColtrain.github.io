@@ -22,15 +22,6 @@ function ProjectThumbnails() {
   return (
     <div className="section__padding">
         <div className="portfolio__project-layout">
-            <div className="flex-item skyproui">
-                <Link to="/skypro-ui">
-                    <Project
-                    projectImg={deltaSkyPro}
-                    projectName="SkyPro UI"
-                    projectDescription="SkyPro UI is an extensive design library containing guidelines and reusable components."
-                    projectTags=" Design Library | Software Migration | Mobile" />    
-                </Link>
-            </div>
             <div className="flex-item meals">
                 <Link to="/meal-manifesting">
                     <Project
@@ -45,22 +36,37 @@ function ProjectThumbnails() {
                     projectTags="UX/UI App Design | Mobile" />    
                 </Link>
             </div>
+            <div className="flex-item skyproui">
+                <Link to="/skypro-ui">
+                    <Project
+                    projectImg={deltaSkyPro}
+                    projectName="SkyPro UI: a Scalable Design Language"
+                    projectDescription="Building a high-fidelity library to unify the Skypro digital ecosystem"
+                    projectTags=" Design Library | Software Migration | Mobile" />    
+                </Link>
+            </div>
         </div>
         <div className="portfolio__project-layout">
             <div className="flex-item minimart">
                 <Link to="/minimart">
                     <Project
                     projectImg={comcastThumbnail}
-                    projectName="MiniMart"
+                    projectName="MiniMart: SaaS Management Platform"
                     projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses."
                     projectTags="UX/UI Web Design | User Research | Prototyping"/>    
                 </Link>
             </div>
             <div className="flex-item">
-                
+                <Link to="/get-climbing-outside">
+                    <Project
+                    projectImg={gcoThumb}
+                    projectName="Get Climbing Outside"
+                    projectDescription="Marketing Website Redesign"
+                    projectTags="UX/UI Web Design | Hubspot | Branding"/>    
+                </Link>
             </div>
         </div>
-        <div className="portfolio__project-layout">
+        {/* <div className="portfolio__project-layout">
             <div className="flex-item getclimbingoutside">
                 <Link to="/get-climbing-outside">
                     <Project
@@ -80,7 +86,7 @@ function ProjectThumbnails() {
                 </Link>
             </div>
 
-        </div>
+        </div> */}
         <div className="portfolio__project-layout">
             <div className="flex-item zogranmedia">
                 <Link to="/zogran-media">
@@ -130,7 +136,7 @@ function ProjectThumbnails() {
                 </Link>
             </div> 
         </div>
-        <div className="portfolio__project-layout">
+        {/* <div className="portfolio__project-layout">
             <div className="flex-item mediaArts">
                 <Link to="/media-arts">
                     <Project
@@ -146,15 +152,15 @@ function ProjectThumbnails() {
                 </Link>
             </div> 
             <div className="flex-item minimart">
-                {/* <Link to="/minimart">
+                <Link to="/minimart">
                     <Project
                     projectImg={comcastThumbnail}
                     projectName="MiniMart"
                     projectDescription="Redesign of a eCommerce marketplace for small-medium sized businesses."
                     projectTags="UX/UI Web Design | User Research | Prototyping"/>    
-                </Link> */}
+                </Link>
             </div>
-        </div>
+        </div> */}
         {/* <div className="portfolio__project-layout">
             <div className="flex-item meals">
                 <Link to="/meal-manifesting">

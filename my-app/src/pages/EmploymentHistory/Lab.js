@@ -1,90 +1,42 @@
 import React from 'react'
 import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope, ArticleInfo } from '../../components';
-import deltaLogo from '../../assets/logos/logo_delta_large.png';
+import deltaVideoLanding from '../../assets/delta_videodemo_landing.png';
 function Lab() {
   return (
-    <div>
+    <div className="section__padding">
         <div>
-            <Employment 
-            name={"Delta Air Lines"}
-            logo={ <img src={ deltaLogo } alt="" /> }
-            positionDescription={
-                <>
+            <h1>Lab</h1>
+            <img src={ deltaVideoLanding }></img>
+            <div className="column2">
+                <div className="column2_div">
+                    <h2>Delta Air Lines | Rapid Stakeholder Visualization</h2>
+                    <p>
+                        Produced as a rapid-turnaround internal deliverable to align stakeholders on new passenger flows. To meet tight deadlines with zero departmental budget, I leveraged lean production tools including iMovie and open-source teleprompting software to deliver a functional, high-impact narrative demo.
+                    </p>
+                </div>
+                <div className="column2_div">
+
+                </div>
+                
+            </div>
+
             
-                </>
-            } 
-            employer={""}
-            jobTitle="UX/UI Co-Op Intern"
-            deliverables="Website"
-            tools="Figma, Axure RP, Adobe XD"
-            teamSize={
-                <>
-                9
-                <a id="MediaBridge" />
-                </>
-            }
-            />
         </div>
         <div>
-            <ArticleInfo
-            title={"Skypro UI"}
-            description={
-                <>
-                By producing the first design system at the In-Flight Technologies team, we streamlined the design process set the foundation for all
-                6 apps we supported.
-                </>
-            }
-            category={"Design System"}
-            deliverables={""}
-            imgs={
-                <>
-                <div className="">
-                    <img src={""}/>
-                    <img src={""}/>
-                </div>
-                </>
-            }
-            />     
+            <h2>Commercial Motion Hero</h2>
+            <p>Since you were paid by a major brand like Delta, this work needs the most visual weight.
+
+The Look: A large, edge-to-edge video player at the top of the page.
+
+The Detail: Use a side-panel description that explains you were a Delta Intern and produced this to visualize passenger flows for internal stakeholders.
+
+The Tech: Mention the tools used (e.g., After Effects, Premiere, or Figma Motion).</p>
         </div>
         <div>
-            <ArticleInfo
-            title={"Meal Manifesting"}
-            description={
-                <>
-                Designed a system that allowed flight attendants to recieve custom pre-order information, log meal orders, and track meal inventory. 
-                </>
-            }
-            category={"UX/UI Design"}
-            deliverables={""}
-            imgs={
-                <>
-                <div className="">
-                    <img src={""}/>
-                    <img src={""}/>
-                </div>
-                </>
-            }
-            />     
+            <h2>Design + Development Bento Grid</h2>
         </div>
         <div>
-            <ArticleInfo
-            title={"Video Demos"}
-            description={
-                <>
-                An initiative to have short form video content for 28,000+ flight attendants to become familiar with what resources they have in their devices for managing a flight.
-                </>
-            }
-            category={"UX/UI Design"}
-            deliverables={""}
-            imgs={
-                <>
-                <div className="">
-                    <img src={""}/>
-                    <img src={""}/>
-                </div>
-                </>
-            }
-            />     
+            <h2>Tech Sketches Graphic Design</h2>
         </div>
     </div>
   )

@@ -24,7 +24,7 @@ import BluSafe from './pages/EmploymentHistory/BluSafe';
 import ZogranMedia from './pages/EmploymentHistory/ZogranMedia';
 import GetClimbingOutside from './pages/EmploymentHistory/GetClimbingOutside';
 import TrueNorthTherapy from './pages/EmploymentHistory/TrueNorthTherapy';
-import Delta from './pages/EmploymentHistory/Delta';
+import Lab from './pages/EmploymentHistory/Lab';
 
 
 

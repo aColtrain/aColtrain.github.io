@@ -1,15 +1,19 @@
 .gpt3__possibility {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    gap: 2rem;
 }
 
 .gpt3__possibility-image {
     /* flex: 1; */
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
+
 }
 
 /* .gpt3__possibility-image img {
@@ -22,10 +26,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+ 
 }
 
 .gpt3__possibility-content a {
     text-decoration: line-through;
+
 }
 
 

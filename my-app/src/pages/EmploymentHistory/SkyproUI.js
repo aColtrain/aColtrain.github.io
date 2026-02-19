@@ -56,7 +56,7 @@ function SkyProUI() {
       </div> */}
       <div className="header">
         <Employment 
-        name= { "SkyPro UI"}
+        name= { "SkyPro UI: Architecting a Scalable Design Language"}
         logo={ delta }
         logoDescription="Delta Air lines logo" 
         positionDescription={
