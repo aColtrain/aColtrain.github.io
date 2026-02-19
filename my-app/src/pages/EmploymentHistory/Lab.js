@@ -1,6 +1,6 @@
 import React from 'react'
 import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope, ArticleInfo } from '../../components';
-// import deltaVideoLanding from '../../assets/delta_videodemo_landing.png';
+import deltaVideoLanding from '../../assets/delta_videodemo_landing.png';
 function Lab() {
   return (
     <div className="section__padding">
