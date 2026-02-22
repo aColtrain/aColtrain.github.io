@@ -1,12 +1,14 @@
 import React from 'react'
-import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope, ArticleInfo } from '../../components';
+import { Employment, ArticleHead, ArticleL, ArticleR, CTA, Scope, ArticleInfo, Feature} from '../../components';
+import { Footer, Blog, Possibility, Skills, WhatGPT3, Header, ProjectThumbnails, Aboutme, GraphicDesignCollage } from '../../containers';
 import deltaVideoLanding from '../../assets/delta_videodemo_landing.png';
 function Lab() {
   return (
+    // <div className="section__padding background-grid">
     <div className="section__padding">
         <div>
             <h1>Lab</h1>
-            {/* <img src={ deltaVideoLanding }></img> */}
+            <img src={ deltaVideoLanding } />
             <div className="column2">
                 <div className="column2_div">
                     <h2>Delta Air Lines | Rapid Stakeholder Visualization</h2>
@@ -16,6 +18,11 @@ function Lab() {
                 </div>
                 <div className="column2_div">
 
+                    <Feature title='Teleprompting' text='Open-Source Teleprompter Web Tool'/>
+                    <Feature title='Audio' text='iPhone Voice Memo'/>
+                    <Feature title='Editing' text='iMovie'/>
+                    <Feature title='Result' text='Successful stakeholder alignment and a blueprint for the final in-flight flow'/>
+                    {/* <Feature title='Stack' text='iMovie, Open-Source Teleprompter, Figma (for assets)'/> */}
                 </div>
                 
             </div>
@@ -37,6 +44,7 @@ The Tech: Mention the tools used (e.g., After Effects, Premiere, or Figma Motion
         </div>
         <div>
             <h2>Tech Sketches Graphic Design</h2>
+            <GraphicDesignCollage />
         </div>
     </div>
   )
