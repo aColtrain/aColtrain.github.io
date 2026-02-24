@@ -1,0 +1,44 @@
+.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* align-content: flex-start; */
+    /* flex-direction: row; */
+    /* gap: 2rem; */
+}
+.gallery p {
+    font-size: 12px;
+    color: #4e4e4e;
+}
+
+.deltaBanner {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.deltaBanner img {
+    height: 428px;
+}
+
+.posters {
+    display:flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.posters img {
+    height: 400;
+}
+
+.animation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.animation img {
+    border-style: solid;
+    height: 496px;
+}
