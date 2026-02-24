@@ -3,11 +3,23 @@ import './graphicDesignCollage.css';
 import deltaBanner from '../../assets/delta_banner.png'
 import deltaBannerOriginal from '../../assets/delta_banner_original.png'
 import deltaBannerFinal from '../../assets/delta_banner_final.png'
-import GCOPoster2 from '../../assets/GCO_MarketingPoster2.png';
-import genderAffirmingPoster from '../../assets/genderAffirming_Posters.png';
+
+import GCOPoster2 from '../../assets/GCO_MarketingPoster2.png'
+import genderAffirmingPoster from '../../assets/genderAffirming_Posters.png'
 import mascotPoster from '../../assets/graphics/University_Mascot_Poster.png'
-import deltaEngagmentRedesign from '../../assets/graphics/Delta__EngagmentBannerRedesign.png'
-import imaBirdPoster from '../../assets/graphics/IMA__BirdPoster.png'
+
+import egretFront from '../../assets/mediaArts/Great_Egret_Front.png'
+import egretBack from '../../assets/mediaArts/Great_Egret_Back.png'
+import ospreyFront from '../../assets/mediaArts/Osprey_Front.png'
+import ospreyBack from '../../assets/mediaArts/Osprey_Back.png'
+import imaBirdPoster from '../../assets/mediaArts/Bird_Poster.png'
+import boatTailFront from '../../assets/mediaArts/Boat_Tailed_Grackle_Front.png'
+import boatTailBack from '../../assets/mediaArts/Boat_Tailed_Grackle_Back.png'
+import cardinalFront from '../../assets/mediaArts/Northern_Cardinal_Front.png'
+import cardinalBack from '../../assets/mediaArts/Northern_Cardinal_Back.png'
+import mockingbirdFront from '../../assets/mediaArts/Northern_Mockingbird_Front.jpg'
+import mockingbirdBack from '../../assets/mediaArts/Northern_Mockingbird_Back.png'
+
 import imaBirdCardDisplay from '../../assets/graphics/IMA__BirdCardDisplay.png'
 import imaEventPosters from '../../assets/graphics/IMA__EventPosters.png'
 import aoeAnim1 from '../../assets/graphics/AOE__Animation1.gif'
@@ -46,20 +58,46 @@ function GraphicDesignCollage() {
                     <p>CAPTION</p>
                 </div>
             </div>
+            <div className="birds">
+                <div className="birdTop">
+                    <div className="birdCards">
+                        <img src={ egretFront } />
+                        <img src={ egretBack } />
+                        <img src={ ospreyFront } />
+                        <img src={ ospreyBack } />
+                        {/* <p>CAPTION</p> */}
+                    </div>
+                    <div className="birdsPoster">
+                        <img src={ imaBirdPoster } />
+                        <p>CAPTION</p>
+                    </div>
+                    <div className="birdCards">
+                        <img src={ boatTailFront } />
+                        <img src={ boatTailBack } />
+                        <img src={ cardinalFront } />
+                        <img src={ cardinalBack } />
+                        {/* <p>CAPTION</p> */}
+                    </div>
+                </div>
+                <div className="birdBottom">
+                    <img src={ mockingbirdFront } />
+                    <img src={ mockingbirdBack } />
+                </div>
+            </div>
             <div className="animation">
                 <div>
                     <img src={ aoeAnim1 } />
-                    <p>Caption</p>
+                    <p>CAPTION</p>
                 </div>
                 <div>
                     <img src={ aoeAnim2 } />
-                    <p>Caption</p>
+                    <p>CAPTION</p>
                 </div>
             </div>
 
 
             
-            <img src={ deltaEngagmentRedesign } />
+     
             <img src={ imaBirdPoster }/>
             <img src={ imaBirdCardDisplay }/>
             <img src={ mascotPoster }/>

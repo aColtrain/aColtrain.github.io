@@ -31,7 +31,52 @@
 .posters img {
     height: 400;
 }
+.birds {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.birdTop {
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    gap: 1rem;
+}
 
+.birdBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.birdBottom img {
+    width: 243px;
+    height: 174px;
+    border-style: solid;
+    border-width: .5px;
+    border-color:#e3e3e3;
+}
+
+.birdCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.birdCards img {
+    /* width: 243px;
+    height: 174px; */
+    border-style: solid;
+    border-width: .5px;
+    border-color:#e3e3e3;
+}
+
+.birdsPoster img {
+    height: 741px;
+}
 .animation {
     display: flex;
     justify-content: space-between;
@@ -40,5 +85,7 @@
 
 .animation img {
     border-style: solid;
+    border-width: .5px;
+    border-color:#e3e3e3;
     height: 496px;
 }
