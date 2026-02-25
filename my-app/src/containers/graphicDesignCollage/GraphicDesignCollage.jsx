@@ -33,29 +33,29 @@ function GraphicDesignCollage() {
             <div className="deltaBanner">
                 <div>
                     <img src={ deltaBannerFinal } />
-                    <p>CAPTION</p>
+                    <p>ENGAGEMENT BANNER REDESIGN</p>
                 </div>
                 <div>
                     <img src={ deltaBanner } />
-                    <p>CAPTION</p>
+                    {/* <p>CAPTION</p> */}
                 </div>
                 <div>
                     <img src={ deltaBannerOriginal } />
-                    <p>CAPTION</p>
+                    <p>ENGAGEMENT BANNER ORIGINAL </p>
                 </div>
             </div>
             <div className="posters">
                 <div>
                     <img src={ GCOPoster2 } />
-                    <p>CAPTION</p>
+                    <p>BULLETIN POSTER FOR ADVERTISING</p>
                 </div>
                 <div>
                     <img src={ genderAffirmingPoster } />
-                    <p>CAPTION</p>
+                    <p>GRASS-ROOT WORKSHOP POSTER SERIES</p>
                 </div>
                 <div>
                     <img src={ mascotPoster } />
-                    <p>CAPTION</p>
+                    <p>ILLASTRATION</p>
                 </div>
             </div>
             <div className="birds">
@@ -69,7 +69,7 @@ function GraphicDesignCollage() {
                     </div>
                     <div className="birdsPoster">
                         <img src={ imaBirdPoster } />
-                        <p>CAPTION</p>
+                        <p>MUSEUM ENGAGEMENT VISUALS</p>
                     </div>
                     <div className="birdCards">
                         <img src={ boatTailFront } />
@@ -87,23 +87,18 @@ function GraphicDesignCollage() {
             <div className="animation">
                 <div>
                     <img src={ aoeAnim1 } />
-                    <p>CAPTION</p>
+                    <p>HAND-DRAWN 2D ANIMATION FOR SOCIAL MEDIA</p>
                 </div>
                 <div>
                     <img src={ aoeAnim2 } />
-                    <p>CAPTION</p>
+                    {/* <p>CAPTION</p> */}
                 </div>
             </div>
 
 
             
      
-            <img src={ imaBirdPoster }/>
-            <img src={ imaBirdCardDisplay }/>
-            <img src={ mascotPoster }/>
-            <img src={ imaEventPosters }/>
-            <img className="gif" src={aoeAnim1}/>
-            <img className="gif" src={aoeAnim2}/>
+            
                                 
 
             

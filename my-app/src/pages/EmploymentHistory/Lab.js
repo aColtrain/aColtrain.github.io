@@ -5,8 +5,8 @@ import deltaVideoLanding from '../../assets/delta_videodemo_landing.png';
 function Lab() {
   return (
     // <div className="section__padding background-grid">
-    <div className="section__padding">
-        <div>
+    <div className="">
+        <div className="section__padding">
             <h1>Lab</h1>
             <img src={ deltaVideoLanding } />
             <div className="column2">
@@ -29,7 +29,7 @@ function Lab() {
 
             
         </div>
-        <div>
+        {/* <div>
             <h2>Commercial Motion Hero</h2>
             <p>Since you were paid by a major brand like Delta, this work needs the most visual weight.
 
@@ -38,11 +38,12 @@ The Look: A large, edge-to-edge video player at the top of the page.
 The Detail: Use a side-panel description that explains you were a Delta Intern and produced this to visualize passenger flows for internal stakeholders.
 
 The Tech: Mention the tools used (e.g., After Effects, Premiere, or Figma Motion).</p>
-        </div>
-        <div>
+        </div> */}
+        <div className="section__padding">
             <h2>Design + Development Bento Grid</h2>
         </div>
-        <div>
+        {/* <ProjectThumbnails /> */}
+        <div className="section__padding">
             <h2>Tech Sketches Graphic Design</h2>
             <GraphicDesignCollage />
         </div>

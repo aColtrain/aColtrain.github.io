@@ -2,10 +2,10 @@
 
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    /* align-content: flex-start; */
-    /* flex-direction: row; */
-    /* gap: 2rem; */
+    justify-content: space-between;
+  
+
+    gap: 1rem;
 }
 .gallery p {
     font-size: 12px;
@@ -41,7 +41,8 @@
     display: flex;
     flex-direction: row;
     /* justify-content:space-between; */
-    gap: 1rem;
+    align-items: center;
+    gap: 20px;
 }
 
 .birdBottom {
@@ -79,7 +80,8 @@
 }
 .animation {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* align-items: center; */
     gap: 1rem;
 }
 
