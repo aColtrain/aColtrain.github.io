@@ -1,6 +1,12 @@
 import React from 'react'
 import './graphicDesignCollage.css';
-import deltaBanner from '../../assets/delta_banner.png'
+
+import deltaVideoLanding from '../../assets/delta_videodemo_landing.png'
+import museumBirdCards from '../../assets/mediaArts/museumBirdCards.png'
+import deltaBanner from '../../assets/lab_deltaBanner.png'
+
+
+// import deltaBanner from '../../assets/delta_banner.png'
 import deltaBannerOriginal from '../../assets/delta_banner_original.png'
 import deltaBannerFinal from '../../assets/delta_banner_final.png'
 
@@ -28,8 +34,35 @@ import aoeAnim2 from '../../assets/graphics/AOE__Animation2.gif'
 
 function GraphicDesignCollage() {
   return (
-    <div>
-        <div className="gallery">
+    <div className="grid">
+        <div className="row">
+            <div className="deltaDemo">
+                <img src={ deltaVideoLanding } />
+                <h2>Delta Air Lines | Rapid Stake Holder Visualization</h2>
+                <p>Rapid internal deliverable to align stakeholders on a new passenger flow under extreme time and budget constraints.</p>
+                <p>Video Production | Video Editiing</p>
+            </div>
+            <div className="museumBirdCards">
+                <img src={ museumBirdCards } />
+                <h2>Museum Engagement Visual System</h2>
+                <p>Goal: Interactive Discovery</p>
+                <p>Logic: Patter-Matched ID</p>
+                <p>Craft: Geometric Construction</p>
+            </div>
+        </div>
+        <div className="row">
+            <div className="deltaBanner">
+                <img src={ deltaBanner } />
+                <h2>Engagement Visual System</h2>
+                <p> Redesigned the Delta IFS banners to increase visual impact and color variety, ensuring high visibility in a crowded event spaces</p>
+            </div>
+        </div>
+
+
+
+
+
+        {/* <div className="gallery">
             <div className="deltaBanner">
                 <div>
                     <img src={ deltaBannerFinal } />
@@ -37,7 +70,7 @@ function GraphicDesignCollage() {
                 </div>
                 <div>
                     <img src={ deltaBanner } />
-                    {/* <p>CAPTION</p> */}
+                    <p>CAPTION</p>
                 </div>
                 <div>
                     <img src={ deltaBannerOriginal } />
@@ -65,7 +98,7 @@ function GraphicDesignCollage() {
                         <img src={ egretBack } />
                         <img src={ ospreyFront } />
                         <img src={ ospreyBack } />
-                        {/* <p>CAPTION</p> */}
+                        <p>CAPTION</p>
                     </div>
                     <div className="birdsPoster">
                         <img src={ imaBirdPoster } />
@@ -76,7 +109,7 @@ function GraphicDesignCollage() {
                         <img src={ boatTailBack } />
                         <img src={ cardinalFront } />
                         <img src={ cardinalBack } />
-                        {/* <p>CAPTION</p> */}
+                        <p>CAPTION</p>
                     </div>
                 </div>
                 <div className="birdBottom">
@@ -91,7 +124,7 @@ function GraphicDesignCollage() {
                 </div>
                 <div>
                     <img src={ aoeAnim2 } />
-                    {/* <p>CAPTION</p> */}
+                    <p>CAPTION</p>
                 </div>
             </div>
 
@@ -102,7 +135,7 @@ function GraphicDesignCollage() {
                                 
 
             
-        </div>
+        </div> */}
     </div>
   )
 }

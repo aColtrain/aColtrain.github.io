@@ -1,3 +1,39 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.grid div {
+    border-radius: 16px;
+}
+
+.deltaDemo {
+    display: flex;
+    flex-direction: column;
+    padding: 27px;
+    background-color: #DCC8E1;
+    width: 666px;
+}
+
+.deltaDemo img {
+    align-items: center;
+}
+
+.museumBirdCards {
+    display: flex;
+    flex-direction: column;
+    padding: 27px;
+    background-color: #FFCA7D;
+    width: 325px;
+}
+
 .gallery {
 
     display: flex;
