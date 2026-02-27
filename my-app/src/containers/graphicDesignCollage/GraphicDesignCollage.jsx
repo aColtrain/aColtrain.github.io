@@ -4,13 +4,17 @@ import './graphicDesignCollage.css';
 import deltaVideoLanding from '../../assets/delta_videodemo_landing.png'
 import museumBirdCards from '../../assets/mediaArts/museumBirdCards.png'
 import deltaBanner from '../../assets/lab_deltaBanner.png'
-
+import GCOPoster2 from '../../assets/GCO_MarketingPoster2.png'
+import tnLogo from '../../assets/graphics/TN_logo.png'
+import tnPhoto from '../../assets/graphics/TN_photography.png'
+import tnLaptop from '../../assets/graphics/TN_laptop.png'
+import mascotPoster4 from '../../assets/graphics/University__Mascot4.png'
 
 // import deltaBanner from '../../assets/delta_banner.png'
 import deltaBannerOriginal from '../../assets/delta_banner_original.png'
 import deltaBannerFinal from '../../assets/delta_banner_final.png'
 
-import GCOPoster2 from '../../assets/GCO_MarketingPoster2.png'
+
 import genderAffirmingPoster from '../../assets/genderAffirming_Posters.png'
 import mascotPoster from '../../assets/graphics/University_Mascot_Poster.png'
 
@@ -34,13 +38,13 @@ import aoeAnim2 from '../../assets/graphics/AOE__Animation2.gif'
 
 function GraphicDesignCollage() {
   return (
-    <div className="grid">
+    <div className="grid col">
         <div className="row">
             <div className="deltaDemo">
                 <img src={ deltaVideoLanding } />
                 <h2>Delta Air Lines | Rapid Stake Holder Visualization</h2>
                 <p>Rapid internal deliverable to align stakeholders on a new passenger flow under extreme time and budget constraints.</p>
-                <p>Video Production | Video Editiing</p>
+                <p>Video Production | Video Editing</p>
             </div>
             <div className="museumBirdCards">
                 <img src={ museumBirdCards } />
@@ -51,18 +55,46 @@ function GraphicDesignCollage() {
             </div>
         </div>
         <div className="row">
-            <div className="deltaBanner">
+            <div className="deltaBannerRedesign row">
                 <img src={ deltaBanner } />
-                <h2>Engagement Visual System</h2>
-                <p> Redesigned the Delta IFS banners to increase visual impact and color variety, ensuring high visibility in a crowded event spaces</p>
+                <div className="">
+                    <h2>Engagement Visual System</h2>
+                    <p> Redesigned the Delta IFS banners to increase visual impact and color variety, ensuring high visibility in a crowded event spaces</p>
+                </div>
+            </div>
+            <div className="gcoPoster">
+                <img src={ GCOPoster2 } />
+            </div>
+        </div>
+        <div className="row">
+            <div className="trueNorth">
+                <img src= { ospreyFront } />
+                <img src= { ospreyFront } />
+                <img src= { ospreyFront } />
+            </div>
+        </div>
+        <div className="row">
+            <div className="genderAffirmingPosters">
+                <img src={ genderAffirmingPoster } />
+            </div>
+            <div className="universityPoster">
+                <img src={ mascotPoster4 } />
+            </div>
+            <div className="aoeanim">
+                <img src={ aoeAnim1 } />
+            </div>
+        </div>
+        <div className="row">
+            <div className="aoeanim">
+                <img src={ aoeAnim2 } />
             </div>
         </div>
 
 
+{/* 
 
 
-
-        {/* <div className="gallery">
+        <div className="gallery">
             <div className="deltaBanner">
                 <div>
                     <img src={ deltaBannerFinal } />

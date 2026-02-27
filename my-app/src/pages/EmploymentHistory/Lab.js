@@ -6,7 +6,7 @@ function Lab() {
   return (
     // <div className="section__padding background-grid">
     <div className="">
-        <div className="section__padding">
+        {/* <div className="section__padding">
             <h1>Lab</h1>
             <img src={ deltaVideoLanding } />
             <div className="column2">
@@ -22,14 +22,14 @@ function Lab() {
                     <Feature title='Audio' text='iPhone Voice Memo'/>
                     <Feature title='Editing' text='iMovie'/>
                     <Feature title='Result' text='Successful stakeholder alignment and a blueprint for the final in-flight flow'/>
-                    {/* <Feature title='Stack' text='iMovie, Open-Source Teleprompter, Figma (for assets)'/> */}
+                    <Feature title='Stack' text='iMovie, Open-Source Teleprompter, Figma (for assets)'/>
                 </div>
                 
             </div>
             
 
             
-        </div>
+        </div> */}
         {/* <div>
             <h2>Commercial Motion Hero</h2>
             <p>Since you were paid by a major brand like Delta, this work needs the most visual weight.
@@ -40,12 +40,12 @@ The Detail: Use a side-panel description that explains you were a Delta Intern a
 
 The Tech: Mention the tools used (e.g., After Effects, Premiere, or Figma Motion).</p>
         </div> */}
-        <div className="section__padding">
-            <h2>Design + Development Bento Grid</h2>
+        <div className="">
+            {/* <h2>Design + Development Bento Grid</h2> */}
         </div>
         {/* <ProjectThumbnails /> */}
         <div className="section__padding">
-            <h2>Tech Sketches Graphic Design</h2>
+            {/* <h2>Tech Sketches Graphic Design</h2> */}
             <GraphicDesignCollage />
         </div>
     </div>
