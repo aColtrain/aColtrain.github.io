@@ -68,9 +68,9 @@ function GraphicDesignCollage() {
         </div>
         <div className="row">
             <div className="trueNorth">
-                <img src= { ospreyFront } />
-                <img src= { ospreyFront } />
-                <img src= { ospreyFront } />
+                <div className="center"><img src= { tnLogo } /></div>
+                <div className="center"><img src= { tnPhoto } /></div>
+                <div className="center"><img src= { tnLaptop } /></div>
             </div>
         </div>
         <div className="row">

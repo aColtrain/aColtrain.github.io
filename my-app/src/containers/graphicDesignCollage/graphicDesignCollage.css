@@ -55,6 +55,11 @@
     padding: 16px;
     background-color: #B2D8AC;
 }
+
+.center {
+    align-items: center;
+}
+
 .aoeanim img {
     width: 325px;
     border-style: solid;
