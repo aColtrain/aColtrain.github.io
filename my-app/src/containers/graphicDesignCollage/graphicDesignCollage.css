@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     padding: 27px;
-    background-color: #DCC8E1;
+    background-color: #c5c9ea;
     width: 666px;
 }
 
@@ -30,14 +30,16 @@
     display: flex;
     flex-direction: column;
     padding: 27px;
-    background-color: #FFCA7D;
+    background-color: #c5c9ea;
+    /* background-color: #FFCA7D; */
     width: 325px;
 }
 
 .deltaBannerRedesign {
     display: flex;
     flex-direction: row;
-    background-color: #A3C0FF;
+    background-color: #c5c9ea;
+    /* background-color: #A3C0FF; */
     width: 666px;
     height: 325px;
     padding: 27px;
@@ -53,13 +55,12 @@
     justify-content: space-between;
     width: 100%;
     padding: 16px;
-    background-color: #B2D8AC;
+    /* background-color: #B2D8AC; */
 }
 
-.center {
+.trueNorth div {
     align-items: center;
 }
-
 .aoeanim img {
     width: 325px;
     border-style: solid;

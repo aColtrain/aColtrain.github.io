@@ -13,6 +13,7 @@
 .contact__image img {
     width: 100%;
     height: auto;
+    /* border-radius: 16px; */
 }
 
 .contact__content {
@@ -45,6 +46,7 @@
 .contact__logo img {
     height: 28px;
     width: auto;
+
 }
 
 .contact__logo a {

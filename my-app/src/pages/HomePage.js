@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Blog, Possibility, Skills, WhatGPT3, Header, ProjectThumbnails } from '../containers';
+import { Footer, Blog, Possibility, Skills, WhatGPT3, Header, ProjectThumbnails, Aboutme } from '../containers';
 import { Project } from '../components';
 
 
@@ -17,6 +17,7 @@ const HomePage = () => {
       {/* <h1>Whatgpt3</h1> */}
       {/* <WhatGPT3 /> */} 
       {/* <ProjectThumbnails /> */}
+      <Possibility />
     
       
     </div>

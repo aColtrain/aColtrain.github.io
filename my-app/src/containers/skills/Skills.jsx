@@ -8,8 +8,8 @@ const featuresData = [
     text: 'Figma, Axure RP, Adobe XD, Adobe Illustrator, Adobe Photoshop, Web Design, App Design, User Research'
   },
   {
-    title: 'Devlopment',
-    text: 'React, HTML, CSS, CMS, Drupal, WordPress, Squarespace, Hubspot, Godaddy'
+    title: 'Development',
+    text: 'React, HTML, CSS, CMS, Drupal, WordPress, Squarespace, HubSpot, GoDaddy'
   },
   {
     title: 'SEO',

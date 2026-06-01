@@ -87,7 +87,7 @@ function ProjectThumbnails() {
             </div>
 
         </div> */}
-        <div className="portfolio__project-layout">
+        {/* <div className="portfolio__project-layout">
             <div className="flex-item zogranmedia">
                 <Link to="/zogran-media">
                     <Project
@@ -106,8 +106,8 @@ function ProjectThumbnails() {
                     projectTags="UX/UI Web Design | Squarespace | Branding"/>    
                 </Link>
             </div> 
-        </div>
-        <div className="portfolio__project-layout">
+        </div> */}
+        {/* <div className="portfolio__project-layout">
             <div className="flex-item video">
                 <Link to="/video-demo">
                     <Project
@@ -135,7 +135,7 @@ function ProjectThumbnails() {
                     projectTags="Graphic Design | Printing | Figma" />    
                 </Link>
             </div> 
-        </div>
+        </div> */}
         {/* <div className="portfolio__project-layout">
             <div className="flex-item mediaArts">
                 <Link to="/media-arts">
