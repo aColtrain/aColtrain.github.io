@@ -13,10 +13,10 @@ function Contact() {
         <img src={ contactImage } alt="" />
       </div>
       <div className="contact__content">
+        <h1 className="gradient__text"> Let's Connect! </h1>
         <p>
         "Networking is not just about connecting people. It's about connecting people with people, people with ideas, and people with opportunities." 
         </p>
-        <h1 className="gradient__text"> Let's Connect! </h1>
         <div className="contact__logo">           
           <a href="https://www.linkedin.com/in/coltrain/">
             <img src={ linkedin } alt="linkedin logo" /> 
