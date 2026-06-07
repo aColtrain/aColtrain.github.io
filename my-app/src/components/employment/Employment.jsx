@@ -3,7 +3,7 @@ import './employment.css';
 import { Feature } from '..';
 
 
-const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, deliverables, tools, responsibilities, results, overview, teamSize, impact1,impact2 }) => {
+const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, platform, user, tools, team, timeline, responsibilities, results, overview, teamSize, impact1,impact2 }) => {
   return (
     <div>
     <div className="section__padding">
@@ -25,9 +25,12 @@ const Employment = ({ name, logo, logoDescription, positionDescription, employer
           <div className="container">
             {/* <Feature title="Client" text={ employer } /> */}
             <Feature title="Role" text={ jobTitle } />
-            <Feature title="Deliverables" text={ deliverables } />
+            <Feature title="Platform" text={ platform } />
+            <Feature title="User" text={ user } />
             <Feature title="Tools" text={ tools } />
             {/* <Feature title="Team Size" text={ teamSize } /> */}
+            <Feature title="Team" text={ team } />
+            
           </div>
         </div>
         {/* <div className="section__padding employment__description">
@@ -42,20 +45,20 @@ const Employment = ({ name, logo, logoDescription, positionDescription, employer
       </div>
     </div>
     <div className="section__padding employment responsibility_results">
-      <div className="width50">
+      {/* <div className="width50">
         <h2>📋 Responsibities</h2>
         <p>{ responsibilities }</p>
-      </div>
+      </div> */}
       <div className="width50">
-        <h2>🏆 Results</h2>
+        <h2>Impact</h2>
         <p>{ results }</p>
       </div>
       
     </div>
-    <div className="section__padding">
+    {/* <div className="section__padding">
       <h2>Overview</h2>
       <p>{ overview }</p>
-    </div>
+    </div> */}
   </div>
   )
 }

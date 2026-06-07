@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment } from '../../components';
+import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment, Feature } from '../../components';
 import mealManifest1 from '../../assets/delta_mm_original.png';
 import approach from '../../assets/delta_mm_approach.png';
 import draft from '../../assets/delta_mm_draft.png';
@@ -197,7 +197,51 @@ function MealManifesting() {
           title= "Skills Developed"
           description= "Working within an established design system and working with people without a design background"
           />
+        </div>      
+
+
+
+        <div className="header">
+            <Employment 
+            name={"SkyPro: Streamlining In-Flight Meal Selection"}
+            logo={ <></> }
+            positionDescription={
+                <>
+                {/* A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
+                inventory in flight.   */}
+                System for managing in-flight meal inventory and customer orders
+                {/* Meal Manifesting is a mobile system that enables flight attendants to manage meal inventory, capture customer orders, and reduce service errors during flights. I designed the end-to-end experience for fast-paced, offline-first environments using the SkyPro UI design system. */}
+                </>
+            } 
+            employer={"Delta Air Lines"}
+            jobTitle="UX/UI Designer"
+            platform="Enterprise iOS"
+            user="28,000+ Flight Attendants"
+            tools="Figma"
+            teamSize={
+                <>
+                9
+                <a id="MediaBridge" />
+                </>
+            }
+            team="Product Owner, UX/ UI Designer, Flight Attendants"
+            
+            results={
+              <>
+              <ul>
+                 <li>Redesigned meal inventory and ordering workflows</li>
+                 <li>Consolidated fragmented service flows into a unified customer card</li>
+                 <li>Designed for fast-paced, offline-first flight operations</li>
+              </ul>
+              </>
+            }
+            />
         </div>
+        <div style={{width: "1008px"}}>
+          <img style={{width: "1008px"}} src={ final } alt="" />
+        </div>
+        
+
       </div>
   )
 }
