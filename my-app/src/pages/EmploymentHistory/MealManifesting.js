@@ -10,7 +10,8 @@ function MealManifesting() {
     <div className="Meal Inventory and Meal Manifesting">
         <div className="header">
             <Employment 
-            name={"SkyPro: Streamlining In-Flight Meal Selection"}
+            eyebrow={"SkyPro: Meal Manifesting"}
+            name={"Streamlining In-Flight Meal Selection"}
             logo={ <></> }
             positionDescription={
                 <>
@@ -239,6 +240,20 @@ function MealManifesting() {
         </div>
         <div style={{width: "1008px"}}>
           <img style={{width: "1008px"}} src={ final } alt="" />
+        </div>
+        <div>
+          <ArticleR 
+          title="The Problem"
+          description={
+            <>
+            </>
+          }
+          images={
+            <>
+            <img src={ mealManifest1 } alt="" />
+            </>
+          }
+          />
         </div>
         
 

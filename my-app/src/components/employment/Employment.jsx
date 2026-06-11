@@ -3,13 +3,16 @@ import './employment.css';
 import { Feature } from '..';
 
 
-const Employment = ({ name, logo, logoDescription, positionDescription, employer, jobTitle, platform, user, tools, team, timeline, responsibilities, results, overview, teamSize, impact1,impact2 }) => {
+const Employment = ({eyebrow,  name, logo, logoDescription, positionDescription, employer, jobTitle, platform, user, tools, team, timeline, responsibilities, results, overview, teamSize, impact1,impact2 }) => {
   return (
     <div>
     <div className="section__padding">
+      <div className="eyebrow">
+        <p> {eyebrow} </p>
+
+      </div>
       <div className="title">
         <h1 className="gradient__text"> {name} </h1>
-      
       </div> 
       <div className="employment">
         <div className="employment__name">
