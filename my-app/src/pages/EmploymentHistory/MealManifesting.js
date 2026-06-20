@@ -1,29 +1,54 @@
 import React from 'react'
-import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment, Feature } from '../../components';
+import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment, Feature, EyebrowHeader } from '../../components';
 import mealManifest1 from '../../assets/delta_mm_original.png';
 import approach from '../../assets/delta_mm_approach.png';
 import draft from '../../assets/delta_mm_draft.png';
 import final from '../../assets/delta_mm_final.png';
+import deltaMeal from '../../assets/Delta_Meal_Thumbnail.png';
+
 
 function MealManifesting() {
   return (
     <div className="Meal Inventory and Meal Manifesting">
         <div className="header">
             <Employment 
-            eyebrow={"SkyPro: Meal Manifesting"}
+            eyebrow={"SkyPro: Meal Manifesting • Shipped 2023"}
             name={"Streamlining In-Flight Meal Selection"}
-            logo={ <></> }
+            logo={ <img src= {deltaMeal}/>} 
             positionDescription={
                 <>
                 {/* A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
                 inventory in flight.   */}
-                System for managing in-flight meal inventory and customer orders
+                Replaced manual inventory tracking with a streamlined digital workflow designed for fast-paced, offline-first cabin operations.
                 </>
             } 
             employer={"Delta Air Lines"}
             jobTitle="UX/UI Designer"
-            deliverables="Mobile (iOS) Designs"
-            tools="Figma"
+            platform="Entrieprise IOS"
+            users="28,000+ Flight Attendants"
+            team={
+              <>
+              Product Owner <br />
+              UX/UI Designer (me!) <br/>
+              Devlopers
+              </>
+            }
+            tools={
+              <>
+              Figma <br/>
+              SkyPro Design System
+              </>
+            }
+            responsibilities={
+              <>
+              End-to-end workflow design <br/>
+              Interaction Design <br/>
+              Information Archetecture <br/>
+              MVP Definition <br/>
+              Edge Case Planning
+              </>
+            }
+            timeline={"Q3 2023"}
             teamSize={
                 <>
                 9
@@ -46,7 +71,118 @@ function MealManifesting() {
             }
             />
         </div>
-        <div className="section__padding">
+
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow={"Overview"}
+        title={"Streamlining Meal Inventory Management for Flight Attendants"}
+        />
+        <p>
+          Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and record customer meal selections during in-flight service. Operating in a fast-paced, offline-first environment, the existing workflow relied on manual tracking and fragmented interfaces that increased service errors and cognitive load. My goal was to redesign the experience to streamline inventory management, simplify meal fulfillment, and improve operational efficiency for flight crews.
+        </p>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow = {"Problem"}
+        title = {"Fragmented Workflows and Manual Inventory Tracking"}
+        />
+        {/* <p>
+          Flight attendants were required to manually audit meal inventory and manage customer meal selections across disconnected workflows. Inventory updates were not reflected in real time, requiring crews to switch between record keeping tools during service. This created several challenges:
+        </p>
+        <br/> */}
+
+        <div className="column2">
+          <div>
+            <h3>Meal Inventory Tracking</h3>
+            <p>Inventory counts required repetitive manual entry, increasing workload before and during service.</p>
+          </div>
+          <div>
+            <h3>Fragmented User Flows</h3>
+            <p>Meal inventory, seat maps, and passenger information existed in separate workflows, forcing users to switch between screens during time-sensitive service operations.</p>
+          </div>
+        </div>
+        <br/>
+        <div className="column2">
+          <div>
+            <h3>Increased Cognitive Load</h3>
+            <p>Flight attendants needed to manage inventory status, customer preferences, and service delivery simultaneously in a fast-moving environment.</p>
+          </div>
+          <div>
+            <h3>Service Errors</h3>
+            <p>Limited visibility into meal status and inventory availability increased the risk of fulfillment mistakes.</p>
+          </div>
+        </div>
+
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow = {"User and Contraints"}
+        title = {"Delta Flight Attendants"}
+        />
+        <div className="column2">
+          <div>
+            <h3>Enviroment</h3>
+            <p>
+              <ul>
+                <li>Fast-pace cabin service</li>
+                <li>Offline-first cabin operation</li>
+                <li>Limited screen space</li>
+                <li>Frequent interruptions</li>
+                <li>One handed mobile interaction</li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h3>Constraints</h3>
+            <p>
+              <ul>
+                <li>Existing SkyPro desgin system</li>
+                <li>Enterprise workflow requirements</li>
+                <li>Technical platform limitations</li>
+                <li>MVP delivery scope</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow = {"Design Strategy"}
+        title = {".."}
+        />
+        <p></p>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow = {"Iterations"}
+        title = {""}
+        />
+        <p></p>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow = {"MVP Prioritization"}
+        title = {""}
+        />
+        <p></p>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow = {"Final Solution"}
+        title = {""}
+        />
+        <p></p>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow = {"Reflection"}
+        title = {""}
+        />
+        <p></p>
+      </div>
+
+      
+        {/* <div className="section__padding">
             <Scope
             title1={
             <>
@@ -86,7 +222,7 @@ function MealManifesting() {
               </>
             }
             />          
-          </div>
+          </div> */}
         {/* <div className="section__padding">
           <ArticleHead
           title={

@@ -1,0 +1,14 @@
+.eyebrow p {
+    /* font-size: 18px; */
+    text-transform: uppercase;
+    color: #6ca4dd;
+
+}
+
+.title h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}

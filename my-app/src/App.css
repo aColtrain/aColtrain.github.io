@@ -183,9 +183,10 @@ button {
   gap: 2rem;
   width: 100%;
 } 
-.column2_div {
+.column2 div{
   width: 50%;
 }
+
 .background-grid {
   background-image: linear-gradient(#ededed 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #f0f0f0 calc(100% - 0.5px)), linear-gradient(90deg, #f0f0f0 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #f0f0f0 calc(100% - 0.5px));
   background-size: 4% 5%;

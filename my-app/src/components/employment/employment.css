@@ -3,14 +3,18 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    flex-direction: row;
-    gap: 4rem;
+    flex-direction: column;
+    /* gap: 4rem; */
 } 
 
 .eyebrow p {
-    text-transform: capitalize;
-    font-size: 16px;
+    /* font-size: 18px; */
+    text-transform: uppercase;
+    color: #6ca4dd;
 
+}
+.title {
+    margin-bottom: 1rem;
 }
 
 .title h1 {
@@ -19,6 +23,12 @@
     font-size: 54px;
     line-height: 75px;
     letter-spacing: -0.04rem;
+    
+}
+
+.landing img {
+    width: 100%;
+    height: 440px;
 }
 .employment__description {
     margin: 1rem 0 0;
@@ -34,10 +44,16 @@
 }
 
 .employment__team-container {
-    width: 50%;
-    vertical-align: middle;
-    
+    width: 100%;
+    vertical-align: middle;  
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+/* .employment__team-container Feature {
+    flex-direction: row;
+} */
 
 .width50 {
     width: 50%;
