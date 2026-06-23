@@ -3,7 +3,7 @@ import './employment.css';
 import { FeatureCol } from '..';
 
 
-const Employment = ({eyebrow,  name, logo, logoDescription, positionDescription, employer, jobTitle, platform, users, team, responsibilities, tools, timeline, results, overview, teamSize, impact1,impact2 }) => {
+const Employment = ({eyebrow,  name, hero, heroDescription, positionDescription, employer, jobTitle, platform, users, team, responsibilities, tools, timeline, results, overview, teamSize, impact1,impact2 }) => {
   return (
     <div>
     <div className="section__padding">
@@ -14,22 +14,24 @@ const Employment = ({eyebrow,  name, logo, logoDescription, positionDescription,
         <h1 className="gradient__text"> {name} </h1>
         <p>{positionDescription}</p> 
       </div> 
+      
       <div className="employment">
         {/* <div className="employment__name"> */}
           {/* <h1 className="gradient__text"> {name} </h1> */}
           {/* <div className="employment__description">
             <p>{positionDescription}</p> 
           </div> */}
-          {/* <div className="landing">
-            { logo }
-          </div> */}
+          <div className="landing">
+            { hero }
+            { heroDescription }
+          </div>
         
         {/* </div> */}
         
         <div className="employment__team-container">
           {/* <Feature title="Client" text={ employer } /> */}
           <FeatureCol title="Role" text={ jobTitle } />
-          <FeatureCol title="Platform" text={ platform } />
+          {/* <FeatureCol title="Platform" text={ platform } /> */}
           {/* <FeatureCol title="User" text={ users } /> */}
           <FeatureCol title="Team" text={ team } />
           {/* <FeatureCol title="Responsibilities" text={ responsibilities } /> */}
