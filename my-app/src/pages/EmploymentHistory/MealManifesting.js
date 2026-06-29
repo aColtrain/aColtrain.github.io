@@ -92,6 +92,12 @@ function MealManifesting() {
           Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and record customer meal selections during in-flight service. Operating in a fast-paced, offline-first environment, the existing workflow relied on manual tracking and fragmented interfaces that increased service errors and cognitive load. My goal was to redesign the experience to streamline inventory management, simplify meal fulfillment, and improve operational efficiency for flight crews.
         </p>
         <img className="width100" src={mmOverview}/>
+        <div className="column25">
+            <div><p>Meal Inventory Screen</p></div>
+            <div><p>Seat Map</p></div>
+            <div><p>Customer Card Unconfirmed Meal</p></div>
+            <div><p>Customer Card Confirmed Meal</p></div>
+        </div>
       </div>
       {/* <div className="section__padding">
         <EyebrowHeader
@@ -135,11 +141,11 @@ function MealManifesting() {
           <div>
             <h2>Enviroment</h2>
             <p>
-              - Fast-pace cabin service
-              - Offline-first cabin operation
-              - Limited screen space
-              - Frequent interruptions
-              - One handed mobile interaction
+              {/* - Fast-pace cabin service <br/>
+              - Offline-first cabin operation <br/>
+              - Limited screen space <br/>
+              - Frequent interruptions <br/>
+              - One handed mobile interaction <br/> */}
               <ul>
                 <li>Fast-pace cabin service</li>
                 <li>Offline-first cabin operation</li>
