@@ -6,6 +6,7 @@ import draft from '../../assets/delta_mm_draft.png';
 import final from '../../assets/delta_mm_final.png';
 import deltaMeal from '../../assets/Delta_Meal_Thumbnail.png';
 import mmLanding from '../../assets/delta_mm_landing.png';
+import mmOverview from '../../assets/delta_mm_overview.png';
 
 function MealManifesting() {
   return (
@@ -18,13 +19,17 @@ function MealManifesting() {
                <img src= {mmLanding}/>
               } 
             heroDescription= {
-              <p>Unified inventory management, passenger information, and meal fulfillment into a single workflow for flight attendants.</p>
+              <>
+              Unified inventory management, passenger information, and meal fulfillment into a single workflow for flight attendants.
+              </>
+              
             }
             positionDescription={
                 <>
                 {/* A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
                 inventory in flight.   */}
-                Replaced manual inventory tracking with a streamlined digital workflow designed for fast-paced, offline-first cabin operations.
+                {/* Replaced manual inventory tracking with a streamlined digital workflow designed for fast-paced, offline-first cabin operations. */}
+                Unified inventory management, passenger information, and meal fulfillment into a single workflow for 28,000+ flight attendants.
                 </>
             } 
             employer={"Delta Air Lines"}
@@ -76,8 +81,9 @@ function MealManifesting() {
             }
             />
         </div>
-
+      
       <div className="section__padding">
+        
         <EyebrowHeader
         eyebrow={"Overview"}
         title={"Streamlining Meal Inventory Management for Flight Attendants"}
@@ -85,6 +91,7 @@ function MealManifesting() {
         <p>
           Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and record customer meal selections during in-flight service. Operating in a fast-paced, offline-first environment, the existing workflow relied on manual tracking and fragmented interfaces that increased service errors and cognitive load. My goal was to redesign the experience to streamline inventory management, simplify meal fulfillment, and improve operational efficiency for flight crews.
         </p>
+        <img className="width100" src={mmOverview}/>
       </div>
       {/* <div className="section__padding">
         <EyebrowHeader
@@ -128,6 +135,11 @@ function MealManifesting() {
           <div>
             <h2>Enviroment</h2>
             <p>
+              - Fast-pace cabin service
+              - Offline-first cabin operation
+              - Limited screen space
+              - Frequent interruptions
+              - One handed mobile interaction
               <ul>
                 <li>Fast-pace cabin service</li>
                 <li>Offline-first cabin operation</li>

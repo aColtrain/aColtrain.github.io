@@ -82,6 +82,15 @@ p {
   line-height: 25px;
 }
 
+.caption {
+  color:#818181;
+  font-size: 14px;
+}
+
+.width100 {
+  width: 100%;
+}
+
 button {
   padding: 0.5rem 1rem;
   color: #fff;

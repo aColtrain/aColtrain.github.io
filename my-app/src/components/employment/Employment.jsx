@@ -14,17 +14,17 @@ const Employment = ({eyebrow,  name, hero, heroDescription, positionDescription,
         <h1 className="gradient__text"> {name} </h1>
         <p>{positionDescription}</p> 
       </div> 
-      
+      <div className="landing">
+            { hero }
+            {/* <p className="caption">{ heroDescription }</p> */}
+          </div>
       <div className="employment">
         {/* <div className="employment__name"> */}
           {/* <h1 className="gradient__text"> {name} </h1> */}
           {/* <div className="employment__description">
             <p>{positionDescription}</p> 
           </div> */}
-          <div className="landing">
-            { hero }
-            { heroDescription }
-          </div>
+          
         
         {/* </div> */}
         
@@ -37,9 +37,6 @@ const Employment = ({eyebrow,  name, hero, heroDescription, positionDescription,
           {/* <FeatureCol title="Responsibilities" text={ responsibilities } /> */}
           <FeatureCol title="Tools" text={ tools } />
           <FeatureCol title="Timeline" text={ timeline } />
-
-            
-          
         </div>
         {/* <div className="section__padding employment__description">
           <div className="employment__team">
