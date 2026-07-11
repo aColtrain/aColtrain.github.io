@@ -7,13 +7,16 @@ import final from '../../assets/delta_mm_final.png';
 import deltaMeal from '../../assets/Delta_Meal_Thumbnail.png';
 import mmLanding from '../../assets/delta_mm_landing.png';
 import mmOverview from '../../assets/delta_mm_overview.png';
+import mmCustomerCard from '../../assets/delta_mm_customercard.png';
+import mmInventory from '../../assets/delta_mm_inventory.png';
+import mmEntreeBeverage from '../../assets/delta_mm_entree_beverage.png';
 
 function MealManifesting() {
   return (
     <div className="Meal Inventory and Meal Manifesting">
         <div className="header">
             <Employment 
-            eyebrow={"SkyPro: Meal Manifesting • Shipped 2023"}
+            eyebrow={"SkyPro: Meal Manifesting • Designed 2023"}
             name={"Streamlining In-Flight Meal Selection"}
             hero={
                <img src= {mmLanding}/>
@@ -76,7 +79,7 @@ function MealManifesting() {
             }
             overview={
               <>
-              Meal Manifesting is a mobile system that enables flight attendants to manage meal inventory, capture customer orders, and reduce service errors during flights. I designed the end-to-end experience for fast-paced, offline-first environments using the SkyPro UI design system.
+              Meal Manifesting is an enterprise workflow within Delta's SkyPro ecosystem that supports meal inventory and passenger meal fulfillment during in-flight service. I redesigned the experience to replace fragmented workflows with a unified, offline-first system that improved speed, visibility, and operational efficiency for 28,000+ flight attendants.
               </>
             }
             />
@@ -91,6 +94,7 @@ function MealManifesting() {
         <p>
           Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and record customer meal selections during in-flight service. Operating in a fast-paced, offline-first environment, the existing workflow relied on manual tracking and fragmented interfaces that increased service errors and cognitive load. My goal was to redesign the experience to streamline inventory management, simplify meal fulfillment, and improve operational efficiency for flight crews.
         </p>
+        <br/>
         <img className="width100" src={mmOverview}/>
         <div className="column25">
             <div><p>Meal Inventory Screen</p></div>
@@ -134,7 +138,7 @@ function MealManifesting() {
       </div> */}
       <div className="section__padding">
         <EyebrowHeader
-        eyebrow = {"User and Contraints"}
+        eyebrow = {"User & Contraints"}
         title = {"Delta Flight Attendants"}
         />
         <div className="column50">
@@ -170,19 +174,22 @@ function MealManifesting() {
       </div>
       <div className="section__padding">
         <EyebrowHeader
-        eyebrow = {"Design Strategy"}
+        eyebrow = {"Key Design Decisions"}
         title = {"Designing for Speed, Accuracy, and Visibility"}
         />
         <div>
-          <h2>Consolidating Meal Management Into the Customer Card</h2>
+          <h2>Integrating Meal Management Into the Customer Card</h2>
           <p>
-            One of the primary goals of the redesign was reducing the need for flight attendants to navigate between multiple screens during service.
+            {/* One of the primary goals of the redesign was reducing the need for flight attendants to navigate between multiple screens during service.
             <br/>
-            <br/>
+            <br/> */}
             I integrated meal inventory and manifesting workflows directly into the customer card experience, allowing crews to access meal information within the same workflow used to manage passenger interactions.
+            </p>
             <br/>
+            <img className="width100" src={ mmCustomerCard } />
             <br/>
-            This created multiple entry points into meal management while keeping the experience centered around passenger context.
+            <p>
+            Multiple entry points allowed crews to begin meal management from the workflow that best matched their current task.
           </p>
           <h3>Outcome</h3>
           <p>
@@ -195,11 +202,12 @@ function MealManifesting() {
         </div>
         <div>
           <h2>Reducing Manual Inventory Management</h2>
+          <img className="width100" src={ mmInventory } />
           <p>
             During discovery, I learned that inventory data would be imported automatically rather than manually entered by flight attendants.
             <br/>
             <br/>
-            To support this change, I redesigned the workflow around inventory adjustments instead of full inventory entry. Rather than displaying editable fields for every item, the interface provided streamlined edit states with numeric input controls and simplified confirmation actions.
+            To support this change, I redesigned the workflow around inventory adjustments instead of full inventory entry. Rather than exposing every field for editing, I introduced inline editing states with numeric input and a simplified confirmation flow.
             <br/>
             <br/>
             This reduced repetitive data entry while preserving flexibility for inventory corrections when needed.
@@ -208,26 +216,21 @@ function MealManifesting() {
         <div>
           <h2>Designing Selection Patterns Around Inventory Size</h2>
           <p>Different inventory categories required different interaction patterns.</p>
+          <img className="width100" src={ mmEntreeBeverage } />
           <div className="column50">
             <div>
               <h3>Entrées</h3>
               <p>
-                Because the number of available entrée options was relatively small, I used an accordion-based selection pattern that allowed flight attendants to quickly scan available choices while minimizing visual clutter.
-                <br/>
-                <br/>
-                Pre-selected customer meals were surfaced directly within the workflow to provide additional context during service.
+                {/* A limited set of options made scanning faster than searching, so an accordion minimized visual complexity.  */}
+                {/* <br/>
+                <br/> */}
+                Although search scales better, the limited number of entrée options made scanning faster and required fewer interactions.
               </p>
             </div>
             <div>
               <h3>Beverages</h3>
               <p>
-                Beverage inventories contained significantly more options than entrée selections.
-                <br/>
-                <br/>
-                Using the same accordion pattern would have increased scrolling and slowed down selection. Instead, I introduced search and filtering functionality that allowed crews to quickly locate beverages without navigating long lists.
-                <br/>
-                <br/>
-                This approach reduced interaction cost while maintaining consistency across the broader SkyPro experience.
+                A much larger inventory made scrolling inefficient, so search and filtering reduced selection time.
               </p>
             </div>
           </div>
@@ -247,19 +250,16 @@ function MealManifesting() {
       </div>
       <div className="section__padding">
         <EyebrowHeader
-        eyebrow = {"Iterations"}
+        eyebrow = {"Future Interation"}
         title = {"Refining the Workflow Through Collaboration"}
         />
         <p>The project evolved through regular feedback sessions with product owners and iOS engineers.<br/>
             <br/>
-
-Early wireframes focused on validating workflow structure and information hierarchy before visual refinement. Through iterative reviews, I refined navigation patterns, inventory management states, and passenger meal selection workflows.<br/>
+            Early wireframes focused on validating workflow structure and information hierarchy before visual refinement. Through iterative reviews, I refined navigation patterns, inventory management states, and passenger meal selection workflows.<br/>
             <br/>
-
-During collaboration with engineering, I learned about planned support for native iOS haptic interactions. I incorporated press-and-hold interactions that allowed flight attendants to access additional meal details and make selections without disrupting their current workflow.<br/>
+            During collaboration with engineering, I learned about planned support for native iOS haptic interactions. I incorporated press-and-hold interactions that allowed flight attendants to access additional meal details and make selections without disrupting their current workflow.<br/>
             <br/>
-
-These discussions helped ensure that proposed solutions aligned with both user needs and technical feasibility.</p>
+            These discussions helped ensure that proposed solutions aligned with both user needs and technical feasibility.</p>
       </div>
       <div className="section__padding">
         <EyebrowHeader
@@ -269,7 +269,7 @@ These discussions helped ensure that proposed solutions aligned with both user n
         <p>To support implementation, the final solution was reduced to a focused Minimum Viable Product.</p>
         <div className="column50">
           <div>
-            <h2>Included</h2>
+            <h2>MVP Scope</h2>
             <p>
               <ul>
                 <li>Meal inventory management</li>
@@ -282,7 +282,7 @@ These discussions helped ensure that proposed solutions aligned with both user n
             </p>
           </div>
           <div>
-            <h2>Deferred</h2>
+            <h2>Future Opportunities</h2>
             <p>
               <ul>
                 <li>Secondary service scenarios</li>
@@ -318,10 +318,10 @@ These discussions helped ensure that proposed solutions aligned with both user n
       </div>
       <div className="section__padding">
         <EyebrowHeader
-        eyebrow = {"Reflection"}
-        title = {"Key Takeaways"}
+        eyebrow = {""}
+        title = {"Reflection"}
         />
-        <p>This project strengthened my ability to design operational workflows within enterprise environments while balancing user needs, business requirements, and technical constraints.</p>
+        
         <div className="column33">
           <div>
             <h3>Designing for Operational Efficiency</h3>
@@ -492,64 +492,6 @@ These discussions helped ensure that proposed solutions aligned with both user n
           description= "Working within an established design system and working with people without a design background"
           />
         </div>      
-
-
-
-        <div className="header">
-            <Employment 
-            name={"SkyPro: Streamlining In-Flight Meal Selection"}
-            logo={ <></> }
-            positionDescription={
-                <>
-                {/* A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
-                inventory in flight.   */}
-                System for managing in-flight meal inventory and customer orders
-                {/* Meal Manifesting is a mobile system that enables flight attendants to manage meal inventory, capture customer orders, and reduce service errors during flights. I designed the end-to-end experience for fast-paced, offline-first environments using the SkyPro UI design system. */}
-                </>
-            } 
-            employer={"Delta Air Lines"}
-            jobTitle="UX/UI Designer"
-            platform="Enterprise iOS"
-            user="28,000+ Flight Attendants"
-            tools="Figma"
-            teamSize={
-                <>
-                9
-                <a id="MediaBridge" />
-                </>
-            }
-            team="Product Owner, UX/ UI Designer, Flight Attendants"
-            
-            results={
-              <>
-              <ul>
-                 <li>Redesigned meal inventory and ordering workflows</li>
-                 <li>Consolidated fragmented service flows into a unified customer card</li>
-                 <li>Designed for fast-paced, offline-first flight operations</li>
-              </ul>
-              </>
-            }
-            />
-        </div>
-        <div style={{width: "1008px"}}>
-          <img style={{width: "1008px"}} src={ final } alt="" />
-        </div>
-        <div>
-          <ArticleR 
-          title="The Problem"
-          description={
-            <>
-            </>
-          }
-          images={
-            <>
-            <img src={ mealManifest1 } alt="" />
-            </>
-          }
-          />
-        </div>
-        
-
       </div>
   )
 }
