@@ -35,7 +35,7 @@ const Employment = ({eyebrow,  name, hero, heroDescription, positionDescription,
           {/* <FeatureCol title="User" text={ users } /> */}
           <FeatureCol title="Team" text={ team } />
           {/* <FeatureCol title="Responsibilities" text={ responsibilities } /> */}
-          <FeatureCol title="Tools" text={ tools } />
+          {/* <FeatureCol title="Tools" text={ tools } /> */}
           <FeatureCol title="Timeline" text={ timeline } />
         </div>
         {/* <div className="section__padding employment__description">

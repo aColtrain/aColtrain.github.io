@@ -10,6 +10,7 @@ import mmOverview from '../../assets/delta_mm_overview.png';
 import mmCustomerCard from '../../assets/delta_mm_customercard.png';
 import mmInventory from '../../assets/delta_mm_inventory.png';
 import mmEntreeBeverage from '../../assets/delta_mm_entree_beverage.png';
+import mmHaptic from '../../assets/delta_mm_haptic.png';
 
 function MealManifesting() {
   return (
@@ -23,7 +24,7 @@ function MealManifesting() {
               } 
             heroDescription= {
               <>
-              Unified inventory management, passenger information, and meal fulfillment into a single workflow for flight attendants.
+              Redesigned Delta's enterprise meal workflow by unifying inventory management, passenger context, and meal fulfillment into a single experience used by 28,000+ flight attendants.
               </>
               
             }
@@ -52,6 +53,7 @@ function MealManifesting() {
               SkyPro Design System
               </>
             }
+            timeline={ "May - October 2023" }
             responsibilities={
               <>
               End-to-end workflow design <br/>
@@ -92,16 +94,16 @@ function MealManifesting() {
         title={"Streamlining Meal Inventory Management for Flight Attendants"}
         />
         <p>
-          Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and record customer meal selections during in-flight service. Operating in a fast-paced, offline-first environment, the existing workflow relied on manual tracking and fragmented interfaces that increased service errors and cognitive load. My goal was to redesign the experience to streamline inventory management, simplify meal fulfillment, and improve operational efficiency for flight crews.
+          Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and fulfill customer meal selections during in-flight service.
         </p>
         <br/>
+        <p>The existing experience relied on fragmented workflows and manual inventory management, increasing cognitive load in a fast-paced, offline-first environment.</p>
+<br/>
+        <p>I redesigned the experience to unify inventory management, passenger information, and meal fulfillment into a streamlined workflow that reduced context switching and supported faster service.</p>
+                
+        <br/>
         <img className="width100" src={mmOverview}/>
-        <div className="column25">
-            <div><p>Meal Inventory Screen</p></div>
-            <div><p>Seat Map</p></div>
-            <div><p>Customer Card Unconfirmed Meal</p></div>
-            <div><p>Customer Card Confirmed Meal</p></div>
-        </div>
+        <p>The redesigned workflow unified inventory management, seat map navigation, and passenger meal fulfillment into a connected experience.</p>
       </div>
       {/* <div className="section__padding">
         <EyebrowHeader
@@ -235,7 +237,7 @@ function MealManifesting() {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <h2>Improving Access Through Contextual Navigation</h2>
           <p>
             Flight attendants could access meal information directly through the seat map or through an expanded passenger profile.
@@ -246,7 +248,7 @@ function MealManifesting() {
             <br/>
             To improve visibility, I also introduced visual indicators that surfaced meal-related information directly within the seat map, reducing the need to open individual passenger records.
           </p>
-        </div>
+        </div> */}
       </div>
       <div className="section__padding">
         <EyebrowHeader
@@ -259,6 +261,8 @@ function MealManifesting() {
             <br/>
             During collaboration with engineering, I learned about planned support for native iOS haptic interactions. I incorporated press-and-hold interactions that allowed flight attendants to access additional meal details and make selections without disrupting their current workflow.<br/>
             <br/>
+            <img className="width100" src={ mmHaptic } />
+
             These discussions helped ensure that proposed solutions aligned with both user needs and technical feasibility.</p>
       </div>
       <div className="section__padding">
@@ -301,7 +305,9 @@ function MealManifesting() {
         />
 
         <p>The final design unified meal inventory management and passenger meal fulfillment into a streamlined workflow optimized for in-flight service operations.</p>
-        <h3>Key Imporvements</h3>
+        <img className="width100" src={ final } />
+
+        <h3>Key Improvements</h3>
         <p>
           <ul>
             <li>Integrated meal management within the customer card experience</li>
