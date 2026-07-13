@@ -103,7 +103,7 @@ function MealManifesting() {
                 
         <br/>
         <img className="width100" src={mmOverview}/>
-        <p>The redesigned workflow unified inventory management, seat map navigation, and passenger meal fulfillment into a connected experience.</p>
+        <p className="caption">The redesigned workflow unified inventory management, seat map navigation, and passenger meal fulfillment into a connected experience.</p>
       </div>
       {/* <div className="section__padding">
         <EyebrowHeader
