@@ -140,12 +140,12 @@ function MealManifesting() {
       </div> */}
       <div className="section__padding">
         <EyebrowHeader
-        eyebrow = {"User & Contraints"}
+        eyebrow = {"Design Context"}
         title = {"Delta Flight Attendants"}
         />
         <div className="column50">
           <div>
-            <h2>Enviroment</h2>
+            <h2>Operating Enviroment</h2>
             <p>
               {/* - Fast-pace cabin service <br/>
               - Offline-first cabin operation <br/>
@@ -162,10 +162,10 @@ function MealManifesting() {
             </p>
           </div>
           <div>
-            <h2>Constraints</h2>
+            <h2>Project Constraints</h2>
             <p>
               <ul>
-                <li>Existing SkyPro desgin system</li>
+                <li>Existing SkyPro design system</li>
                 <li>Enterprise workflow requirements</li>
                 <li>Technical platform limitations</li>
                 <li>MVP delivery scope</li>

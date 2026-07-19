@@ -1,8 +1,11 @@
 import React from 'react'
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { delta } from "../../components/brand/imports"
-import { Employment } from '../../components';
+import { Employment, EyebrowHeader } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
+
+import spLanding from '../../assets/delta_skypro_landing.png';
+
 import car from '../../assets/car.png';
 import migration from '../../assets/delta_migration.png';
 import legacyDesigns from '../../assets/delta_legacydesigns.png';
@@ -44,6 +47,195 @@ const images = [
 function SkyProUI() {
   return (
     <div>
+      <div className="header">
+        <Employment
+        eyebrow={"SkyPro Design System"}
+        name={"Building a Unified Enterprise Design System"}
+        hero={
+          <img src= {spLanding}/>
+        } 
+        positionDescription={
+          <>
+          {/* Helping standardize UI components and improve collaboration across Delta's internal SkyPro ecosystem. */}
+          A shared design system that standardized UI components, accelerated design workflows, and unified six in-flight applications across Delta's SkyPro ecosystem.
+          </>
+        }
+        jobTitle={"UX/UI Design Co-Op"}
+        team={
+          <>
+          UX Designers
+          </>
+        }
+        timeline={"Q1 2022"}
+
+        />
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader 
+        eyebrow={"Overview"}
+        title={"Standardizing Design Across Six Enterprise Applications"}
+        />
+        <p>
+          The SkyPro ecosystem consisted of multiple internal applications used by over 28,000 flight attendants. As new features were introduced, interface patterns became increasingly inconsistent across products, requiring designers to recreate common components and making collaboration between design, engineering, and product teams more difficult.
+          <br/><br/>
+          As part of the design team, I contributed to building the design system by standardizing reusable components, supporting the migration across design platforms, and improving how enterprise design files were organized for designers, engineers, and product owners.
+        </p>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader 
+        eyebrow={"The Challenge"}
+        title={"Building Consistency Across Six Applications"}
+        />
+        <p>Without a shared design system, each application evolved independently. Common interface elements such as buttons, form fields, navigation, and lists were recreated across products, resulting in inconsistent user experiences and slower design workflows.
+
+At the same time, the team was transitioning between design tools while maintaining active product development, making consistency and organization increasingly difficult to manage.</p>
+        {/* <div className="column50">
+          <div>
+            <h2>Primary Users</h2>
+            <p>
+              <ul>
+                <li>UX/UI Designers</li>
+                <li>iOS Engineers</li>
+                <li>Product Owners</li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h2>Project Constraints</h2>
+            <p>
+              <ul>
+                <li>Six independent applications</li>
+                <li>Inconsistent interface patterns</li>
+                <li>Migration between design platforms</li>
+                <li>Large enterprise design files</li>
+                <li>Need for reusable, scalable components</li>
+              </ul>
+            </p>
+          </div>
+        </div> */}
+      </div>
+
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow={"Key Design Decisions"}
+        title={""}
+        />
+        <h2>Creating a Shared Component Library</h2>
+        <p>
+          Before the design system, common interface elements such as buttons, form fields, and lists were recreated across multiple applications, leading to inconsistent user experiences and slower design iterations.
+          <br/>
+          I helped standardize these components into a shared library that established a consistent visual language while making future feature development more efficient.
+        </p><br/>
+        <h3>Outcome</h3>
+        <ul>
+          <li><p>Consistent UI across applications</p></li>
+          <li><p>Reduced duplicated design work</p></li>
+          <li><p>Reusable design patterns</p></li>
+        </ul>
+
+        <h2>Supporting the Migration to Figma</h2>
+        <p>As the design system evolved, the team evaluated multiple design platforms before standardizing on Figma.</p>
+        <p>I contributed to migrating components into the shared library while helping organize files and preserve consistency throughout the transition.</p>
+        <p>Rather than simply moving assets between tools, the migration became an opportunity to improve organization and establish a more maintainable source of truth.</p>
+        <h3>Outcome</h3>
+        <p>
+          <ul>
+            <li>Unified component library</li>
+            <li>Improved maintainability</li>
+            <li>Streamlined collaboration</li>
+          </ul>
+        </p>
+
+        <h2>Improving Design File Navigation</h2>
+        <p>As the number of design files increased, navigating large enterprise projects became difficult for product owners and other non-technical stakeholders.</p>
+        <p>To improve collaboration, I designed a standardized cover-page system that identified project ownership, application, status, and file purpose.</p> 
+        <p>The new structure made it easier to locate work quickly without opening multiple files.</p>
+
+        <h3>Outcome</h3>
+        <p>
+          <ul>
+            <li>Easier file discovery</li>
+            <li>Faster stakeholder reviews</li>
+            <li>Improved cross-functional collaboration</li>
+          </ul>
+        </p>
+
+        <h2>Designing for Scale</h2>
+        <p>Building a design system required thinking beyond individual screens.</p>
+        <p>Components needed to be flexible enough to support multiple applications while remaining simple for designers and engineers to adopt consistently.</p>
+        <p>Working within these constraints reinforced the importance of designing systems that scale as products evolve.</p>
+      </div>
+
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow={"Collaboration"}
+        title={"Aligning Design and Development"}
+        />
+        <p>The design system evolved through regular collaboration with designers, engineers, and product owners.</p>
+        <p>Component reviews ensured reusable patterns met both user needs and engineering requirements while maintaining consistency across the broader SkyPro ecosystem.</p>
+      </div>
+
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow={"Adoption"}
+        title={"Creating a Shared Source of Truth"}
+        />
+        <p>The design system established a centralized library that supported future product development across multiple teams.</p>
+        <p>Standardized components, organized documentation, and improved file navigation reduced friction during design reviews, developer handoff, and ongoing product maintenance.</p>
+      </div>
+
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow={"Final Solution"}
+        title={"A Scalable Foundation for Enterprise Product Design"}
+        />
+        <p>The SkyPro Design System created a shared design language that improved consistency across Delta's internal applications while making collaboration more efficient for designers, engineers, and product teams.</p>
+        <h2>Key Contributions</h2>
+      </div>
+
+      <div className="section__padding">
+        <EyebrowHeader
+        eyebrow={""}
+        title={"Reflection"}
+        />
+        <div className="column33">
+          <div>
+            <h3>Designing Beyond Individual Features</h3>
+            <p>Working on the SkyPro Design System shifted my perspective from designing individual screens to designing reusable systems that support multiple products and teams.</p>
+          </div>
+          <div>
+            <h3>Building for Collaboration</h3>
+            <p>Thoughtful organization and documentation can be just as impactful as interface design. Improving how teams navigate and share design work reduced friction throughout the product development process.</p>
+          </div>
+          <div>
+            <h3>Creating Scalable Design Systems</h3>
+            <p>This project strengthened my understanding of design systems, DesignOps, and the role that reusable components play in creating consistent enterprise experiences.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+                
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {/* <ScrollToHashElement/>
       <div className="sidenav">
         <div>
