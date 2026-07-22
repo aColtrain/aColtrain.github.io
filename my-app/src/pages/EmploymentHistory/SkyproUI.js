@@ -120,11 +120,12 @@ At the same time, the team was transitioning between design tools while maintain
         eyebrow={"Key Design Decisions"}
         title={""}
         />
-        <h2>Creating a Shared Component Library</h2>
+        <h2>Standardizing Reusable Components</h2>
         <p>
-          Before the design system, common interface elements such as buttons, form fields, and lists were recreated across multiple applications, leading to inconsistent user experiences and slower design iterations.
-          <br/>
-          I helped standardize these components into a shared library that established a consistent visual language while making future feature development more efficient.
+          To establish a consistent design language, I helped build reusable components that could be shared across the SkyPro ecosystem.
+
+Standardizing common interface patterns reduced duplicated work, simplified future feature development, and ensured a more consistent experience across products.
+          {/* Before the tandardize these components into a shared library that established a consistent visual language while making future feature development more efficient. */}
         </p><br/>
         <h3>Outcome</h3>
         <ul>
