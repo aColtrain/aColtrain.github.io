@@ -5,9 +5,15 @@ import { Employment, EyebrowHeader } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
 
 import spLanding from '../../assets/delta_skypro_landing.png';
+import spConsistency from '../../assets/delta_skypro_consistency.png';
+import spReusability from '../../assets/delta_skypro_reusability.png';
+import migration from '../../assets/delta_migration.png';
+import spScalability from '../../assets/delta_skypro_scalability.png';
+
+
 
 import car from '../../assets/car.png';
-import migration from '../../assets/delta_migration.png';
+
 import legacyDesigns from '../../assets/delta_legacydesigns.png';
 import standardDesigns from '../../assets/delta_standarddesigns.png';
 import buttons from '../../assets/delta_buttons.png';
@@ -86,6 +92,7 @@ function SkyProUI() {
         eyebrow={"The Challenge"}
         title={"Building Consistency Across Six Applications"}
         />
+        <img className="width100" src={spConsistency}/>
         <p>Without a shared design system, each application evolved independently. Common interface elements such as buttons, form fields, navigation, and lists were recreated across products, resulting in inconsistent user experiences and slower design workflows.
 
 At the same time, the team was transitioning between design tools while maintaining active product development, making consistency and organization increasingly difficult to manage.</p>
@@ -120,6 +127,7 @@ At the same time, the team was transitioning between design tools while maintain
         eyebrow={"Key Design Decisions"}
         title={""}
         />
+        <img className="width100" src={spReusability}/>
         <h2>Standardizing Reusable Components</h2>
         <p>
           To establish a consistent design language, I helped build reusable components that could be shared across the SkyPro ecosystem.
@@ -133,7 +141,7 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
           <li><p>Reduced duplicated design work</p></li>
           <li><p>Reusable design patterns</p></li>
         </ul>
-
+        <img className="width100" src={migration}/>
         <h2>Supporting the Migration to Figma</h2>
         <p>As the design system evolved, the team evaluated multiple design platforms before standardizing on Figma.</p>
         <p>I contributed to migrating components into the shared library while helping organize files and preserve consistency throughout the transition.</p>
@@ -160,7 +168,8 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
             <li>Improved cross-functional collaboration</li>
           </ul>
         </p>
-
+        
+        <img className="width100" src={spScalability}/>
         <h2>Designing for Scale</h2>
         <p>Building a design system required thinking beyond individual screens.</p>
         <p>Components needed to be flexible enough to support multiple applications while remaining simple for designers and engineers to adopt consistently.</p>
