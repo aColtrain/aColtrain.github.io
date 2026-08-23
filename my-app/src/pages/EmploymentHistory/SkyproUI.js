@@ -9,6 +9,7 @@ import spConsistency from '../../assets/delta_skypro_consistency.png';
 import spReusability from '../../assets/delta_skypro_reusability.png';
 import migration from '../../assets/delta_migration.png';
 import spScalability from '../../assets/delta_skypro_scalability.png';
+import spNavigation from '../../assets/delta_skypro_navigation.png';
 
 
 
@@ -154,7 +155,7 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
             <li>Streamlined collaboration</li>
           </ul>
         </p>
-
+        <img className="width100" src={spNavigation}/>
         <h2>Improving Design File Navigation</h2>
         <p>As the number of design files increased, navigating large enterprise projects became difficult for product owners and other non-technical stakeholders.</p>
         <p>To improve collaboration, I designed a standardized cover-page system that identified project ownership, application, status, and file purpose.</p> 
@@ -256,14 +257,14 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
           <a href="#Banner"><p>Engagement Banner</p></a>
         </div>
       </div> */}
-      <div className="header">
+      {/* <div className="header">
         <Employment 
         name= { "SkyPro UI: Architecting a Scalable Design Language"}
         logo={ delta }
         logoDescription="Delta Air lines logo" 
         positionDescription={
           <>
-          {/* Creating a brand library for UX/UI designers that  */}
+          Creating a brand library for UX/UI designers that 
           A design system built to use as a guildline for Delta’s 6 in-flight service apps.
 
           </>
@@ -309,12 +310,12 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
               As a part of the initial design team for the In-Flight Services Team at Delta Air Lines, 
               I helped introduce design methods, establish design standards, increase user engagement, and fulfill the user research and design needs
               for 6+ mobile apps with an audience of 28,000+ flight attendants. <br/>
-              {/* SkyPro UI is a design system built for Delta’s in-flight service apps, serving over 28,000 flight attendants. I led the creation and migration of the system to improve consistency, efficiency, and scalability across 6 mobile products. */}
+              SkyPro UI is a design system built for Delta’s in-flight service apps, serving over 28,000 flight attendants. I led the creation and migration of the system to improve consistency, efficiency, and scalability across 6 mobile products.
               </>
             }
         />
-      </div>
-      <div className="section__padding">
+      </div> */}
+      {/* <div className="section__padding">
           <Scope
           title1={
           <>
@@ -358,10 +359,10 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
             </>
           }
           />          
-        </div>
+        </div> */}
 
-      <div className="SkyProUI">
-        {/* <div className="section__padding">
+      {/* <div className="SkyProUI">
+        <div className="section__padding">
           <ArticleHead
           title="SkyPro UI"
           description={
@@ -374,13 +375,13 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
           images={ <iframe styles="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="350" src="https://embed.figma.com/design/LOxr0uOoS7JG1K670ZUEwg/SkyPro-UI-(Copy)?node-id=823-14803&embed-host=share" allowfullscreen></iframe> }
           imageCaption="Click around the figma file!"
           />
-        </div> */}
+        </div>
         <div className="section__padding">
           <ArticleL
           title="Legacy Designs"
           description={
             <>
-            {/* These legacy designs show the inconsistency in spacing, buttons, and colors across different apps. Designs had to be from scratch for every task resulting in high-effort designs and long design cycles.  */}
+            These legacy designs show the inconsistency in spacing, buttons, and colors across different apps. Designs had to be from scratch for every task resulting in high-effort designs and long design cycles. 
             I inherited a fragmented landscape where 6+ mobile apps felt like they were made by different companies. Buttons, form fields, and lists had no source of truth, forcing designers to reinvent the wheel for every sprint.
             </>
           }
@@ -481,7 +482,7 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
           </>}
           />
         </div>
-      </div>
+      </div> */}
   
       {/* <div className="Meal Inventory and Meal Manifesting">
         <div className="section__padding">
