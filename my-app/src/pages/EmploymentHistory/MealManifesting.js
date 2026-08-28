@@ -291,7 +291,7 @@ function MealManifesting() {
               <ul>
                 <li>Secondary service scenarios</li>
                 <li>Additional reporting capabilities</li>
-                <li>Future workflow enhancements</li>
+                {/* <li>Future workflow enhancements</li> */}
               </ul>
             </p>
           </div>

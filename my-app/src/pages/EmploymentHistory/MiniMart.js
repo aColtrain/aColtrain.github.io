@@ -1,7 +1,7 @@
 import React from 'react'
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import { comcast } from "../../components/brand/imports"
-import { Employment } from '../../components';
+import { Employment, EyebrowHeader } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
 
 import miniOriginal from "../../assets/comcast/comcast_mini_original.png";
@@ -14,6 +14,83 @@ import miniReviewRevisions from "../../assets/comcast/comcast_mini_ReviewRevisio
 function Comcast() {
   return (
     <div>
+      <div className="header">
+        <Employment
+        eyebrow={"Comcast Minimart My Apps"}
+        name={"Simplifying a complex B2B marketplace for small businesses"}
+        hero={
+          <img src= {""}/> 
+        } 
+        positionDescription={
+          <>
+          {/* Helping standardize UI components and improve collaboration across Delta's internal SkyPro ecosystem. */}
+          A shared design system that standardized UI components, accelerated design workflows, and unified six in-flight applications across Delta's SkyPro ecosystem.
+          </>
+        }
+        jobTitle={"Product UX Design Intern"}
+        team={
+          <>
+          UX Designer<br/>
+          Visual Designer<br/>
+          User Researcher<br/>
+          Product Manager
+          </>
+        }
+        timeline={"May - August 2022"}
+
+        />
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader 
+        eyebrow={"Overview"}
+        title={"Standardizing Design Across Six Enterprise Applications"}
+        />
+        <p>
+          The SkyPro ecosystem consisted of multiple internal applications used by over 28,000 flight attendants. As new features were introduced, interface patterns became increasingly inconsistent across products, requiring designers to recreate common components and making collaboration between design, engineering, and product teams more difficult.
+          <br/><br/>
+          As part of the design team, I contributed to building the design system by standardizing reusable components, supporting the migration across design platforms, and improving how enterprise design files were organized for designers, engineers, and product owners.
+        </p>
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader 
+        eyebrow={"The Challenge"}
+        title={"Building Consistency Across Six Applications"}
+        />
+        {/* <img className="width100" src={""}/> */}
+        <p>Without a shared design system, each application evolved independently. Common interface elements such as buttons, form fields, navigation, and lists were recreated across products, resulting in inconsistent user experiences and slower design workflows.
+
+At the same time, the team was transitioning between design tools while maintaining active product development, making consistency and organization increasingly difficult to manage.</p>
+        {/* <div className="column50">
+          <div>
+            <h2>Primary Users</h2>
+            <p>
+              <ul>
+                <li>UX/UI Designers</li>
+                <li>iOS Engineers</li>
+                <li>Product Owners</li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h2>Project Constraints</h2>
+            <p>
+              <ul>
+                <li>Six independent applications</li>
+                <li>Inconsistent interface patterns</li>
+                <li>Migration between design platforms</li>
+                <li>Large enterprise design files</li>
+                <li>Need for reusable, scalable components</li>
+              </ul>
+            </p>
+          </div>
+        </div> */}
+      </div>
+
+
+
+
+
+
       <ScrollToHashElement/>
       {/* <div className="sidenav">
         <div>
