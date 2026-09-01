@@ -96,12 +96,12 @@ function MealManifesting() {
         <p>
           Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and fulfill customer meal selections during in-flight service.
         </p>
-        <br/>
+       
         <p>The existing experience relied on fragmented workflows and manual inventory management, increasing cognitive load in a fast-paced, offline-first environment.</p>
-<br/>
+
         <p>I redesigned the experience to unify inventory management, passenger information, and meal fulfillment into a streamlined workflow that reduced context switching and supported faster service.</p>
                 
-        <br/>
+       
         <img className="width100" src={mmOverview}/>
         <p className="caption">The redesigned workflow unified inventory management, seat map navigation, and passenger meal fulfillment into a connected experience.</p>
       </div>
@@ -187,9 +187,9 @@ function MealManifesting() {
             <br/> */}
             I integrated meal inventory and manifesting workflows directly into the customer card experience, allowing crews to access meal information within the same workflow used to manage passenger interactions.
             </p>
-            <br/>
+            
             <img className="width100" src={ mmCustomerCard } />
-            <br/>
+            
             <p>
             Multiple entry points allowed crews to begin meal management from the workflow that best matched their current task.
           </p>
@@ -207,11 +207,11 @@ function MealManifesting() {
           <img className="width100" src={ mmInventory } />
           <p>
             During discovery, I learned that inventory data would be imported automatically rather than manually entered by flight attendants.
-            <br/>
-            <br/>
+            </p>
+        <p>
             To support this change, I redesigned the workflow around inventory adjustments instead of full inventory entry. Rather than exposing every field for editing, I introduced inline editing states with numeric input and a simplified confirmation flow.
-            <br/>
-            <br/>
+            </p>
+        <p>
             This reduced repetitive data entry while preserving flexibility for inventory corrections when needed.
           </p>
         </div>
@@ -255,14 +255,18 @@ function MealManifesting() {
         eyebrow = {"Future Interation"}
         title = {"Refining the Workflow Through Collaboration"}
         />
-        <p>The project evolved through regular feedback sessions with product owners and iOS engineers.<br/>
-            <br/>
-            Early wireframes focused on validating workflow structure and information hierarchy before visual refinement. Through iterative reviews, I refined navigation patterns, inventory management states, and passenger meal selection workflows.<br/>
-            <br/>
-            During collaboration with engineering, I learned about planned support for native iOS haptic interactions. I incorporated press-and-hold interactions that allowed flight attendants to access additional meal details and make selections without disrupting their current workflow.<br/>
-            <br/>
+        <p>The project evolved through regular feedback sessions with product owners and iOS engineers.
+        </p>
+        <p>   
+            Early wireframes focused on validating workflow structure and information hierarchy before visual refinement. Through iterative reviews, I refined navigation patterns, inventory management states, and passenger meal selection workflows.
+        </p>
+        <p>   
+            During collaboration with engineering, I learned about planned support for native iOS haptic interactions. I incorporated press-and-hold interactions that allowed flight attendants to access additional meal details and make selections without disrupting their current workflow.
+         </p>
+          
             <img className="width100" src={ mmHaptic } />
 
+        <p>
             These discussions helped ensure that proposed solutions aligned with both user needs and technical feasibility.</p>
       </div>
       <div className="section__padding">

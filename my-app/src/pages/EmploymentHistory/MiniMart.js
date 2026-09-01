@@ -13,7 +13,9 @@ import maIteration3 from "../../assets/comcast/comcast_myapps_iteration3.png";
 import maUF1 from "../../assets/comcast/comcast_myapps_userflow1.png";
 import maUF2 from "../../assets/comcast/comcast_myapps_userflow2.png";
 import maFinal1 from "../../assets/comcast/comcast_myapps_final1.png";
-import maFinal2 from "../../assets/comcast/comcast_myapps_final2.png";
+import maFinalAppO from "../../assets/comcast/comcast_myapps_final_appoverview.png";
+import maFinalUser from "../../assets/comcast/comcast_myapps_final_user.png";
+import maFinalBilling from "../../assets/comcast/comcast_myapps_final_billing.png";
 
 
 
@@ -31,7 +33,7 @@ function Comcast() {
     <div>
       <div className="header">
         <Employment
-        eyebrow={"Comcast Minimart My Apps"}
+        eyebrow={"Comcast My Apps Dashboard"}
         name={"Simplifying a Complex B2B Marketplace for Small Businesses"}
         hero={
           <img src= {maOverview}/> 
@@ -46,8 +48,6 @@ function Comcast() {
         team={
           <>
           UX Designer<br/>
-          Visual Designer<br/>
-          User Researcher<br/>
           Product Manager
           </>
         }
@@ -62,41 +62,44 @@ function Comcast() {
         title={"A B2B marketplace for Small to Meduim Sized Businesses"}
         />
         <p>
-         MiniMart was a B2B SaaS marketplace designed to help small businesses discover and manage Comcast products and services.
-        <br/>
-        I focused on structuring the experience across account management, billing, users, and applications, using workflows and user testing to identify opportunities for a clearer, more scalable experience.
+         My Apps Dashboard was a B2B SaaS marketplace designed to help small businesses discover and manage Comcast products and services.
+        </p>
+        <p>
+          I focused on structuring the experience across account management, billing, users, and applications, using workflows and user testing to identify opportunities for a clearer, more scalable experience.
         </p>
       </div>
       <div className="section__padding">
-        <img className="width100" src={maChallenges1}/>
-        <img className="width100" src={maChallenges2}/>
         <EyebrowHeader 
         eyebrow={"The Challenge"}
         title={"Making a Complex Marketplace Easier to Navigate"}
         />
+        <img className="width100" src={maChallenges1}/>
         <p>
          MiniMart brought together a wide range of account and product-management tasks. Users needed to manage applications, billing, users, and permissions without navigating an unnecessarily complex system.
-<br/>
-The challenge was to create a clear structure for these interconnected workflows while keeping individual tasks easy to complete.
-
         </p>
-
+        <p>
+          The challenge was to create a clear structure for these interconnected workflows while keeping individual tasks easy to complete.
+        </p>
       </div>
       <div className="section__padding">
-        <h2>Before</h2>
-        <img src={maUF1} alt="" className="width100" />
-        <h2>After</h2>
-        <img src={maUF2} alt="" className="width100" />
         <EyebrowHeader
         eyebrow={"Identifying Constraints and Requirements"}
         title={"Mapping the Experience"}
         />
         <p>
           I began by breaking down the marketplace into its core user tasks and identifying how users would move between discovery, evaluation, and management.
-<br/>
-This helped establish the relationships between content, products, and key actions before moving into interface design.
-
         </p>
+        <p>
+          This helped establish the relationships between content, products, and key actions before moving into interface design.
+        </p>
+        <h3>Initial Journey</h3>
+        <img src={maUF1} alt="" className="width100" />
+        <p className="caption">Initial flow: Key transitions and management tasks were not yet clearly defined.</p>
+        <h3>Refined Journey</h3>
+        <img src={maUF2} alt="" className="width100" />
+        <p className="caption">Refined flow: Connected application management, user assignment, and subscription tasks into a more complete experience.</p>
+        
+      
         <div className="column33">
           <div>
             <h3>Application</h3>
@@ -111,7 +114,7 @@ This helped establish the relationships between content, products, and key actio
             <p>Managing subscriptions and account billing.</p>
           </div>
         </div>
-        {/* <div>
+       {/* <div>
             <h2>Key Focus Areas</h2>
             <p>
               <ul>
@@ -152,21 +155,26 @@ This established a foundation for a scalable marketplace experience.
         />
         <p>
           With the structure established, I mapped the key workflows users would follow throughout the marketplace.
-<br/>
-The flows helped identify unnecessary steps, clarify decision points, and create a more consistent experience across the platform.
-<br/>
-From discovery → evaluation → action
+        </p>
+    
+        <p>
+          The flows helped identify unnecessary steps, clarify decision points, and create a more consistent experience across the platform.
+        </p>
+    
+        <p>
+          From discovery → evaluation → action
         </p>
       </div>
       <div className="section__padding">
-        <img className="width100" src={maIteration}/> 
         <EyebrowHeader 
         eyebrow={"Testing and Iteration"}
         title={"Designing through Feedback"}
         />
+        <img className="width100" src={maIteration}/> 
         <p>
           I tested prototypes with users and used their feedback to refine navigation, hierarchy, and key interactions.
         </p>
+        <p>The final design now includes user information, subsciption type, and important call-to-actions permentantly displayed on the dashboard allowing the user to get information they need with less interaction.</p>
       </div>
       <div className="section__padding">
         
@@ -175,12 +183,25 @@ From discovery → evaluation → action
         title={"A Clearer Foundation for MiniMart"}
         />
         <p>
-          The resulting architecture informed the interface and provided a clearer framework for how users would navigate the marketplace.
-<br/>
-By establishing the structure before focusing on individual screens, the team could design the experience around user needs and workflows rather than individual features.
+          The final experience brought application, user, and billing management into a unified account experience, giving businesses a clearer way to manage their products and services.
         </p>
+        <h3>My App Dashboard</h3>
         <img src={maFinal1} alt="" className="width100" />
-        <img src={maFinal2} alt="" className="width100" />
+        <div className="column33">
+          <div>
+            <h3>App Overview</h3>
+            <img src={maFinalAppO} alt="" className="width100" />
+          </div>
+          <div>
+            <h3>User Management</h3>
+            <img src={maFinalUser} alt="" className="width100" />
+          </div>
+          <div>
+            <h3>Billing</h3>
+            <img src={maFinalBilling} alt="" className="width100" />
+          </div>
+        </div>
+        {/* <img src={maFinal2} alt="" className="width100" /> */}
       </div>
       <div className="section__padding">
         <EyebrowHeader 
@@ -210,7 +231,7 @@ By establishing the structure before focusing on individual screens, the team co
 
 
 
-      <ScrollToHashElement/>
+      {/* <ScrollToHashElement/> */}
       {/* <div className="sidenav">
         <div>
           <a href="#MiniMart"><p>MiniMart</p></a>
@@ -224,7 +245,7 @@ By establishing the structure before focusing on individual screens, the team co
           <a href="#Final"><p>Final Presentation</p></a>
         </div>
       </div> */}
-      <div className="header">
+      {/* <div className="header">
         <Employment 
         name= {"MiniMart My Apps"}
         logo={ comcast }
@@ -240,14 +261,14 @@ By establishing the structure before focusing on individual screens, the team co
         jobTitle="Product UX Designer"
         deliverables="SaaS Marketplace"
         tools="Figma, UserTesting.com"
-        // teamSize={
-        //   <>
-        //   3
-        //   <a id="MiniMart" />
-        //   </>
-        //}
+        teamSize={
+          <>
+          3
+          <a id="MiniMart" />
+          </>
+        }
         />
-      </div>
+      </div> */}
 
       <div className="MiniMart">
         {/* <div className="section__padding">
@@ -273,7 +294,7 @@ By establishing the structure before focusing on individual screens, the team co
           }
           />
         </div> */}
-        <div className="section__padding">
+        {/* <div className="section__padding">
           <Scope
           goalText={
             <>
@@ -302,8 +323,8 @@ By establishing the structure before focusing on individual screens, the team co
             </>
           }
           />          
-        </div>
-        <div className="section__padding">
+        </div> */}
+        {/* <div className="section__padding">
           <ArticleR
           title={"Evaluating the Original Design"}
           description={
@@ -320,8 +341,8 @@ By establishing the structure before focusing on individual screens, the team co
             </>
           }
           />
-        </div>
-        <div className="section__padding">
+        </div> */}
+        {/* <div className="section__padding">
           <ArticleL
           title={"Approach"}
           description={
@@ -339,9 +360,9 @@ By establishing the structure before focusing on individual screens, the team co
             </>
           }
           />
-        </div>
+        </div> */}
         
-        <div className="section__padding">
+        {/* <div className="section__padding">
           <ArticleR
           title={"Low Fidelity Designs"}
           description={
@@ -360,8 +381,8 @@ By establishing the structure before focusing on individual screens, the team co
             </>
           }
           />
-        </div>
-        <div className="section__padding">
+        </div> */}
+        {/* <div className="section__padding">
           <ArticleL
           title={"Reviews & Revisions"}
           description={
@@ -380,8 +401,8 @@ By establishing the structure before focusing on individual screens, the team co
             </>
           }
           />
-        </div>
-        <div className="section__padding">
+        </div> */}
+        {/* <div className="section__padding">
           <ArticleR
           title={"Prototyping"}
           description={
@@ -396,8 +417,8 @@ By establishing the structure before focusing on individual screens, the team co
             </>
           }
           />
-        </div>
-        <div className="section__padding">
+        </div> */}
+        {/* <div className="section__padding">
           <ArticleL
           title={"User Testing"}
           description={
@@ -442,8 +463,8 @@ By establishing the structure before focusing on individual screens, the team co
           }
           />
         </div>
-        
-        <div className="section__padding">
+         */}
+        {/* <div className="section__padding">
           <ArticleL
           title={"Final Presentation"}
           description={
@@ -467,7 +488,7 @@ By establishing the structure before focusing on individual screens, the team co
             </>
           }
           />
-        </div>
+        </div> */}
       </div>
     </div>    
   )

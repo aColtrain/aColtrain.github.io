@@ -3,7 +3,7 @@ import './eyebrowHeader.css'
 
 const EyebrowHeader = ({eyebrow, title}) => {
   return (
-    <div>
+    <div className="">
         <div className="eyebrow">
             <p> {eyebrow} </p>
         </div>

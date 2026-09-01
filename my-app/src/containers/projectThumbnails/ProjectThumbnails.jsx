@@ -57,13 +57,13 @@ function ProjectThumbnails() {
                 </Link>
             </div>
             <div className="flex-item">
-                <Link to="/get-climbing-outside">
+                {/* <Link to="/get-climbing-outside">
                     <Project
                     projectImg={gcoThumb}
                     projectName="Get Climbing Outside"
                     projectDescription="Marketing Website Redesign"
                     projectTags="UX/UI Web Design | Hubspot | Branding"/>    
-                </Link>
+                </Link> */}
             </div>
         </div>
         {/* <div className="portfolio__project-layout">

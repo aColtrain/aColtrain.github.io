@@ -9,13 +9,15 @@ import resumePDF from '../../assets/Coltrain_Design_Resume.pdf'
 //BEM --> Block Element Modifer
 const Menu = () => (
   <>
-  <Link to="/"> About </Link>
-  {/* <Link to="/about"> About </Link> */}
+  {/* <Link to="/"> About </Link> */}
+ <Link to="/work"><p> Design </p></Link>
+          <Link to="/lab"><p> Multimedia </p></Link>
+  <Link to="/about"> About </Link>
   <Link to="/contact">  Contact </Link>
   {/* <Link to="/projects"> Project </Link> */}
-  <Link to="/delta"> Delta </Link>
+  {/* <Link to="/delta"> Delta </Link>
   <Link to="/comcast"> Comcast </Link>
-  <Link to="/media-arts">Media Arts</Link>
+  <Link to="/media-arts">Media Arts</Link> */}
   </>
 )
 
@@ -29,10 +31,11 @@ const Navbar = () => {
           <Link to="/"><img src={logo} alt="logo" /></Link>
         </div>
         <div className="gpt3__navbar-links_container">
-          <Link to="/"><p> About </p></Link>
-          {/* <Link to="/about"><p> About </p></Link> */}
+          {/* <Link to="/"><p> About </p></Link> */}
+          
           <Link to="/work"><p> Design </p></Link>
           <Link to="/lab"><p> Multimedia </p></Link>
+          <Link to="/about"><p> About </p></Link>
           {/* <p>UX UI Design</p>
           <p>Marketing</p>
           <Link to="/Graphics"><p> Graphic Design </p></Link> */}
@@ -55,10 +58,11 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
-            <Link to="/"> About </Link>
-            {/* <Link to="/about"> About </Link> */}
+            {/* <Link to="/"> About </Link> */}
+            
             <Link to="/work"> Design </Link>
             <Link to="/lab"> Multimedia </Link>
+            <Link to="/about"> About </Link>
             {/* <Link to="/projects"> Project </Link> */}
             <div className="gpt3__navbar-menu_container-links-contact">  
               <Link to="/contact"><button type="button"> Contact </button></Link>    

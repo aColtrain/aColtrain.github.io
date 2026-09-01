@@ -84,7 +84,8 @@ function SkyProUI() {
         />
         <p>
           The SkyPro ecosystem consisted of multiple internal applications used by over 28,000 flight attendants. As new features were introduced, interface patterns became increasingly inconsistent across products, requiring designers to recreate common components and making collaboration between design, engineering, and product teams more difficult.
-          <br/><br/>
+        </p>
+        <p>
           As part of the design team, I contributed to building the design system by standardizing reusable components, supporting the migration across design platforms, and improving how enterprise design files were organized for designers, engineers, and product owners.
         </p>
       </div>
@@ -135,13 +136,15 @@ At the same time, the team was transitioning between design tools while maintain
 
 Standardizing common interface patterns reduced duplicated work, simplified future feature development, and ensured a more consistent experience across products.
           {/* Before the tandardize these components into a shared library that established a consistent visual language while making future feature development more efficient. */}
-        </p><br/>
+        </p>
         <h3>Outcome</h3>
-        <ul>
-          <li><p>Consistent UI across applications</p></li>
-          <li><p>Reduced duplicated design work</p></li>
-          <li><p>Reusable design patterns</p></li>
-        </ul>
+        <p>
+          <ul>
+            <li>Consistent UI across applications</li>
+            <li>Reduced duplicated design work</li>
+            <li>Reusable design patterns</li>
+          </ul>
+        </p>
         <img className="width100" src={migration}/>
         <h2>Supporting the Migration to Figma</h2>
         <p>As the design system evolved, the team evaluated multiple design platforms before standardizing on Figma.</p>
