@@ -4,6 +4,20 @@ import { comcast } from "../../components/brand/imports"
 import { Employment, EyebrowHeader } from '../../components';
 import { ArticleHead, ArticleL, ArticleR, CTA, Scope } from '../../components';
 
+import maOverview from "../../assets/comcast/comcast_myapps_overview.png";
+import maChallenges1 from "../../assets/comcast/comcast_myapps_challenges1.png";
+import maChallenges2 from "../../assets/comcast/comcast_myapps_challenges2.png";
+import maIteration from "../../assets/comcast/comcast_myapps_iteration.png";
+import maIteration2 from "../../assets/comcast/comcast_myapps_iteration2.png";
+import maIteration3 from "../../assets/comcast/comcast_myapps_iteration3.png";
+import maUF1 from "../../assets/comcast/comcast_myapps_userflow1.png";
+import maUF2 from "../../assets/comcast/comcast_myapps_userflow2.png";
+import maFinal1 from "../../assets/comcast/comcast_myapps_final1.png";
+import maFinal2 from "../../assets/comcast/comcast_myapps_final2.png";
+
+
+
+
 import miniOriginal from "../../assets/comcast/comcast_mini_original.png";
 import miniLowFi from "../../assets/comcast/comcast_mini_lowFi.png";
 import miniApproach from "../../assets/comcast/comcast_mini_approach.png";
@@ -11,20 +25,21 @@ import miniUIRevisions from "../../assets/comcast/comcast_mini_UIRevisions.png";
 import logoUserTesting from "../../assets/logos/logo_usertesting.png";
 import miniReviewRevisions from "../../assets/comcast/comcast_mini_ReviewRevisions.png";
 
+
 function Comcast() {
   return (
     <div>
       <div className="header">
         <Employment
         eyebrow={"Comcast Minimart My Apps"}
-        name={"Simplifying a complex B2B marketplace for small businesses"}
+        name={"Simplifying a Complex B2B Marketplace for Small Businesses"}
         hero={
-          <img src= {""}/> 
+          <img src= {maOverview}/> 
         } 
         positionDescription={
           <>
           {/* Helping standardize UI components and improve collaboration across Delta's internal SkyPro ecosystem. */}
-          A shared design system that standardized UI components, accelerated design workflows, and unified six in-flight applications across Delta's SkyPro ecosystem.
+          {/* A shared design system that standardized UI components, accelerated design workflows, and unified six in-flight applications across Delta's SkyPro ecosystem. */}
           </>
         }
         jobTitle={"Product UX Design Intern"}
@@ -41,50 +56,154 @@ function Comcast() {
         />
       </div>
       <div className="section__padding">
+        {/* <img className="width100" src={maOverview}/> */}
         <EyebrowHeader 
         eyebrow={"Overview"}
-        title={"Standardizing Design Across Six Enterprise Applications"}
+        title={"A B2B marketplace for Small to Meduim Sized Businesses"}
         />
         <p>
-          The SkyPro ecosystem consisted of multiple internal applications used by over 28,000 flight attendants. As new features were introduced, interface patterns became increasingly inconsistent across products, requiring designers to recreate common components and making collaboration between design, engineering, and product teams more difficult.
-          <br/><br/>
-          As part of the design team, I contributed to building the design system by standardizing reusable components, supporting the migration across design platforms, and improving how enterprise design files were organized for designers, engineers, and product owners.
+         MiniMart was a B2B SaaS marketplace designed to help small businesses discover and manage Comcast products and services.
+        <br/>
+        I focused on structuring the experience across account management, billing, users, and applications, using workflows and user testing to identify opportunities for a clearer, more scalable experience.
+        </p>
+      </div>
+      <div className="section__padding">
+        <img className="width100" src={maChallenges1}/>
+        <img className="width100" src={maChallenges2}/>
+        <EyebrowHeader 
+        eyebrow={"The Challenge"}
+        title={"Making a Complex Marketplace Easier to Navigate"}
+        />
+        <p>
+         MiniMart brought together a wide range of account and product-management tasks. Users needed to manage applications, billing, users, and permissions without navigating an unnecessarily complex system.
+<br/>
+The challenge was to create a clear structure for these interconnected workflows while keeping individual tasks easy to complete.
+
+        </p>
+
+      </div>
+      <div className="section__padding">
+        <h2>Before</h2>
+        <img src={maUF1} alt="" className="width100" />
+        <h2>After</h2>
+        <img src={maUF2} alt="" className="width100" />
+        <EyebrowHeader
+        eyebrow={"Identifying Constraints and Requirements"}
+        title={"Mapping the Experience"}
+        />
+        <p>
+          I began by breaking down the marketplace into its core user tasks and identifying how users would move between discovery, evaluation, and management.
+<br/>
+This helped establish the relationships between content, products, and key actions before moving into interface design.
+
+        </p>
+        <div className="column33">
+          <div>
+            <h3>Application</h3>
+            <p>Managing products, subscriptions, and application access.</p>
+          </div>
+          <div>
+            <h3>Users</h3>
+            <p>Adding users and managing access.</p>
+          </div>
+          <div>
+            <h3>Billing</h3>
+            <p>Managing subscriptions and account billing.</p>
+          </div>
+        </div>
+        {/* <div>
+            <h2>Key Focus Areas</h2>
+            <p>
+              <ul>
+                <li>Marketplace Navigation</li>
+                <li>User Flows</li>
+                <li>Reduced Redundant Screens</li>
+                <li>Product and User Management</li>
+              </ul>
+            </p>
+          </div> */}
+      </div>
+      {/* <div className="section__padding">
+        <EyebrowHeader 
+        eyebrow={"Research"}
+        title={"Identifying User Friction"}
+        />
+        <p>
+          After understanding painpoints, I created a prototype. Then I used user research and usability testing to identify confusing workflows and opportunities to simplify the experience.
         </p>
       </div>
       <div className="section__padding">
         <EyebrowHeader 
-        eyebrow={"The Challenge"}
-        title={"Building Consistency Across Six Applications"}
+        eyebrow={"Information Achitechture"}
+        title={"Creating a Clearer and Streamlined Structure"}
         />
-        {/* <img className="width100" src={""}/> */}
-        <p>Without a shared design system, each application evolved independently. Common interface elements such as buttons, form fields, navigation, and lists were recreated across products, resulting in inconsistent user experiences and slower design workflows.
-
-At the same time, the team was transitioning between design tools while maintaining active product development, making consistency and organization increasingly difficult to manage.</p>
-        {/* <div className="column50">
-          <div>
-            <h2>Primary Users</h2>
-            <p>
-              <ul>
-                <li>UX/UI Designers</li>
-                <li>iOS Engineers</li>
-                <li>Product Owners</li>
-              </ul>
-            </p>
-          </div>
-          <div>
-            <h2>Project Constraints</h2>
-            <p>
-              <ul>
-                <li>Six independent applications</li>
-                <li>Inconsistent interface patterns</li>
-                <li>Migration between design platforms</li>
-                <li>Large enterprise design files</li>
-                <li>Need for reusable, scalable components</li>
-              </ul>
-            </p>
-          </div>
-        </div> */}
+        <p>
+          I organized the marketplace around the way small businesses would actually look for and manage products.
+<br/>
+Rather than treating each feature as an isolated experience, I focused on creating a structure that connected the different parts of the platform.
+<br/>
+This established a foundation for a scalable marketplace experience.
+        </p>
+      </div> */}
+      <div className="section__padding">
+        <EyebrowHeader 
+        eyebrow={"Design"}
+        title={"Refining the Workflows"}
+        />
+        <p>
+          With the structure established, I mapped the key workflows users would follow throughout the marketplace.
+<br/>
+The flows helped identify unnecessary steps, clarify decision points, and create a more consistent experience across the platform.
+<br/>
+From discovery → evaluation → action
+        </p>
       </div>
+      <div className="section__padding">
+        <img className="width100" src={maIteration}/> 
+        <EyebrowHeader 
+        eyebrow={"Testing and Iteration"}
+        title={"Designing through Feedback"}
+        />
+        <p>
+          I tested prototypes with users and used their feedback to refine navigation, hierarchy, and key interactions.
+        </p>
+      </div>
+      <div className="section__padding">
+        
+        <EyebrowHeader 
+        eyebrow={"Final Experience"}
+        title={"A Clearer Foundation for MiniMart"}
+        />
+        <p>
+          The resulting architecture informed the interface and provided a clearer framework for how users would navigate the marketplace.
+<br/>
+By establishing the structure before focusing on individual screens, the team could design the experience around user needs and workflows rather than individual features.
+        </p>
+        <img src={maFinal1} alt="" className="width100" />
+        <img src={maFinal2} alt="" className="width100" />
+      </div>
+      <div className="section__padding">
+        <EyebrowHeader 
+        eyebrow={"Takeaways"}
+        title={"User Experience First. User Interface Second."}
+        />
+        <div className="column33">
+          <div>
+            <h3>Structure comes first</h3>
+            <p>A strong information architecture creates the foundation for a scalable product.</p>
+          </div>
+          <div>
+            <h3>Complex doesn't have to mean complicated</h3>
+            <p>Breaking a large B2B experience into clear tasks made the marketplace easier to understand.</p>
+          </div>
+          <div>
+            <h3>Design for the system</h3>
+            <p>Thinking about how features connect helped create a more cohesive experience instead of a collection of individual screens.</p>
+          </div>
+        </div>
+      </div>
+
+
 
 
 
