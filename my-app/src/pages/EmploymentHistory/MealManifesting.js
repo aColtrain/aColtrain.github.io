@@ -33,7 +33,7 @@ function MealManifesting() {
                 {/* A system that allows flight attendants to receive customer pre-order information, log meal orders, and keep track of meal 
                 inventory in flight.   */}
                 {/* Replaced manual inventory tracking with a streamlined digital workflow designed for fast-paced, offline-first cabin operations. */}
-                Unified inventory management, passenger information, and meal fulfillment into a single workflow for 28,000+ flight attendants.
+                Inventory management, passenger information, and meal fulfillment into a single workflow for 28,000+ flight attendants.
                 </>
             } 
             employer={"Delta Air Lines"}
@@ -94,11 +94,8 @@ function MealManifesting() {
         title={"Streamlining Meal Inventory Management for Flight Attendants"}
         />
         <p>
-          Meal Manifesting is a core workflow within Delta's SkyPro ecosystem that enables flight attendants to manage meal inventory and fulfill customer meal selections during in-flight service.
-        </p>
-       
-        <p>The existing experience relied on fragmented workflows and manual inventory management, increasing cognitive load in a fast-paced, offline-first environment.</p>
-
+          Meal Manifesting enables flight attendants to manage meal inventory and fulfill customer meal selections during in-flight service.
+        The existing experience relied on fragmented workflows and manual inventory management, increasing cognitive load in a fast-paced, offline-first environment.</p>
         <p>I redesigned the experience to unify inventory management, passenger information, and meal fulfillment into a streamlined workflow that reduced context switching and supported faster service.</p>
                 
        
@@ -226,7 +223,7 @@ function MealManifesting() {
                 {/* A limited set of options made scanning faster than searching, so an accordion minimized visual complexity.  */}
                 {/* <br/>
                 <br/> */}
-                Although search scales better, the limited number of entrée options made scanning faster and required fewer interactions.
+                With the limited number of entrée options, a drop down interaction made scanning faster and required fewer interactions.
               </p>
             </div>
             <div>
@@ -257,9 +254,9 @@ function MealManifesting() {
         />
         <p>The project evolved through regular feedback sessions with product owners and iOS engineers.
         </p>
-        <p>   
+        {/* <p>   
             Early wireframes focused on validating workflow structure and information hierarchy before visual refinement. Through iterative reviews, I refined navigation patterns, inventory management states, and passenger meal selection workflows.
-        </p>
+        </p> */}
         <p>   
             During collaboration with engineering, I learned about planned support for native iOS haptic interactions. I incorporated press-and-hold interactions that allowed flight attendants to access additional meal details and make selections without disrupting their current workflow.
          </p>
@@ -331,18 +328,32 @@ function MealManifesting() {
         eyebrow = {""}
         title = {"Reflection"}
         />
+
         
+        
+       
         <div className="column33">
           <div>
             <h3>Designing for Operational Efficiency</h3>
-            <p>Balancing speed, accuracy, and usability in high-pressure service environments.</p>
           </div>
           <div>
             <h3>Working Within Enterprise Systems</h3>
-            <p>Designing new functionality while maintaining consistency within an established design system.</p>
           </div>
           <div>
             <h3>Cross-Functional Collaboration</h3>
+          </div>
+        </div>
+        <div className="column33">
+          <div>
+            
+            <p>Balancing speed, accuracy, and usability in high-pressure service environments.</p>
+          </div>
+          <div>
+            
+            <p>Designing new functionality while maintaining consistency within an established design system.</p>
+          </div>
+          <div>
+            
             <p>Partnering with product owners and engineers to refine solutions, evaluate feasibility, and define MVP scope.</p>
           </div>
         </div>

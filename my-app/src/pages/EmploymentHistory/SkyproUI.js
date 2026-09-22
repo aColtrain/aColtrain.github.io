@@ -180,7 +180,7 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
         <p>Working within these constraints reinforced the importance of designing systems that scale as products evolve.</p>
       </div>
 
-      <div className="section__padding">
+      {/* <div className="section__padding">
         <EyebrowHeader
         eyebrow={"Collaboration"}
         title={"Aligning Design and Development"}
@@ -196,15 +196,15 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
         />
         <p>The design system established a centralized library that supported future product development across multiple teams.</p>
         <p>Standardized components, organized documentation, and improved file navigation reduced friction during design reviews, developer handoff, and ongoing product maintenance.</p>
-      </div>
+      </div> */}
 
       <div className="section__padding">
         <EyebrowHeader
         eyebrow={"Final Solution"}
         title={"A Scalable Foundation for Enterprise Product Design"}
         />
-        <p>The SkyPro Design System created a shared design language that improved consistency across Delta's internal applications while making collaboration more efficient for designers, engineers, and product teams.</p>
-        <h2>Key Contributions</h2>
+        <p>Through collaboration with designers, engineers, and product owners, I helped establish a shared design language that aligned user needs with technical requirements. The centralized library, documentation, and improved file navigation created a scalable foundation for consistent design, efficient handoff, and future product development across the SkyPro ecosystem.</p>
+        {/* <h2>Key Contributions</h2> */}
       </div>
 
       <div className="section__padding">
@@ -215,14 +215,22 @@ Standardizing common interface patterns reduced duplicated work, simplified futu
         <div className="column33">
           <div>
             <h3>Designing Beyond Individual Features</h3>
-            <p>Working on the SkyPro Design System shifted my perspective from designing individual screens to designing reusable systems that support multiple products and teams.</p>
           </div>
           <div>
             <h3>Building for Collaboration</h3>
-            <p>Thoughtful organization and documentation can be just as impactful as interface design. Improving how teams navigate and share design work reduced friction throughout the product development process.</p>
           </div>
           <div>
             <h3>Creating Scalable Design Systems</h3>
+          </div>
+        </div>
+        <div className="column33">
+          <div>
+            <p>Working on the SkyPro Design System shifted my perspective from designing individual screens to designing reusable systems that support multiple products and teams.</p>
+          </div>
+          <div>
+            <p>Thoughtful organization and documentation can be just as impactful as interface design. Improving how teams navigate and share design work reduced friction throughout the product development process.</p>
+          </div>
+          <div>
             <p>This project strengthened my understanding of design systems, DesignOps, and the role that reusable components play in creating consistent enterprise experiences.</p>
           </div>
         </div>
