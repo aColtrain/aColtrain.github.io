@@ -41,7 +41,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/work" element={<Work />} />
+        <Route path="/productdesign" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skypro-ui" element={<SkyProUI />} />

@@ -10,8 +10,8 @@ import resumePDF from '../../assets/Coltrain_Design_Resume.pdf'
 const Menu = () => (
   <>
   {/* <Link to="/"> About </Link> */}
- <Link to="/work"><p>Product Design</p></Link>
-  <Link to="/lab"><p> Branding and Marketing</p></Link>
+ <Link to="/product-dseign"><p>Product Design</p></Link>
+  <Link to="/branding+marketing"><p> Branding and Marketing</p></Link>
   <Link to="/about"><p>About</p></Link>
   <Link to="/contact"><p>Contact</p></Link>
   {/* <Link to="/projects"> Project </Link> */}
@@ -33,8 +33,8 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           {/* <Link to="/"><p> About </p></Link> */}
           
-          <Link to="/work"><p>Product Design</p></Link>
-          <Link to="/lab"><p>Branding & Marketing</p></Link>
+          <Link to="/product-design"><p>Product Design</p></Link>
+            <Link to="/branding+marketing"><p>Branding and Marketing</p></Link>
           <Link to="/about"><p>About</p></Link>
           {/* <p>UX UI Design</p>
           <p>Marketing</p>
@@ -60,8 +60,8 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container-links">
             {/* <Link to="/"> About </Link> */}
             
-            <Link to="/work">Product Design</Link>
-            <Link to="/lab">Branding and Marketing</Link>
+            <Link to="/product-design">Product Design</Link>
+            <Link to="/branding+marketing">Branding and Marketing</Link>
             <Link to="/about">About</Link>
             {/* <Link to="/projects"> Project </Link> */}
             <div className="gpt3__navbar-menu_container-links-contact">  
