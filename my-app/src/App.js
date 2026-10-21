@@ -41,7 +41,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/productdesign" element={<Work />} />
+        <Route path="/product-design" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skypro-ui" element={<SkyProUI />} />
@@ -54,7 +54,7 @@ const App = () => {
         <Route path="/zogran-media" element={<ZogranMedia />} />
         <Route path="/get-climbing-outside" element={<GetClimbingOutside />} />
         <Route path="/true-north-therapy" element={<TrueNorthTherapy />} />
-        <Route path="/lab" element={<Lab />} />
+        <Route path="/branding+marketing" element={<Lab />} />
       </Routes>
       </div>
       <Footer />

@@ -14,6 +14,7 @@ const Menu = () => (
   <Link to="/branding+marketing"><p> Branding and Marketing</p></Link>
   <Link to="/about"><p>About</p></Link>
   <Link to="/contact"><p>Contact</p></Link>
+  {/* <Link to="/video-demo"><p>Videot</p></Link> */}
   {/* <Link to="/projects"> Project </Link> */}
   {/* <Link to="/delta"> Delta </Link>
   <Link to="/comcast"> Comcast </Link>
@@ -36,6 +37,7 @@ const Navbar = () => {
           <Link to="/product-design"><p>Product Design</p></Link>
             <Link to="/branding+marketing"><p>Branding and Marketing</p></Link>
           <Link to="/about"><p>About</p></Link>
+          <Link to="/video-demo"><p>Video</p></Link>
           {/* <p>UX UI Design</p>
           <p>Marketing</p>
           <Link to="/Graphics"><p> Graphic Design </p></Link> */}
