@@ -102,8 +102,11 @@ img {
 
 button {
   padding: 0.5rem 1rem;
-  color: #fff;
-  background: #FF4820;
+  /* color: #fff;
+  background: #121212; */
+  color:#121212;
+  border-color: #121212;
+  border-width: 4px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;

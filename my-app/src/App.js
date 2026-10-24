@@ -29,6 +29,7 @@ import Lab from './pages/EmploymentHistory/Lab';
 
 
 import ScrollToTop from "./components/ScrollToTop";
+import GenderAffirmingWorkshop from "./pages/EmploymentHistory/GenderAffirmingWorkshop";
 
 
 const App = () => {
@@ -55,6 +56,8 @@ const App = () => {
         <Route path="/get-climbing-outside" element={<GetClimbingOutside />} />
         <Route path="/true-north-therapy" element={<TrueNorthTherapy />} />
         <Route path="/branding+marketing" element={<Lab />} />
+        <Route path="/poster-series" element={<GenderAffirmingWorkshop />} />
+        
       </Routes>
       </div>
       <Footer />
