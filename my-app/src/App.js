@@ -31,6 +31,7 @@ import Lab from './pages/EmploymentHistory/Lab';
 import ScrollToTop from "./components/ScrollToTop";
 import GenderAffirmingWorkshop from "./pages/EmploymentHistory/GenderAffirmingWorkshop";
 import DeltaOutreachBanner from "./pages/EmploymentHistory/DeltaOutreachBanner";
+import WildlifeCards from "./pages/EmploymentHistory/WildlifeCards";
 
 
 const App = () => {
@@ -59,6 +60,8 @@ const App = () => {
         <Route path="/branding+marketing" element={<Lab />} />
         <Route path="/poster-series" element={<GenderAffirmingWorkshop />} />
         <Route path="/engagement-banner" element={<DeltaOutreachBanner />} />
+        <Route path="/wildlife-cards" element={<WildlifeCards />} />
+        <Route path="/gco-poster" element={<GCOPoster />} />
         
       </Routes>
       </div>

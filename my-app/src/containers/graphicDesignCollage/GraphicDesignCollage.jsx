@@ -73,21 +73,27 @@ function GraphicDesignCollage() {
                 <img src={ GCOPoster2 } />
             </div>
         </div>
+        <Link to="/true-north-therapy">
         <div className="row">
-            <div className="trueNorth">
-                <div className="center"><img src= { tnLogo } /></div>
-                <div className="center"><img src= { tnPhoto } /></div>
-                <div className="center"><img src= { tnLaptop } /></div>
-            </div>
+            
+                <div className="trueNorth">
+                    <div className="center"><img src= { tnLogo } /></div>
+                    <div className="center"><img src= { tnPhoto } /></div>
+                    <div className="center"><img src= { tnLaptop } /></div>
+                </div>
+            
         </div>
+        </Link>
         <div className="row">
             <div className="genderAffirmingPosters">
-                <Link to>
+                <Link to="/poster-series">
                 <img src={ genderAffirmingPoster } />
                 </Link>
             </div>
             <div className="universityPoster">
-                <img src={ mascotPoster4 } />
+                <Link>
+                    <img src={ mascotPoster4 } />
+                </Link>
             </div>
             <div className="aoeanim">
                 <img src={ aoeAnim1 } />
