@@ -70,7 +70,9 @@ function GraphicDesignCollage() {
                 </Link>
             </div>
             <div className="gcoPoster">
-                <img src={ GCOPoster2 } />
+                <Link to="/gco-poster">
+                    <img src={ GCOPoster2 } />
+                </Link>
             </div>
         </div>
         <Link to="/true-north-therapy">
@@ -96,7 +98,9 @@ function GraphicDesignCollage() {
                 </Link>
             </div>
             <div className="aoeanim">
-                <img src={ aoeAnim1 } />
+                <Link to="/aoe-animation">
+                    <img src={ aoeAnim1 } />
+                </Link>
             </div>
         </div>
         <div className="row">

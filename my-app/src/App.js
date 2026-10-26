@@ -32,6 +32,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import GenderAffirmingWorkshop from "./pages/EmploymentHistory/GenderAffirmingWorkshop";
 import DeltaOutreachBanner from "./pages/EmploymentHistory/DeltaOutreachBanner";
 import WildlifeCards from "./pages/EmploymentHistory/WildlifeCards";
+import GCOPoster from "./pages/EmploymentHistory/GCOPoster";
+import AOEAnimation from "./pages/EmploymentHistory/AOEAnimation";
 
 
 const App = () => {
@@ -62,6 +64,7 @@ const App = () => {
         <Route path="/engagement-banner" element={<DeltaOutreachBanner />} />
         <Route path="/wildlife-cards" element={<WildlifeCards />} />
         <Route path="/gco-poster" element={<GCOPoster />} />
+        <Route path="/aoe-animation" element={<AOEAnimation />} />
         
       </Routes>
       </div>
