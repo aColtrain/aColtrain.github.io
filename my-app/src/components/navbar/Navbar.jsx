@@ -40,6 +40,7 @@ const Navbar = () => {
           <Link to="/video-demo"><p>Video</p></Link>
           <Link to="/true-north-therapy"><p>TNT</p></Link>
           <Link to="/poster-series"><p>GAW</p></Link>
+          <Link to="/engagement-banner"><p>DOB</p></Link>
           {/* <p>UX UI Design</p>
           <p>Marketing</p>
           <Link to="/Graphics"><p> Graphic Design </p></Link> */}

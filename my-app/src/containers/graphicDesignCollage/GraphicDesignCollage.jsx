@@ -1,5 +1,6 @@
 import React from 'react'
 import './graphicDesignCollage.css';
+import { Link } from "react-router-dom";
 
 import deltaVideoLanding from '../../assets/delta_videodemo_landing.png'
 import museumBirdCards from '../../assets/mediaArts/museumBirdCards.png'
@@ -41,26 +42,32 @@ function GraphicDesignCollage() {
     <div className="grid col">
         <div className="row">
             <div className="deltaDemo">
-                <img src={ deltaVideoLanding } />
-                <h2>Delta Air Lines | Rapid Stake Holder Visualization</h2>
-                <p>Rapid internal deliverable to align stakeholders on a new passenger flow under extreme time and budget constraints.</p>
-                <p>Video Production | Video Editing</p>
+                <Link to="/video-demo">
+                    <img src={ deltaVideoLanding } />
+                    <h2>Delta Air Lines | Rapid Stake Holder Visualization</h2>
+                    <p>Rapid internal deliverable to align stakeholders on a new passenger flow under extreme time and budget constraints.</p>
+                    <p>Video Production | Video Editing</p>
+                </Link>
             </div>
             <div className="museumBirdCards">
-                <img src={ museumBirdCards } />
-                <h2>Museum Engagement Visual System</h2>
-                <p>Goal: Interactive Discovery</p>
-                <p>Logic: Patter-Matched ID</p>
-                <p>Craft: Geometric Construction</p>
+                <Link to="/wildlife-cards">
+                    <img src={ museumBirdCards } />
+                    <h2>Museum Engagement Visual System</h2>
+                    <p>Goal: Interactive Discovery</p>
+                    <p>Logic: Patter-Matched ID</p>
+                    <p>Craft: Geometric Construction</p>
+                </Link>
             </div>
         </div>
         <div className="row">
             <div className="deltaBannerRedesign row">
-                <img src={ deltaBanner } />
-                <div className="">
-                    <h2>Engagement Visual System</h2>
-                    <p> Redesigned the Delta IFS banners to increase visual impact and color variety, ensuring high visibility in a crowded event spaces</p>
-                </div>
+                <Link to="/engagement-banner">
+                    <img src={ deltaBanner } />
+                    <div className="">
+                        <h2>Engagement Visual System</h2>
+                        <p> Redesigned the Delta IFS banners to increase visual impact and color variety, ensuring high visibility in a crowded event spaces</p>
+                    </div>
+                </Link>
             </div>
             <div className="gcoPoster">
                 <img src={ GCOPoster2 } />
@@ -75,7 +82,9 @@ function GraphicDesignCollage() {
         </div>
         <div className="row">
             <div className="genderAffirmingPosters">
+                <Link to>
                 <img src={ genderAffirmingPoster } />
+                </Link>
             </div>
             <div className="universityPoster">
                 <img src={ mascotPoster4 } />

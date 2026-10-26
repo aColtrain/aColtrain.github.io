@@ -30,6 +30,7 @@ import Lab from './pages/EmploymentHistory/Lab';
 
 import ScrollToTop from "./components/ScrollToTop";
 import GenderAffirmingWorkshop from "./pages/EmploymentHistory/GenderAffirmingWorkshop";
+import DeltaOutreachBanner from "./pages/EmploymentHistory/DeltaOutreachBanner";
 
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
         <Route path="/true-north-therapy" element={<TrueNorthTherapy />} />
         <Route path="/branding+marketing" element={<Lab />} />
         <Route path="/poster-series" element={<GenderAffirmingWorkshop />} />
+        <Route path="/engagement-banner" element={<DeltaOutreachBanner />} />
         
       </Routes>
       </div>
