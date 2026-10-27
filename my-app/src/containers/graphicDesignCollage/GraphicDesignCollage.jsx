@@ -3,8 +3,11 @@ import './graphicDesignCollage.css';
 import { Link } from "react-router-dom";
 
 import deltaVideoLanding from '../../assets/delta_videodemo_landing.png'
+import deltaVideoLanding1 from '../../assets/delta_videodemo_landing1.png'
 import museumBirdCards from '../../assets/mediaArts/museumBirdCards.png'
+import museumBirdCards1 from '../../assets/mediaArts/museumBirdCards1.png'
 import deltaBanner from '../../assets/lab_deltaBanner.png'
+import deltaBanner1 from '../../assets/lab_deltaBanner1.png'
 import GCOPoster2 from '../../assets/GCO_MarketingPoster2.png'
 import tnLogo from '../../assets/graphics/TN_logo.png'
 import tnPhoto from '../../assets/graphics/TN_photography.png'
@@ -40,7 +43,7 @@ import aoeAnim2 from '../../assets/graphics/AOE__Animation2.gif'
 function GraphicDesignCollage() {
   return (
     <div className="grid col">
-        <div className="row">
+        {/* <div className="row">
             <div className="deltaDemo">
                 <Link to="/video-demo">
                     <img src={ deltaVideoLanding } />
@@ -58,22 +61,47 @@ function GraphicDesignCollage() {
                     <p>Craft: Geometric Construction</p>
                 </Link>
             </div>
-        </div>
-        <div className="row">
+        </div> */}
+        {/* <div className="row">
+            <Link to="/engagement-banner">
             <div className="deltaBannerRedesign row">
-                <Link to="/engagement-banner">
+                
                     <img src={ deltaBanner } />
                     <div className="">
                         <h2>Engagement Visual System</h2>
                         <p> Redesigned the Delta IFS banners to increase visual impact and color variety, ensuring high visibility in a crowded event spaces</p>
                     </div>
-                </Link>
+               
             </div>
+            </Link>
             <div className="gcoPoster">
                 <Link to="/gco-poster">
                     <img src={ GCOPoster2 } />
                 </Link>
             </div>
+        </div> */}
+       
+       <div className="row">
+            <div className="">
+                <Link to="/video-demo">
+                <img src={ deltaVideoLanding1 } />
+                </Link>
+            </div>
+            <div className="universityPoster">
+                <Link to="/wildlife-cards">
+                    <img src={ museumBirdCards1 } />
+                </Link>
+            </div>
+            <div className="aoeanim">
+                <Link to="/engagement-banner">
+                    <img src={ deltaBanner1 } />
+                </Link>
+            </div>
+        </div>
+        <div className="row">
+            {/* <div className="aoeanim">
+                <img src={ aoeAnim2 } />
+            </div> */}
         </div>
         <Link to="/true-north-therapy">
         <div className="row">
@@ -92,20 +120,25 @@ function GraphicDesignCollage() {
                 <img src={ genderAffirmingPoster } />
                 </Link>
             </div>
-            <div className="universityPoster">
+            {/* <div className="universityPoster">
                 <Link>
                     <img src={ mascotPoster4 } />
                 </Link>
-            </div>
+            </div> */}
             <div className="aoeanim">
                 <Link to="/aoe-animation">
                     <img src={ aoeAnim1 } />
                 </Link>
             </div>
-        </div>
-        <div className="row">
             <div className="aoeanim">
                 <img src={ aoeAnim2 } />
+            </div>
+        </div>
+        <div className="row">
+            <div className="gcoPoster">
+                <Link to="/gco-poster">
+                    <img src={ GCOPoster2 } />
+                </Link>
             </div>
         </div>
 

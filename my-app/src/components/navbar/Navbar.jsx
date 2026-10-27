@@ -29,7 +29,10 @@ const Navbar = () => {
     <div className="port__navbar section__padding">
       <div className="gpt3__navbar-links ">
         <div className="gpt3__navbar-links_logo">
-          <Link to="/"><img src={logo} alt="logo" /></Link>
+          {/* <Link to="/"><img src={logo} alt="logo" /></Link> */}
+          <Link to="/">
+            <h3>COLTRAIN</h3>
+          </Link>
         </div>
         <div className="gpt3__navbar-links_container">
           {/* <Link to="/"><p> About </p></Link> */}
