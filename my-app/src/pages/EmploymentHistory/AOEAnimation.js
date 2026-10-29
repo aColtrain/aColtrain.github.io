@@ -1,5 +1,8 @@
 import React from 'react'
 import { EyebrowHeader, Employment } from "../../components"
+import aoeAnim1 from '../../assets/graphics/AOE__Animation1.gif'
+import aoeAnim2 from '../../assets/graphics/AOE__Animation2.gif'
+import '../../containers/graphicDesignCollage/graphicDesignCollage.css';
 
 function AOEAnimation() {
   return (
@@ -21,6 +24,18 @@ function AOEAnimation() {
             deliverables=""
             tools=""
             />
+        </div>
+        <div className="row center">
+            <div className="aoeanim">
+               
+                    <img src={ aoeAnim1 } />
+                
+            </div>
+            <div className="aoeanim">
+                
+                    <img src={ aoeAnim2 } />
+            
+            </div>
         </div>
         <div className="section__padding">
             <EyebrowHeader

@@ -1,5 +1,8 @@
 import React from 'react'
 import { Employment, EyebrowHeader } from '../../components';
+import genderHero from '../../assets/genderAffirming_hero.png';
+import genderDetails from '../../assets/genderAffirming_details.png'
+import genderPhone from '../../assets/genderAffirming_phone.png'
 
 function GenderAffirmingWorkshop() {
   return (
@@ -22,6 +25,7 @@ function GenderAffirmingWorkshop() {
             />
         </div>
         <div className="section__padding">
+            <img src= {genderPhone} alt="" className="width100" />
             <EyebrowHeader
             eyebrow={"Art Direction"}
             title={"Making the Details Tell the Story"}
@@ -33,8 +37,10 @@ function GenderAffirmingWorkshop() {
                 <li><p>Workshop- specific details: Illustrated tools mentioned in the fashion workshop, added a bandana in the back pocket as a nod to queer history, and incorporated the venue's logo as a patch on the character's clothing and backpack.</p></li>
                 <li><p>Grassroots aesthetic: Used hand drawn titles, expressive illustrations, simple color blocked backgrounds, and intentionally imperfect borders to give the campaign a personal, community-led feel.</p></li>
             </ul>
+            <img src= {genderDetails} alt="" className="width100" />
         </div>
         <div className="section__padding">
+            
             <EyebrowHeader
             eyebrow={"Campaign System"}
             title={"Designed to Stand Together"}
@@ -44,6 +50,7 @@ function GenderAffirmingWorkshop() {
                 The connected compositions creates a more eye-catching physcial display while allowing each flyer to stand independantly.
                 The combined artwork also translated into a fun social media graphic that has other information as other items on a bulletin board.
             </p>
+            <img src= {genderHero} alt="" className="width100" />
         </div>
         <div className="section__padding">
             <EyebrowHeader

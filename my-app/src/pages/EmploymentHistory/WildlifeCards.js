@@ -1,10 +1,13 @@
 import React from 'react'
 import { Employment, EyebrowHeader } from '../../components';
+import birdsHero from '../../assets/mediaArts/museumBirdCards_hero.png';
+import birdDetail from '../../assets/mediaArts/museumBirdCards_detail.png';
 
 function WildlifeCards() {
   return (
     <div>
         <div>
+            <img src= { birdsHero } alt="" className="width100 section__padding" />
             <Employment 
             eyebrow={"Information Design & Visual Storytelling"}
             name= {"Museum Wildlife Information Cards"}
@@ -23,6 +26,7 @@ function WildlifeCards() {
             />
         </div>
         <div className="section__padding">
+          <img src={ birdDetail } alt="" className="width100" />
           <EyebrowHeader
           eyebrow={"Design Approach"}
           title={"Encouraging Closer Observation"}

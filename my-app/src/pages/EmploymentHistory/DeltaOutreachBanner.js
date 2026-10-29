@@ -1,10 +1,13 @@
 import React from 'react'
 import { Employment, EyebrowHeader } from '../../components';
+import bannerHero from '../../assets/deltaBanner_hero.png';
+import bannerDesign from '../../assets/deltaBanner_designApproach.png';
 
 function DeltaOutreachBanner() {
   return (
     <div>
         <div>
+            <img src={ bannerHero } alt="" className="width100 section__padding" />
             <Employment 
             name= { "Delta SkyPro Engagement Banner"}
             logo={ <></> }
@@ -32,6 +35,7 @@ function DeltaOutreachBanner() {
                 <li><p>Product Showcase: Featured the SkyPro app icon within a mobile device mockup to put the digital ecosystem in front of the user.</p></li>
                 <li><p>Interactive Engagement: Added a QR code to give viewers a direct way to share feed back about their app experience.</p></li>
             </ul>
+            <img src={ bannerDesign } alt="" className="width100" />
         </div>
         <div className="section__padding">
             <EyebrowHeader 

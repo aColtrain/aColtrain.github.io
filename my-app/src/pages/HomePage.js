@@ -13,11 +13,11 @@ const HomePage = () => {
       {/* <h1>Possibility</h1> */}
       {/* <Possibility /> // Car */}
       {/* <h1>Skills</h1> */}
-      <Skills />
+      {/* <Skills /> */}
       {/* <h1>Whatgpt3</h1> */}
       {/* <WhatGPT3 /> */} 
       {/* <ProjectThumbnails /> */}
-      <Possibility />
+      {/* <Possibility /> */}
     
       
     </div>

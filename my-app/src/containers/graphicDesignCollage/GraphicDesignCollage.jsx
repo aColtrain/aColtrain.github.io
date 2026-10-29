@@ -125,22 +125,25 @@ function GraphicDesignCollage() {
                     <img src={ mascotPoster4 } />
                 </Link>
             </div> */}
-            <div className="aoeanim">
-                <Link to="/aoe-animation">
-                    <img src={ aoeAnim1 } />
-                </Link>
-            </div>
-            <div className="aoeanim">
-                <img src={ aoeAnim2 } />
-            </div>
-        </div>
-        <div className="row">
             <div className="gcoPoster">
                 <Link to="/gco-poster">
                     <img src={ GCOPoster2 } />
                 </Link>
             </div>
+            <div className="aoeanim">
+                <Link to="/aoe-animation">
+                    <img src={ aoeAnim1 } />
+                </Link>
+            </div>
+            
         </div>
+        {/* <div className="row">
+            <div className="gcoPoster">
+                <Link to="/gco-poster">
+                    <img src={ GCOPoster2 } />
+                </Link>
+            </div>
+        </div> */}
 
 
 {/* 

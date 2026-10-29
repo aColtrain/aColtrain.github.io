@@ -2,18 +2,23 @@ import React from 'react'
 import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment } from '../../components';
 import { EyebrowHeader } from '../../components';
 import demo from '../../assets/delta_demo.png';
+import demoLanding from '../../assets/delta_videodemo_landing2.png';
+import demoScript from '../../assets/delta_videodemo_script.png';
 import demoFilming from '../../assets/delta_demo_filming.png';
-import demoEditing from '../../assets/delta_demo_editing.png';
+import demoEditing from '../../assets/delta_videodemo_editing.png';
 function VideoDemo() {
   return (
     <div className="Video Demos">
+        <div className="section__padding">
+            <img className="width100" src= { demoLanding }/>
+        </div>
         <Employment 
         name= { "Video Demos"}
-        logo={ <></> }
+        
         logoDescription="Delta Air lines logo" 
         positionDescription={
             <>
-            Produced six short-form video demos introducing digital tools available to 28,000+ flight attendants. The videos supported employee education and upper-management communications.
+            Produced five short-form video demos introducing digital tools available to 28,000+ flight attendants. The videos supported employee education and upper-management communications.
             </>
             }
         employer="Delta Air Lines"
@@ -160,16 +165,18 @@ function VideoDemo() {
             />
         </div> */}
         <div className="section__padding">
+            <img className="width100" src= { demoScript }/>
             <EyebrowHeader 
             // eyebrow={""}
             title={"Scripting & Storyboarding"}
             />
             <p>Collaborated with product owners to identify key app features and develop scripts for each demo. Created rough cuts to demostrate layout and refine how features would be communicated visually.</p>
+            <img className="width100" src= { demoEditing }/>
             <EyebrowHeader 
             // eyebrow={""}
             title={"Production & Editing"}
             />
-            <p>Fimed introductions and outros aboard a training aircraft with a flight attendant serving as on-camera talent. Edited footage, voiceovers, screen recordings, and feature callouts in iMovie to create 6 concise product demos.
+            <p>Fimed introductions and outros aboard a training aircraft with a flight attendant serving as on-camera talent. Edited footage, voiceovers, screen recordings, and feature callouts in iMovie to create 5 concise product demos.
                 Adapted the scripts and editing approach to accommodate late-stage changes and limited filming schedule and resources.
             </p>
             <EyebrowHeader 
@@ -177,7 +184,7 @@ function VideoDemo() {
             title={"Final Deliverables"}
             />
             <p>Produced six 1-2 minute videos showcasing in-flight application and their core features.</p>
-            <p>Watch the full video playlist here</p>
+            <a href="https://youtube.com/playlist?list=PL8e45rsI4i0u__uX-P0y0dwmMXweE8gq0&si=WwbUwMBcgc_eLeZd" target="_blank"><p>Watch the full video playlist here</p></a>
         </div>
         
     </div>
