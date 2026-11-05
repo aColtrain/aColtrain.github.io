@@ -1,5 +1,5 @@
 import React from 'react'
-import { EyebrowHeader, Employment } from "../../components"
+import { EyebrowHeader, Employment, BmIntro } from "../../components"
 import aoeAnim1 from '../../assets/graphics/AOE__Animation1.gif'
 import aoeAnim2 from '../../assets/graphics/AOE__Animation2.gif'
 import '../../containers/graphicDesignCollage/graphicDesignCollage.css';
@@ -8,21 +8,15 @@ function AOEAnimation() {
   return (
     <div>
         <div>
-            <Employment 
+            <BmIntro 
             eyebrow={"2D Animation and Social Media Campaign"}
             name= { "Alpha Omega Epsilon Recruitment"}
-            logo={ <></> }
-            logoDescription="" 
             positionDescription={
                 <>
                 Created two 2D animation promoting Alpha Omega Epsilon's recruitment event, using a Monopoly-inspired theme to connect the recruitment experience with the sorority's identity.
                 Custom illustrations and playful motion bring the campaign to life wile communicating the idea of finding a home in AOE.
                 </>
                 }
-            employer=""
-            jobTitle=""
-            deliverables=""
-            tools=""
             />
         </div>
         <div className="row center">

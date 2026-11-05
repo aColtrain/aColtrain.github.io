@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment } from '../../components';
+import { ArticleHead, ArticleL, ArticleR, CTA, Scope, Employment,BmIntro } from '../../components';
 import { EyebrowHeader } from '../../components';
 import demo from '../../assets/delta_demo.png';
 import demoLanding from '../../assets/delta_videodemo_landing2.png';
@@ -12,7 +12,7 @@ function VideoDemo() {
         <div className="section__padding">
             <img className="width100" src= { demoLanding }/>
         </div>
-        <Employment 
+        <BmIntro 
         name= { "Video Demos"}
         
         logoDescription="Delta Air lines logo" 

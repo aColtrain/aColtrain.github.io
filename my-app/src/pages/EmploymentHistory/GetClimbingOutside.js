@@ -6,6 +6,7 @@ import screens from '../../assets/GCO_screens.png';
    return (
     <div>
         <div>
+            
             <Employment 
             name={"Get Climbing Outside"}
             logo={ <></> }

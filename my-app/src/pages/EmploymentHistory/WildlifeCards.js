@@ -1,5 +1,5 @@
 import React from 'react'
-import { Employment, EyebrowHeader } from '../../components';
+import { Employment, EyebrowHeader, BmIntro} from '../../components';
 import birdsHero from '../../assets/mediaArts/museumBirdCards_hero.png';
 import birdDetail from '../../assets/mediaArts/museumBirdCards_detail.png';
 
@@ -8,21 +8,15 @@ function WildlifeCards() {
     <div>
         <div>
             <img src= { birdsHero } alt="" className="width100 section__padding" />
-            <Employment 
+            <BmIntro
             eyebrow={"Information Design & Visual Storytelling"}
             name= {"Museum Wildlife Information Cards"}
-            logo={ <></> }
-            logoDescription="" 
             positionDescription={
                 <>
                 Designed a series of educational bird cards for a museum workshop exploring how holo supports bird survival.
                 The double sided cards pair striking wildlife imagery with species-specific information, encouraging participation to observe the details of bird and their environments.
                 </>
                 }
-            employer=""
-            jobTitle=""
-            deliverables=""
-            tools=""
             />
         </div>
         <div className="section__padding">

@@ -12,4 +12,5 @@ export { default as Employment } from './employment/Employment';
 export { default as EyebrowHeader } from './eyebrowHeader/EyebrowHeader';
 export { default as Scope } from './scope/Scope';
 export { default as CopyEmail } from './copyEmail/CopyEmail';
+export { default as BmIntro } from './bmIntro/BmIntro';
 // export { default as ScrollToTop } from './ScrollToTop';

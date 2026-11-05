@@ -1,5 +1,5 @@
 import React from 'react'
-import { Employment, EyebrowHeader } from '../../components';
+import { Employment, EyebrowHeader, BmIntro } from '../../components';
 import bannerHero from '../../assets/deltaBanner_hero.png';
 import bannerDesign from '../../assets/deltaBanner_designApproach.png';
 
@@ -8,20 +8,14 @@ function DeltaOutreachBanner() {
     <div>
         <div>
             <img src={ bannerHero } alt="" className="width100 section__padding" />
-            <Employment 
+            <BmIntro 
             name= { "Delta SkyPro Engagement Banner"}
-            logo={ <></> }
-            logoDescription="" 
             positionDescription={
                 <>
                 Redesigned the In-Flight Services DIgital Innovation tabletop banner to make SkyPro apps more eye-catching and encourage engagement at in-person events. 
                 The updated design strengthes visual hierarchy, showcases the app ecosystem, and introduces a QR code that invites attendees to share feedback.
                 </>
                 }
-            employer=""
-            jobTitle=""
-            deliverables=""
-            tools=""
             />
         </div>
         <div className="section__padding">

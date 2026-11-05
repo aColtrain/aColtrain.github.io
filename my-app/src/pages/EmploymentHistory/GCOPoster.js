@@ -1,34 +1,34 @@
 import React from 'react'
-import { Employment, EyebrowHeader } from '../../components';
+import { Employment, EyebrowHeader, BmIntro } from '../../components';
+import gcoPoster from '../../assets/GCO_MarketingPoster.png';
 
 function GCOPoster() {
   return (
     <div>
         <div>
-            <Employment 
+            <p>[Insert Bulleting board photo with a darkend bg asside from poster]</p>
+            <BmIntro 
             eyebrow={"Promotional Design & Brand Engagement"}
             name= { "Get Climbing Outside Poster"}
-            logo={ <></> }
-            logoDescription="" 
             positionDescription={
                 <>
                 Designed a promotional poster for Get Climbing Outside, a Latina-owned climbing business, to make outdoor climbing feel more approachable and encourage climbers of all levels and styles.
                 </>
                 }
-            employer=""
-            jobTitle=""
-            deliverables=""
-            tools=""
             />
         </div>
+        <div className="">
+            <img className="width100" src={ gcoPoster } alt="" />
+        </div>
         <div className="section__padding">
+            
             <EyebrowHeader
             eyebrow={"Design Approach"}
             title={"Making Climbing More Welcoming"}
             />
             <p>Climbing spaces can feel intimidating and unnnecassarily competitive. I wanted the design to communicate accessibility and inclusiveness.</p>
             <ul>
-                <li><p>Approachable Imagery: Featured an outdoor climbing photo to invite viewers into the experience.</p></li>
+                <li><p>Approachable Imagery: Featured an outdoor climbing photo of a younger person smiling to invite viewers into the experience.</p></li>
                 <li><p>Distinctive Visual Identity: Combined bold typography, vibrant green, and curved graphic elements to capture attention.</p></li>
                 <li><p>Accessible Messageing: Highlighted climbing classes and guiding services to encourage participation across experience levels.</p></li>
                 <li><p>Direct Engagement: Incorporated a QR code connecting potential customers to the business website.</p></li>

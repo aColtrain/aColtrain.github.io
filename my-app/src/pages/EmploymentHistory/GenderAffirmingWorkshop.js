@@ -1,5 +1,5 @@
 import React from 'react'
-import { Employment, EyebrowHeader } from '../../components';
+import { Employment, EyebrowHeader, BmIntro } from '../../components';
 import genderHero from '../../assets/genderAffirming_hero.png';
 import genderDetails from '../../assets/genderAffirming_details.png'
 import genderPhone from '../../assets/genderAffirming_phone.png'
@@ -8,20 +8,14 @@ function GenderAffirmingWorkshop() {
   return (
     <div>
         <div>
-            <Employment 
-            name= { "Gender-Affirming Workshop Campaign"}
-            logo={ <></> }
-            logoDescription="" 
+            <BmIntro 
+            name= { "Gender-Affirming Workshop Campaign"} 
             positionDescription={
                 <>
                 Creating a hand-illustrated series of three flyers for gender-affirming workshops, combining queer cutral refrences, a custom character, and playful visual storytelling.
                 Designed the flyers to stand alone as event promotions and connect into a larger composition for social media.
                 </>
                 }
-            employer=""
-            jobTitle=""
-            deliverables=""
-            tools=""
             />
         </div>
         <div className="section__padding">
