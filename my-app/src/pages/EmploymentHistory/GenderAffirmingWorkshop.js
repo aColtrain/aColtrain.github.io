@@ -3,6 +3,7 @@ import { Employment, EyebrowHeader, BmIntro } from '../../components';
 import genderHero from '../../assets/genderAffirming_hero.png';
 import genderDetails from '../../assets/genderAffirming_details.png'
 import genderPhone from '../../assets/genderAffirming_phone.png'
+import genderTime from '../../assets/genderAffirming_timelapse.mp4'
 
 function GenderAffirmingWorkshop() {
   return (
@@ -53,6 +54,13 @@ function GenderAffirmingWorkshop() {
             />
             <p>Three illustrated event flyers and one combined social media graphic.</p>
         </div>
+        <div className="center width100 section__padding" style={{ margin: '0 auto' }}>
+            <video width="100%" height="auto" controls autoPlay muted loop>
+                <source src={ genderTime } type="video/mp4" />
+                
+            </video>
+        </div>
+
     </div>
   )
 }

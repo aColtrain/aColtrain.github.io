@@ -2,12 +2,25 @@ import React from 'react'
 import { EyebrowHeader, Employment, BmIntro } from "../../components"
 import aoeAnim1 from '../../assets/graphics/AOE__Animation1.gif'
 import aoeAnim2 from '../../assets/graphics/AOE__Animation2.gif'
+import aoeAnim3 from '../../assets/graphics/AOE__Animation3.gif'
+import aoeAnim4 from '../../assets/graphics/AOE__Animation4.gif'
+import aoeTime from '../../assets/graphics/AOE__Animation_Timelapse.mp4'
 import '../../containers/graphicDesignCollage/graphicDesignCollage.css';
 
 function AOEAnimation() {
   return (
     <div>
         <div>
+            <div className="column50 section__padding">
+                <div className="center">
+                    <img className="width75" src={ aoeAnim3 } alt="" />
+                </div>
+                <div className="center">
+                    <img className="width75" src={ aoeAnim4 } alt="" />
+                </div>
+                
+            </div>
+            
             <BmIntro 
             eyebrow={"2D Animation and Social Media Campaign"}
             name= { "Alpha Omega Epsilon Recruitment"}
@@ -19,7 +32,18 @@ function AOEAnimation() {
                 }
             />
         </div>
-        <div className="row center">
+        <div>
+            <img src={ aoeTime } alt="" />
+        </div>
+        <div className="center" style={{ maxWidth: '640px', margin: '0 auto' }}>
+            <video width="75%" height="auto" controls autoPlay muted loop>
+                <source src={ aoeTime } type="video/mp4" />
+                
+            </video>
+        </div>
+    
+
+        {/* <div className="row center">
             <div className="aoeanim">
                
                     <img src={ aoeAnim1 } />
@@ -30,7 +54,7 @@ function AOEAnimation() {
                     <img src={ aoeAnim2 } />
             
             </div>
-        </div>
+        </div> */}
         <div className="section__padding">
             <EyebrowHeader
             eyebrow={"Creative Direction"}

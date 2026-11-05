@@ -31,13 +31,13 @@ function DeltaOutreachBanner() {
             </ul>
             <img src={ bannerDesign } alt="" className="width100" />
         </div>
-        <div className="section__padding">
+        {/* <div className="section__padding">
             <EyebrowHeader 
             eyebrow={""}
             title={"Deliverable"}
             />
             <p>Redesigned event banner for in-person SkyPro app promotion and feedback colleection.</p>
-        </div>
+        </div> */}
     </div>
   )
 }

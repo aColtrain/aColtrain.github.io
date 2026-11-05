@@ -90,6 +90,7 @@ img {
   margin: 1rem 0;
 }
 
+
 .caption {
   color:#818181;
   font-size: 14px;
@@ -98,6 +99,9 @@ img {
 
 .width100 {
   width: 100%;
+}
+.width75 {
+  width: 75%;
 }
 
 button {
