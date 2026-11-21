@@ -1,12 +1,12 @@
 import React from 'react'
 import { Employment, EyebrowHeader, BmIntro } from '../../components';
 import gcoPoster from '../../assets/GCO_MarketingPoster.png';
+import gcoLanding from '../../assets/GCO_MarketingPoster_Landing.png'
 
 function GCOPoster() {
   return (
     <div>
         <div>
-            <p>[Insert Bulleting board photo with a darkend bg asside from poster]</p>
             <BmIntro 
             eyebrow={"Promotional Design & Brand Engagement"}
             name= { "Get Climbing Outside Poster"}
@@ -18,8 +18,8 @@ function GCOPoster() {
             />
         </div>
         <div className="">
-            <img className="width100" src={ gcoPoster } alt="" />
-        </div>
+                <img className="width100" src= { gcoLanding }/>
+            </div>
         <div className="section__padding">
             
             <EyebrowHeader
@@ -33,6 +33,9 @@ function GCOPoster() {
                 <li><p>Accessible Messageing: Highlighted climbing classes and guiding services to encourage participation across experience levels.</p></li>
                 <li><p>Direct Engagement: Incorporated a QR code connecting potential customers to the business website.</p></li>
             </ul>
+        </div>
+        <div className="">
+            <img className="width100" src={ gcoPoster } alt="" />
         </div>
         <div className="section__padding">
             <EyebrowHeader

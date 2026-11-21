@@ -9,6 +9,7 @@ import demoEditing from '../../assets/delta_videodemo_editing.png';
 function VideoDemo() {
   return (
     <div className="Video Demos">
+        <h1>EMBED VIDEO AND USE IMG AS BACKGROUND</h1>
         <div className="section__padding">
             <img className="width100" src= { demoLanding }/>
         </div>
